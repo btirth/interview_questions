@@ -25,30 +25,48 @@
 
 public class LC_70 {
 
-	public int climbStairs(int n) {
-        if(n==1||n==0)
-            return n;
+	// public int climbStairs(int n) {
+    //     if(n==1||n==0)
+    //         return n;
         
-        int count1=1;
-        int count2=1;
+    //     int count1=1;
+    //     int count2=1;
 
 
-        for(int i=2; i<=n; i++){
-            int temp = count2;
-            count2 = temp+count1;
-            count1 = temp;
+    //     for(int i=2; i<=n; i++){
+    //         int temp = count2;
+    //         count2 = temp+count1;
+    //         count1 = temp;
             
+    //     }
+        
+    //     return count2;
+    // }
+
+    public int climbStairs(int n) {
+        
+        if(n<=2){
+            return n;
         }
         
-        return count2;
+        int a =1;
+        int b =2;
+        int sum;
+        for(int i=3; i <=n; i++){
+            sum = a + b;
+            a = b;
+            b = sum;
+        }
+        
+        return b;
     }
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		LC_70 a = new LC_70();
-		int numStair = a.climbStairs(4);
-		System.out.println(numStair);
+		int num = a.climbStairs(4);
+		System.out.println(num);
 	}
 
 }
