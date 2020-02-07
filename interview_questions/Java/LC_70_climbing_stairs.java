@@ -1,47 +1,30 @@
-// You are climbing a stair case. It takes n steps to reach to the top.
+/*
+You are climbing a stair case. It takes n steps to reach to the top.
 
-// Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
 
-// Note: Given n will be a positive integer.
-
-
-// Example 1:
-// 	Input: 2
-// 	Output: 2
-// 	Explanation: There are two ways to climb to the top.
-// 	1. 1 step + 1 step
-// 	2. 2 steps
-
-// Example 2:
-// 	Input: 3
-// 	Output: 3
-// 	Explanation: There are three ways to climb to the top.
-// 	1. 1 step + 1 step + 1 step
-// 	2. 1 step + 2 steps
-// 	3. 2 steps + 1 step
+Note: Given n will be a positive integer.
 
 
+Example 1:
+	Input: 2
+	Output: 2
+	Explanation: There are two ways to climb to the top.
+	1. 1 step + 1 step
+	2. 2 steps
+
+Example 2:
+	Input: 3
+	Output: 3
+	Explanation: There are three ways to climb to the top.
+	1. 1 step + 1 step + 1 step
+	2. 1 step + 2 steps
+	3. 2 steps + 1 step
+
+*/
 
 
-public class LC_70 {
-
-	// public int climbStairs(int n) {
-    //     if(n==1||n==0)
-    //         return n;
-        
-    //     int count1=1;
-    //     int count2=1;
-
-
-    //     for(int i=2; i<=n; i++){
-    //         int temp = count2;
-    //         count2 = temp+count1;
-    //         count1 = temp;
-            
-    //     }
-        
-    //     return count2;
-    // }
+public class solution {
 
     public int climbStairs(int n) {
         
@@ -49,6 +32,16 @@ public class LC_70 {
             return n;
         }
         
+/*
+HINT: given n is ith position in fibonacci series if 1 and 2 are 1st and 2nd position respectively
+      so we just need to find out value at ith position in fibonacci series.
+
+      1,2,3,5,8...
+
+      if n = 4 then possible ways are 5
+      if n = 5 then possible ways are 8
+      and so on...
+*/
         int a =1;
         int b =2;
         int sum;
@@ -60,15 +53,6 @@ public class LC_70 {
         
         return b;
     }
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		LC_70 a = new LC_70();
-		int num = a.climbStairs(4);
-		System.out.println(num);
-	}
-
 }
 
 
