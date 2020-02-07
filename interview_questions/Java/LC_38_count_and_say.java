@@ -34,7 +34,7 @@ Example 2:
 */
 
 
-public class LC_38 {
+public class Solution{
 
 	public String countAndSay(int n) {
         StringBuilder curr = new StringBuilder("1");
@@ -69,15 +69,4 @@ public class LC_38 {
         
         return curr.toString();
 	}
-
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		LC_38 soln = new LC_38();
-		
-		String finalStr = soln.countAndSay(4);
-		System.out.println(finalStr);
-	}
-
 }
