@@ -35,47 +35,33 @@ Return false.
 */
 
 class Solution {
-    
-    public String tree2str(TreeNode t) {
-        if(t==null) {
-            return new String();
-        }
-        
-        StringBuilder result = new StringBuilder(Integer.toString(t.val));
-        if(t.left == null) {
-            result.append('X');
-        } else {
-            result.append(tree2str(t.left));
-        }
-        
-        if(t.right == null) {
-            result.append('X');
-        } else {
-            result.append(tree2str(t.left));
-        }
-        
-        return new String(result);
-    }
-    
     public boolean isSubtree(TreeNode s, TreeNode t) {
-        
         if(t==null) {
             return true;
         }
         
+        return checkSubTree(s, t);
+    }
+    
+    boolean checkSubTree(TreeNode s, TreeNode t) {
         if(s==null) {
-            System.out.println("d");
+            return false;
+        } else if(s.val==t.val && matchTree(s, t)) {
+            return true;
+        }
+        
+        return checkSubTree(s.left, t) || checkSubTree(s.right, t);   
+    }
+    
+    boolean matchTree(TreeNode s, TreeNode t) {
+        if(s==null && t==null) {
+            return true;
+        } else if(s==null || t==null) {
+            return false;
+        } else if(s.val != t.val) {
             return false;
         }
         
-        if(s.val == t.val) {
-            System.out.println("d\\");
-            String strS = tree2str(s);
-            String strT = tree2str(t);
-            System.out.println(strS + " "+strT);
-            return strS.equals(strT);
-        }
-        
-        return isSubtree(s.left, s) || isSubtree(s.right, s);
+        return matchTree(s.left, t.left) && matchTree(s.right, t.right);
     }
 }
