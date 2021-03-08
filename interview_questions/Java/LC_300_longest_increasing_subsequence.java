@@ -59,3 +59,56 @@ class Solution {
         return max+1;
     }
 }
+
+
+
+
+// Binary Search O(n logn)
+// ref: https://www.youtube.com/watch?v=1qD1FLhKrIE
+class Solution {
+    public int lengthOfLIS(int[] nums) {
+        int len = nums.length;
+        if(len == 1) {
+            return 1;
+        }
+        
+        int[] dp = new int[len+1];
+        dp[0] = Integer.MIN_VALUE;
+        for(int i=1; i<=len; i++) {
+            dp[i] = Integer.MAX_VALUE;
+        }
+        
+        for(int i=0; i<len; i++) {
+            int start = 1;
+            int end = len;
+            while(start <= end) {
+                if(start >= end) {
+                    break;
+                }
+                int mid = start + (end-start)/2;
+               
+                if(dp[mid] > nums[i]) {
+                    end = mid;
+                } else {
+                    start = mid+1;
+                }
+            }
+            
+            if(dp[start-1] < nums[i] && dp[start] > nums[i]) {
+                dp[start] = nums[i];
+            }
+        }
+        
+        
+        int start = 0;
+        int end = len;
+        
+        for(int i=len; i>=0; i--) {
+            if(dp[i] != Integer.MAX_VALUE) {
+                return i;
+            }
+        }
+        
+        return 1;
+    }
+}
