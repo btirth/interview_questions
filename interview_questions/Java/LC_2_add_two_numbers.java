@@ -29,89 +29,54 @@ Constraints:
 
 
 
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+ 
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode ans = new ListNode();
-        ListNode res = ans;
         int carry = 0;
-        int sum = 0;
-        while(l1!=null && l2!= null) {
-            sum = l1.val + l2.val + carry;
-            carry = sum/10;
-            sum = sum%10;
-            ans.val = sum;
-            if(l1.next!=null || l2.next!=null) {
-                ans.next = new ListNode();
-                ans = ans.next;
-            }
-            
-            l1 = l1.next;
-            l2 = l2.next;
-        }
+        ListNode head = new ListNode();
+        ListNode prev = new ListNode();
+        boolean isHead = false;
         
-        while(l1!=null) {
-            sum = l1.val + carry;
-            carry = sum/10;
-            
-            sum = sum%10;
-            ans.val = sum;
-            if(l1.next != null) {
-                ans.next = new ListNode();
-            ans = ans.next;
+        while(l1 != null || l2 != null) {
+            int value = carry;
+            if(l1 != null) {
+                value += l1.val;
+            }
+            if(l2 != null) {
+                value += l2.val;
             }
             
-            l1 = l1.next;
+            carry = value/10;
             
-        }
-        
-        while(l2!=null) {
-            sum = l2.val + carry;
-            carry = sum/10;
-            sum = sum%10;
-            ans.val = sum;
-            if(l2.next != null) {
-                ans.next = new ListNode();
-            ans = ans.next;
+            prev.next = new ListNode(value%10);
+            prev = prev.next;
+            
+            if(!isHead) {
+                head = prev;
+                isHead = true;
             }
-            
-            l2 = l2.next;
-        }
-        if(l1==null && l2==null && carry>0) {
-            ans.next = new ListNode(carry);
-        }
-        return res;
-    }
-}
-
-
-
-class Solution {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode ans = new ListNode();
-        ListNode res = ans;
-        int carry = 0;
-        int sum = 0;
-        while(l1!=null || l2!= null) {
-            sum = carry;
-            if(l1!=null) {
-                sum = sum + l1.val;
+          
+            if(l1 != null) {
                 l1 = l1.next;
             }
-            if(l2!=null) {
-                sum = sum + l2.val;
+            if(l2 != null) {
                 l2 = l2.next;
             }
-            carry = sum/10;
-            sum = sum%10;
-            ans.val = sum;
-            if(l1!=null || l2!=null) { 
-                ans.next = new ListNode();
-                ans = ans.next;
-            } 
-        } 
-        if(l1==null && l2==null && carry>0) {
-            ans.next = new ListNode(carry);
         }
-        return res;
+        
+        if(carry != 0) {
+            prev.next = new ListNode(carry);
+        }
+        return head;
     }
 }
