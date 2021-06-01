@@ -36,30 +36,17 @@ Follow up: If you have figured out the O(n) solution, try coding another solutio
 class Solution {
     public int maxSubArray(int[] nums) {
         int len = nums.length;
+        int maxValue = nums[0];
+        int sum = nums[0];
         
-        if(len == 0) {
-            return 0;
-        }
-        
-        if(len == 1) {
-            return nums[0];
-        }
-        
-        int max = nums[0];
-        int maxArr[] = new int[len];
-        maxArr[0] = max;
         for(int i=1; i<len; i++) {
-            max = Math.max(nums[i], max+nums[i]);
-            maxArr[i] = max;
-        }
+            sum = Math.max(nums[i], sum+nums[i]);
         
-        for(int i=0; i<len; i++) {
-            if(maxArr[i] > max) {
-                max = maxArr[i];
+            if(sum > maxValue) {
+                maxValue = sum;
             }
         }
-        
-        return max;
+        return maxValue;
     }
 }
 
