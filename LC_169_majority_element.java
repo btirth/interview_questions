@@ -14,8 +14,8 @@ Example 2:
  
 Constraints:
   n == nums.length
-  1 <= n <= 5 * 104
-  -231 <= nums[i] <= 231 - 1
+  1 <= n <= 5 * 10^4
+  -2^31 <= nums[i] <= 2^31 - 1
 
 Follow-up: Could you solve the problem in linear time and in O(1) space?
 
@@ -23,22 +23,22 @@ Follow-up: Could you solve the problem in linear time and in O(1) space?
 
 
 // Using Moore's Voting Algorithm
+// time complexity O(n) and space complexity O(1)
 class Solution {
     public int majorityElement(int[] nums) {
         int count = 0;
-        int element = -1;
-        
+        int last = -1;
         for(int i=0; i<nums.length; i++) {
             if(count == 0) {
-                element = nums[i];
+                last = nums[i];
             }
-            if(nums[i] == element) {
+            if(nums[i] == last) {
                 count++;
             } else {
                 count--;
             }
         }
         
-        return element;
+        return last;
     }
 }
