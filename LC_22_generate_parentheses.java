@@ -60,33 +60,24 @@ class Solution {
 class Solution {
     List<String> res = new ArrayList<String>();
     public List<String> generateParenthesis(int n) {
-        handler(n, 0, 0, new char[n*2], 0, 0);
+        helper(new char[2*n], 0, 0, n, 0);
         return res;
     }
     
-    void handler(int n, int countOpen, int countClose, char[] ch, int leftOpen, int pos) {
-        if(leftOpen == 0 && countClose == n) {
-            res.add(new String(ch).substring(0, pos));
+    void helper(char[] ch, int open, int close, int n, int i) {
+        if(close == n) {
+            res.add(new String(ch));
             return;
         }
         
-        if(countOpen > n) {
-            return;
+        if(open < n) {
+            ch[i] = '(';
+            helper(ch, open+1, close, n, i+1);
+            
         }
-        
-        if(countClose > n) {
-            return;
-        }
-        
-        
-        ch[pos] = '(';
-        handler(n, countOpen+1, countClose, ch, leftOpen+1, pos+1);
-        
-        
-        if(leftOpen > 0) {
-            ch[pos] = ')';
-            handler(n, countOpen, countClose+1, ch, leftOpen-1, pos+1);
-           
-        }
+        if(close < open) {
+            ch[i] = ')';
+            helper(ch, open, close+1, n, i+1);       
+        }  
     }
 }
