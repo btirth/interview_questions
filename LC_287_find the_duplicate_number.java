@@ -34,7 +34,7 @@ Follow up:
 */
 
 
-
+// time complexity O(n) space complexity O(1) with modifying original array
 class Solution {
     public int findDuplicate(int[] nums) {
         for(int i = 0; i < nums.length; ++i) {
@@ -45,5 +45,26 @@ class Solution {
             nums[val] *= -1;
         }
         return 0;
+    }
+}
+
+
+// time complexity O(n) space complexity O(n) without modifying original array
+class Solution {
+    public int findDuplicate(int[] nums) {
+        int n = nums.length;
+        if(n==2) {
+            return nums[0];
+        }
+        int[] temp = new int[n+1];
+        for(int i=0; i<n; i++) {
+            temp[nums[i]] += 1;
+        }
+        for(int i=1; i<=n; i++) {
+            if(temp[i]>1) {
+                return i;
+            }
+        }
+        return -1;
     }
 }
