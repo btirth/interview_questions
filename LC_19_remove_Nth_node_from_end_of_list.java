@@ -64,3 +64,32 @@ class Solution {
         return head;
     }
 }
+
+
+
+
+class Solution {
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode n1 = head;
+        ListNode n2 = new ListNode();
+        n2.next = head;
+        ListNode ans = n2;
+        while(n>0) {
+            n1 = n1.next;
+            n--;
+        }
+        
+        while(n1 != null) {
+            n1 = n1.next;
+            n2 = n2.next;
+        }
+        
+        if(n2.next.next == null) {
+            n2.next = null;
+            return ans.next;
+        }
+        
+        n2.next = n2.next.next;
+        return ans.next;
+    }
+}
