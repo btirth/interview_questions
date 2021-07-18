@@ -35,94 +35,47 @@ Constraints:
  */
 
 
-// Brute Approach
+// Iteratively
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode head = new ListNode();
-        ListNode result = head;
+        ListNode prev = new ListNode();
+        prev.next = l1;
+        ListNode ans = prev;
+        ListNode temp;
         while(l1 != null && l2 != null) {
-            if(l1.val == l2.val) {
-                head.next = new ListNode(l1.val);
-                head = head.next;
-                head.next = new ListNode(l2.val);
-                head = head.next;
-                l1 = l1.next;
-                l2 = l2.next;
-            } else if(l1.val < l2.val) {
-                head.next = new ListNode(l1.val);
-                head = head.next;
-                l1 = l1.next;
-            } else {
-                head.next = new ListNode(l2.val);
-                head = head.next;
-                l2 = l2.next;
+            if(l1.val < l2.val) {
+                temp = l1.next;
+                prev.next = l1;
+                l1 = temp;
+                prev = prev.next;
+            } else if(l2.val < l1.val) {
+                temp = l2.next;
+                prev.next = l2;
+                l2 = temp;
+                prev = prev.next;
+            } else if(l1.val == l2.val) {
+                temp = l1.next;
+                prev.next = l1;
+                l1 = temp;
+                prev = prev.next;
+                temp = l2.next;
+                prev.next = l2;
+                l2 = temp;
+                prev = prev.next;
             }
         }
-        
-        while(l1 != null) {
-            head.next = new ListNode(l1.val);
-            head = head.next;
-            l1 = l1.next;
+        if(l1 != null) {
+            prev.next = l1;
         }
-        
-        while(l2 != null) {
-            head.next = new ListNode(l2.val);
-            head = head.next;
-            l2 = l2.next;              
+        if(l2 != null) {
+            prev.next = l2;
         }
-            
-            
-        
-        return result.next;
+        return ans.next;
     }
 }
 
 
-
-
-// More Optimized Space Complexity
-class Solution {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode current = new ListNode();
-        ListNode result = current;
-        while(l1 != null && l2 != null) {
-            if(l1.val == l2.val) {
-                current.next = l1;
-                l1 = l1.next;
-                current = current.next;
-                current.next = l2;
-                l2 = l2.next;
-                current = current.next;
-            } else if(l1.val < l2.val) {
-                current.next = l1;
-                l1 = l1.next;
-                current = current.next;
-            } else {
-                current.next = l2;
-                l2 = l2.next;
-                current = current.next;
-            }
-        }
-    
-        while(l1 != null) {
-            current.next = l1;
-             l1 = l1.next;
-            current = current.next;
-        }
-        
-        while(l2 != null) {
-            current.next = l2;
-            l2 = l2.next;
-            current = current.next;
-        }
-        
-        return result.next;
-    }
-}
-
-
-
-
+// Recursive
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if(l1==null) {
