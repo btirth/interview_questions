@@ -33,6 +33,41 @@ Constraints:
 
 */
 
+// Using array
+class MinStack {
+    int[] stack = new int[10000];
+    int[] min = new int[10000];
+    int topPtr;
+    int minPtr;
+    /** initialize your data structure here. */
+    public MinStack() {
+        topPtr = -1;
+        minPtr = -1;
+    }
+    
+    public void push(int val) {
+        stack[++topPtr] = val;
+        if(minPtr == -1 || min[minPtr] > val) {
+            min[++minPtr] = val;
+        } else {
+            min[minPtr+1] = min[minPtr];
+            minPtr++;
+        }
+    }
+    
+    public void pop() {
+        --topPtr;
+        --minPtr;
+    }
+    
+    public int top() {
+        return stack[topPtr];
+    }
+    
+    public int getMin() {
+        return min[minPtr];
+    }
+}
 
 
 // Using Stack
@@ -128,4 +163,5 @@ class MinStack {
         return min;
     }
 }
+
 
