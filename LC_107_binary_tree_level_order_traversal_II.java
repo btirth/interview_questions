@@ -27,29 +27,30 @@ class Solution {
         if(root == null) {
             return ans;
         }
-        
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
-        int level = 0;
-        while(q.size() != 0) {
+        
+        while(!q.isEmpty()) {
             int size = q.size();
-            if(ans.size() <= level) {
-                ans.add(0,new ArrayList<>());
-            }
-            List<Integer> list = ans.get(0);
+            List<Integer> list = new ArrayList<>();
+            
             while(size > 0) {
                 TreeNode node = q.poll();
                 list.add(node.val);
                 if(node.left != null) {
                     q.add(node.left);
                 }
+                
                 if(node.right != null) {
                     q.add(node.right);
                 }
                 size--;
             }
-            level++;
+            ans.add(0, list);
         }
+        
+        
+        
         return ans;
     }
 }
