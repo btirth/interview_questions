@@ -44,18 +44,17 @@ Constraints:
 */
 
 
-
-// m is the given matrix and n is the order of matrix
 class Solution {
-    public static ArrayList<String> findPath(int[][] m, int n) {
-        // Your code here
-        boolean[][] visited = new boolean[n][n];
+    public ArrayList<String> findPath(int[][] m, int n) {
         ArrayList<String> ans = new ArrayList<String>();
+        boolean[][] visited = new boolean[n][n];
         findPath(m, n, 0, 0, visited, ans, new String(""));
         return ans;
     }
     
-    static void findPath(int[][] m, int n, int row, int col, boolean[][] visited, ArrayList<String> ans, String path) {
+    int[][] directions = {{1,0}, {0,-1}, {0,1}, {-1,0}};
+    char[] d = {'D', 'L', 'R', 'U'};
+    void findPath(int[][] m, int n, int row, int col, boolean[][] visited, ArrayList<String> ans, String path) {
         if(row == n-1 && col == n-1) {
             ans.add(path);
             return;
@@ -63,32 +62,17 @@ class Solution {
         if(m[row][col] == 0) {
             return;
         }
-        // Down
-        if(row+1<n && !visited[row+1][col] && m[row+1][col] == 1) {
-            visited[row][col] = true;
-            findPath(m, n, row+1, col, visited, ans, path+'D');
-            visited[row][col] = false;
-        }
         
-        // Left
-        if(col-1>=0 && !visited[row][col-1] && m[row][col-1] == 1) {
-            visited[row][col] = true;
-            findPath(m, n, row, col-1, visited, ans, path+'L');
-            visited[row][col] = false;
-        }
-        
-        // Right
-        if(col+1<n && !visited[row][col+1] && m[row][col+1] == 1) {
-            visited[row][col] = true;
-            findPath(m, n, row, col+1, visited, ans, path+'R');
-            visited[row][col] = false;
-        }
-        
-        // Up
-        if(row-1>=0 && !visited[row-1][col] && m[row-1][col] == 1) {
-            visited[row][col] = true;
-            findPath(m, n, row-1, col, visited, ans, path+'U');
-            visited[row][col] = false;
+        for(int i=0; i<4; i++) {
+            int x = row + directions[i][0];
+            int y = col + directions[i][1];
+            
+            if(x>=0 && y>=0 && x<n && y<n && !visited[x][y] && m[x][y]==1) {
+                visited[row][col] = true;
+                findPath(m, n, x, y, visited, ans, path+d[i]);
+                visited[row][col] = false;    
+            }
+            
         }
     }
 }
