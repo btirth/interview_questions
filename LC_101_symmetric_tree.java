@@ -20,9 +20,25 @@ Follow up: Could you solve it both recursively and iteratively?
 
 
 // Iteratively
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
     public boolean isSymmetric(TreeNode root) {
-        if(root == null) {
+        if(root == null || (root.left == null && root.right == null)) {
             return true;
         }
         
@@ -32,39 +48,31 @@ class Solution {
         q1.add(root.left);
         q2.add(root.right);
         
-        while(q1.size() != 0 && q2.size() != 0) {
-            int size1 = q1.size();
-            int size2 = q2.size();
-            if(size1 != size2) {
+        while(!q1.isEmpty()) {
+            TreeNode n1 = q1.poll();
+            TreeNode n2 = q2.poll();
+            
+            if(n1 == null && n2 == null) {
+                continue;
+            }
+            
+            if(n1 == null || n2 == null) {
+                return false;
+            }
+            if(n1.val != n2.val) {
                 return false;
             }
             
-            while(size1 > 0) {
-                TreeNode n1 = q1.poll();
-                TreeNode n2 = q2.poll();
-                
-                if(n1 == null && n2 == null) {
-                    size1--;
-                    continue;
-                } else if(n1==null || n2 == null) {
-                    return false;
-                } else {
-                    if(n1.val != n2.val) {
-                        return false;
-                    }
-                    q1.add(n1.left);
-                    q1.add(n1.right);
-                    
-                    q2.add(n2.right);
-                    q2.add(n2.left);
-                }
-                size1--;
-            }
+            q1.add(n1.left);
+            q1.add(n1.right);
+            
+            q2.add(n2.right);
+            q2.add(n2.left);
         }
-        return q1.size() == q2.size();
+        
+        return true;
     }
 }
-
 
 
 // Recursively
