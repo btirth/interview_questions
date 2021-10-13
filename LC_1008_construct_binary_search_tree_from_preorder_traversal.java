@@ -26,6 +26,32 @@ Constraints:
 
 // Recursion
 class Solution {
+    int idx = 0;
+    public TreeNode bstFromPreorder(int[] preorder) {
+        return helper(preorder, Integer.MIN_VALUE, Integer.MAX_VALUE);
+    }
+    
+    TreeNode helper(int[] preorder, int lower, int upper) {
+        if(idx == preorder.length) {
+            return null;
+        }
+        
+        int val = preorder[idx];
+        if(val < upper && val > lower) {
+            TreeNode root = new TreeNode(val);
+            idx++;
+            root.left = helper(preorder, lower, val);
+            root.right = helper(preorder, val, upper);
+            return root;
+        }
+        
+        return null;
+    }
+}
+
+
+
+class Solution {
     public TreeNode bstFromPreorder(int[] preorder) {
         return bstFromPreorder(preorder, 0, preorder.length-1);
     }
