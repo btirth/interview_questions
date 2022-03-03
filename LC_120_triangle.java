@@ -26,6 +26,27 @@ Follow up: Could you do this using only O(n) extra space, where n is the total n
 
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
+        int size = triangle.size();
+        List<Integer> current = triangle.get(size-1);
+        
+        for(int j=size-2; j>=0; j--) {
+            List<Integer> row = triangle.get(j);
+
+            for(int i=0; i<row.size(); i++) {
+                row.set(i, row.get(i)+Math.min(current.get(i), current.get(i+1)));   
+            }
+            current = row;
+        }
+        
+        return current.get(0);
+    }
+}
+
+
+
+
+class Solution {
+    public int minimumTotal(List<List<Integer>> triangle) {
         List<Integer> current = triangle.get(0);
         
         for(int i=1; i<triangle.size(); i++) {
