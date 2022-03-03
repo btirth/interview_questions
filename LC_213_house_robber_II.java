@@ -24,6 +24,37 @@ Constraints:
 
 */
 
+class Solution {
+    public int rob(int[] nums) {
+        int n = nums.length;
+        if(n == 1) {
+            return nums[0];
+        } else if(n == 2) {
+            return Math.max(nums[0], nums[1]);
+        }
+        
+        return Math.max(helper(nums, 0, n-1), helper(nums, 1, n));
+    }
+    
+    int helper(int[] nums, int start, int end) {
+        
+        int prev1 = nums[end-2];
+        int prev2 = nums[end-1];
+        int prev3 = 0;
+        
+        for(int i=end-3; i>=start; i--) {
+            int temp = Math.max(prev2, prev3) + nums[i];
+            prev3 = prev2;
+            prev2 = prev1;
+            prev1 = temp;
+        }
+        
+        return Math.max(prev1, prev2);
+    }
+}
+
+
+
 
 class Solution {
     Integer[] dp;
