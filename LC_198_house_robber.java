@@ -23,6 +23,32 @@ Constraints:
 
 
 class Solution {
+    public int rob(int[] nums) {
+        int n = nums.length;
+        
+        if(n == 1) {
+            return nums[0];
+        } 
+        
+        int prev3 = 0;
+        int prev2 = nums[n-1];
+        int prev1 = nums[n-2];
+
+        for(int i=n-3; i>=0; i--) {
+            int temp = Math.max(prev2, prev3) + nums[i];
+            prev3 = prev2;
+            prev2 = prev1;
+            prev1 = temp;
+            
+        }
+        
+        return Math.max(prev1, prev2);
+    }
+}
+
+
+
+class Solution {
     Integer[] dp;
     public int rob(int[] nums) {
         dp = new Integer[nums.length];
