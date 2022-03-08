@@ -16,6 +16,33 @@ Constraints:
 */
 
 
+class Solution {
+    public List<String> generateParenthesis(int n) {
+        List<String> res = new ArrayList<>();
+        helper(n, 0, 0, "", res);
+        return res;
+    }
+    
+    void helper(int n, int open, int close, String str, List<String> res) {
+        
+        if(close == n) {
+            res.add(str);
+            return;
+        }
+        
+        if(open < n) {
+            helper(n, open+1, close, str+"(", res);
+        }
+        
+        if(close < open) {
+            helper(n, open, close+1, str+")", res);
+        }
+        
+    }
+}
+
+
+
 // Brute force Approach
 class Solution {
     List<String> res = new ArrayList<String>();
@@ -52,32 +79,3 @@ class Solution {
     }
 }
 
-
-
-
-
-// Optimized Approach
-class Solution {
-    List<String> res = new ArrayList<String>();
-    public List<String> generateParenthesis(int n) {
-        helper(new char[2*n], 0, 0, n, 0);
-        return res;
-    }
-    
-    void helper(char[] ch, int open, int close, int n, int i) {
-        if(close == n) {
-            res.add(new String(ch));
-            return;
-        }
-        
-        if(open < n) {
-            ch[i] = '(';
-            helper(ch, open+1, close, n, i+1);
-            
-        }
-        if(close < open) {
-            ch[i] = ')';
-            helper(ch, open, close+1, n, i+1);       
-        }  
-    }
-}
