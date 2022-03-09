@@ -22,37 +22,39 @@ Constraints:
 
 class Solution {
     public boolean canPartition(int[] nums) {
-        int n = nums.length;
         int sum = 0;
-        for(int i=0; i<n; i++) {
-            sum += nums[i];
+        for(int num : nums) {
+            sum += num;
         }
         
         if(sum%2 == 1) {
             return false;
         }
         
-        int amount = sum/2;
-        boolean[][] dp = new boolean[n+1][amount+1];
+        return helper(nums, sum/2);
+    }
+    
+    boolean helper(int[] nums, int target) {
+        int n = nums.length;
+        boolean[][] dp = new boolean[n+1][target+1];
         
         for(int i=0; i<=n; i++) {
-            for(int j=0; j<=amount; j++) {
-                if(j==0) {
+            for(int j=0; j<=target; j++) {
+                if(j == 0) {
                     dp[i][j] = true;
-                } else if(i==0) {
+                } else if(i == 0) {
                     dp[i][j] = false;
                 } else if(nums[i-1] <= j) {
-                    dp[i][j] = dp[i-1][j - nums[i-1]] || dp[i-1][j];
+                    dp[i][j] = dp[i-1][j-nums[i-1]] || dp[i-1][j];
                 } else {
                     dp[i][j] = dp[i-1][j];
                 }
             }
         }
-
-        return dp[n][amount];
+        
+        return dp[n][target];
     }
 }
-
 
 
 
