@@ -30,6 +30,31 @@ Constraints:
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+
+class Solution {
+    public ListNode deleteDuplicates(ListNode head) {
+        int prev = -101;
+        ListNode newHead = new ListNode(0);
+        ListNode tempHead = newHead;
+        
+        while(head != null) {
+            ListNode temp = head.next;
+            head.next = null;
+            if(prev != head.val && (temp == null || temp.val != head.val)) {   
+                newHead.next = head;
+                newHead = newHead.next;
+            }
+            
+            prev = head.val;
+            head = temp; 
+        }
+        
+        return tempHead.next;
+    }
+}
+
+
  
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
