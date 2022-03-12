@@ -33,86 +33,45 @@ The number of nodes in the list is in the range [0, 500].
  */
 
 
-// 1st Approach
-
-class Solution {
-    public ListNode rotateRight(ListNode head, int k) {
-        ListNode i = head;
-        ListNode j = head;
-        int l = len(head)+1;
-        k%=l;
-        
-        if(k==0) {
-            return head;
-        }
-        for(int m=1; m<=k; m++) {
-            j = j.next;
-        }
-        
-        while(j != null && j.next != null) {
-            i = i.next;
-            j = j.next;
-        }
-        
-        ListNode temp = i.next;
-        ListNode ans = temp;
-        i.next = null;
-        while(temp != null && temp.next != null) {
-            temp = temp.next;
-        }
-        temp.next = head;
-        return ans;
-    }
-    
-    int len(ListNode head) {
-        int l = 0;
-        while(head != null && head.next != null) {
-            l++;
-            head = head.next;
-        }
-        
-        return l;
-    }
-}
-
-
-
-
-// 2nd Approach
-
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
         if(head == null) {
             return head;
         }
-        int l = len(head);
-        k %= l;
+        
+        int len = getLen(head);
+        k %= len;
         if(k == 0) {
             return head;
         }
-        ListNode i = head;
-        for(int m=0; m<l-k-1; m++) {
+        ListNode tempHead = head;
+        
+        while(len-- > k+1) {
             head = head.next;
         }
-        ListNode j = head.next;
-        ListNode result = j;
+        
+        ListNode newHead = head.next;
         head.next = null;
         
-        while(j != null && j.next != null) {
-            j = j.next;
+        ListNode temp = newHead;
+        while(temp != null && temp.next != null) {
+            temp = temp.next;
         }
         
-        j.next = i;
-        return result;
+        if(temp != null) {
+            temp.next = tempHead;
+        }
+        
+        return newHead;
     }
     
-    int len(ListNode head) {
-        int l = 1;
-        while(head != null && head.next != null) {
-            l++;
+    int getLen(ListNode head) {
+        int len = 0;
+        while(head != null) {
+            len++;
             head = head.next;
         }
         
-        return l;
+        return len;
     }
 }
