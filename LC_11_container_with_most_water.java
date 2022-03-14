@@ -33,26 +33,26 @@ Constraints:
 
 class Solution {
     public int maxArea(int[] height) {
-        int maxA = 0;
-        int i=0;
-        int j = height.length-1;
-        while(i < j) {
-            int l = height[i];
-            int r = height[j];
-            int w = j-i;
-            if(l == r) {
-                maxA = Math.max(maxA, (j-i)*l);
-                i++;
-                j--;
-            } else if(l < r) {
-                maxA = Math.max(maxA, (j-i)*l);
-                i++;
+        int left = 0;
+        int right = height.length-1;
+        int res = 0;
+        while(left < right) {
+            int i = height[left];
+            int j = height[right];
+            
+            if(i == j) {
+                res = Math.max(res, (right-left)*i);
+                left++;
+                right--;
+            } else if(i > j) {
+                res = Math.max(res, (right-left)*j);
+                right--;
             } else {
-                maxA = Math.max(maxA, (j-i)*r);
-                j--;
+                res = Math.max(res, (right-left)*i);
+                left++;
             }
         }
         
-        return maxA;
+        return res;
     }
 }
