@@ -56,39 +56,28 @@ class Solution {
 // O(n) time and O(n) space
 class Solution {
     public int trap(int[] height) {
-        int len = height.length;
-        int[] leftMax = new int[len];
-        int[] rightMax = new int[len];
-        int[] count = new int[len];
+        int n = height.length;
+        int[] left = new int[n];
+        int[] right = new int[n];
         
-        int maxH = 0;
-        for(int i=0; i<len; i++) {
-            leftMax[i] = maxH;
-            if(height[i] > maxH) {
-                maxH = height[i];
+        left[0] = 0;
+        for(int i=1; i<n; i++) {
+            left[i] = Math.max(left[i-1], height[i-1]);
+        }
+        
+        right[n-1] = 0;
+        for(int i=n-2; i>=0; i--) {
+            right[i] = Math.max(right[i+1], height[i+1]);
+        }
+        
+        int res = 0;
+        for(int i=0; i<n; i++) {
+            int val = Math.min(left[i], right[i]) - height[i];
+            if(val > 0) {
+                res += val;
             }
         }
         
-        maxH = 0;
-        for(int i=len-1; i>=0; i--) {
-            rightMax[i] = maxH;
-            if(height[i] > maxH) {
-                maxH = height[i];
-            }
-        }
-        
-        for(int i=0; i<len; i++) {
-            int water = Math.min(leftMax[i], rightMax[i]) - height[i];
-            if(water>0) {
-                count[i] = water;
-            }
-        }
-        
-        int ans = 0;
-        for(int i=0; i<len; i++) {
-            ans += count[i];
-        }
-        
-        return ans;
+        return res;
     }
 }
