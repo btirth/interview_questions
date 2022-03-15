@@ -21,35 +21,37 @@ Constraints:
 
 class Solution {
     public List<List<String>> partition(String s) {
-        List<List<String>> res = new ArrayList<>();
-        List<String> path = new ArrayList<>();
-        partition(s, 0, path, res);
-        return res;
+        List<List<String>> ans = new ArrayList<>();
+        List<String> curr = new ArrayList<>();
+        partition(s, 0, curr, ans);
+        return ans;
     }
     
-    boolean isPalindrome(String s, int start, int end) {
-        while(start <= end) {
-            if(s.charAt(start) != s.charAt(end)) {
-                return false;
-            }
-            start++;
-            end--;
-        }
-        return true;
-    }
-    
-    void partition(String s, int idx, List<String> path, List<List<String>> res) {
-        if(idx == s.length()) {
-            res.add(new ArrayList<>(path));
+    void partition(String str, int idx, List<String> curr, List<List<String>> ans) {
+        if(idx == str.length()) {
+            ans.add(new ArrayList<>(curr));
             return;
         }
         
-        for(int i=idx; i<s.length(); i++) {
-            if(isPalindrome(s, idx, i)) {
-                path.add(s.substring(idx, i+1));
-                partition(s, i+1, path, res);
-                path.remove(path.size()-1);
+        for(int i=idx; i<str.length(); i++) {
+            if(isPalindrome(str, idx, i)) {
+                curr.add(str.substring(idx, i+1));
+                partition(str, i+1, curr, ans);
+                curr.remove(curr.size()-1);
             }
         }
+    }
+    
+    boolean isPalindrome(String str, int start, int end) {
+        while(start <= end) {
+            if(str.charAt(start) != str.charAt(end)) {
+                return false;
+            }
+            
+            start++;
+            end--;
+        }
+        
+        return true;
     }
 }
