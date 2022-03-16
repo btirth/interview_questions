@@ -29,19 +29,14 @@ Constraints:
 
 class Solution {
     public int maxProfit(int[] prices) {
-        int n = prices.length;
-        if(n==1) {
-            return 0;
-        }
-        int maxNext = prices[n-1];
-        int maxProf = 0;
-        for(int i=n-2; i>=0; i--) {
-            if(maxNext - prices[i] > maxProf) {
-                maxProf = maxNext - prices[i];
-            }
-            maxNext = Math.max(maxNext, prices[i]);
+        int maxProfit = 0;
+        int minValueOnLeft = prices[0];
+        
+        for(int i=1; i<prices.length; i++) {
+            maxProfit = Math.max(maxProfit, prices[i]-minValueOnLeft);
+            minValueOnLeft = Math.min(minValueOnLeft, prices[i]);
         }
         
-        return maxProf;
+        return maxProfit;
     }
 }
