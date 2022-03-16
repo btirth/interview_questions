@@ -88,3 +88,40 @@ class Solution {
         return head;
     }
 }
+
+
+
+// ------------------------------------------------------------------
+class Solution {
+    public void reorderList(ListNode head) {
+        left = head;
+        helper(head, getLen(head), 0);
+    }
+    
+    ListNode left;
+    void helper(ListNode right, int size, int idx) {
+        if(right == null) {
+            return;
+        }
+        
+        helper(right.next, size, idx+1);
+        if(idx > size/2) {
+            ListNode temp = left.next;
+            left.next = right;
+            right.next = temp;
+            left = temp;
+        } else if(idx == size/2) {
+            right.next = null;
+        }   
+    }
+    
+    int getLen(ListNode head) {
+        int len=0;
+        while(head != null) {
+            head = head.next;
+            len++;
+        }
+        
+        return len;
+    }
+}
