@@ -80,38 +80,38 @@ class Solution {
 
 
 class Solution {
+    TreeNode prev;
+    
     public void flatten(TreeNode root) {
         if(root == null) {
             return;
         }
-        helper(root);
+        prev = root;
+        TreeNode tempLeft = root.left;
+        TreeNode tempRight = root.right;
+        
+        helper(tempLeft);
+        helper(tempRight);
+        
     }
     
-    TreeNode helper(TreeNode root) {
+    void helper(TreeNode root) {
         if(root == null) {
-            return null;
-        }
-        TreeNode ans = root;
-        TreeNode left = null;
-        if(root.left != null) {
-            left = helper(root.left);
-            
+            return;
         }
         
-        TreeNode right = null;
-        if(root.right != null) {
-            right = helper(root.right);
-        }
-        root.left = null;
-        root.right = left;
-        while(root.right != null) {
-            root = root.right;
-        }
-        root.right = right;
-        return ans;
+        TreeNode tempLeft = root.left;
+        TreeNode tempRight = root.right;
+        
+        prev.right = root;
+        prev.left = null;
+        prev = prev.right;
+  
+        helper(tempLeft);
+        helper(tempRight);    
+        
     }
 }
-
 
 
 
