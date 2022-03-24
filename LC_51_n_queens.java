@@ -21,62 +21,74 @@ Constraints:
 */
 
 class Solution {
-        boolean isPossible(int[][] board, int n, int row, int column) {
-        // same column
-        for(int i=row-1; i>=0; i--) {
-            if(board[i][column] == 1) {
+
+    public List<List<String>> solveNQueens(int n) {
+        List<List<String>> ans = new ArrayList<>();
+        boolean[][] board = new boolean[n][n];
+        helper(board, 0, ans);
+        
+        return ans;
+    }
+    
+    void helper(boolean[][] board, int row, List<List<String>> ans) {
+        
+        if(row >= board.length) {
+            addAns(board, ans);
+            return;
+        }
+        
+        for(int i=0; i<board.length; i++) {
+            if(isPossible(board, row, i)) {
+                board[row][i] = true;
+                helper(board, row+1, ans);
+                board[row][i] = false;
+            }
+        }
+    }
+    
+    boolean isPossible(boolean[][] board, int row, int col) {
+        int n = board.length;
+        
+        // check row and column
+        for(int i=0; i<n; i++) {
+            if(board[i][col] || board[row][i]) {
                 return false;
             }
         }
         
-        // Upper Left Diagonal
-        for(int i=row-1, j=column-1; i>=0 && j>=0; i--, j--) {
-            if(board[i][j] == 1) {
+        // check upper right diagonal
+        for(int i = row, j = col; i>=0 && j<n; i--, j++) {
+            if(board[i][j]) {
                 return false;
             }
         }
         
-        // Upper Right Diagonal
-        for(int i=row-1, j=column+1; i>=0 && j<n; i--, j++) {
-            if(board[i][j] == 1) {
+        // check upper left diagonal
+        for(int i = row, j = col; i>=0 && j>=0; i--, j--) {
+            if(board[i][j]) {
                 return false;
             }
         }
-        
-        
+
         return true;
     }
-    void nQueensHelper(int n, int row, int[][] board, List<List<String>> res) {
-        if(row == n) {
-            // we have find the solution print the matrix
-            List<String> curr = new ArrayList<String>();
-            for(int i=0; i<n; i++) {
-                StringBuilder str = new StringBuilder();
-                for(int j=0; j<n; j++) {
-                    if(board[i][j] == 1) {
-                        str.append('Q');
-                    } else {
-                        str.append('.');
-                    }
+    
+    void addAns(boolean[][] board, List<List<String>> ans) {
+        List<String> curr = new ArrayList<>();
+        
+        for(int i=0; i<board.length; i++) {
+            String row = "";
+            for(int j=0; j<board.length; j++) {
+                if(board[i][j]) {
+                    row += "Q";
+                } else {
+                    row += ".";
                 }
-                curr.add(new String(str));
             }
-            res.add(curr);
+            
+            curr.add(row);
         }
         
-        //Place at all possible postion and go for next row
-        for(int i=0; i<n; i++) {
-            if(isPossible(board, n, row, i)) {
-                board[row][i] = 1;
-                nQueensHelper(n, row+1, board, res);
-                board[row][i] = 0;
-            }
-        }
-    }
-    public List<List<String>> solveNQueens(int n) {
-        int[][] board = new int[n][n];
-        List<List<String>> res = new ArrayList<>();
-        nQueensHelper(n, 0, board, res);
-        return res;
+        ans.add(curr);
     }
 }
