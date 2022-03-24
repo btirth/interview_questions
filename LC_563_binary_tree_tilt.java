@@ -60,3 +60,33 @@ class Solution {
         return left+right+root.val;
     }   
 }
+
+
+
+class Solution {
+    int ans;
+    public int findTilt(TreeNode root) {
+        ans=0;
+        helper(root);
+        return ans;
+    }
+    
+    void helper(TreeNode root) {
+        if(root == null) {
+            return;
+        }
+        
+        helper(root.left);
+        helper(root.right);
+        
+        int left=0, right=0;
+        if(root.left != null) {
+            left = root.left.val;
+        }
+        if(root.right != null) {
+            right = root.right.val;
+        }
+        ans += Math.abs(left-right);
+        root.val += right + left;
+    }
+}
