@@ -111,27 +111,25 @@ public ListNode swapNodes(ListNode head, int k) {
 //Swap values
 class Solution {
     public ListNode swapNodes(ListNode head, int k) {
-        ListNode i = new ListNode();
-        ListNode j = new ListNode();
-        ListNode l = new ListNode();
-        i.next = head;
-        j.next = head;
-        l.next = head;
-        for(int m=1; m<k; m++) {
-            i = i.next;
         
+        ListNode fast = head;
+        ListNode slow = head;
+        
+        for(int i = 1; i < k; i++){
+            fast = fast.next;
         }
-        for(int m=1; m<=k; m++) {
-            l = l.next;
+        
+        ListNode temp = fast;
+        
+        while(temp.next != null){
+            slow = slow.next;
+            temp = temp.next;
         }
-        while(l != null && l.next!=null) {
-            l = l.next;
-            j = j.next;
-        }
-
-        int temp = j.next.val;
-        j.next.val = i.next.val;
-        i.next.val = temp;
+        
+        int val = fast.val;
+        fast.val = slow.val;
+        slow.val = val;
+        
         return head;
     }
 }
