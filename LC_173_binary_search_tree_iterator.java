@@ -62,3 +62,37 @@ class BSTIterator {
         return !st.empty();
     }
 }
+
+
+
+
+class BSTIterator {
+    List<Integer> inOrderTraversal;
+    
+    public BSTIterator(TreeNode root) {
+        inOrderTraversal = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        
+        while(!stack.empty() || root != null) {
+            while(root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            inOrderTraversal.add(root.val);
+           
+            root = root.right;
+        }
+    }
+    
+    public int next() {
+        int val = inOrderTraversal.get(0);
+        inOrderTraversal.remove(0);
+        return val;
+    }
+    
+    public boolean hasNext() {
+        return inOrderTraversal.size() > 0;
+    }
+}
+
