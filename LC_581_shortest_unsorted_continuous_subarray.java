@@ -24,6 +24,35 @@ Constraints:
 */
 
 
+// O(n) time complexity and O(1) space complexity
+class Solution {
+	public static int findUnsortedSubarray(int[] nums) {
+		if (nums == null || nums.length == 0) {
+			return 0;
+		}
+		int N = nums.length;
+		int right = -1;
+		int max = Integer.MIN_VALUE;
+		for (int i = 0; i < N; i++) {
+			if (max > nums[i]) {
+				right = i;
+			}
+			max = Math.max(max, nums[i]);
+		}
+		int left = N;
+		int min = Integer.MAX_VALUE;
+		for (int i = N - 1; i >= 0; i--) {
+			if (min < nums[i]) {
+				left = i;
+			}
+			min = Math.min(min, nums[i]);
+		}
+		return Math.max(0, right - left + 1);
+	}
+}
+
+
+// O(n logn) time complexity and O(1) space complexity
 class Solution {
     public int findUnsortedSubarray(int[] nums) {
         int[] newNums = Arrays.copyOf(nums, nums.length);
