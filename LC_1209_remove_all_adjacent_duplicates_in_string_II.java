@@ -64,49 +64,76 @@ class Solution {
 }
 
 
-// O(n*m)
 class Solution {
-    List<String> list = new LinkedList<String>();
     public String removeDuplicates(String s, int k) {
-        int L = s.length();
-        if(L<k) {
-            return s;
-        }
-        
-        char[] c = new char[L];
-        
-        int n = 0;
-        for(int i=0; i<L; i++) {
-            boolean removed = false;
-            char ch = s.charAt(i);
-            if(n < k-1) {
-                c[n] = ch;
-                n++;
+        StringBuilder sb = new StringBuilder();
+        Deque<Integer> stack = new ArrayDeque<>();
+        int i=0;
+        int count = 0;
+        while (i < s.length()){
+            if (sb.length() == 0){
+                sb.append(s.charAt(i));
+                count++;
+                i++;
                 continue;
+            } else {
+                if (s.charAt(i) == sb.charAt(sb.length()-1)){
+                    sb.append(s.charAt(i));
+                    count++;
+                    if (count == k){
+                       sb.delete(sb.length() - k,sb.length());
+                        count = stack.isEmpty() ? 0 : stack.pollLast();
+                    }
+
+                }else{
+                    stack.add(count);
+                    sb.append(s.charAt(i));
+                    count = 1;
+                }   
+            }
+            i++;
+        }
+        return sb.toString();
+    }
+}
+
+
+
+
+class Solution {
+    class Pair {
+        char ch;
+        int count;
+        
+        Pair(char ch, int count) {
+            this.ch = ch;
+            this.count = count;
+        }
+    }
+    public String removeDuplicates(String s, int k) {
+        Stack<Pair> stack = new Stack<>();
+        
+        for(int i=0; i<s.length(); i++) {
+            char chAtI = s.charAt(i);
+            if(!stack.empty() && stack.peek().ch == chAtI) {
+                stack.peek().count += 1;
+            } else {
+                stack.push(new Pair(chAtI, 1));
             }
             
-            int copy_k = k-1;
-            while(copy_k > 0) {
-            
-                if(c[n-copy_k] != ch) {
-                    
-                    break;
-                }
-                
-                if (copy_k==1) {
-                    removed = true;
-                    
-                    n -= k-1;
-                }
-                copy_k -= 1;
-            }
-            if(removed == false){
-                c[n] = ch;
-                n++;
+            if(stack.peek().count == k) {
+                stack.pop();
             }
         }
         
-        return new String(c, 0, n);
+        String result = "";
+        while(!stack.empty()) {
+            Pair pair = stack.pop();
+            for(int i=0; i<pair.count; i++) {
+                result = pair.ch + result;
+            }
+        }
         
+        return result;
     }
 }
