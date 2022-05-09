@@ -24,6 +24,47 @@ Constraints:
 
 
 class Solution {
+    List<String> ans;
+    char[][] map;
+    
+    public List<String> letterCombinations(String digits) {
+        ans = new ArrayList<>();
+        if(digits.length() == 0) {
+            return ans;
+        }
+        
+        map = new char[][] {
+            {'a', 'b', 'c'},
+            {'d', 'e', 'f'},
+            {'g', 'h', 'i'},
+            {'j', 'k', 'l'},
+            {'m', 'n', 'o'},
+            {'p', 'q', 'r', 's'},
+            {'t', 'u', 'v'},
+            {'w', 'x', 'y', 'z'}
+        };
+      
+        helper(digits, 0, "");
+        return ans;
+    }
+    
+    void helper(String digits, int index, String result) {
+        if(index>=digits.length()) {
+            ans.add(result);
+            return;
+        }
+        
+        int mapIndex = digits.charAt(index)-'0'-2;
+        for(int i=0; i<map[mapIndex].length; i++) {
+            helper(digits, index+1, result + map[mapIndex][i]);
+        }
+    }
+}
+
+
+
+
+class Solution {
     public List<String> letterCombinations(String digits) {
         int len = digits.length();
         List<String> curr = new ArrayList<String>();
