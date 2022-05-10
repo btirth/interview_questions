@@ -47,29 +47,27 @@ Constraints:
 
 
 class Solution {
-    List<List<Integer>> res = new ArrayList<>();
+    List<List<Integer>> ans = new ArrayList<>();
     public List<List<Integer>> combinationSum3(int k, int n) {
-        
-        handler(k, n, 0, new ArrayList<Integer>());
-        return res;
+        helper(k, n, new ArrayList<>(), 1);
+        return ans;
     }
     
-    void handler(int k, int target, int pos, List<Integer> curr) {
-        if(k == 0 && target == 0) {
-            res.add(new ArrayList<>(curr));
+    void helper(int k, int n, List<Integer> curr, int currNum) {
+        
+        if(k==0 && n == 0) {
+            ans.add(new ArrayList<>(curr));
+            return;
+        }
+            
+        if(k == 0 || n < 0 || currNum>9) {
             return;
         }
         
-        if(k == 0 || target == 0) {
-            return;
-        }
+        curr.add(currNum);
+        helper(k-1, n-currNum, curr, currNum+1);
+        curr.remove(curr.size()-1);
         
-        for(int i=pos+1; i<10-k+1; i++) {
-            if(target - i >= 0) {
-                curr.add(i);
-                handler(k-1, target-i, i, curr);
-                curr.remove(curr.size() - 1);
-            }
-        }
+        helper(k, n, curr, currNum+1);
     }
 }
