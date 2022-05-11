@@ -29,15 +29,21 @@ Constraints:
 // time: O(n), space: O(1)
 class Solution {
     public int countVowelStrings(int n) {
-        int[] arr = new int[5];
-        for (int i = 0; i<5; i++)
-            arr[i] = 1;
-        for (int k = 0; k<n; k++) {
-            for (int j = 1; j<5;j++) {
-                arr[j] = arr[j-1] + arr[j];
+        int[] count = new int[5];
+        Arrays.fill(count, 1);
+        
+        for(int i=2; i<=n; i++) {
+            for(int j=3; j>=0; j--) {
+                count[j] += count[j+1];
             }
         }
-        return arr[4];         
+        
+        int ans = 0;
+        for(int i=0; i<5; i++) {
+            ans += count[i];
+        }
+        
+        return ans;
     }
 }
 
