@@ -23,7 +23,7 @@ Constraints:
 */
 
 
-// time complexity O(n^2) Space Complexity O(n)
+// time complexity O(n^3) Space Complexity O(n)
 class Solution {
     public int countSubstrings(String s) {
         int count = s.length();
@@ -55,27 +55,27 @@ class Solution {
     public int countSubstrings(String s) {
         int n = s.length();
         int count = 0;
-        boolean[][] dp =new boolean[n][n];
-        // g = length-1;
-        for(int g=0; g<n; g++) {
-            for(int i=0,j=g; j<n; j++,i++) {
-                if(g==0) {
+        boolean[][] dp = new boolean[n][n];
+        for(int i=n-1; i>=0; i--) {
+            for(int j=i; j<n; j++) {
+                if(i == j) {
                     dp[i][j] = true;
-                } else if(g==1) {
-                    dp[i][j] = s.charAt(i)==s.charAt(j) ? true : false;
-                } else {
-                    if(s.charAt(i)==s.charAt(j) && dp[i+1][j-1]) {
+                } else if(i+1 == j) {
+                    if(s.charAt(i) == s.charAt(j)) {
                         dp[i][j] = true;
-                    } else {
-                        dp[i][j] = false;
+                    }
+                } else {
+                    if(s.charAt(i) == s.charAt(j) && dp[i+1][j-1]) {
+                        dp[i][j] = true;
                     }
                 }
                 
-                if(dp[i][j]==true) {
+                if(dp[i][j]) {
                     count++;
                 }
             }
         }
+        
         return count;
     }
 }
