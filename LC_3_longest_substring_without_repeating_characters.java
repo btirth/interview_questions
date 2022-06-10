@@ -34,6 +34,31 @@ s consists of English letters, digits, symbols and spaces.
 */
 
 
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        int sLength = s.length();
+        if(sLength < 2) {
+            return sLength;
+        }
+        
+        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+        int ans = 0;
+        int left = 0;
+        
+        for(int right = 0; right<sLength; right++) {
+            if(map.containsKey(s.charAt(right))) {
+                left = Math.max(map.get(s.charAt(right))+1, left);
+            }
+            map.put(s.charAt(right), right);
+            ans = Math.max(right-left+1, ans);
+        }
+        
+        return ans;
+    }
+}
+
+
+
 // O(2n) time and O(n) space
 class Solution {
     public int lengthOfLongestSubstring(String s) {
@@ -57,32 +82,6 @@ class Solution {
             r++;
         }
         
-        return maxL;
-    }
-}
-
-
-
-
-
-// O(n) time and O(n) space
-class Solution {
-    public int lengthOfLongestSubstring(String s) {
-        if(s.length()==0) {
-            return 0;
-        }
-        HashMap<Character, Integer> hm = new HashMap<Character, Integer>();
-        int maxL = 0;
-        int l = 0;
-        int r = 0;
-        while(r < s.length()) {
-            if(hm.containsKey(s.charAt(r))) {
-                l = Math.max(hm.get(s.charAt(r))+1, l);
-            }
-            hm.put(s.charAt(r), r);
-            maxL = Math.max(r-l+1, maxL);
-            r++;
-        }
         return maxL;
     }
 }
