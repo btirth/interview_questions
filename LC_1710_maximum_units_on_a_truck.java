@@ -32,6 +32,22 @@ Constraints:
 
 class Solution {
     public int maximumUnits(int[][] boxTypes, int truckSize) {
+        int[] bucket = new int[1001];
+        int capacity = 0;
+        for(int[] box : boxTypes) bucket[box[1]] += box[0];
+        for(int i = 1000; i >= 0 && truckSize > 0; i--) {
+            if(bucket[i] == 0) continue;
+            int load = Math.min(truckSize, bucket[i]);
+            truckSize -= load;
+            capacity += (load * i);
+        }
+        return capacity;
+    }
+}
+
+
+class Solution {
+    public int maximumUnits(int[][] boxTypes, int truckSize) {
         int maxUnits = 0;
         Arrays.sort(boxTypes, (a,b)->Integer.compare(b[1], a[1]));
         
