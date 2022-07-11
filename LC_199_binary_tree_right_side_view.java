@@ -23,31 +23,31 @@ Constraints:
 
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
-        List<Integer> ans = new ArrayList<>();
+        List<Integer> res = new ArrayList<>();
         if(root == null) {
-            return ans;
+            return res;
         }
-        int level = 0;
-        Queue<TreeNode> q = new LinkedList<>();
-        q.add(root);
-        while(q.size() != 0) {
-            int size = q.size();
-            while(size > 0) {
-                TreeNode node = q.poll();
-                if(ans.size() <= level) {
-                    ans.add(-101);
-                }
-                ans.set(level,node.val);
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            int last = -1;
+            while(size-- > 0) {
+                TreeNode node = queue.poll();
+                last = node.val;
                 if(node.left != null) {
-                    q.add(node.left);
+                    queue.add(node.left);
                 }
+                
                 if(node.right != null) {
-                    q.add(node.right);
+                    queue.add(node.right);
                 }
-                size--;
             }
-            level++;
+            
+            res.add(last);
         }
-        return ans;
+        
+        return res;
     }
 }
