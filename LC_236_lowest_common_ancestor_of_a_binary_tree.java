@@ -38,13 +38,11 @@ class Solution {
         TreeNode left = lowestCommonAncestor(root.left, p, q);
         TreeNode right = lowestCommonAncestor(root.right, p, q);
         
-        if(left == null) {
-            return right;
+        if(left != null && right != null) {
+            return root;
         }
-        if(right == null) {
-            return left;
-        }
-        return root;
+        
+        return left == null ? right : left;
     }
 }
 
@@ -52,24 +50,26 @@ class Solution {
 
 
 class Solution {
+    TreeNode res = null;
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if(root == null) {
-            return null;
+        helper(root, p, q);
+        return res;
+    }
+    
+    boolean helper(TreeNode root, TreeNode p, TreeNode q) {
+        if(root == null || res != null) {
+            return false;
         }
         
-        if(root.val == p.val || root.val == q.val) {
-            return root;
+        int curr = root.val == p.val || root.val == q.val ? 1 : 0;
+        int left = helper(root.left, p, q) ? 1 : 0;
+        int right = helper(root.right, p, q) ? 1 : 0;
+        int sum = curr + left + right;
+        if(sum == 2) {
+            res = root;
+            return true;
         }
         
-        TreeNode left = lowestCommonAncestor(root.left, p, q);
-        TreeNode right = lowestCommonAncestor(root.right, p, q);
-        
-        if(left != null && right != null) {
-            return root;
-        }
-        if(left == null && right == null) {
-            return null;
-        }
-        return left != null ? left : right;
+        return sum == 1;
     }
 }
