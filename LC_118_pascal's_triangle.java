@@ -16,25 +16,25 @@ Example:
 
 class Solution {
     public List<List<Integer>> generate(int numRows) {
-        List<List<Integer>> lists = new ArrayList<List<Integer>>();
-        if(numRows == 0) {
-            return lists;
-        }
-        List<Integer> curr = new ArrayList<Integer>();
-        curr.add(1);
-        lists.add(curr);
-        for(int i=0; i<numRows-1; i++) {
-            List<Integer> prev = curr;
-            curr = new ArrayList<Integer>();
-            curr.add(1);
-            for(int j=0; j<prev.size()-1; j++) {
-                int a = prev.get(j) + prev.get(j+1);
-                curr.add(a);
+        List<List<Integer>> res = new ArrayList<>();
+        List<Integer> prev = new ArrayList<>();
+        List<Integer> curr = new ArrayList<>();
+        
+        for(int i=1; i<=numRows; i++) {
+            prev = curr;
+            curr = new ArrayList<>();
+            
+            for(int j=0; j<i; j++) {
+                if(j == 0 || j == i-1) {
+                    curr.add(1);
+                } else {
+                    curr.add(prev.get(j-1) + prev.get(j));
+                }
             }
-            curr.add(1);
-            lists.add(curr);
+            
+            res.add(curr);
         }
         
-        return lists;
+        return res;
     }
 }
