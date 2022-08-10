@@ -13,20 +13,20 @@ Example:
 
 class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {
-        if(nums.length == 0) return null;
-        return BST(nums, 0, nums.length-1);
+        return helper(nums, 0, nums.length-1);
     }
     
-    TreeNode BST(int[] nums, int start, int last) {
-        if(start==last) return new TreeNode(nums[start]);
-        int mid = ((start+last)/2) + ((start+last)%2);
-        TreeNode root = new TreeNode(nums[mid]);
-        if(mid-1>=start) {
-            root.left = BST(nums, start, mid-1);    
-        } 
-        if(mid+1<=last) {
-            root.right = BST(nums, mid+1, last);    
+    TreeNode helper(int[] nums, int left, int right) {
+        if(left == right) {
+            return new TreeNode(nums[left]);
         }
+        if(left > right) {
+            return null;
+        }
+        int mid = (left+right)/2;
+        TreeNode root = new TreeNode(nums[mid]);
+        root.left = helper(nums, left, mid-1);
+        root.right = helper(nums, mid+1, right);
         return root;
     }
 }
