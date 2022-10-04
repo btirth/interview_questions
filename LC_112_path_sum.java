@@ -14,25 +14,27 @@ return true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.
 */
 
 
-
 class Solution {
-    Set<Integer> set = new HashSet<Integer>();
-    public boolean hasPathSum(TreeNode root, int sum) {
-        if(root==null) {
+    public boolean hasPathSum(TreeNode root, int targetSum) {
+        if(root == null) {
             return false;
         }
-        pathSum(root,0);
-        return set.contains(sum);   
-    }
-    
-    void pathSum(TreeNode root, int sum) {
-        
-        if(root.left==null && root.right==null) {
-            set.add(sum+root.val);
-            return;
+
+        if(root.left == null && root.right == null) {
+            if(targetSum == root.val) {
+                return true;
+            } 
+            return false;
         }
-        if(root.left!=null) pathSum(root.left, sum+root.val);
-        if(root.right!=null) pathSum(root.right, sum+root.val);
         
+        if(root.left != null && hasPathSum(root.left, targetSum-root.val)) {
+            return true;
+        }
+
+        if(root.right != null && hasPathSum(root.right, targetSum-root.val)) {
+            return true;
+        }   
+
+        return false;
     }
 }
