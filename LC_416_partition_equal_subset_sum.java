@@ -18,6 +18,39 @@ Constraints:
 
 */
 
+class Solution {
+    public boolean canPartition(int[] nums) {
+        int sum = 0;
+        for(int n: nums) {
+            sum += n;
+        }
+
+        if(sum%2 == 1) {
+            return false;
+        }
+
+        return helper(nums, sum/2);
+    }
+
+    boolean helper(int[] nums, int target) {
+        boolean[] dp = new boolean[target+1];
+        dp[0] = true;
+        for(int num: nums) {
+            for(int i=target; i>=num; i--) {
+                if(dp[i-num]) {
+                    dp[i] = true;
+                }
+
+                if(dp[target]) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+}
+
 
 
 class Solution {
