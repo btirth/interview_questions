@@ -17,6 +17,25 @@ Note:
 
 
 class Solution {
+    public String removeDuplicates(String s) {
+        int n = s.length();
+        char[] sCh = s.toCharArray();
+        int idx = 0;
+
+        for(int i=0; i<s.length(); i++) {
+            sCh[idx] = sCh[i];
+            if(idx > 0 && sCh[idx] == sCh[idx-1]) {
+                idx-=2;
+            }
+            idx++;
+        }
+
+        return new String(sCh, 0, idx);
+    }
+}
+
+
+class Solution {
     public String removeDuplicates(String S) {
         if(S==null || S.length() == 0)
             return S;
