@@ -40,28 +40,21 @@ Constraints:
 class Solution {
     public int maximumBags(int[] capacity, int[] rocks, int additionalRocks) {
         int n = capacity.length;
-        int[] diff = new int[n];
         for(int i=0; i<n; i++) {
-            diff[i] = capacity[i] - rocks[i];
+            capacity[i] -= rocks[i];
         }
-        Arrays.sort(diff);
-        int ans = 0;
-        int index = 0;
-        while(index<n && diff[index] == 0) {
-            index++;
-            ans++;
-        }
-        
-        while(index<n && additionalRocks>0) {
-            if(additionalRocks >= diff[index]) {
-                ans++;
-                additionalRocks -= diff[index];
-                index++;
+
+        Arrays.sort(capacity);
+        int count = 0;
+        for(int i=0; i<n; i++) {
+            if(capacity[i] <= additionalRocks) {
+                count++;
+                additionalRocks -= capacity[i];
             } else {
                 break;
-            }   
+            }
         }
-      
-        return ans;
+
+        return count;
     }
 }
