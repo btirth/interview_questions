@@ -21,70 +21,44 @@ Constraints:
 
 */
 
-// O(m+n logn) time complexity
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int m = matrix.length;
         int n = matrix[0].length;
-        
-        int row = -1;
-        for(int i=0; i<m; i++) {
-            if(target >= matrix[i][0] && target <= matrix[i][n-1]) {
-                row = i;
+
+        int top = 0;
+        int bottom = m-1;
+
+        while(top <= bottom) {
+            int mid = (bottom+top)/2;
+            if(target > matrix[mid][n-1]) {
+                top = mid + 1;
+            } else if(target < matrix[mid][0]){
+                bottom = mid - 1;
+            } else {
                 break;
             }
         }
-        
-        if(row == -1) {
+
+        if(!(top <= bottom)) {
             return false;
         }
-        
-        return binarySearch(matrix, target, row);
-    }
-    
-    boolean binarySearch(int[][] matrix, int target, int row) {
+
+        int row = (bottom+top)/2;
         int left = 0;
-        int right = matrix[0].length;
-        
+        int right = n-1;
+
         while(left <= right) {
-            int mid = (left + right)/2;
-            
+            int mid = (right+left)/2;
             if(matrix[row][mid] == target) {
                 return true;
-            } else if(matrix[row][mid] > target) {
-                right = mid-1;
+            } else if(matrix[row][mid] < target) {
+                left = mid + 1;
             } else {
-                left = mid+1;
+                right = mid - 1;
             }
         }
-        
+
         return false;
-    }
-}
-
-
-
-// O((n+m) log(n+m)) time complexity
-class Solution {
-    public boolean searchMatrix(int[][] matrix, int target) {
-        int m = matrix.length;
-        int n = matrix[0].length;
-        return binarySearch(matrix, target, 0, (n*m)-1, m, n);
-    }
-    
-    boolean binarySearch(int[][] matrix, int target, int start, int end, int row, int col) {
-        if(start>end) {
-            return false;
-        }
-        int mid = (start+end)/2;
-        int i = mid/col;
-        int j = mid%col;
-        if(matrix[i][j] == target) {
-            return true;
-        } else if(matrix[i][j] > target) {
-            return binarySearch(matrix, target, start, mid-1, row, col);
-        } else {
-            return binarySearch(matrix, target, mid+1, end, row, col);
-        }
     }
 }
