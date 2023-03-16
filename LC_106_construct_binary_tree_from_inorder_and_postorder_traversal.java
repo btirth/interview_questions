@@ -21,41 +21,35 @@ Constraints:
 
 */
 
-
-
 class Solution {
-    public TreeNode buildTree(int[] inorder, int[] postorder) {
-        return helper(inorder, postorder, 0, inorder.length-1, 0, postorder.length-1);
+    public TreeNode buildTree(int[] in, int[] post) {
+        return helper(in, post, 0, in.length-1, 0, post.length-1);
     }
-    
-    TreeNode helper(int[] inorder, int[] postorder, int inS, int inE, int postS, int postE) {
-        if(inS > inE) {
+
+    TreeNode helper(int[] in, int[] post, int inS, int inE, int postS, int postE) {
+        if(postS > postE) {
             return null;
         }
-        
-        int rootVal = postorder[postE];
-        TreeNode root = new TreeNode(rootVal);
-        
-        int rootIndex = -1;
-        for(int i=inS; i<=inE; i++){
-            if(inorder[i] == rootVal) {
-                rootIndex = i;
-                break;
-            }
+
+        int rootIndex = inS;
+        while(in[rootIndex] != post[postE]) {
+            rootIndex++;
         }
+
+        TreeNode root = new TreeNode(in[rootIndex]);
+
+        int inLS = inS;
+        int inLE = rootIndex-1;
+        int postLS = postS;
+        int postLE = postLS + inLE - inLS;
+
+        int inRS = rootIndex + 1;
+        int inRE = inE;
+        int postRE = postE-1;
+        int postRS = postRE - inRE + inRS;
         
-        int lInS = inS;
-        int lInE = rootIndex-1;
-        int lPostS = postS;
-        int lPostE = (lInE - lInS) + lPostS;
-        
-        int rInS = rootIndex+1;
-        int rInE = inE;
-        int rPostS = lPostE + 1;
-        int rPostE = postE-1;
-        
-        root.left = helper(inorder, postorder, lInS, lInE, lPostS, lPostE);
-        root.right = helper(inorder, postorder, rInS, rInE, rPostS, rPostE);
+        root.left = helper(in, post, inLS, inLE, postLS, postLE);
+        root.right = helper(in, post, inRS, inRE, postRS, postRE);
         return root;
     }
 }
