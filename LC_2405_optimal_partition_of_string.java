@@ -23,22 +23,31 @@ Constraints:
 */
 
 class Solution {
+
     public int partitionString(String s) {
-        int left = 0;
-        int right = 0;
-        Set<Character> set = new HashSet<>();
-        int count = 0;
-        while(right < s.length()) {
-            char ch = s.charAt(right);
-            if(set.contains(ch)) {
+
+        boolean[] ch = new boolean[26];
+
+        int count = 1;
+
+        for(int i=0; i<s.length(); i++) {
+
+            if(ch[s.charAt(i)-'a']) {
+
                 count++;
-                left = right;
-                set = new HashSet<>();
+
+                ch = new boolean[26];
+
             }
-            set.add(ch);
-            right++;
+
+            ch[s.charAt(i)-'a'] = true;
+
         }
-        
-        return count+1;
+
+        return count;
+
     }
+
 }
+
+
