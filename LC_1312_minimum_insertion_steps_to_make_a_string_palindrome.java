@@ -56,3 +56,35 @@ class Solution {
         return n-dp[0][n-1];
     }
 }
+
+
+
+class Solution {
+    int n;
+    Integer[][] dp;
+    public int minInsertions(String s) {
+        n = s.length();
+        dp = new Integer[n][n];
+        return helper(s, 0, n-1, n);
+    }
+
+    public int helper(String s, int i, int j, int n) {
+        if(i >= j) {
+            return 0;
+        }
+
+        if(dp[i][j] != null) {
+            return dp[i][j];
+        }
+
+        int min = n;
+        if(s.charAt(i) == s.charAt(j)) {
+            min = Math.min(min, helper(s, i+1, j-1, n));
+        } else {
+            min = Math.min(min, helper(s, i+1, j, n)+1);
+            min = Math.min(min, helper(s, i, j-1, n)+1);
+        }
+
+        return dp[i][j] = min;
+    }
+}
