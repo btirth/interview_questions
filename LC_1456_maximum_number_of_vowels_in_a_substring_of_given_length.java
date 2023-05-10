@@ -26,6 +26,7 @@ Constraints:
 
 */
 
+// Approach: 1
 class Solution {
     public int maxVowels(String s, int k) {
         
@@ -53,6 +54,27 @@ class Solution {
             i++;
         }
         
+        return ans;
+    }
+}
+
+// Approach: 2
+class Solution {
+    public int maxVowels(String s, int k) {
+        int n = s.length();
+        List<Character> vowels=Arrays.asList(new Character[]{'a','e','i','o','u'});
+        int[] dp = new int[n+1];
+        int count = 0;
+        int ans = 0;
+        
+        for(int i=0; i<n; i++) {
+            if(vowels.contains(s.charAt(i))) {
+                count++;
+            }
+
+            dp[i] = count;
+            ans = Math.max(ans, i>=k ? count-dp[i-k] : count);
+        }
         return ans;
     }
 }
