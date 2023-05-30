@@ -1,7 +1,7 @@
 class Solution {
     class Trie {
         Trie[] ch = new Trie[26];
-        List<String> words = new ArrayList<>();
+        String word = null;
     }
 
     Trie getPrefixTrie(String[] words) {
@@ -20,7 +20,7 @@ class Solution {
             node = node.ch[word.charAt(i)-'a'];
         }
 
-        node.words.add(word);
+        node.word = word;
     }
 
     int[][] directions = {
@@ -32,8 +32,11 @@ class Solution {
 
     void helper(char[][] board, int i, int j, Trie node, boolean[][] visited) {
         visited[i][j] = true;
-        ans.addAll(node.words);
-        node.words = new ArrayList<>();
+        if(node.word != null) {
+            ans.add(node.word);
+            node.word = null;
+        }
+        
         for(int[] dir: directions) {
             int x = i + dir[0];
             int y = j + dir[1];
