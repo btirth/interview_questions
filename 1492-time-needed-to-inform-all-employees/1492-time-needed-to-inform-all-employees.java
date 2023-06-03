@@ -1,34 +1,29 @@
 class Solution {
-    
-    HashMap<Integer, List<Integer>> managerMapping;
-    int[] informTime;
     int ans = 0;
 
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
-        managerMapping = new HashMap<>();
-        this.informTime = informTime;
         
-        for(int i=0; i<n; i++) {
-            List<Integer> subOr = new ArrayList<>();
-            if(managerMapping.containsKey(manager[i])) {
-                subOr = managerMapping.get(manager[i]);
-            }
-            subOr.add(i);
-            managerMapping.put(manager[i], subOr);
+        List<Integer>[] subs = new ArrayList[n];
+        for (int i = 0; i < subs.length; i++) {
+            subs[i] = new ArrayList<>();
+        }
+        for (int i = 0; i < manager.length; i++) {
+            if (i == headID) continue;
+            subs[manager[i]].add(i);
         }
 
-        dfs(headID, 0);
+        dfs(headID, 0, subs, informTime);
         return ans;
     }
 
-    void dfs(Integer id, int t) {
-        if(!managerMapping.containsKey(id)) {
+    void dfs(Integer id, int t, List<Integer>[] subs, int[] informTime) {
+        if(subs[id].size() == 0 ) {
             ans = Math.max(ans, t);
             return;
         }
 
-        for(Integer subOr: managerMapping.get(id)) {
-            dfs(subOr, t+informTime[id]);
+        for(Integer subOr: subs[id]) {
+            dfs(subOr, t+informTime[id], subs, informTime);
         }
     }
 }
