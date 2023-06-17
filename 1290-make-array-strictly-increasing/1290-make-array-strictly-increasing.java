@@ -1,19 +1,42 @@
 class Solution {
-    public int makeArrayIncreasing(int[] A, int[] B) { // A = arr1, B = arr2
-        TreeSet<Integer> set = new TreeSet<>(Arrays.stream(B).boxed().toList());
-        int[] dp = new int[B.length+1];
-        dp[0]=-1;
-        int INF = (int)2e9;
-        for (int i = 0; i < A.length; i++){
-            for (int j = B.length; j >= 0; j--){
-                int a = A[i] > dp[j]? A[i] : INF; // option A - don't swap
-                Integer b = set.higher(j==0?INF:dp[j-1]); // option B - swap
-                dp[j]=Math.min(a, b==null?INF:b); // take the min of A and B
+    public int makeArrayIncreasing(int[] arr1, int[] arr2) {
+        Arrays.sort(arr2);
+        List<Integer> list = new ArrayList<>(arr2.length);
+        for (int i = 0, p = -1; i < arr2.length; i++) {
+            if (arr2[i] != p) {
+                p = arr2[i];
+                list.add(p);
             }
         }
-        for (int i = 0; i <= B.length; i++) if (dp[i] != INF){
-            return i;
+        int n = arr1.length, m = list.size(), N = Integer.MAX_VALUE >> 1;
+        int[] dp = new int[n + 1];
+        for (int i = 1; i <= n; i++) {
+            int num = i < n ? arr1[i] : N;
+            int idx = binarySearch(list, num);
+            int cnt = idx >= i ? i : N;
+            if (arr1[i - 1] < num) {
+                cnt = Math.min(cnt, dp[i - 1]);
+            }
+            for (int j = i - 2, k = idx - 1; j >= 0 && k >= 0; j--, k--) {
+                if (arr1[j] < list.get(k)) {
+                    cnt = Math.min(cnt, dp[j] + idx - k);
+                }
+            }
+            dp[i] = cnt;
         }
-        return -1;
+        return dp[n] == N ? -1 : dp[n];
+    }
+
+    private int binarySearch(List<Integer> list, int num) {
+        int left = 0, right = list.size() - 1;
+        while (left <= right) {
+            int mid = left + (right - left >> 1);
+            if (list.get(mid) < num) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return left;
     }
 }
