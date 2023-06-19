@@ -1,39 +1,34 @@
 class Solution {
-    int count = 0;
     int n;
     int MOD = 1000000007;
-    HashMap<String, Integer> dp;
+    Integer[][] dp;
     public int specialPerm(int[] nums) {
         n = nums.length;
-        dp = new HashMap<>();
+        dp = new Integer[(1<<n)][n];
+        int count = 0;
         for(int i=0; i<n; i++) {
-            count += helper(nums, 1<<i, 1, nums[i]);
-            count %= MOD;
+            count = (count + helper(nums, 1<<i, i))%MOD;
         }
         
        return count;
     }
     
-    int helper(int[] nums, int msk, int idx, int prev) {
-        if(idx == n) {
+    int helper(int[] nums, int msk, int prevIdx) {
+        if(dp[msk][prevIdx] != null) {
+            return dp[msk][prevIdx];
+        }
+
+        if(msk == (1<<n) - 1) {
             return 1;
-        }
+        } 
 
-        String key = msk + "-" + prev;
-        if(dp.containsKey(key)) {
-            return dp.get(key);
-        }
-
-        int c = 0;
-        
+        int count = 0;
         for(int i=0; i<n; i++) {
-            if((msk&(1<<i)) == 0 && (nums[i]%prev == 0 || prev%nums[i] == 0)) {
-                c += helper(nums, msk|(1<<i), idx+1, nums[i]);
-                c %= MOD;
+            if((msk&(1<<i)) == 0 && (nums[i]%nums[prevIdx] == 0 || nums[prevIdx]%nums[i] == 0)) {
+                count = (count + helper(nums, msk|(1<<i), i))%MOD;
             }
         }
 
-        dp.put(key, c);
-        return c;
+        return dp[msk][prevIdx] = count;
     }
 }
