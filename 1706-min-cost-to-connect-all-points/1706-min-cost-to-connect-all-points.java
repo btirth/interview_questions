@@ -1,60 +1,27 @@
 class Solution {
-    Set<Integer> visited = new HashSet<>();
-    PriorityQueue<Pair> pq = new PriorityQueue<>((a,b) -> Integer.compare(a.dist, b.dist));
-
-    class Pair{
-        int idx;
-        int dist;
-
-        Pair(int idx, int dist) {
-            this.idx = idx;
-            this.dist = dist;
-        }
-    }
-
-    int ans = -1;
     public int minCostConnectPoints(int[][] points) {
         int n = points.length;
-        helper(points, 0, 0);
-        return ans;
-    }
+        int cost = 0;
+        PriorityQueue<Integer[]> pq = new PriorityQueue<>((a,b) -> Integer.compare(a[0], b[0]));
+        HashSet<Integer> visited = new HashSet<>();
+        pq.add(new Integer[]{0,0});
+        while(visited.size() < n) {
+            Integer[] pt = pq.remove();
+            if(visited.contains(pt[1])) {
+                continue;
+            }
 
-    void helper(int[][] points, int curr, int cost) {
-         int n = points.length;
-        if(visited.size() == n-1) {
-            ans = cost;
-            return;
-        }
+            cost += pt[0];
+            visited.add(pt[1]);
 
-        visited.add(curr);
-        int nextPoint = -1;
-        int nextPointDist = Integer.MAX_VALUE;
-        int[] pt = points[curr];
-
-        for(int i=0; i<n; i++) {
-            if(!visited.contains(i)) {
-                int dist = Math.abs(points[i][0]-pt[0]) + Math.abs(points[i][1]-pt[1]);
-                pq.add(new Pair(i, dist));
-                if(nextPointDist > dist) {
-                    nextPointDist = dist;
-                    nextPoint = i;
-                }
+            for(int i=0; i<n; i++) {
+               if(!visited.contains(i)) {
+                   int dist = Math.abs(points[pt[1]][0] - points[i][0]) + Math.abs(points[pt[1]][1] - points[i][1]);
+                   pq.add(new Integer[]{dist, i});
+               }
             }
         }
 
-        while(!pq.isEmpty()) {
-            Pair p = pq.remove();
-            if(!visited.contains(p.idx)) {
-                if(p.dist < nextPointDist) {
-                    nextPoint = p.idx;
-                    nextPointDist = p.dist;
-                } else {
-                    pq.add(p);
-                }
-                break;
-            }
-        }
-
-        helper(points, nextPoint, cost+nextPointDist);
+        return cost;
     }
 }
