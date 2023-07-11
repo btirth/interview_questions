@@ -8,66 +8,41 @@
  * }
  */
 class Solution {
-    List<Integer> ans = new ArrayList<>();
-    TreeNode[] parent = new TreeNode[501];
-    boolean[] visited = new boolean[501];
-    TreeNode target;
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
-        this.target = target;
-        getParent(root);
-        helper(target, k);
+        List<TreeNode> path = new ArrayList<>();
+        List<Integer> ans = new ArrayList<>();
+        rootToNodePath( root, target, path);
+        for(int i = 0; i < path.size(); i++)
+        {
+            kLevelDown( ans, k-i, path.get(i), (i==0)? null : path.get(i-1));
+        }
         return ans;
     }
-
-    void getParent(TreeNode node) {
-        if(node.val == target.val) {
-            return;
-        }
-        if(node.left != null) {
-            getParent(node.left);
-            parent[node.left.val] = node;
+    boolean rootToNodePath(TreeNode node,TreeNode target, List<TreeNode> path)
+    {
+        if( node == null) return false;
+        if( node == target){
+            path.add(target);
+            return true;
         }
 
-        if(node.right != null) {
-            getParent(node.right);
-            parent[node.right.val] = node;
+        if( rootToNodePath( node.left, target, path) || rootToNodePath(node.right, target, path))
+        {
+            path.add( node);
+            return true;
         }
-    } 
-
-    void helper(TreeNode node, int dist) {
-        if(node == null || visited[node.val]) {
-            return;
-        }
-
-        visited[node.val] = true;
-
-        if(dist == 0) {
-            ans.add(node.val);
-            return;
-        }
-
-        getChildFromK(node.left, dist-1);
-        getChildFromK(node.right, dist-1);
-        helper(parent[node.val], dist-1);
+        return false;
     }
+    void kLevelDown( List<Integer> ans , int dist, TreeNode node, TreeNode blocker)
+    {
+        if( node == blocker || node == null ) return ;
 
-    void getChildFromK(TreeNode node, int dist) {
-        if(node == null) {
-            return;
+        if( dist == 0){
+            ans.add( node.val);
+            return ;
         }
 
-        if(visited[node.val]) {
-            return;
-        }
-
-        visited[node.val] = true;
-
-        if(dist == 0) {
-            ans.add(node.val);
-            return;
-        }
-
-        getChildFromK(node.left, dist-1);
-        getChildFromK(node.right, dist-1);
+        kLevelDown(ans, dist-1, node.left, blocker);
+        kLevelDown(ans, dist-1, node.right, blocker);
     }
 }
