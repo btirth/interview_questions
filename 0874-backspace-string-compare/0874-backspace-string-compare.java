@@ -27,7 +27,6 @@ class Solution {
             return false;
         }
 
-        System.out.println(sidx+" "+tidx);
         for(int i=0; i<=sidx; i++) {
             if(tch[i] != sch[i]) {
                 return false;
