@@ -27,15 +27,13 @@ public class NestedIterator implements Iterator<Integer> {
     }
     
     void helper(NestedInteger value) {
-        
-            if(value.isInteger()) {
-                flattenList.add(value.getInteger());
-            } else {
-                for(NestedInteger nestedInt: value.getList()) {
-                    helper(nestedInt);
-                }
+        if(value.isInteger()) {
+            flattenList.add(value.getInteger());
+        } else {
+            for(NestedInteger nestedInt: value.getList()) {
+                helper(nestedInt);
             }
-        
+        } 
     }
 }
 
