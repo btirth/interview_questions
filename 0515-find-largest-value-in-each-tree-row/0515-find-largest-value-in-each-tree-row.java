@@ -29,7 +29,9 @@ class Solution {
         if(ans.size() <= level) {
             ans.add(root.val);
         } else {
-            ans.set(level, Math.max(root.val, ans.get((Integer) level)));
+            if(root.val > ans.get((Integer) level)) {
+                ans.set(level, root.val);
+            }
         }
 
         if(root.left != null) {
