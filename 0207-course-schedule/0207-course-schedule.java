@@ -1,40 +1,36 @@
 class Solution {
-    ArrayList<Integer>[] depenedencies;
-    int[] status;
-    public boolean canFinish(int n, int[][] pre) {
-        status = new int[n]; // 0 - Not visited, 1 - Visiting, 2 - Visited
-        depenedencies = new ArrayList[n+1];
-
-        for(int i = 0; i < n; i++){
-            depenedencies[i] = new ArrayList<>();
-        }
-
-        for(int[] p: pre) {
-            depenedencies[p[0]].add(p[1]);
-        }
+    public boolean canFinish(int n, int[][] prerequisites) {
+        List<Integer>[] adj = new ArrayList[n];
+        int[] indegree = new int[n];
 
         for(int i=0; i<n; i++) {
-            if((status[i] == 0) && !dfs(i)) {
-                return false;
+            adj[i] = new ArrayList<>();
+        }
+
+        for(int[] pre: prerequisites) {
+            adj[pre[1]].add(pre[0]);
+            indegree[pre[0]]++;
+        }
+
+        Queue<Integer> q = new LinkedList<>();
+        for(int i=0; i<n; i++) {
+            if(indegree[i] == 0) {
+                q.add(i);
             }
         }
 
-        return true;
-    }
-
-    boolean dfs(int curr) {
-        if(status[curr] != 0) {
-            return status[curr] == 2;
-        }
-
-        status[curr] = 1;
-        for(Integer prev: depenedencies[curr]) {
-            if(!dfs(prev)) {
-                return false;
+        List<Integer> list = new ArrayList<>();
+        while(!q.isEmpty()) {
+            int node = q.poll();
+            list.add(node);
+            for(int next: adj[node]) {
+                indegree[next]--;
+                if(indegree[next] == 0) {
+                    q.add(next);
+                }
             }
         }
 
-        status[curr] = 2;
-        return true;
+        return list.size() == n;
     }
 }
