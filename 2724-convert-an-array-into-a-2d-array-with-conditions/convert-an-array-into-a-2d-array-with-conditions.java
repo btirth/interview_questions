@@ -9,13 +9,11 @@ class Solution {
         }
 
         List<List<Integer>> ans = new ArrayList<>();
-
+        for(int i=0; i<maxCount; i++) {
+            ans.add(new ArrayList<Integer>());
+        }
         for(int i=1; i<=n; i++) {
             for(int j=1; j<=count[i]; j++) {
-                if(j > ans.size()) {
-                    ans.add(new ArrayList<Integer>());
-                }
-
                 ans.get(j-1).add(i);
             }
         }
