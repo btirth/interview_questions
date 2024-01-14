@@ -13,27 +13,17 @@ class Solution {
             ch2[word2.charAt(i) - 'a']++;
         }
 
-        HashMap<Integer, Integer> mismatchFreq = new HashMap<>();
         for(int i=0; i<26; i++) {
             if(ch1[i] == 0 && ch2[i] == 0) {
                 continue;
             }
-            if(ch1[i] > 0 && ch2[i] > 0) {
-                if(ch1[i] != ch2[i]) {
-                    mismatchFreq.put(ch1[i], mismatchFreq.getOrDefault(ch1[i], 0) + 1);
-                    mismatchFreq.put(ch2[i], mismatchFreq.getOrDefault(ch2[i], 0) - 1);
-                }
-            } else {
+            if(ch1[i] == 0 || ch2[i] == 0) {
                 return false;
             }
         }
 
-        for(Map.Entry<Integer, Integer> entry: mismatchFreq.entrySet()) {
-            if(entry.getValue() != 0) {
-                return false;
-            }
-        }
-
-        return true;
+        Arrays.sort(ch1);
+        Arrays.sort(ch2);
+        return Arrays.equals(ch1, ch2);
     }
 }
