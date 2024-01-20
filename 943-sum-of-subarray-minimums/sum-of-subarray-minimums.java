@@ -35,8 +35,7 @@ class Solution {
         long answer = 0;
       
         for (int i = 0; i < length; ++i) {
-            answer += (long) (i - left[i]) * (right[i] - i) % mod * arr[i] % mod;
-            answer %= mod;
+            answer = (answer + (long) (i - left[i]) * (right[i] - i) * arr[i]) % mod;
         }
       
         return (int) answer;
