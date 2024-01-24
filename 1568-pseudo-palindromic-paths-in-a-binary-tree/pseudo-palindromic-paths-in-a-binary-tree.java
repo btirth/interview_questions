@@ -14,8 +14,9 @@
  * }
  */
 class Solution {
+    int[] freq = new int[10];
+    int oddCount = 0;
     int ans = 0;
-    List<Integer> oddVal = new ArrayList<>();
     public int pseudoPalindromicPaths (TreeNode root) {
         helper(root);
         return ans;
@@ -26,25 +27,27 @@ class Solution {
             return;
         }
 
-        if(oddVal.contains(root.val)) {
-            oddVal.remove((Integer)root.val);
+        freq[root.val]++;
+        if(freq[root.val]%2 == 1) {
+            oddCount++;
         } else {
-            oddVal.add(root.val);
+            oddCount--;
         }
 
         if(root.left == null && root.right == null) {
-            if(oddVal.size() == 0 || oddVal.size() == 1) {
+            if(oddCount == 0 || oddCount == 1) {
                 ans++;
             }
         }
 
         helper(root.left);
         helper(root.right);
-        
-        if(oddVal.contains(root.val)) {
-            oddVal.remove((Integer)root.val);
+
+        freq[root.val]--;
+        if(freq[root.val]%2 == 1) {
+            oddCount++;
         } else {
-            oddVal.add(root.val);
+            oddCount--;
         }
     }
 }
