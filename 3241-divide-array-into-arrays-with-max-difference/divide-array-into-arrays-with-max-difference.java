@@ -6,18 +6,20 @@ class Solution {
         }
         Arrays.sort(nums);
         int[][] ans = new int[n/3][3];
-        int idx = -1;
-        int firstEle = -1;
-        for(int i=0; i<n; i++) {
-            if(i%3 == 0) {
-                idx++;
-                firstEle = nums[i];
-            }
+        int idx = 0;
+        for(int i=0; i<n; i+=3) {
+            int first = nums[i];
+            int second = nums[i+1];
+            int third = nums[i+2];
 
-            if(nums[i] - firstEle > k ) {
+            if(third-first > k) {
                 return new int[][]{};
             }
-            ans[idx][i%3] = nums[i];
+
+            ans[idx][0] = first;
+            ans[idx][1] = second;
+            ans[idx][2] = third;
+            idx++;
         }
 
         return ans;
