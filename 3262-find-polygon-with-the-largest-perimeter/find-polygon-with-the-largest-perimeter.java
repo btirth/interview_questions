@@ -7,7 +7,7 @@ class Solution {
 
         for(int i=2; i<n; i++) {
             sum += nums[i];
-            if(sum-nums[i] > nums[i]) {
+            if(sum > nums[i]*2) {
                 ans = Math.max(ans, sum);
             }    
         }
