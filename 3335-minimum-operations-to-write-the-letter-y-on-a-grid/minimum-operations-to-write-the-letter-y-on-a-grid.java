@@ -65,34 +65,19 @@ class Solution {
             }
         }
         
-        System.out.println(n0+" "+n1+" "+n2+" "+d0+" "+d1+" "+d2);
-        return Math.min(helper(n0, n1, n2, d0, d1, d2, 0), 
-                        Math.min(helper(n0, n1, n2, d0, d1, d2, 1), helper(n0, n1, n2, d0, d1, d2, 2))
-                      );
-    }
-    
-    
-    
-    int helper(int n0, int n1, int n2, int d0, int d1, int d2, int t) {
-        int ans = 0;
-        if(t == 0) {
-            ans += (d1+d2);
-            ans += (n0-d0);
-            ans += Math.min(n1-d1, n2-d2);
-        }
-        
-        if(t == 1) {
-            ans += (d0+d2);
-            ans += (n1-d1);
-            ans += Math.min(n0-d0, n2-d2);
-        }
-        
-        if(t == 2) {
-            ans += (d1+d0);
-            ans += (n2-d2);
-            ans += Math.min(n1-d1, n0-d0);
-        }
-        
-        return ans;
+
+        int ans0 = (d1+d2);
+        ans0 += (n0-d0);
+        ans0 += Math.min(n1-d1, n2-d2);
+
+        int ans1 = (d0+d2);
+        ans1 += (n1-d1);
+        ans1 += Math.min(n0-d0, n2-d2);
+
+        int ans2 = (d1+d0);
+        ans2 += (n2-d2);
+        ans2 += Math.min(n1-d1, n0-d0);
+
+        return Math.min(ans0, Math.min(ans1, ans2));
     }
 }
