@@ -2,15 +2,26 @@ class Solution {
     public int[] rearrangeArray(int[] nums) {
         int n = nums.length;
         int[] ans = new int[n];
-        int posIndex = 0, negIndex = 1;
+        int pos = 0;
+        int neg = 0;
+        boolean posTurn = true;
+        for(int i=0; i<n; i++) {
+            if(posTurn) {
+                while(nums[pos] < 0) {
+                    pos++;
+                }
 
-        for (int i = 0; i < n; i++) {
-            if (nums[i] > 0) {
-                ans[posIndex] = nums[i];
-                posIndex += 2;
+                ans[i] = nums[pos];
+                pos++;
+                posTurn = false;
             } else {
-                ans[negIndex] = nums[i];
-                negIndex += 2;
+                while(nums[neg] > 0) {
+                    neg++;
+                }
+
+                ans[i] = nums[neg];
+                neg++;
+                posTurn = true;
             }
         }
 
