@@ -11,7 +11,7 @@ class Solution {
         if(h == piles.length) {
             return r;
         }
-
+        
         int minK = r;
         while(l<=r) {
             int k = (l+r)/2;
@@ -27,17 +27,11 @@ class Solution {
     }
 
     boolean canEat(int[] piles, int h, int k) {
-        int idx = 0;
-        int currH = 0;
-
-        while(currH < h) {
-            currH += Math.ceil((double)piles[idx]/k);
-            idx++;
-            if(currH <= h && idx == piles.length) {
-                return true;
-            }
+        int req = 0;
+        for(int pile: piles) {
+            req += Math.ceil((double)pile/k);
         }
 
-        return false;
+        return req <= h;
     }
 }
