@@ -1,43 +1,51 @@
 class Solution {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
-	if (n == 1)
-		return List.of(0);
+        if(n == 1) {
+            return Arrays.asList(new Integer[]{0});
+        }
+        List<Integer>[] adj = new ArrayList[n];
+        int[] degree = new int[n];
 
-	var adjList = getAdjList(edges);
-	var q = getQ(adjList);
+        for(int i=0; i<n; i++) {
+            adj[i] = new ArrayList<>();
+        }
 
-	while (n > 2) {
-		n -= q.size();
-		
-		for (var i = q.size(); i > 0; i--) {
-			var head = q.poll();
+        for(int[] edge: edges) {
+            adj[edge[0]].add(edge[1]);
+            adj[edge[1]].add(edge[0]);
+            degree[edge[0]]++;
+            degree[edge[1]]++;
+        }
 
-			for (var neighbor : adjList.get(head)) {
-				adjList.get(neighbor).remove(head);
-				if (adjList.get(neighbor).size() == 1)
-					q.add(neighbor);
-			}
-		}
-	}
-	return q;
-}
+        Queue<Integer> leaves = new LinkedList<>();
+        for(int i=0; i<n; i++) {
+            if(degree[i] == 1) {
+                leaves.add(i);
+            }
+        }
 
-private Map<Integer, Set<Integer>> getAdjList(int[][] edges) {
-	var adjList = new HashMap<Integer, Set<Integer>>();
-	for (var edge : edges) {
-		adjList.computeIfAbsent(edge[0], k -> new HashSet<>())
-			   .add(edge[1]);
-		adjList.computeIfAbsent(edge[1], k -> new HashSet<>())
-			   .add(edge[0]);
-	}
-	return adjList;
-}
+        while(!leaves.isEmpty()) {
+            if(n <= 2) {
+                break;
+            }
 
-private LinkedList<Integer> getQ(Map<Integer, Set<Integer>> adjList) {
-	var q = new LinkedList<Integer>();
-	for (var entry : adjList.entrySet())
-		if (entry.getValue().size() == 1)
-			q.add(entry.getKey());
-	return q;
-}
+            int size = leaves.size();
+            while(size-- > 0) {
+                int node = leaves.poll();
+                n--;
+                for(int next: adj[node]) {
+                    degree[next]--;
+                    if(degree[next] == 1) {
+                        leaves.add(next);
+                    }
+                }
+            }
+        }
+
+        List<Integer> roots = new ArrayList<>();
+        while(!leaves.isEmpty()) {
+            roots.add(leaves.poll());
+        }
+        return roots;
+    }
 }
