@@ -1,32 +1,35 @@
 class Solution {
-    List<List<Integer>> ans = new ArrayList<>();
+    List<List<Integer>> ans;
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
-        backtrack(candidates, new ArrayList<>(), 0, target);
+        ans = new ArrayList<>();
+        for(int i=0; i<candidates.length; i++) {
+            if(i==0 || candidates[i] != candidates[i-1]) {
+                helper(candidates, i, target, new ArrayList<>());
+            }
+        }
+        
         return ans;
     }
 
-    void backtrack(int[] candidates, List<Integer> curr, int idx, int target) {
-        if(target == 0) {
-            if(!ans.contains(curr))
-                ans.add(new ArrayList<>(curr));
-        }
-
-        if(target <= 0) {
+    void helper(int[] candidates, int idx, int target, List<Integer> list) {
+        if(target-candidates[idx] == 0) {
+            list.add(candidates[idx]);
+            ans.add(new ArrayList<>(list));
+            list.remove(list.size()-1);
             return;
         }
 
-        for(int i=idx; i<candidates.length; i++) {
-            if(i>idx && candidates[i] == candidates[i-1]) {
-                continue;
-            }
-            
-            curr.add(candidates[i]);
-            backtrack(candidates, curr, i+1, target-candidates[i]);
-            curr.remove(curr.size()-1);
-            
+        if(target < 0) {
+            return;
         }
+
+        list.add(candidates[idx]);
+        for(int i=idx+1; i<candidates.length; i++) {
+            if(i == idx+1 || candidates[i] != candidates[i-1]) {
+                helper(candidates, i, target - candidates[idx], list);
+            }
+        }
+        list.remove(list.size()-1);
     }
-
-
 }
