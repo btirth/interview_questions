@@ -1,24 +1,22 @@
 class Solution {
-    
+    List<List<Integer>> ans = new ArrayList<>();
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         Arrays.sort(nums);
-        int n = nums.length;
-        List<List<Integer>> ans = new ArrayList<>();
-        // 8 = 1<<n = 2^n
-        for(int i=0; i<(1<<n); i++) {
-            List<Integer> subset = new ArrayList<>();
+        helper(nums, 0, new ArrayList<>());
+        return ans;
+    }
 
-            for(int j=0; j<n; j++) {
-                int bit = 1<<j;
-                if((i>>j & 1) == 1) {
-                    subset.add(nums[j]);
-                }
+    void helper(int[] nums, int idx, List<Integer> set) {
+        ans.add(new ArrayList<>(set));
+        
+        for(int i=idx; i<nums.length; i++) {
+            if(i>idx && nums[i] == nums[i-1]) {
+                continue;
             }
 
-            if(!ans.contains(subset))
-                ans.add(new ArrayList<>(subset));
+            set.add(nums[i]);
+            helper(nums, i+1, set);
+            set.remove(set.size()-1);
         }
-
-        return ans;
     }
 }
