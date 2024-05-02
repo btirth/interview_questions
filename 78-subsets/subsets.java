@@ -3,6 +3,7 @@ class Solution {
         Arrays.sort(nums);
         int n = nums.length;
         List<List<Integer>> ans = new ArrayList<>();
+        
         // 8 = 1<<n = 2^n
         for(int i=0; i<(1<<n); i++) {
             List<Integer> subset = new ArrayList<>();
@@ -14,8 +15,7 @@ class Solution {
                 }
             }
 
-            if(!ans.contains(subset))
-                ans.add(new ArrayList<>(subset));
+            ans.add(new ArrayList<>(subset));
         }
 
         return ans;
