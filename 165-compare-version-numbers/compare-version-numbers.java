@@ -1,41 +1,29 @@
 class Solution {
     public int compareVersion(String version1, String version2) {
-        int n1 = version1.length();
-        int n2 = version2.length();
+        int n = version1.length();
+        int m = version2.length();
         int i = 0;
         int j = 0;
 
-        while(i<n1 || j<n2) {
-            int v1 = 0;
-            int v2 = 0;
-
-            if(i<n1) {
-                int start1 = i;
-                while(i<n1 && version1.charAt(i) != '.') {
-                    i++;
-                }
-
-                System.out.println(start1+" "+i);
-                v1 = Integer.parseInt(version1.substring(start1, i));
-                i++;
+        
+        while (i < n || j < m) {
+            int x = 0;
+            for (; i < n && version1.charAt(i) != '.'; ++i) {
+                x = x * 10 + version1.charAt(i) - '0';
             }
+            ++i;
 
-            if(j<n2) {
-                int start2 = j;
-                while(j<n2 && version2.charAt(j) != '.') {
-                    j++;
-                }
-
-                v2 = Integer.parseInt(version2.substring(start2, j));
-                j++;
+            int y = 0;
+            for (; j < m && version2.charAt(j) != '.'; ++j) {
+                y = y * 10 + version2.charAt(j) - '0';
             }
+            ++j;
 
-            if(v1 > v2) {
-                return 1;
-            } else if(v1 < v2) {
-                return -1;
+            if (x != y) {
+                return x > y ? 1 : -1;
             }
         }
+        
         return 0;
     }
 }
