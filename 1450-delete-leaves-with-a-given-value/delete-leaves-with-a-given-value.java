@@ -15,10 +15,6 @@
  */
 class Solution {
     public TreeNode removeLeafNodes(TreeNode root, int target) {
-        return helper(root, target); 
-    }
-
-    TreeNode helper(TreeNode root, int target) {
         if(root == null) {
             return null;
         }
@@ -27,8 +23,8 @@ class Solution {
             return null;
         }
 
-        TreeNode left = helper(root.left, target);
-        TreeNode right = helper(root.right, target);
+        TreeNode left = removeLeafNodes(root.left, target);
+        TreeNode right = removeLeafNodes(root.right, target);
 
         if(left == null && right == null && root.val == target) {
             return null;
