@@ -25,10 +25,6 @@ class Solution {
             return 0;
         }
 
-        if(root.left == null && root.right == null) {
-            return root.val - 1;
-        }
-
         int left = helper(root.left);
         int right = helper(root.right);
         int val = Math.abs(left) + Math.abs(right);
