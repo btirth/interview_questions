@@ -3,9 +3,11 @@ class Solution {
         int count = 0;
 
         while(numBottles >= numExchange) {
-            count += numExchange;
-            numBottles -= numExchange;
-            numBottles++;
+            int exchangedBottles = numBottles / numExchange;
+            int emptyBootles = exchangedBottles*numExchange;
+            count += emptyBootles;
+            numBottles -= emptyBootles;
+            numBottles += exchangedBottles;
         }
 
         count += numBottles;
