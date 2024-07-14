@@ -13,7 +13,7 @@ class Solution {
         ListNode newHead = new ListNode(0);
         newHead.next = head;
         ListNode temp = newHead;
-        boolean[] numsIdx = new boolean[1000001];
+        boolean[] numsIdx = new boolean[100001];
         for(int num: nums) {
             numsIdx[num] = true;
         }
