@@ -12,22 +12,19 @@ class Solution {
             dp[i] = prefixSum;
             k -= chalk[i];
         }
-        System.out.println(prefixSum+" "+k);
+
         k %= prefixSum;
-        System.out.println(prefixSum+" "+k);
         int left = 0;
         int right = n-1;
-        int ans = left;
         while(left <= right) {
             int mid = (right + left)/2;
             if(dp[mid] > k) {
-                ans = mid;
                 right = mid-1;
             } else {
                 left = mid+1;
             }
         }
 
-        return ans;
+        return left;
     }
 }
