@@ -10,6 +10,7 @@
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/btirth/interview_questions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/btirth/interview_questions/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/btirth/interview_questions/tree/master/2155-find-missing-observations) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/btirth/interview_questions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Graph
 |  |
 | ------- |
@@ -50,8 +51,13 @@
 |  |
 | ------- |
 | [0906-walking-robot-simulation](https://github.com/btirth/interview_questions/tree/master/0906-walking-robot-simulation) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/btirth/interview_questions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Math
 |  |
 | ------- |
 | [2155-find-missing-observations](https://github.com/btirth/interview_questions/tree/master/2155-find-missing-observations) |
+## Linked List
+|  |
+| ------- |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/btirth/interview_questions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 <!---LeetCode Topics End-->
