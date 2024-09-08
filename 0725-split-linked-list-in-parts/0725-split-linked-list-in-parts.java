@@ -1,28 +1,52 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
-    public ListNode[] splitListToParts(ListNode root, int k) {
-        ListNode cur = root;
-        int N = 0;
-        while (cur != null) {
-            cur = cur.next;
-            N++;
+    public ListNode[] splitListToParts(ListNode head, int k) {
+        int length = getLen(head);
+        ListNode[] parts = new ListNode[k];
+        int remainingNodes = length%k;
+        int sameNodes = length/k;
+
+        for(int i=0; i<k; i++) {
+            ListNode curr = new ListNode();
+            ListNode part = curr;
+
+            for(int j=0; j<sameNodes; j++) {
+                curr.next = head;
+                curr = curr.next;
+                head = head.next;
+            }
+
+            if(remainingNodes > 0 && head != null) {
+                curr.next = head;
+                curr = curr.next;
+                head = head.next;
+                remainingNodes--;
+            }
+
+            curr.next = null;
+            parts[i] = part.next;
         }
 
-        int width = N / k, rem = N % k;
+        return parts;
+    }
 
-        ListNode[] ans = new ListNode[k];
-        cur = root;
-        for (int i = 0; i < k; ++i) {
-            ListNode head = cur;
-            for (int j = 0; j < width + (i < rem ? 1 : 0) - 1; ++j) {
-                if (cur != null) cur = cur.next;
-            }
-            if (cur != null) {
-                ListNode prev = cur;
-                cur = cur.next;
-                prev.next = null;
-            }
-            ans[i] = head;
+    int getLen(ListNode head) {
+        int len = 0;
+
+        while(head != null) {
+            head = head.next;
+            len++;
         }
-        return ans;
+
+        return len;
     }
 }
