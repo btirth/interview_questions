@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/btirth/interview_questions/tree/master/0539-minimum-time-difference) |
 | [0906-walking-robot-simulation](https://github.com/btirth/interview_questions/tree/master/0906-walking-robot-simulation) |
 | [1325-path-with-maximum-probability](https://github.com/btirth/interview_questions/tree/master/1325-path-with-maximum-probability) |
@@ -55,6 +56,7 @@
 ## String
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/btirth/interview_questions/tree/master/0539-minimum-time-difference) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/btirth/interview_questions/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/btirth/interview_questions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -122,5 +124,10 @@
 ## Sorting
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/btirth/interview_questions/tree/master/0539-minimum-time-difference) |
+## Greedy
+|  |
+| ------- |
+| [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 <!---LeetCode Topics End-->
