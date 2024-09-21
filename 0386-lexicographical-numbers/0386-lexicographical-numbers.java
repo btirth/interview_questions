@@ -1,10 +1,16 @@
 class Solution {
     List<Integer> order = new ArrayList<>();
     public List<Integer> lexicalOrder(int n) {
+        for(int i=1; i<10; i++) {
+            if(i<=n) {
+                order.add(i);
+            }
+            
+            if(i*10 <= n) {
+                addNumbers(n, i*10);
+            } 
+        }
         
-        
-        addNumbers(n, 1);
-
         return order;
     }
 
@@ -16,13 +22,10 @@ class Solution {
                 return;
             }
             
-            if(num != 10 || !order.contains(num)) {
-                order.add(num);
-                if(num*10 <= n) {
-                    addNumbers(n, num*10);
-                } 
-            }
-               
+            order.add(num);
+            if(num*10 <= n) {
+                addNumbers(n, num*10);
+            } 
         }
     }
 }
