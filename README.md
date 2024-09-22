@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0134-gas-station](https://github.com/btirth/interview_questions/tree/master/0134-gas-station) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/btirth/interview_questions/tree/master/0539-minimum-time-difference) |
 | [0906-walking-robot-simulation](https://github.com/btirth/interview_questions/tree/master/0906-walking-robot-simulation) |
@@ -137,6 +138,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0134-gas-station](https://github.com/btirth/interview_questions/tree/master/0134-gas-station) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 ## Dynamic Programming
 |  |
