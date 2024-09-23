@@ -1,29 +1,32 @@
 class Solution {
-    Integer[] memo;
-    HashSet<String> dictionarySet;
+    List<String> dictionaryList;
+    int[] dp;
     public int minExtraChar(String s, String[] dictionary) {
-        int n = s.length();
-        memo = new Integer[n];
-        dictionarySet = new HashSet<>(Arrays.asList(dictionary));
-        return dp(0, n, s);
+        dictionaryList = Arrays.asList(dictionary);
+        int len = s.length();
+        dp = new int[len];
+        Arrays.fill(dp, -1);
+
+        return helper(s, 0);
     }
-    private int dp(int start, int n, String s) {
-        if (start == n) {
+
+    int helper(String s, int idx) {
+        if(idx == s.length()) {
             return 0;
         }
-        if (memo[start] != null) {
-            return memo[start];
+
+        if(dp[idx] != -1) {
+            return dp[idx];
         }
-        // To count this character as a left over character 
-        // move to index 'start + 1'
-        int ans = dp(start + 1, n, s) + 1;
-        for (int end = start; end < n; end++) {
-            var curr = s.substring(start, end + 1);
-            if (dictionarySet.contains(curr)) {
-                ans = Math.min(ans, dp(end + 1, n, s));
+
+        int min = Integer.MAX_VALUE;
+        for(int i=idx; i<s.length(); i++) {
+            if(dictionaryList.contains(s.substring(idx, i+1))) {
+                min = Math.min(min, helper(s, i+1));
             }
         }
 
-        return memo[start] = ans;
+        min = Math.min(min, 1 + helper(s, idx+1));
+        return dp[idx] = min;
     }
 }
