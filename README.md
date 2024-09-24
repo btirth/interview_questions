@@ -20,6 +20,7 @@
 | [2411-spiral-matrix-iv](https://github.com/btirth/interview_questions/tree/master/2411-spiral-matrix-iv) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/btirth/interview_questions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2755-extra-characters-in-a-string](https://github.com/btirth/interview_questions/tree/master/2755-extra-characters-in-a-string) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/btirth/interview_questions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/btirth/interview_questions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Graph
 |  |
@@ -73,6 +74,7 @@
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/btirth/interview_questions/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/btirth/interview_questions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2755-extra-characters-in-a-string](https://github.com/btirth/interview_questions/tree/master/2755-extra-characters-in-a-string) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/btirth/interview_questions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Hash Table
 |  |
 | ------- |
@@ -82,6 +84,7 @@
 | [1786-count-the-number-of-consistent-strings](https://github.com/btirth/interview_questions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/btirth/interview_questions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2755-extra-characters-in-a-string](https://github.com/btirth/interview_questions/tree/master/2755-extra-characters-in-a-string) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/btirth/interview_questions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/btirth/interview_questions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Math
 |  |
@@ -180,6 +183,7 @@
 | [0386-lexicographical-numbers](https://github.com/btirth/interview_questions/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/btirth/interview_questions/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [2755-extra-characters-in-a-string](https://github.com/btirth/interview_questions/tree/master/2755-extra-characters-in-a-string) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/btirth/interview_questions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Topological Sort
 |  |
 | ------- |
