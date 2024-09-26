@@ -43,9 +43,8 @@ class MyCalendar {
             // check overlap
             // 3 possibilities:
             // 1. before start and ends after start and before end
-            // 2. before start and ends after end
-            // 3. after start and ends after end
-            // 4. after start and before end
+            // 2. after start and ends after end
+            // 3. after start and before end
             if(
                 (start <= midEvent.start && end > midEvent.start) ||
                 (start >= midEvent.start && start < midEvent.end) ||
