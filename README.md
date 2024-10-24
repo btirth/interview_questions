@@ -153,6 +153,7 @@
 |  |
 | ------- |
 | [0437-path-sum-iii](https://github.com/btirth/interview_questions/tree/master/0437-path-sum-iii) |
+| [0988-flip-equivalent-binary-trees](https://github.com/btirth/interview_questions/tree/master/0988-flip-equivalent-binary-trees) |
 | [1484-linked-list-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1484-linked-list-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/btirth/interview_questions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/btirth/interview_questions/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -161,6 +162,7 @@
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/btirth/interview_questions/tree/master/0386-lexicographical-numbers) |
 | [0437-path-sum-iii](https://github.com/btirth/interview_questions/tree/master/0437-path-sum-iii) |
+| [0988-flip-equivalent-binary-trees](https://github.com/btirth/interview_questions/tree/master/0988-flip-equivalent-binary-trees) |
 | [1484-linked-list-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1484-linked-list-in-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/btirth/interview_questions/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Breadth-First Search
@@ -173,6 +175,7 @@
 |  |
 | ------- |
 | [0437-path-sum-iii](https://github.com/btirth/interview_questions/tree/master/0437-path-sum-iii) |
+| [0988-flip-equivalent-binary-trees](https://github.com/btirth/interview_questions/tree/master/0988-flip-equivalent-binary-trees) |
 | [1484-linked-list-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1484-linked-list-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/btirth/interview_questions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/btirth/interview_questions/tree/master/2677-cousins-in-binary-tree-ii) |
