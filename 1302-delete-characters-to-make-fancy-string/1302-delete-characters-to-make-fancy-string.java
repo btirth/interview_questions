@@ -5,9 +5,7 @@ class Solution {
         int rightPt = 0;
         for(int i=0; i<s.length(); i++) {
             if(sChar[leftPt] == sChar[i]) {
-                if(i - leftPt > 1) {
-
-                } else {
+                if(i - leftPt <= 1) {
                     sChar[rightPt] = sChar[i];
                     rightPt++;
                 }
