@@ -6,6 +6,7 @@ class Solution {
         }
         int n = nums.length;
         for(int i=0; i<n; i++) {
+            boolean needAnotherRound = false;
             for(int j=1; j<n; j++) {
                 if(nums[j] < nums[j-1]) {
                     if(setBitsMap.get(nums[j]) == setBitsMap.get(nums[j-1])) {
@@ -13,7 +14,13 @@ class Solution {
                         nums[j-1] = nums[j];
                         nums[j] = temp;
                     } 
+
+                    needAnotherRound = true;
                 }
+            }
+
+            if(!needAnotherRound) {
+                return true;
             }
         }
 
