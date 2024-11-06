@@ -44,7 +44,6 @@ class Solution {
             bit = bit << 1;
         }
 
-        System.out.println(num+" "+setBits);
         return setBits;
     }
 }
