@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/btirth/interview_questions/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/btirth/interview_questions/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/btirth/interview_questions/tree/master/0539-minimum-time-difference) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/btirth/interview_questions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -253,6 +254,7 @@
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/btirth/interview_questions/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/btirth/interview_questions/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/btirth/interview_questions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0670-maximum-swap](https://github.com/btirth/interview_questions/tree/master/0670-maximum-swap) |
