@@ -1,26 +1,37 @@
 class Solution {
-    public int candy(int[] r) {
-        int ans[]=new int[r.length];
-        for(int i=0;i<r.length;i++)
-            ans[i]=1;
-        
-        //left-right
-        for(int i=1;i<r.length;i++)
-        {
-            if(r[i]>r[i-1] && ans[i]<=ans[i-1])
-                ans[i]=ans[i-1]+1;
+    public int candy(int[] ratings) {
+        int n = ratings.length;
+        int[][] children = new int[n][2];
+        int[] candies = new int[n];
+
+        for(int i=0; i<n; i++) {
+            children[i][0] = i;
+            children[i][1] = ratings[i];
         }
-        
-        //right-left
-        for(int i=r.length-2;i>=0;i--)
-        {
-            if(r[i]>r[i+1] && ans[i]<=ans[i+1])
-                ans[i]=ans[i+1]+1;
+
+        Arrays.sort(children, (a,b) -> Integer.compare(a[1], b[1]));
+        for(int[] child: children) {
+            int idx = child[0];
+            int rating = child[1];
+            int candiesForChild = 1;
+            
+            if(idx>0 && rating > ratings[idx-1]) {
+                candiesForChild = Math.max(candiesForChild, candies[idx-1] + 1);
+            }
+
+            if(idx < n-1 && rating > ratings[idx+1]) {
+                candiesForChild = Math.max(candiesForChild, candies[idx+1] + 1);
+            }
+
+            candies[idx] = candiesForChild;
         }
-        //sum
-        int sum=0;
-        for(int i=0;i<ans.length;i++)
-            sum+=ans[i];
-        return sum;
+
+        int totalCandies = 0;
+
+        for(int candy: candies) {
+            totalCandies += candy;
+        }
+
+        return totalCandies;
     }
 }
