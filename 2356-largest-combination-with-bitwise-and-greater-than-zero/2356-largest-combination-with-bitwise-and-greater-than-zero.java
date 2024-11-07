@@ -1,22 +1,18 @@
 class Solution {
     public int largestCombination(int[] candidates) {
-        int[] bitSetFreq = new int[32];
-
-        for(int candidate: candidates) {
-            int bit = 1;
-            for(int i=0; i<32; i++) {
-                
-                if((candidate & bit) > 0) {
-                    bitSetFreq[i]++;
-                }
-
-                bit = bit << 1;
-            }
-        }
-
         int largestCombination = 0;
-        for(int bit: bitSetFreq) {
-            largestCombination = Math.max(largestCombination, bit);
+        int bit = 1;
+
+        for(int i=0; i<32; i++) {
+            int count = 0;
+            for(int candidate: candidates) {
+                if((candidate & bit) > 0) {
+                    count++;
+                }
+            }
+
+            largestCombination = Math.max(largestCombination, count);
+            bit = bit << 1;
         }
 
         return largestCombination;
