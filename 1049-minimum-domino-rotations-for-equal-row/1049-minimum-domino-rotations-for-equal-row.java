@@ -1,34 +1,27 @@
 class Solution {
     public int minDominoRotations(int[] tops, int[] bottoms) {
-        int[] topsFreq = new int[7];
-        int[] bottomsFreq = new int[7];
+        int minDominoRotations = Math.min(isPossible(tops[0], tops, bottoms), isPossible(bottoms[0], tops, bottoms));
 
-        for(int top: tops) {
-            topsFreq[top]++;
-        }
-
-        for(int bottom: bottoms) {
-            bottomsFreq[bottom]++;
-        }
-
-        int dominoesLength = tops.length;
-        int minDominoRotations = dominoesLength;
-        for(int i=1; i<=6; i++) {
-            if(topsFreq[i] + bottomsFreq[i] >= dominoesLength && isPossible(i, tops, bottoms)) {
-                minDominoRotations = Math.min(minDominoRotations, dominoesLength - Math.max(topsFreq[i], bottomsFreq[i]));
-            }
-        }
-
-        return minDominoRotations == dominoesLength ? -1 : minDominoRotations;
+        return minDominoRotations == Integer.MAX_VALUE ? -1 : minDominoRotations;
     }
 
-    boolean isPossible(int tile, int[] tops, int[] bottoms) {
+    int isPossible(int tile, int[] tops, int[] bottoms) {
+        int topCount = 0;
+        int bottomCount = 0;
         for(int i=0; i<tops.length; i++) {
             if(tops[i] != tile && bottoms[i] != tile) {
-                return false;
+                return Integer.MAX_VALUE;
+            }
+
+            if(tops[i] == tile) {
+                topCount++;
+            }
+
+            if(bottoms[i] == tile) {
+                bottomCount++;
             }
         }
 
-        return true;
+        return tops.length - Math.max(topCount, bottomCount);
     }
 }
