@@ -119,6 +119,7 @@
 | [1302-delete-characters-to-make-fancy-string](https://github.com/btirth/interview_questions/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/btirth/interview_questions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/btirth/interview_questions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1632-number-of-good-ways-to-split-a-string](https://github.com/btirth/interview_questions/tree/master/1632-number-of-good-ways-to-split-a-string) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/btirth/interview_questions/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/btirth/interview_questions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/btirth/interview_questions/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -145,6 +146,7 @@
 | [1256-rank-transform-of-an-array](https://github.com/btirth/interview_questions/tree/master/1256-rank-transform-of-an-array) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/btirth/interview_questions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/btirth/interview_questions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [1632-number-of-good-ways-to-split-a-string](https://github.com/btirth/interview_questions/tree/master/1632-number-of-good-ways-to-split-a-string) |
 | [1694-make-sum-divisible-by-p](https://github.com/btirth/interview_questions/tree/master/1694-make-sum-divisible-by-p) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/btirth/interview_questions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/btirth/interview_questions/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -221,6 +223,7 @@
 | ------- |
 | [1435-xor-queries-of-a-subarray](https://github.com/btirth/interview_questions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/btirth/interview_questions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1632-number-of-good-ways-to-split-a-string](https://github.com/btirth/interview_questions/tree/master/1632-number-of-good-ways-to-split-a-string) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/btirth/interview_questions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/btirth/interview_questions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/btirth/interview_questions/tree/master/2323-minimum-bit-flips-to-convert-number) |
@@ -274,6 +277,7 @@
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/btirth/interview_questions/tree/master/0902-minimum-number-of-refueling-stops) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/btirth/interview_questions/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1632-number-of-good-ways-to-split-a-string](https://github.com/btirth/interview_questions/tree/master/1632-number-of-good-ways-to-split-a-string) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/btirth/interview_questions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2554-minimum-total-distance-traveled](https://github.com/btirth/interview_questions/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/btirth/interview_questions/tree/master/2586-longest-square-streak-in-an-array) |
