@@ -24,6 +24,7 @@
 | [1435-xor-queries-of-a-subarray](https://github.com/btirth/interview_questions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/btirth/interview_questions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/btirth/interview_questions/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/btirth/interview_questions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/btirth/interview_questions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/btirth/interview_questions/tree/master/1694-make-sum-divisible-by-p) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/btirth/interview_questions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -249,6 +250,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/btirth/interview_questions/tree/master/1014-k-closest-points-to-origin) |
 | [1256-rank-transform-of-an-array](https://github.com/btirth/interview_questions/tree/master/1256-rank-transform-of-an-array) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/btirth/interview_questions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/btirth/interview_questions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/btirth/interview_questions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2554-minimum-total-distance-traveled](https://github.com/btirth/interview_questions/tree/master/2554-minimum-total-distance-traveled) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/btirth/interview_questions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -266,6 +268,7 @@
 | [0902-minimum-number-of-refueling-stops](https://github.com/btirth/interview_questions/tree/master/0902-minimum-number-of-refueling-stops) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/btirth/interview_questions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/btirth/interview_questions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/btirth/interview_questions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/btirth/interview_questions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/btirth/interview_questions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2487-optimal-partition-of-string](https://github.com/btirth/interview_questions/tree/master/2487-optimal-partition-of-string) |
