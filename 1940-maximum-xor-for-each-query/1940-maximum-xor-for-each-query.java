@@ -6,14 +6,6 @@ class Solution {
         // 1 1 0
         // 0 0 0
 
-
-        // invert all the bit
-        // 
-        
-        // invert all the bit of total xor
-        // make the bit > 2^maxBit = 0
-
-
         int n = nums.length;
         int currXor = 0;
         int[] maximumXor = new int[n];
