@@ -23,15 +23,16 @@ class Solution {
         int left = 0;
         int right = 0;
         int n = nums.length;
+        int currOr = 0;
         while(right < n) {
             add(nums[right]);
-            while(left<right && canRemove(nums[left])) {
-                remove(nums[left]);
+            currOr |= nums[right];
+            while(left<=right && currOr >= k) {
+                minSubArrayLen = Math.min(minSubArrayLen, right - left + 1);
+                currOr = remove(nums[left]);
                 left++;
             }
             
-            if(getValue() >= k)
-                minSubArrayLen = Math.min(minSubArrayLen, right - left + 1);
             right++;
         }
 
@@ -46,25 +47,13 @@ class Solution {
         }
     }
 
-    void remove(int num) {
+    int remove(int num) {
+        int res = 0;
         for(int i=0; i<32; i++) {
             if((num & (1<<i)) != 0) {
                 bitFreq[i]--;
             }
-        }
-    }
 
-    boolean canRemove(int num) {
-        remove(num);
-        int res = getValue();
-        add(num);
-
-        return res >= k;
-    }
-
-    int getValue() {
-        int res = 0;
-        for(int i=0; i<32; i++) {
             if(bitFreq[i] > 0) {
                 res |= (1<<i);
             }
