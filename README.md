@@ -37,6 +37,7 @@
 | [2132-convert-1d-array-into-2d-array](https://github.com/btirth/interview_questions/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/btirth/interview_questions/tree/master/2155-find-missing-observations) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/btirth/interview_questions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2179-most-beautiful-item-for-each-query](https://github.com/btirth/interview_questions/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/btirth/interview_questions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/btirth/interview_questions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2411-spiral-matrix-iv](https://github.com/btirth/interview_questions/tree/master/2411-spiral-matrix-iv) |
@@ -99,6 +100,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/btirth/interview_questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/btirth/interview_questions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/btirth/interview_questions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2179-most-beautiful-item-for-each-query](https://github.com/btirth/interview_questions/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2586-longest-square-streak-in-an-array](https://github.com/btirth/interview_questions/tree/master/2586-longest-square-streak-in-an-array) |
 | [2716-prime-subtraction-operation](https://github.com/btirth/interview_questions/tree/master/2716-prime-subtraction-operation) |
 ## Prefix Sum
@@ -270,6 +272,7 @@
 | [1256-rank-transform-of-an-array](https://github.com/btirth/interview_questions/tree/master/1256-rank-transform-of-an-array) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/btirth/interview_questions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/btirth/interview_questions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [2179-most-beautiful-item-for-each-query](https://github.com/btirth/interview_questions/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/btirth/interview_questions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2554-minimum-total-distance-traveled](https://github.com/btirth/interview_questions/tree/master/2554-minimum-total-distance-traveled) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/btirth/interview_questions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
