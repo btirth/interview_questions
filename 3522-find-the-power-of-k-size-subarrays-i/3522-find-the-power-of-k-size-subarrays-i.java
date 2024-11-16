@@ -8,8 +8,7 @@ class Solution {
         Deque<Integer> deque = new ArrayDeque<>();
         for(int i=0; i<n; i++) {
             if(i>=k && deque.peekFirst() == nums[i-k]) {
-                System.out.println(deque.pollFirst());
-                
+                deque.pollFirst();
             }
 
             while(!deque.isEmpty() && deque.peekLast() < nums[i]) {
