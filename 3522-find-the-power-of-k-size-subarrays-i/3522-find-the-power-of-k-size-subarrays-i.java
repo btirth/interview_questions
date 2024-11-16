@@ -4,25 +4,26 @@ class Solution {
         int[] ans = new int[n-k+1];
         Arrays.fill(ans, -1);
         int lastMisMatch = -1;
-
-        Deque<Integer> deque = new ArrayDeque<>();
+        int[] maxTrack = new int[n];
+        int maxTrackEndIdx = 0;
+        int maxTrackStartIdx = 0;
         for(int i=0; i<n; i++) {
-            if(i>=k && deque.peekFirst() == nums[i-k]) {
-                deque.pollFirst();
+            if(i>=k && maxTrack[maxTrackStartIdx] == nums[i-k]) {
+                maxTrackStartIdx++;
             }
 
-            while(!deque.isEmpty() && deque.peekLast() < nums[i]) {
-                deque.pollLast();
+            while(maxTrackEndIdx>maxTrackStartIdx && maxTrack[maxTrackEndIdx] < nums[i]) {
+                maxTrackEndIdx--;
             }
 
-            deque.add(nums[i]);
+            maxTrack[maxTrackEndIdx++] = nums[i];
 
             if(i != 0 && nums[i] != nums[i-1] + 1) {
                 lastMisMatch = i-1;
             }
 
             if(lastMisMatch < i-k+1 && i>=k-1) {
-                ans[i-k+1] = deque.peekFirst();
+                ans[i-k+1] = maxTrack[maxTrackStartIdx];
             }
         }
 
