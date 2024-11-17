@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/btirth/interview_questions/tree/master/0053-maximum-subarray) |
 | [0134-gas-station](https://github.com/btirth/interview_questions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/btirth/interview_questions/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
@@ -315,6 +316,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/btirth/interview_questions/tree/master/0053-maximum-subarray) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/btirth/interview_questions/tree/master/0902-minimum-number-of-refueling-stops) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/btirth/interview_questions/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -429,6 +431,7 @@
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/btirth/interview_questions/tree/master/0053-maximum-subarray) |
 | [1014-k-closest-points-to-origin](https://github.com/btirth/interview_questions/tree/master/1014-k-closest-points-to-origin) |
 ## Geometry
 |  |
