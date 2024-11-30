@@ -76,6 +76,7 @@
 |  |
 | ------- |
 | [1325-path-with-maximum-probability](https://github.com/btirth/interview_questions/tree/master/1325-path-with-maximum-probability) |
+| [2201-valid-arrangement-of-pairs](https://github.com/btirth/interview_questions/tree/master/2201-valid-arrangement-of-pairs) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/btirth/interview_questions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/btirth/interview_questions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/btirth/interview_questions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -255,6 +256,7 @@
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/btirth/interview_questions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1484-linked-list-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1484-linked-list-in-binary-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/btirth/interview_questions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
+| [2201-valid-arrangement-of-pairs](https://github.com/btirth/interview_questions/tree/master/2201-valid-arrangement-of-pairs) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/btirth/interview_questions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/btirth/interview_questions/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Breadth-First Search
@@ -492,4 +494,8 @@
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/btirth/interview_questions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+## Eulerian Circuit
+|  |
+| ------- |
+| [2201-valid-arrangement-of-pairs](https://github.com/btirth/interview_questions/tree/master/2201-valid-arrangement-of-pairs) |
 <!---LeetCode Topics End-->
