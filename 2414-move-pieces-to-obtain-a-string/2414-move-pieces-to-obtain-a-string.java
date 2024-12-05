@@ -35,10 +35,6 @@ class Solution {
                 rCount++;
             }
 
-            if(rCount > 0) {
-                return false;
-            }
-
             idx++;
             
         }
