@@ -1,20 +1,19 @@
 class Solution {
     public int maximumSum(int[] arr) {
-        int prefixSum = 0;
+        
         int n = arr.length;
         int[] left = new int[n];
         int[] right = new int[n];
         int maxSum = arr[0];
-        int idx = 0;
-        for(int num: arr) {
+        int prefixSum = 0;
+
+        for(int i=0; i<n; i++) {
             if(prefixSum < 0) {
                 prefixSum = 0;
             }
-            prefixSum += num;
-            
-            left[idx] = prefixSum;
-            maxSum = Math.max(maxSum, num);
-            idx++;
+            prefixSum += arr[i];
+            left[i] = prefixSum;
+            maxSum = Math.max(maxSum, arr[i]);
         }
 
         prefixSum = 0;
