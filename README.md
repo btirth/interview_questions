@@ -7,6 +7,7 @@
 | ------- |
 | [0053-maximum-subarray](https://github.com/btirth/interview_questions/tree/master/0053-maximum-subarray) |
 | [0074-search-a-2d-matrix](https://github.com/btirth/interview_questions/tree/master/0074-search-a-2d-matrix) |
+| [0128-longest-consecutive-sequence](https://github.com/btirth/interview_questions/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/btirth/interview_questions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/btirth/interview_questions/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
@@ -212,6 +213,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/btirth/interview_questions/tree/master/0128-longest-consecutive-sequence) |
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/btirth/interview_questions/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/btirth/interview_questions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -539,4 +541,8 @@
 |  |
 | ------- |
 | [2201-valid-arrangement-of-pairs](https://github.com/btirth/interview_questions/tree/master/2201-valid-arrangement-of-pairs) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/btirth/interview_questions/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
