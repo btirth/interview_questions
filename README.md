@@ -17,6 +17,7 @@
 | [0729-my-calendar-i](https://github.com/btirth/interview_questions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/btirth/interview_questions/tree/master/0731-my-calendar-ii) |
 | [0787-sliding-puzzle](https://github.com/btirth/interview_questions/tree/master/0787-sliding-puzzle) |
+| [0833-bus-routes](https://github.com/btirth/interview_questions/tree/master/0833-bus-routes) |
 | [0859-design-circular-deque](https://github.com/btirth/interview_questions/tree/master/0859-design-circular-deque) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/btirth/interview_questions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/btirth/interview_questions/tree/master/0902-minimum-number-of-refueling-stops) |
@@ -214,6 +215,7 @@
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/btirth/interview_questions/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/btirth/interview_questions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0833-bus-routes](https://github.com/btirth/interview_questions/tree/master/0833-bus-routes) |
 | [0906-walking-robot-simulation](https://github.com/btirth/interview_questions/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/btirth/interview_questions/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/btirth/interview_questions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -287,6 +289,7 @@
 |  |
 | ------- |
 | [0787-sliding-puzzle](https://github.com/btirth/interview_questions/tree/master/0787-sliding-puzzle) |
+| [0833-bus-routes](https://github.com/btirth/interview_questions/tree/master/0833-bus-routes) |
 | [1484-linked-list-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1484-linked-list-in-binary-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/btirth/interview_questions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/btirth/interview_questions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
