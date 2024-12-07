@@ -1,35 +1,51 @@
 class Solution {
+    class Pair implements Comparable<Pair>{
+        int node;
+        double prob;
+
+        Pair(int node, double prob) {
+            this.node = node;
+            this.prob = prob;
+        }
+
+        public int compareTo(Pair p) {
+            return Double.compare(this.prob, p.prob);
+        }
+    }
+
     public double maxProbability(int n, int[][] edges, double[] succProb, int start, int end) {
-        Map<Integer, List<Pair<Integer, Double>>> graph = new HashMap<>();
-        for (int i = 0; i < edges.length; i++) {
-            int u = edges[i][0], v = edges[i][1];
-            double pathProb = succProb[i];
-            graph.computeIfAbsent(u, k -> new ArrayList<>()).add(new Pair<>(v, pathProb));
-            graph.computeIfAbsent(v, k -> new ArrayList<>()).add(new Pair<>(u, pathProb));
+        int[] maxProb = new int[n];
+        PriorityQueue<Pair> pq = new PriorityQueue<>(Collections.reverseOrder());
+        List<Pair>[] adj = new ArrayList[n];
+        boolean[] visited = new boolean[n];
+        for(int i=0; i<n; i++) {
+            adj[i] = new ArrayList<>();
         }
 
-        double[] maxProb = new double[n];
-        maxProb[start] = 1d;
+        for(int i=0; i<edges.length; i++) {
+            int[] edge = edges[i];
+            adj[edge[0]].add(new Pair(edge[1], succProb[i]));
+            adj[edge[1]].add(new Pair(edge[0], succProb[i]));
+        }
 
-        PriorityQueue<Pair<Double, Integer>> pq = new PriorityQueue<>((a, b) -> -Double.compare(a.getKey(), b.getKey()));
-        pq.add(new Pair<>(1.0, start));
-        while (!pq.isEmpty()) {
-            Pair<Double, Integer> cur = pq.poll();
-            double curProb = cur.getKey();
-            int curNode = cur.getValue();
-            if (curNode == end) {
-                return curProb;
+        pq.add(new Pair(start, 1));
+        while(!pq.isEmpty()) {
+            Pair p = pq.poll();
+            if(visited[p.node]) {
+                continue;
             }
-            for (Pair<Integer, Double> nxt : graph.getOrDefault(curNode, new ArrayList<>())) {
-                int nxtNode = nxt.getKey();
-                double pathProb = nxt.getValue();
-                if (curProb * pathProb > maxProb[nxtNode]) {
-                    maxProb[nxtNode] = curProb * pathProb;
-                    pq.add(new Pair<>(maxProb[nxtNode], nxtNode));
-                }
+
+            visited[p.node] = true;
+            double prob = p.prob;
+            if(p.node == end) {
+                return prob;
+            }
+
+            for(Pair next: adj[p.node]) {
+                pq.add(new Pair(next.node, prob * next.prob));
             }
         }
 
-        return 0d;
+        return 0.0;
     }
 }
