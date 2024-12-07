@@ -1,24 +1,33 @@
 class Solution {
+    int[] color;
     public boolean isBipartite(int[][] graph) {
-		int n = graph.length;
-		int[] colors = new int[n];   // 0:not visited; 1 or -1: two colors
-		Deque<Integer> q = new ArrayDeque<>();
-		for (int i = 0; i < n; i++)  // loop for each node
-			if (colors[i] == 0) {    // if not colored (not visited), give a color to the node
-				colors[i] = 1;
-				q.add(i);
-				while (!q.isEmpty()) {  // BFS
-					int current = q.poll();
-					for (int adjacent  : graph[current])  // give the opposite color to all connected nodes
-						if (colors[adjacent] == 0) {
-							colors[adjacent] = -colors[current];
-							q.add(adjacent);
-						} else if (colors[current] == colors[adjacent])
-							return false;
-				}
-			}
-		return true;
-	}
+        int n = graph.length;
+        color = new int[n];
 
-    
+        for(int i=0; i<n; i++) {
+            if(color[i] == 0 && !helper(graph, i, 1)) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    boolean helper(int[][] graph, int idx, int clr) {
+        if(color[idx] != 0) {
+            if(color[idx] != clr) {
+                return false;
+            }
+            return true;
+        }
+
+        color[idx] = clr;
+        for(int next: graph[idx]) {
+            if(!helper(graph, next, clr == 2 ? 1 : 2)) {
+                return false;
+            }
+        }
+
+        return true;
+    }
 }
