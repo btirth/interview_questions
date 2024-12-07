@@ -19,6 +19,10 @@ class Solution {
             }
         }
 
+        // If source/target is not present in any route
+        if(!stationRoutes.containsKey(source) || !stationRoutes.containsKey(target)) {
+            return -1;
+        }
 
         Queue<Integer> stationQueue = new LinkedList<>();
         int buses = 0;
@@ -28,9 +32,7 @@ class Solution {
             int size = stationQueue.size();
             while(size-- > 0) {
                 int station = stationQueue.poll();
-                if(!stationRoutes.containsKey(station)) {
-                    continue;
-                }
+                
                 for(int route: stationRoutes.get(station)) {
                     if(!visited[route]) {
                         visited[route] = true;
