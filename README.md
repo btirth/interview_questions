@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/btirth/interview_questions/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/btirth/interview_questions/tree/master/0053-maximum-subarray) |
 | [0074-search-a-2d-matrix](https://github.com/btirth/interview_questions/tree/master/0074-search-a-2d-matrix) |
 | [0128-longest-consecutive-sequence](https://github.com/btirth/interview_questions/tree/master/0128-longest-consecutive-sequence) |
@@ -393,6 +394,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/btirth/interview_questions/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/btirth/interview_questions/tree/master/0053-maximum-subarray) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/btirth/interview_questions/tree/master/0902-minimum-number-of-refueling-stops) |
@@ -487,6 +489,7 @@
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/btirth/interview_questions/tree/master/0042-trapping-rain-water) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/btirth/interview_questions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/btirth/interview_questions/tree/master/1197-parsing-a-boolean-expression) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/btirth/interview_questions/tree/master/1497-design-a-stack-with-increment-operation) |
@@ -496,6 +499,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/btirth/interview_questions/tree/master/0042-trapping-rain-water) |
 | [0567-permutation-in-string](https://github.com/btirth/interview_questions/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/btirth/interview_questions/tree/master/0658-find-k-closest-elements) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/btirth/interview_questions/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -540,6 +544,7 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/btirth/interview_questions/tree/master/0042-trapping-rain-water) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/btirth/interview_questions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 ## Monotonic Queue
 |  |
