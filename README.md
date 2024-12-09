@@ -9,6 +9,7 @@
 | [0045-jump-game-ii](https://github.com/btirth/interview_questions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/btirth/interview_questions/tree/master/0053-maximum-subarray) |
 | [0074-search-a-2d-matrix](https://github.com/btirth/interview_questions/tree/master/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/btirth/interview_questions/tree/master/0075-sort-colors) |
 | [0128-longest-consecutive-sequence](https://github.com/btirth/interview_questions/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/btirth/interview_questions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/btirth/interview_questions/tree/master/0135-candy) |
@@ -358,6 +359,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/btirth/interview_questions/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/btirth/interview_questions/tree/master/0539-minimum-time-difference) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/btirth/interview_questions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -513,6 +515,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/btirth/interview_questions/tree/master/0042-trapping-rain-water) |
+| [0075-sort-colors](https://github.com/btirth/interview_questions/tree/master/0075-sort-colors) |
 | [0567-permutation-in-string](https://github.com/btirth/interview_questions/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/btirth/interview_questions/tree/master/0658-find-k-closest-elements) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/btirth/interview_questions/tree/master/1468-check-if-n-and-its-double-exist) |
