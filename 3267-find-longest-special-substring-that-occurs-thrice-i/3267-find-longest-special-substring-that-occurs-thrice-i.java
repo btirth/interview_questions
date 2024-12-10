@@ -1,8 +1,8 @@
 class Solution {
-    public int maximumLength(String s) {
-        HashMap<String, Integer> freq = new HashMap<>();
-        int maxLen = 0;
+    HashMap<String, Integer> freq = new HashMap<>();
+    int maxLen = 0;
 
+    public int maximumLength(String s) {
         int l = 0;
         int r = 0;
 
@@ -10,23 +10,12 @@ class Solution {
             if(s.charAt(l) != s.charAt(r)) {
                 l++;
                 while(l < r) {
-                    String substr = s.substring(l, r);
-                    freq.put(substr, freq.getOrDefault(substr, 0) + 1);
-
-                    if(freq.get(substr) >= 3) {
-                        maxLen = Math.max(maxLen, substr.length());
-                    }
+                    helper(s, l, r);
                     l++;
                 }
             } 
-            
-            String substr = s.substring(l, r+1);
-            freq.put(substr, freq.getOrDefault(substr, 0) + 1);
 
-            if(freq.get(substr) >= 3) {
-                maxLen = Math.max(maxLen, substr.length());
-            }
-
+            helper(s, l, r+1);
             if(r-l >= 2)
                 maxLen = Math.max(maxLen, r-l+1-2);
             r++;
@@ -34,15 +23,13 @@ class Solution {
 
         return maxLen == 0 ? -1 : maxLen;
     }
+
+    void helper(String s, int l, int r) {
+        String substr = s.substring(l, r);
+        freq.put(substr, freq.getOrDefault(substr, 0) + 1);
+
+        if(freq.get(substr) >= 3) {
+            maxLen = Math.max(maxLen, substr.length());
+        }
+    }
 }
-
-/**
-aaaa -> 4 2
-aa aa aa
-
-aaaaa -> 5 3
-aaa aaa aaa
-
-aaaaaa -> 6 4
-aaaa aaaa aaaa
- */
