@@ -45,6 +45,7 @@
 | [1477-product-of-the-last-k-numbers](https://github.com/btirth/interview_questions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/btirth/interview_questions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/btirth/interview_questions/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/btirth/interview_questions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/btirth/interview_questions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/btirth/interview_questions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/btirth/interview_questions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
@@ -558,6 +559,7 @@
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/btirth/interview_questions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/btirth/interview_questions/tree/master/1197-parsing-a-boolean-expression) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/btirth/interview_questions/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/btirth/interview_questions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/btirth/interview_questions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1918-maximum-score-of-a-good-subarray](https://github.com/btirth/interview_questions/tree/master/1918-maximum-score-of-a-good-subarray) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/btirth/interview_questions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -617,6 +619,7 @@
 | ------- |
 | [0042-trapping-rain-water](https://github.com/btirth/interview_questions/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/btirth/interview_questions/tree/master/0084-largest-rectangle-in-histogram) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/btirth/interview_questions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/btirth/interview_questions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1918-maximum-score-of-a-good-subarray](https://github.com/btirth/interview_questions/tree/master/1918-maximum-score-of-a-good-subarray) |
 ## Monotonic Queue
