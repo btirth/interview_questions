@@ -320,6 +320,7 @@
 |  |
 | ------- |
 | [0437-path-sum-iii](https://github.com/btirth/interview_questions/tree/master/0437-path-sum-iii) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/btirth/interview_questions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0988-flip-equivalent-binary-trees](https://github.com/btirth/interview_questions/tree/master/0988-flip-equivalent-binary-trees) |
 | [1484-linked-list-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1484-linked-list-in-binary-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/btirth/interview_questions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
@@ -335,6 +336,7 @@
 | [0310-minimum-height-trees](https://github.com/btirth/interview_questions/tree/master/0310-minimum-height-trees) |
 | [0386-lexicographical-numbers](https://github.com/btirth/interview_questions/tree/master/0386-lexicographical-numbers) |
 | [0437-path-sum-iii](https://github.com/btirth/interview_questions/tree/master/0437-path-sum-iii) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/btirth/interview_questions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0801-is-graph-bipartite](https://github.com/btirth/interview_questions/tree/master/0801-is-graph-bipartite) |
 | [0988-flip-equivalent-binary-trees](https://github.com/btirth/interview_questions/tree/master/0988-flip-equivalent-binary-trees) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/btirth/interview_questions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -349,6 +351,7 @@
 |  |
 | ------- |
 | [0310-minimum-height-trees](https://github.com/btirth/interview_questions/tree/master/0310-minimum-height-trees) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/btirth/interview_questions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0787-sliding-puzzle](https://github.com/btirth/interview_questions/tree/master/0787-sliding-puzzle) |
 | [0801-is-graph-bipartite](https://github.com/btirth/interview_questions/tree/master/0801-is-graph-bipartite) |
 | [0833-bus-routes](https://github.com/btirth/interview_questions/tree/master/0833-bus-routes) |
@@ -367,6 +370,7 @@
 |  |
 | ------- |
 | [0437-path-sum-iii](https://github.com/btirth/interview_questions/tree/master/0437-path-sum-iii) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/btirth/interview_questions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0988-flip-equivalent-binary-trees](https://github.com/btirth/interview_questions/tree/master/0988-flip-equivalent-binary-trees) |
 | [1484-linked-list-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1484-linked-list-in-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/btirth/interview_questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
