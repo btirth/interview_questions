@@ -14,32 +14,33 @@
  * }
  */
 class Solution {
-    List<Integer> ans = new ArrayList<>();
-
     public List<Integer> largestValues(TreeNode root) {
-        helper(root, 0);
-        return ans;
-    }
-
-    void helper(TreeNode root, int level) {
+        List<Integer> largestValues = new ArrayList<>();
         if(root == null) {
-            return;
+            return largestValues;
         }
 
-        if(ans.size() <= level) {
-            ans.add(root.val);
-        } else {
-            if(root.val > ans.get((Integer) level)) {
-                ans.set(level, root.val);
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+
+        while(!q.isEmpty()) {
+            int size = q.size();
+            long maxVal = Long.MIN_VALUE;
+            while(size-- > 0) {
+                TreeNode node = q.poll();
+                maxVal = Math.max(maxVal, node.val);
+                if(node.left != null) {
+                    q.add(node.left);
+                }
+
+                if(node.right != null) {
+                    q.add(node.right);
+                }
             }
+
+            largestValues.add((int) maxVal);
         }
 
-        if(root.left != null) {
-            helper(root.left, level+1);
-        }
-
-        if(root.right != null) {
-            helper(root.right, level+1);
-        }
+        return largestValues;
     }
 }
