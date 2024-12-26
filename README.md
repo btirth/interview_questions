@@ -19,6 +19,7 @@
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/btirth/interview_questions/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/btirth/interview_questions/tree/master/0494-target-sum) |
 | [0539-minimum-time-difference](https://github.com/btirth/interview_questions/tree/master/0539-minimum-time-difference) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/btirth/interview_questions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0646-maximum-length-of-pair-chain](https://github.com/btirth/interview_questions/tree/master/0646-maximum-length-of-pair-chain) |
@@ -476,6 +477,7 @@
 | [0072-edit-distance](https://github.com/btirth/interview_questions/tree/master/0072-edit-distance) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0416-partition-equal-subset-sum](https://github.com/btirth/interview_questions/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/btirth/interview_questions/tree/master/0494-target-sum) |
 | [0646-maximum-length-of-pair-chain](https://github.com/btirth/interview_questions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/btirth/interview_questions/tree/master/0902-minimum-number-of-refueling-stops) |
 | [1288-maximum-subarray-sum-with-one-deletion](https://github.com/btirth/interview_questions/tree/master/1288-maximum-subarray-sum-with-one-deletion) |
@@ -614,6 +616,7 @@
 | ------- |
 | [0046-permutations](https://github.com/btirth/interview_questions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/btirth/interview_questions/tree/master/0047-permutations-ii) |
+| [0494-target-sum](https://github.com/btirth/interview_questions/tree/master/0494-target-sum) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/btirth/interview_questions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/btirth/interview_questions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Enumeration
