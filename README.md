@@ -54,6 +54,7 @@
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/btirth/interview_questions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/btirth/interview_questions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1694-make-sum-divisible-by-p](https://github.com/btirth/interview_questions/tree/master/1694-make-sum-divisible-by-p) |
+| [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/btirth/interview_questions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1755-defuse-the-bomb](https://github.com/btirth/interview_questions/tree/master/1755-defuse-the-bomb) |
 | [1762-furthest-building-you-can-reach](https://github.com/btirth/interview_questions/tree/master/1762-furthest-building-you-can-reach) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/btirth/interview_questions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -241,6 +242,7 @@
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/btirth/interview_questions/tree/master/1632-number-of-good-ways-to-split-a-string) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/btirth/interview_questions/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/btirth/interview_questions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
+| [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/btirth/interview_questions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/btirth/interview_questions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1923-sentence-similarity-iii](https://github.com/btirth/interview_questions/tree/master/1923-sentence-similarity-iii) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/btirth/interview_questions/tree/master/2076-sum-of-digits-of-string-after-convert) |
@@ -487,6 +489,7 @@
 | [1288-maximum-subarray-sum-with-one-deletion](https://github.com/btirth/interview_questions/tree/master/1288-maximum-subarray-sum-with-one-deletion) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/btirth/interview_questions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/btirth/interview_questions/tree/master/1632-number-of-good-ways-to-split-a-string) |
+| [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/btirth/interview_questions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/btirth/interview_questions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2164-two-best-non-overlapping-events](https://github.com/btirth/interview_questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2554-minimum-total-distance-traveled](https://github.com/btirth/interview_questions/tree/master/2554-minimum-total-distance-traveled) |
