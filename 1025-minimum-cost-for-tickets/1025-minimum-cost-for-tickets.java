@@ -8,12 +8,13 @@ class Solution {
             
             for(int j=i-1; j>=0; j--) {
                 if(days[i] - days[j] < 7) {
-
                     min = Math.min(dp[j] + costs[1], min);
-                }
+                } 
 
                 if(days[i] - days[j] < 30) {
                     min = Math.min(dp[j] + costs[2], min);
+                } else {
+                    break;
                 }
             }
 
