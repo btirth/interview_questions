@@ -237,6 +237,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/btirth/interview_questions/tree/master/0005-longest-palindromic-substring) |
+| [0013-roman-to-integer](https://github.com/btirth/interview_questions/tree/master/0013-roman-to-integer) |
 | [0072-edit-distance](https://github.com/btirth/interview_questions/tree/master/0072-edit-distance) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/btirth/interview_questions/tree/master/0214-shortest-palindrome) |
@@ -282,6 +283,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/btirth/interview_questions/tree/master/0013-roman-to-integer) |
 | [0128-longest-consecutive-sequence](https://github.com/btirth/interview_questions/tree/master/0128-longest-consecutive-sequence) |
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/btirth/interview_questions/tree/master/0567-permutation-in-string) |
@@ -319,6 +321,7 @@
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/btirth/interview_questions/tree/master/0013-roman-to-integer) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0539-minimum-time-difference](https://github.com/btirth/interview_questions/tree/master/0539-minimum-time-difference) |
 | [0670-maximum-swap](https://github.com/btirth/interview_questions/tree/master/0670-maximum-swap) |
