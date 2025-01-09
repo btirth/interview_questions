@@ -8,24 +8,15 @@ class Solution {
         }
         
         int max = Integer.MIN_VALUE;
-        /**
-        sum + target + outlier = totalSum
-        target + target + outlier = totalSum
-        2 t + o = ts
-        t = (ts - o)/2
-        o = ts - 2t        
-         */
         
         for(int num: nums) {
-            if((sum-num)%2 != 0) {
-                continue;
-            }
-            int sumNum = (sum - num) / 2;
-            if(sumNum>=-1000 && sumNum <= 1000 && freq[sumNum + 1000] > 0) {
-                if(num == sumNum && freq[sumNum + 1000] <= 1) {
+            int outlier = sum - (num*2);
+            if(outlier>=-1000 && outlier <= 1000 && freq[outlier + 1000] > 0) {
+                if(num == outlier && freq[outlier + 1000] == 1) {
                     continue;
                 }
-                max = Math.max(num, max);
+                
+                max = Math.max(outlier, max);
             }
         }
 
