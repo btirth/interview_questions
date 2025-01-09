@@ -21,7 +21,6 @@ class Solution {
                 continue;
             }
             int sumNum = (sum - num) / 2;
-            System.out.println(sum+" "+num+" "+sumNum);
             if(sumNum>=-1000 && sumNum <= 1000 && freq[sumNum + 1000] > 0) {
                 if(num == sumNum && freq[sumNum + 1000] <= 1) {
                     continue;
