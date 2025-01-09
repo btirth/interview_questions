@@ -9,25 +9,11 @@ class Solution {
          */
         int n = nums.length;
         long count = 0;
-        List<Pair<Integer, Double>> list = new ArrayList<>();
-        for(int i=0; i<n; i++) {
-            for(int j=i+2; j<n; j++) {
-                list.add(new Pair(j, 1.0 * nums[i] / nums[j]));
-            }
-        }
-
-        Collections.sort(list, (a,b) -> Integer.compare(a.getKey(), b.getKey()));
-        int currIdx = 0;
         HashMap<Double, Long> freq = new HashMap<>();
         for(int i=4; i<n; i++) {
-            Pair p = list.get(currIdx);
-            while(currIdx < list.size() && (int)p.getKey() < i-1) {
-                freq.put((double)p.getValue(), freq.getOrDefault((double)p.getValue(), (long)0) + 1);
-                currIdx++;
-                if(currIdx == list.size()) {
-                    break;
-                }
-                p = list.get(currIdx);
+            for(int j=i-4; j>=0; j--) {
+                double dividsionPair = 1.0 * nums[j] / nums[i-2];
+                freq.put(dividsionPair, freq.getOrDefault(dividsionPair, (long)0) + 1);
             }
 
             for(int j=i+2; j<n; j++) {
