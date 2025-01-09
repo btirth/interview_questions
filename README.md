@@ -9,6 +9,7 @@
 | [0045-jump-game-ii](https://github.com/btirth/interview_questions/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/btirth/interview_questions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/btirth/interview_questions/tree/master/0047-permutations-ii) |
+| [0049-group-anagrams](https://github.com/btirth/interview_questions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/btirth/interview_questions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/btirth/interview_questions/tree/master/0055-jump-game) |
 | [0074-search-a-2d-matrix](https://github.com/btirth/interview_questions/tree/master/0074-search-a-2d-matrix) |
@@ -244,6 +245,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/btirth/interview_questions/tree/master/0005-longest-palindromic-substring) |
 | [0013-roman-to-integer](https://github.com/btirth/interview_questions/tree/master/0013-roman-to-integer) |
+| [0049-group-anagrams](https://github.com/btirth/interview_questions/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/btirth/interview_questions/tree/master/0072-edit-distance) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/btirth/interview_questions/tree/master/0214-shortest-palindrome) |
@@ -294,6 +296,7 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/btirth/interview_questions/tree/master/0013-roman-to-integer) |
+| [0049-group-anagrams](https://github.com/btirth/interview_questions/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/btirth/interview_questions/tree/master/0128-longest-consecutive-sequence) |
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/btirth/interview_questions/tree/master/0567-permutation-in-string) |
@@ -462,6 +465,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/btirth/interview_questions/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/btirth/interview_questions/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/btirth/interview_questions/tree/master/0539-minimum-time-difference) |
