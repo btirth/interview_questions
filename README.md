@@ -373,6 +373,7 @@
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0437-path-sum-iii](https://github.com/btirth/interview_questions/tree/master/0437-path-sum-iii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/btirth/interview_questions/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0572-subtree-of-another-tree](https://github.com/btirth/interview_questions/tree/master/0572-subtree-of-another-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/btirth/interview_questions/tree/master/0988-flip-equivalent-binary-trees) |
 | [1484-linked-list-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1484-linked-list-in-binary-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/btirth/interview_questions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
@@ -390,6 +391,7 @@
 | [0386-lexicographical-numbers](https://github.com/btirth/interview_questions/tree/master/0386-lexicographical-numbers) |
 | [0437-path-sum-iii](https://github.com/btirth/interview_questions/tree/master/0437-path-sum-iii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/btirth/interview_questions/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0572-subtree-of-another-tree](https://github.com/btirth/interview_questions/tree/master/0572-subtree-of-another-tree) |
 | [0801-is-graph-bipartite](https://github.com/btirth/interview_questions/tree/master/0801-is-graph-bipartite) |
 | [0988-flip-equivalent-binary-trees](https://github.com/btirth/interview_questions/tree/master/0988-flip-equivalent-binary-trees) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/btirth/interview_questions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -425,6 +427,7 @@
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0437-path-sum-iii](https://github.com/btirth/interview_questions/tree/master/0437-path-sum-iii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/btirth/interview_questions/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0572-subtree-of-another-tree](https://github.com/btirth/interview_questions/tree/master/0572-subtree-of-another-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/btirth/interview_questions/tree/master/0988-flip-equivalent-binary-trees) |
 | [1484-linked-list-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1484-linked-list-in-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/btirth/interview_questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -576,6 +579,7 @@
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/btirth/interview_questions/tree/master/0214-shortest-palindrome) |
+| [0572-subtree-of-another-tree](https://github.com/btirth/interview_questions/tree/master/0572-subtree-of-another-tree) |
 | [0812-rotate-string](https://github.com/btirth/interview_questions/tree/master/0812-rotate-string) |
 | [1524-string-matching-in-an-array](https://github.com/btirth/interview_questions/tree/master/1524-string-matching-in-an-array) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/btirth/interview_questions/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
@@ -585,6 +589,7 @@
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/btirth/interview_questions/tree/master/0214-shortest-palindrome) |
+| [0572-subtree-of-another-tree](https://github.com/btirth/interview_questions/tree/master/0572-subtree-of-another-tree) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/btirth/interview_questions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Trie
 |  |
