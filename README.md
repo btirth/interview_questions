@@ -629,6 +629,7 @@
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/btirth/interview_questions/tree/master/0155-min-stack) |
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/btirth/interview_questions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/btirth/interview_questions/tree/master/0731-my-calendar-ii) |
@@ -664,6 +665,7 @@
 | [0042-trapping-rain-water](https://github.com/btirth/interview_questions/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/btirth/interview_questions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0155-min-stack](https://github.com/btirth/interview_questions/tree/master/0155-min-stack) |
 | [0780-max-chunks-to-make-sorted](https://github.com/btirth/interview_questions/tree/master/0780-max-chunks-to-make-sorted) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/btirth/interview_questions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/btirth/interview_questions/tree/master/1197-parsing-a-boolean-expression) |
