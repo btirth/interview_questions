@@ -1,6 +1,4 @@
 class Solution {
-    int[] dp;
-    int n;
     public int maxProfit(int[] prices) {
         /**
         [1,2,3,0,2]
@@ -11,29 +9,47 @@ class Solution {
         
         Recursive calls -> 
         O(n^2)
+
+
+        Now can we convert it into iterative approach ? 
          */
-        n = prices.length;
-        dp = new int[n];
-        Arrays.fill(dp, Integer.MIN_VALUE);
-        return maxProfit(prices, 0); 
+        int n = prices.length;
+        int[] dp = new int[n];
+        int maxProfit = 0;
+        for(int i=n-1; i>=0; i--) {
+            for(int j=i+1; j<n; j++) {
+                dp[i] = Math.max(dp[i], dp[j]);
+                if(j+2 < n) {
+                    dp[i] = Math.max(dp[i], prices[j] - prices[i] + dp[j + 2]);
+                } else {
+                    dp[i] = Math.max(dp[i], prices[j] - prices[i]);
+                }
+            }
+
+            maxProfit = Math.max(maxProfit, dp[i]);
+        }
+
+        return maxProfit; 
     }
 
-    int maxProfit(int[] prices, int startDay) {
-        if(startDay >= n) {
-            return 0;
-        }
-        
-        if(dp[startDay] != Integer.MIN_VALUE) {
-            return dp[startDay];
-        }
 
-        int profit = 0;
-        for(int i=startDay + 1; i<n; i++) {
+    // Apporach 2: Recursive 
+    // int maxProfit(int[] prices, int startDay) {
+    //     if(startDay >= n) {
+    //         return 0;
+    //     }
 
-            profit = Math.max(profit, prices[i] - prices[startDay] + maxProfit(prices, i + 2));
-            profit = Math.max(profit, maxProfit(prices, i));
-        }
+    //     if(dp[startDay] != Integer.MIN_VALUE) {
+    //         return dp[startDay];
+    //     }
 
-        return dp[startDay] = profit;
-    }
+    //     int profit = 0;
+    //     for(int i=startDay + 1; i<n; i++) {
+
+    //         profit = Math.max(profit, prices[i] - prices[startDay] + maxProfit(prices, i + 2));
+    //         profit = Math.max(profit, maxProfit(prices, i));
+    //     }
+
+    //     return dp[startDay] = profit;
+    // }
 }
