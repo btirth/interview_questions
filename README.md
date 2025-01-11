@@ -380,6 +380,7 @@
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/btirth/interview_questions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0437-path-sum-iii](https://github.com/btirth/interview_questions/tree/master/0437-path-sum-iii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/btirth/interview_questions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0572-subtree-of-another-tree](https://github.com/btirth/interview_questions/tree/master/0572-subtree-of-another-tree) |
@@ -396,6 +397,7 @@
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/btirth/interview_questions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0310-minimum-height-trees](https://github.com/btirth/interview_questions/tree/master/0310-minimum-height-trees) |
 | [0386-lexicographical-numbers](https://github.com/btirth/interview_questions/tree/master/0386-lexicographical-numbers) |
 | [0437-path-sum-iii](https://github.com/btirth/interview_questions/tree/master/0437-path-sum-iii) |
@@ -435,6 +437,7 @@
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/btirth/interview_questions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0437-path-sum-iii](https://github.com/btirth/interview_questions/tree/master/0437-path-sum-iii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/btirth/interview_questions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0572-subtree-of-another-tree](https://github.com/btirth/interview_questions/tree/master/0572-subtree-of-another-tree) |
@@ -778,4 +781,8 @@
 |  |
 | ------- |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/btirth/interview_questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/btirth/interview_questions/tree/master/0230-kth-smallest-element-in-a-bst) |
 <!---LeetCode Topics End-->
