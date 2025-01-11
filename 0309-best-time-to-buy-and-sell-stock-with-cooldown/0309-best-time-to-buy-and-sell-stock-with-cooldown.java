@@ -1,25 +1,25 @@
 class Solution {
-    Integer[][] dp;
+    
     public int maxProfit(int[] prices) {
-        dp = new Integer[prices.length][2];
-        return helper(prices, 0, 1);
+        int n = prices.length;
+        int[][] dp = new int[n + 2][2];
+        
+        for(int idx=n-1; idx>=0; idx--) {
+            dp[idx][1] = Math.max(dp[idx + 1][1], dp[idx + 1][0] - prices[idx]);
+            dp[idx][0] = Math.max(dp[idx + 1][0], prices[idx] + dp[idx + 2][1]);
+        }
+        return dp[0][1];
     }
 
-    int helper(int[] prices, int idx, int buy) {
-        if(idx >= prices.length) {
-            return 0;
-        }
+    // int helper(int[] prices, int idx, int buy) {
+      
 
-        if(dp[idx][buy] != null) {
-            return (int) dp[idx][buy];
-        }
+    //     int cooldown = helper(prices, idx + 1, buy);
 
-        int cooldown = helper(prices, idx + 1, buy);
-
-        if(buy == 1) {
-            return dp[idx][buy] = Math.max(cooldown, helper(prices, idx + 1, 0) - prices[idx]);
-        } else {
-            return dp[idx][buy] = Math.max(cooldown, prices[idx] + helper(prices, idx + 2, 1));
-        }
-    }
+    //     if(buy == 1) {
+    //         return dp[idx][buy] = Math.max(cooldown, helper(prices, idx + 1, 0) - prices[idx]);
+    //     } else {
+    //         return dp[idx][buy] = Math.max(cooldown, prices[idx] + helper(prices, idx + 2, 1));
+    //     }
+    // }
 }
