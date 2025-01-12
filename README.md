@@ -71,6 +71,7 @@
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/btirth/interview_questions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/btirth/interview_questions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1694-make-sum-divisible-by-p](https://github.com/btirth/interview_questions/tree/master/1694-make-sum-divisible-by-p) |
+| [1706-min-cost-to-connect-all-points](https://github.com/btirth/interview_questions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/btirth/interview_questions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1755-defuse-the-bomb](https://github.com/btirth/interview_questions/tree/master/1755-defuse-the-bomb) |
 | [1762-furthest-building-you-can-reach](https://github.com/btirth/interview_questions/tree/master/1762-furthest-building-you-can-reach) |
@@ -139,6 +140,7 @@
 | [0310-minimum-height-trees](https://github.com/btirth/interview_questions/tree/master/0310-minimum-height-trees) |
 | [0801-is-graph-bipartite](https://github.com/btirth/interview_questions/tree/master/0801-is-graph-bipartite) |
 | [1325-path-with-maximum-probability](https://github.com/btirth/interview_questions/tree/master/1325-path-with-maximum-probability) |
+| [1706-min-cost-to-connect-all-points](https://github.com/btirth/interview_questions/tree/master/1706-min-cost-to-connect-all-points) |
 | [2201-valid-arrangement-of-pairs](https://github.com/btirth/interview_questions/tree/master/2201-valid-arrangement-of-pairs) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/btirth/interview_questions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/btirth/interview_questions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -796,6 +798,7 @@
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/btirth/interview_questions/tree/master/0128-longest-consecutive-sequence) |
 | [0801-is-graph-bipartite](https://github.com/btirth/interview_questions/tree/master/0801-is-graph-bipartite) |
+| [1706-min-cost-to-connect-all-points](https://github.com/btirth/interview_questions/tree/master/1706-min-cost-to-connect-all-points) |
 ## Database
 |  |
 | ------- |
@@ -808,4 +811,8 @@
 |  |
 | ------- |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/btirth/interview_questions/tree/master/0230-kth-smallest-element-in-a-bst) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/btirth/interview_questions/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
