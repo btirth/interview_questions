@@ -1,36 +1,27 @@
 class Solution {
     public boolean isInterleave(String s1, String s2, String s3) {
-        int l1 = s1.length();
-        int l2 = s2.length();
-        int l3 = s3.length();
+        int m = s1.length();
+        int n = s2.length();
 
-        if(l1+l2 != l3) {
+        if(m + n != s3.length()) {
             return false;
         }
 
-        boolean[][] dp = new boolean[l1+1][l2+1];
-        dp[0][0] = true;
+        boolean[][] dp = new boolean[m+1][n+1];
+        dp[m][n] = true;
 
-        for(int i=1; i<=l1; i++) {
-            dp[i][0] = dp[i-1][0] && s1.charAt(i-1) == s3.charAt(i-1);
-        }
-
-        for(int i=1; i<=l2; i++) {
-            dp[0][i] = dp[0][i-1] && s2.charAt(i-1) == s3.charAt(i-1);
-        }
-
-        for(int i=1; i<=l1; i++) {
-            for(int j=1; j<=l2; j++) {
-                if(s1.charAt(i-1) == s3.charAt(i+j-1) && dp[i-1][j]) {
+        for(int i=m; i>=0; i--) {
+            for(int j=n; j>=0; j--) {
+                if(i<m && s1.charAt(i) == s3.charAt(i + j) && dp[i+1][j]) {
                     dp[i][j] = true;
                 }
 
-                if(s2.charAt(j-1) == s3.charAt(i+j-1) && dp[i][j-1]) {
+                if(j<n && s2.charAt(j) == s3.charAt(i + j) && dp[i][j+1]) {
                     dp[i][j] = true;
                 }
             }
         }
 
-        return dp[l1][l2];
+        return dp[0][0];
     }
 }
