@@ -1,26 +1,35 @@
 class Solution {
     public int minCostConnectPoints(int[][] points) {
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b) -> Integer.compare(a[1], b[1]));
-        pq.add(new int[]{0,0});
+        int n = points.length;
+        int[] dist = new int[n];
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        dist[0] = 0;
+
+        int node = 0;
+        boolean[] visited = new boolean[n];
+        int totalVisited = 0;
         int totalCost = 0;
-        int len = points.length;
-        boolean[] visited = new boolean[len];
-        
-        while(!pq.isEmpty()) {
-            int[] pt = pq.poll();
-            int idx = pt[0];
-            int currCost = pt[1];
-            if(visited[idx]) {
-                continue;
-            }
-            visited[idx] = true;
-            totalCost += currCost;
-            for(int i=0; i<len; i++) {
-                if(i != idx && !visited[i]) {
-                    int cost = Math.abs(points[idx][0]-points[i][0]) + Math.abs(points[idx][1]-points[i][1]);
-                    pq.add(new int[]{i, cost});
+
+        while(totalVisited < n) {
+            visited[node] = true;
+            totalVisited++;
+            totalCost += dist[node];
+
+            int nextNode = -1;
+    
+            for(int i=0; i<n; i++) {
+                if(visited[i]) {
+                    continue;
+                }
+
+                dist[i] = Math.min(dist[i], Math.abs(points[node][0] - points[i][0]) + Math.abs(points[node][1] - points[i][1]));
+
+                if(nextNode == - 1 || dist[nextNode] > dist[i]) {
+                    nextNode = i;
                 }
             }
+
+            node = nextNode;
         }
 
         return totalCost;
