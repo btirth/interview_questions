@@ -1,27 +1,28 @@
 class Solution {
     public int minCostConnectPoints(int[][] points) {
-        int n = points.length;
-        int cost = 0;
-        PriorityQueue<Integer[]> pq = new PriorityQueue<>((a,b) -> Integer.compare(a[0], b[0]));
-        HashSet<Integer> visited = new HashSet<>();
-        pq.add(new Integer[]{0,0});
-        while(visited.size() < n) {
-            Integer[] pt = pq.remove();
-            if(visited.contains(pt[1])) {
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b) -> Integer.compare(a[1], b[1]));
+        pq.add(new int[]{0,0});
+        int totalCost = 0;
+        int len = points.length;
+        boolean[] visited = new boolean[len];
+        
+        while(!pq.isEmpty()) {
+            int[] pt = pq.poll();
+            int idx = pt[0];
+            int currCost = pt[1];
+            if(visited[idx]) {
                 continue;
             }
-
-            cost += pt[0];
-            visited.add(pt[1]);
-
-            for(int i=0; i<n; i++) {
-               if(!visited.contains(i)) {
-                   int dist = Math.abs(points[pt[1]][0] - points[i][0]) + Math.abs(points[pt[1]][1] - points[i][1]);
-                   pq.add(new Integer[]{dist, i});
-               }
+            visited[idx] = true;
+            totalCost += currCost;
+            for(int i=0; i<len; i++) {
+                if(i != idx && !visited[i]) {
+                    int cost = Math.abs(points[idx][0]-points[i][0]) + Math.abs(points[idx][1]-points[i][1]);
+                    pq.add(new int[]{i, cost});
+                }
             }
         }
 
-        return cost;
+        return totalCost;
     }
 }
