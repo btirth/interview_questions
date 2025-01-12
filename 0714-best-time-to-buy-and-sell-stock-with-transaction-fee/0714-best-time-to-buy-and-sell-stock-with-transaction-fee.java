@@ -1,29 +1,27 @@
 class Solution {
+    Integer[][] dp;
     public int maxProfit(int[] prices, int fee) {
-        int[][] dp = new int[2][prices.length];
-        Arrays.fill(dp[0], -1);
-        Arrays.fill(dp[1], -1);
-
-        return buySell(prices, 0, true, fee, dp);
+        dp = new Integer[prices.length][2];
+        return helper(prices, fee, 1, 0);
+        
     }
 
-    int buySell(int[] prices, int idx, boolean buy, int fee, int[][] dp) {
+    int helper(int[] prices, int fee, int buy, int idx) {
         if(idx == prices.length) {
             return 0;
         }
 
-        if(dp[buy ? 0 : 1][idx] != -1) {
-            return dp[buy ? 0 : 1][idx];
+        if(dp[idx][buy] != null) {
+            return dp[idx][buy];
         }
 
-        if(buy) {
-            return dp[buy ? 0 : 1][idx] = 
-                        Math.max(buySell(prices, idx+1, false, fee, dp) - prices[idx], 
-                            buySell(prices, idx+1, true, fee, dp));
+        int maxProfit = helper(prices, fee, buy, idx+1);
+        if(buy == 1) {
+            maxProfit = Math.max(maxProfit, - prices[idx] + helper(prices, fee, 0, idx + 1));
+            return dp[idx][buy] = maxProfit;
         } else {
-            return dp[buy ? 0 : 1][idx] = 
-                        Math.max(buySell(prices, idx+1, true, fee, dp) + prices[idx] - fee, 
-                            buySell(prices, idx+1, false, fee, dp));
+            maxProfit = Math.max(maxProfit, prices[idx] - fee + helper(prices, fee, 1, idx + 1));
+            return dp[idx][buy] = maxProfit;
         }
     }
 }
