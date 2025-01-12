@@ -328,6 +328,7 @@
 | [0049-group-anagrams](https://github.com/btirth/interview_questions/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/btirth/interview_questions/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/btirth/interview_questions/tree/master/0128-longest-consecutive-sequence) |
+| [0146-lru-cache](https://github.com/btirth/interview_questions/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/btirth/interview_questions/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/btirth/interview_questions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -386,6 +387,7 @@
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/btirth/interview_questions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0146-lru-cache](https://github.com/btirth/interview_questions/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/btirth/interview_questions/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/btirth/interview_questions/tree/master/0859-design-circular-deque) |
@@ -675,6 +677,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/btirth/interview_questions/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/btirth/interview_questions/tree/master/0155-min-stack) |
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/btirth/interview_questions/tree/master/0729-my-calendar-i) |
@@ -704,6 +707,7 @@
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/btirth/interview_questions/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
 ## Stack
 |  |
