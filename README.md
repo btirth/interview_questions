@@ -28,6 +28,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/btirth/interview_questions/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/btirth/interview_questions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/btirth/interview_questions/tree/master/0322-coin-change) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/btirth/interview_questions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0416-partition-equal-subset-sum](https://github.com/btirth/interview_questions/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/btirth/interview_questions/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/btirth/interview_questions/tree/master/0518-coin-change-ii) |
@@ -149,6 +150,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/btirth/interview_questions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/btirth/interview_questions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/btirth/interview_questions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0658-find-k-closest-elements](https://github.com/btirth/interview_questions/tree/master/0658-find-k-closest-elements) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/btirth/interview_questions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
