@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/btirth/interview_questions/tree/master/0015-3sum) |
 | [0036-valid-sudoku](https://github.com/btirth/interview_questions/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/btirth/interview_questions/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/btirth/interview_questions/tree/master/0042-trapping-rain-water) |
@@ -506,6 +507,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/btirth/interview_questions/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/btirth/interview_questions/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/btirth/interview_questions/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
@@ -721,6 +723,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/btirth/interview_questions/tree/master/0005-longest-palindromic-substring) |
+| [0015-3sum](https://github.com/btirth/interview_questions/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/btirth/interview_questions/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/btirth/interview_questions/tree/master/0075-sort-colors) |
 | [0567-permutation-in-string](https://github.com/btirth/interview_questions/tree/master/0567-permutation-in-string) |
