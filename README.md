@@ -394,6 +394,7 @@
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/btirth/interview_questions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0143-reorder-list](https://github.com/btirth/interview_questions/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/btirth/interview_questions/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/btirth/interview_questions/tree/master/0725-split-linked-list-in-parts) |
@@ -624,6 +625,7 @@
 |  |
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/btirth/interview_questions/tree/master/0025-reverse-nodes-in-k-group) |
+| [0143-reorder-list](https://github.com/btirth/interview_questions/tree/master/0143-reorder-list) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [1197-parsing-a-boolean-expression](https://github.com/btirth/interview_questions/tree/master/1197-parsing-a-boolean-expression) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/btirth/interview_questions/tree/master/1667-find-kth-bit-in-nth-binary-string) |
@@ -724,6 +726,7 @@
 | [0042-trapping-rain-water](https://github.com/btirth/interview_questions/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/btirth/interview_questions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0143-reorder-list](https://github.com/btirth/interview_questions/tree/master/0143-reorder-list) |
 | [0155-min-stack](https://github.com/btirth/interview_questions/tree/master/0155-min-stack) |
 | [0780-max-chunks-to-make-sorted](https://github.com/btirth/interview_questions/tree/master/0780-max-chunks-to-make-sorted) |
 | [0883-car-fleet](https://github.com/btirth/interview_questions/tree/master/0883-car-fleet) |
@@ -744,6 +747,7 @@
 | [0015-3sum](https://github.com/btirth/interview_questions/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/btirth/interview_questions/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/btirth/interview_questions/tree/master/0075-sort-colors) |
+| [0143-reorder-list](https://github.com/btirth/interview_questions/tree/master/0143-reorder-list) |
 | [0567-permutation-in-string](https://github.com/btirth/interview_questions/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/btirth/interview_questions/tree/master/0658-find-k-closest-elements) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/btirth/interview_questions/tree/master/1468-check-if-n-and-its-double-exist) |
