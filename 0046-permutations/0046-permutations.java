@@ -1,40 +1,38 @@
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
         /**
-            nums = [1,2,3]
-            [1,2,3]
-            [2,1,3]
-            [3,2,1]
+        [1,2,3]
+        [2,1,3]
+        [3,2,1]
 
-            [1,3,2]
-            [2,3,1]
-            [3,1,2]
+        [1,3,2]
+        [2,3,1]
+        [3,1,2]
 
          */
-        List<List<Integer>> ans = new ArrayList<>();
-        List<Integer> curr = new ArrayList<>();
+        int n = nums.length;
+        List<List<Integer>> ans = new ArrayList<>(); 
+        List<Integer> firstList = new ArrayList<>();
         for(int num: nums) {
-            curr.add(num);
+            firstList.add(num);
         }
-        ans.add(new ArrayList<>(curr));
+        ans.add(firstList);
+        for(int i=0; i<n; i++) {
+            List<List<Integer>> newAns = new ArrayList<>(); 
+            for(int j=i+1; j<n; j++) {
+                for(List<Integer> list: ans) {
+                    List<Integer> newList = new ArrayList<>(list);
+                    int temp1 = newList.get(i);
+                    int temp2 = newList.get(j);
 
-        for(int i=0; i<nums.length; i++) {
-            List<List<Integer>> newSubsets = new ArrayList<>();
-            for(int j=i+1; j<nums.length; j++) {
-                for(List<Integer> subset: ans) {
-                    int temp = subset.get(i);
-                    subset.set(i, subset.get(j));
-                    subset.set(j, temp);
+                    newList.set(i, temp2);
+                    newList.set(j, temp1);
 
-                    newSubsets.add(new ArrayList<>(subset));
-
-                    temp = subset.get(i);
-                    subset.set(i, subset.get(j));
-                    subset.set(j, temp);
+                    newAns.add(newList);
                 }
             }
 
-            ans.addAll(newSubsets);
+            ans.addAll(newAns);
         }
 
         return ans;
