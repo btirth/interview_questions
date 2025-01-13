@@ -10,15 +10,16 @@ class Solution {
 
         Arrays.sort(pairs, (a,b) -> Integer.compare(b[0], a[0]));
 
-        Stack<Double> stack = new Stack<>();
-
+        double previous = 0;
+        int count = 0;
         for(int i=0; i<n; i++) {
             double timeItReach = (double)(target - pairs[i][0]) / pairs[i][1];
-            if(stack.isEmpty() || timeItReach > stack.peek()) {
-                stack.push(timeItReach);
+            if(timeItReach > previous) {
+                previous = timeItReach;
+                count++;
             }
         }
 
-        return stack.size();
+        return count;
     }
 }
