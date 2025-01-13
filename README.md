@@ -13,6 +13,7 @@
 | [0046-permutations](https://github.com/btirth/interview_questions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/btirth/interview_questions/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/btirth/interview_questions/tree/master/0049-group-anagrams) |
+| [0051-n-queens](https://github.com/btirth/interview_questions/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/btirth/interview_questions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/btirth/interview_questions/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/btirth/interview_questions/tree/master/0057-insert-interval) |
@@ -764,6 +765,7 @@
 | [0039-combination-sum](https://github.com/btirth/interview_questions/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/btirth/interview_questions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/btirth/interview_questions/tree/master/0047-permutations-ii) |
+| [0051-n-queens](https://github.com/btirth/interview_questions/tree/master/0051-n-queens) |
 | [0494-target-sum](https://github.com/btirth/interview_questions/tree/master/0494-target-sum) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/btirth/interview_questions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/btirth/interview_questions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
