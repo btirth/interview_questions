@@ -1,27 +1,28 @@
 class Solution {
     public int reverse(int x) {
-        int max = Integer.MAX_VALUE;
-        int min = Integer.MIN_VALUE;
-        boolean isNeg = x<0;
-        x = Math.abs(x);
-        int res = 0;
+        long val = 0;
+        int idx = 10;
+        boolean isNeg = x < 0;
+        x =  Math.abs(x);
 
         while(x > 0) {
-            int digit = x%10;
-            x = x/10;
+            int leastSignificantDigit = x%10;
+            x /= 10;
 
-            if(res > max/10 || (res == max/10 && digit > max%10)) {
-                return 0;
-            }
+            val = (val * idx) + (leastSignificantDigit);
+        }
 
-            if(res < min/10 || (res == min/10 && digit < min%10)) {
-                return 0;
-            }
+        if(!isNeg && val > Integer.MAX_VALUE) {
+            return 0;
+        }
 
-            res *= 10;
-            res += digit;
-        } 
-    
-        return isNeg ? -1*res : res;
+        if(isNeg && (-1*val) < Integer.MIN_VALUE) {
+            return 0;
+        }
+
+        if(isNeg) {
+            return -1*(int)val;
+        }
+        return (int)val;
     }
 }
