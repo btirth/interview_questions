@@ -375,6 +375,7 @@
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/btirth/interview_questions/tree/master/0007-reverse-integer) |
 | [0013-roman-to-integer](https://github.com/btirth/interview_questions/tree/master/0013-roman-to-integer) |
 | [0066-plus-one](https://github.com/btirth/interview_questions/tree/master/0066-plus-one) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
