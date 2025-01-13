@@ -1,45 +1,54 @@
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        // Binary Search
-        int m = matrix.length;
-        int n = matrix[0].length;
-
-        int top = 0;
-        int bottom = m-1;
-        int row = -1;
-        while(top <= bottom) {
-            int mid = (top + bottom)/2;
-
-            if(target >= matrix[mid][0] && target <= matrix[mid][n-1]) {
-                row = mid;
-                break;
-            } else if(target < matrix[mid][0]) {
-                bottom = mid - 1;
-            } else if(target > matrix[mid][n-1]) {
-                top = mid + 1;
-            } else {
-                return false;
-            }
-        }
-
+        int row = binarySearchRow(matrix, target);
         if(row == -1) {
             return false;
         }
-        
-        int left = 0;
-        int right = n-1;
 
+        int col = binarySearchCol(matrix, row, target);
+
+        if(col == -1) {
+            return false;
+        }
+
+        return true;
+    }
+
+    int binarySearchRow(int[][] matrix, int target) {
+        int up = 0;
+        int down = matrix.length - 1;
+        int n = matrix[0].length - 1;
+
+        while(up <= down) {
+            int mid = (up + down) / 2;
+            if(matrix[mid][n] >= target && (mid == 0 || matrix[mid - 1][n] < target)) {
+                return mid;
+            } else if(matrix[mid][n] > target) {
+                down = mid - 1;
+            } else {
+                up = mid + 1;
+            }
+        }
+
+        return -1;
+    }
+
+    int binarySearchCol(int[][] matrix, int row, int target) {
+    
+        int left = 0;
+        int right = matrix[0].length - 1;
+    
         while(left <= right) {
-            int mid = (right + left)/2;
-            if(target == matrix[row][mid]) {
-                return true;
-            } else if(target < matrix[row][mid]) {
-                right = mid-1;
-            } else if(target > matrix[row][mid]) {
+            int mid = (right + left) / 2;
+            if(matrix[row][mid] == target) {
+                return mid;
+            } else if(matrix[row][mid] > target) {
+                right = mid - 1;
+            } else {
                 left = mid + 1;
             }
         }
 
-        return false;
+        return -1;
     }
 }
