@@ -385,6 +385,7 @@
 | ------- |
 | [0007-reverse-integer](https://github.com/btirth/interview_questions/tree/master/0007-reverse-integer) |
 | [0013-roman-to-integer](https://github.com/btirth/interview_questions/tree/master/0013-roman-to-integer) |
+| [0050-powx-n](https://github.com/btirth/interview_questions/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/btirth/interview_questions/tree/master/0066-plus-one) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0539-minimum-time-difference](https://github.com/btirth/interview_questions/tree/master/0539-minimum-time-difference) |
@@ -642,6 +643,7 @@
 |  |
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/btirth/interview_questions/tree/master/0025-reverse-nodes-in-k-group) |
+| [0050-powx-n](https://github.com/btirth/interview_questions/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/btirth/interview_questions/tree/master/0143-reorder-list) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [1197-parsing-a-boolean-expression](https://github.com/btirth/interview_questions/tree/master/1197-parsing-a-boolean-expression) |
