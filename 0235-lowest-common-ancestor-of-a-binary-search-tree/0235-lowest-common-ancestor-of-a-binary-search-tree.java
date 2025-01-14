@@ -10,25 +10,21 @@
 
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if(p.val>q.val) {
-            return helper(root, q, p);
-        }
-        
-        return helper(root, p, q);
-    }
-
-    TreeNode helper(TreeNode root, TreeNode p, TreeNode q) {
-        if(root == null) {
-            return null;
+        if(p.val > q.val) {
+            return lowestCommonAncestor(root, q, p);
         }
 
-        if(root.val == p.val || root.val == q.val || (root.val > p.val && root.val < q.val)) {
-            // this is ans
-            return root;
-        } else if(root.val < p.val) {
-            return helper(root.right, p, q);
-        } else {
-            return helper(root.left, p, q);
+        while(root != null) {
+            if(root.val == p.val || root.val == q.val || (root.val > p.val && root.val < q.val)) {
+                // this is ans
+                return root;
+            } else if(root.val < p.val) {
+                root = root.right;
+            } else {
+                root = root.left;
+            }
         }
+
+        return null;
     }
 }
