@@ -1,5 +1,4 @@
 class Solution {
-    HashMap<Long, Double> processed = new HashMap<>();
     public double myPow(double x, int n) {
         return pow(x, n);
     }
@@ -12,22 +11,14 @@ class Solution {
             return 1;
         }
 
-        if(processed.containsKey(n)) {
-            return processed.get(n);
-        }
-
         double val;
         if(n%2 == 1) {
             val = x * pow(x, n-1);
         } else {
-            val = pow(x, n/2) * pow(x, n/2);
+            double tempVal = pow(x, n/2);
+            val = tempVal * tempVal;
         }
 
-        if(isNeg) {
-            val = 1/val;
-        }
-
-        processed.put(n, val);
-        return val;
+        return isNeg ? 1/val : val;
     }
 }
