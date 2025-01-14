@@ -428,6 +428,7 @@
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/btirth/interview_questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/btirth/interview_questions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/btirth/interview_questions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0437-path-sum-iii](https://github.com/btirth/interview_questions/tree/master/0437-path-sum-iii) |
@@ -447,6 +448,7 @@
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/btirth/interview_questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/btirth/interview_questions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/btirth/interview_questions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0310-minimum-height-trees](https://github.com/btirth/interview_questions/tree/master/0310-minimum-height-trees) |
@@ -495,6 +497,7 @@
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/btirth/interview_questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/btirth/interview_questions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/btirth/interview_questions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0437-path-sum-iii](https://github.com/btirth/interview_questions/tree/master/0437-path-sum-iii) |
@@ -628,6 +631,7 @@
 | [0055-jump-game](https://github.com/btirth/interview_questions/tree/master/0055-jump-game) |
 | [0072-edit-distance](https://github.com/btirth/interview_questions/tree/master/0072-edit-distance) |
 | [0097-interleaving-string](https://github.com/btirth/interview_questions/tree/master/0097-interleaving-string) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/btirth/interview_questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/btirth/interview_questions/tree/master/0198-house-robber) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0300-longest-increasing-subsequence](https://github.com/btirth/interview_questions/tree/master/0300-longest-increasing-subsequence) |
