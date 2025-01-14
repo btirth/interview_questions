@@ -35,6 +35,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/btirth/interview_questions/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/btirth/interview_questions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/btirth/interview_questions/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/btirth/interview_questions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/btirth/interview_questions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0416-partition-equal-subset-sum](https://github.com/btirth/interview_questions/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/btirth/interview_questions/tree/master/0494-target-sum) |
@@ -148,6 +149,7 @@
 |  |
 | ------- |
 | [0310-minimum-height-trees](https://github.com/btirth/interview_questions/tree/master/0310-minimum-height-trees) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/btirth/interview_questions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0684-redundant-connection](https://github.com/btirth/interview_questions/tree/master/0684-redundant-connection) |
 | [0801-is-graph-bipartite](https://github.com/btirth/interview_questions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/btirth/interview_questions/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -203,6 +205,7 @@
 | [0073-set-matrix-zeroes](https://github.com/btirth/interview_questions/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/btirth/interview_questions/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/btirth/interview_questions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0787-sliding-puzzle](https://github.com/btirth/interview_questions/tree/master/0787-sliding-puzzle) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/btirth/interview_questions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/btirth/interview_questions/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -445,6 +448,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/btirth/interview_questions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/btirth/interview_questions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0310-minimum-height-trees](https://github.com/btirth/interview_questions/tree/master/0310-minimum-height-trees) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/btirth/interview_questions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0386-lexicographical-numbers](https://github.com/btirth/interview_questions/tree/master/0386-lexicographical-numbers) |
 | [0437-path-sum-iii](https://github.com/btirth/interview_questions/tree/master/0437-path-sum-iii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/btirth/interview_questions/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -467,6 +471,7 @@
 | ------- |
 | [0310-minimum-height-trees](https://github.com/btirth/interview_questions/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/btirth/interview_questions/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/btirth/interview_questions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/btirth/interview_questions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0684-redundant-connection](https://github.com/btirth/interview_questions/tree/master/0684-redundant-connection) |
 | [0787-sliding-puzzle](https://github.com/btirth/interview_questions/tree/master/0787-sliding-puzzle) |
@@ -626,6 +631,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/btirth/interview_questions/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/btirth/interview_questions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/btirth/interview_questions/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/btirth/interview_questions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0416-partition-equal-subset-sum](https://github.com/btirth/interview_questions/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/btirth/interview_questions/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/btirth/interview_questions/tree/master/0518-coin-change-ii) |
@@ -659,6 +665,7 @@
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/btirth/interview_questions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -694,6 +701,7 @@
 |  |
 | ------- |
 | [0310-minimum-height-trees](https://github.com/btirth/interview_questions/tree/master/0310-minimum-height-trees) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/btirth/interview_questions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/btirth/interview_questions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Sliding Window
 |  |
