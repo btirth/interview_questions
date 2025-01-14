@@ -51,6 +51,7 @@
 | [0731-my-calendar-ii](https://github.com/btirth/interview_questions/tree/master/0731-my-calendar-ii) |
 | [0780-max-chunks-to-make-sorted](https://github.com/btirth/interview_questions/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/btirth/interview_questions/tree/master/0787-sliding-puzzle) |
+| [0794-swim-in-rising-water](https://github.com/btirth/interview_questions/tree/master/0794-swim-in-rising-water) |
 | [0833-bus-routes](https://github.com/btirth/interview_questions/tree/master/0833-bus-routes) |
 | [0859-design-circular-deque](https://github.com/btirth/interview_questions/tree/master/0859-design-circular-deque) |
 | [0876-hand-of-straights](https://github.com/btirth/interview_questions/tree/master/0876-hand-of-straights) |
@@ -172,6 +173,7 @@
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/btirth/interview_questions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/btirth/interview_questions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0658-find-k-closest-elements](https://github.com/btirth/interview_questions/tree/master/0658-find-k-closest-elements) |
+| [0794-swim-in-rising-water](https://github.com/btirth/interview_questions/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/btirth/interview_questions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/btirth/interview_questions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/btirth/interview_questions/tree/master/0902-minimum-number-of-refueling-stops) |
@@ -208,6 +210,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/btirth/interview_questions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0787-sliding-puzzle](https://github.com/btirth/interview_questions/tree/master/0787-sliding-puzzle) |
+| [0794-swim-in-rising-water](https://github.com/btirth/interview_questions/tree/master/0794-swim-in-rising-water) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/btirth/interview_questions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/btirth/interview_questions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1972-rotating-the-box](https://github.com/btirth/interview_questions/tree/master/1972-rotating-the-box) |
@@ -242,6 +245,7 @@
 | [0658-find-k-closest-elements](https://github.com/btirth/interview_questions/tree/master/0658-find-k-closest-elements) |
 | [0729-my-calendar-i](https://github.com/btirth/interview_questions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/btirth/interview_questions/tree/master/0731-my-calendar-ii) |
+| [0794-swim-in-rising-water](https://github.com/btirth/interview_questions/tree/master/0794-swim-in-rising-water) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/btirth/interview_questions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1023-time-based-key-value-store](https://github.com/btirth/interview_questions/tree/master/1023-time-based-key-value-store) |
 | [1046-max-consecutive-ones-iii](https://github.com/btirth/interview_questions/tree/master/1046-max-consecutive-ones-iii) |
@@ -462,6 +466,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/btirth/interview_questions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/btirth/interview_questions/tree/master/0572-subtree-of-another-tree) |
 | [0684-redundant-connection](https://github.com/btirth/interview_questions/tree/master/0684-redundant-connection) |
+| [0794-swim-in-rising-water](https://github.com/btirth/interview_questions/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/btirth/interview_questions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/btirth/interview_questions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0988-flip-equivalent-binary-trees](https://github.com/btirth/interview_questions/tree/master/0988-flip-equivalent-binary-trees) |
@@ -482,6 +487,7 @@
 | [0515-find-largest-value-in-each-tree-row](https://github.com/btirth/interview_questions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0684-redundant-connection](https://github.com/btirth/interview_questions/tree/master/0684-redundant-connection) |
 | [0787-sliding-puzzle](https://github.com/btirth/interview_questions/tree/master/0787-sliding-puzzle) |
+| [0794-swim-in-rising-water](https://github.com/btirth/interview_questions/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/btirth/interview_questions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/btirth/interview_questions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0833-bus-routes](https://github.com/btirth/interview_questions/tree/master/0833-bus-routes) |
@@ -877,6 +883,7 @@
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/btirth/interview_questions/tree/master/0128-longest-consecutive-sequence) |
 | [0684-redundant-connection](https://github.com/btirth/interview_questions/tree/master/0684-redundant-connection) |
+| [0794-swim-in-rising-water](https://github.com/btirth/interview_questions/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/btirth/interview_questions/tree/master/0801-is-graph-bipartite) |
 | [1706-min-cost-to-connect-all-points](https://github.com/btirth/interview_questions/tree/master/1706-min-cost-to-connect-all-points) |
 ## Database
