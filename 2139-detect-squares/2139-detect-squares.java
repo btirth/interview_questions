@@ -1,35 +1,30 @@
 class DetectSquares {
+    private Map<List<Integer>, Integer> ptsCount;
+    private List<List<Integer>> pts;
 
-    HashMap<String, Integer> freq; 
     public DetectSquares() {
-        freq = new HashMap<>();
+        ptsCount = new HashMap<>();
+        pts = new ArrayList<>();
     }
     
     public void add(int[] point) {
-        String key = point[0]+"-"+point[1];
-        freq.put(key, freq.getOrDefault(key, 0) + 1);
-        System.out.println("Key -- " + key);
+        List<Integer> p = Arrays.asList(point[0], point[1]);
+        ptsCount.put(p, ptsCount.getOrDefault(p, 0) + 1);
+        pts.add(p);
     }
-    
-    public int count(int[] point) {
-        int count = 0;
 
-        for(Map.Entry<String, Integer> e: freq.entrySet()) {
-            String[] keyPt = e.getKey().split("-");
-            int[] pt = new int[]{Integer.valueOf(keyPt[0]), Integer.valueOf(keyPt[1])};
-            if(Math.abs(point[0]-pt[0]) != Math.abs(point[1]-pt[1]) 
-                || point[0] == pt[0] || point[1] == pt[1]) {
+    public int count(int[] point) {
+        int res = 0;
+        int px = point[0], py = point[1];
+        for (List<Integer> pt : pts) {
+            int x = pt.get(0), y = pt.get(1);
+            if (Math.abs(py - y) != Math.abs(px - x) || x == px || y == py) {
                 continue;
             }
-
-                String topPtKey = pt[0] +"-"+ point[1];
-                String bottomPtKey = point[0] +"-"+ pt[1];
-                if(freq.containsKey(topPtKey) && freq.containsKey(bottomPtKey)) {
-                    count += (freq.get(bottomPtKey) * freq.get(topPtKey) * e.getValue());
-                }
+            res += ptsCount.getOrDefault(Arrays.asList(x, py), 0) * 
+                   ptsCount.getOrDefault(Arrays.asList(px, y), 0);
         }
-
-        return count;   
+        return res;
     }
 }
 
