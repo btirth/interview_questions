@@ -1,27 +1,27 @@
 class DetectSquares {
-    private Map<List<Integer>, Integer> ptsCount;
+    private Map<Pair<Integer, Integer>, Integer> ptsCount;
 
     public DetectSquares() {
         ptsCount = new HashMap<>();
     }
     
     public void add(int[] point) {
-        List<Integer> p = Arrays.asList(point[0], point[1]);
+        Pair p = new Pair(point[0], point[1]);
         ptsCount.put(p, ptsCount.getOrDefault(p, 0) + 1);
     }
 
     public int count(int[] point) {
         int res = 0;
         int px = point[0], py = point[1];
-        for (Map.Entry<List<Integer>, Integer> entry: ptsCount.entrySet()) {
-            List<Integer> pt = entry.getKey();
+        for (Map.Entry<Pair<Integer, Integer>, Integer> entry: ptsCount.entrySet()) {
+            Pair pt = entry.getKey();
 
-            int x = pt.get(0), y = pt.get(1);
+            int x = (int)pt.getKey(), y = (int)pt.getValue();
             if (Math.abs(py - y) != Math.abs(px - x) || x == px || y == py) {
                 continue;
             }
-            res += entry.getValue() * ptsCount.getOrDefault(Arrays.asList(x, py), 0) * 
-                   ptsCount.getOrDefault(Arrays.asList(px, y), 0);
+            res += entry.getValue() * ptsCount.getOrDefault(new Pair(x, py), 0) * 
+                   ptsCount.getOrDefault(new Pair(px, y), 0);
         }
         return res;
     }
