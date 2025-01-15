@@ -126,6 +126,7 @@
 | [2586-longest-square-streak-in-an-array](https://github.com/btirth/interview_questions/tree/master/2586-longest-square-streak-in-an-array) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/btirth/interview_questions/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/btirth/interview_questions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2664-maximize-greatness-of-an-array](https://github.com/btirth/interview_questions/tree/master/2664-maximize-greatness-of-an-array) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/btirth/interview_questions/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/btirth/interview_questions/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/btirth/interview_questions/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -596,6 +597,7 @@
 | [2586-longest-square-streak-in-an-array](https://github.com/btirth/interview_questions/tree/master/2586-longest-square-streak-in-an-array) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/btirth/interview_questions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/btirth/interview_questions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+| [2664-maximize-greatness-of-an-array](https://github.com/btirth/interview_questions/tree/master/2664-maximize-greatness-of-an-array) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/btirth/interview_questions/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/btirth/interview_questions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/btirth/interview_questions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
@@ -635,6 +637,7 @@
 | [2509-minimize-xor](https://github.com/btirth/interview_questions/tree/master/2509-minimize-xor) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/btirth/interview_questions/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/btirth/interview_questions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2664-maximize-greatness-of-an-array](https://github.com/btirth/interview_questions/tree/master/2664-maximize-greatness-of-an-array) |
 | [2716-prime-subtraction-operation](https://github.com/btirth/interview_questions/tree/master/2716-prime-subtraction-operation) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/btirth/interview_questions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 ## Dynamic Programming
@@ -829,6 +832,7 @@
 | [2414-move-pieces-to-obtain-a-string](https://github.com/btirth/interview_questions/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/btirth/interview_questions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/btirth/interview_questions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2664-maximize-greatness-of-an-array](https://github.com/btirth/interview_questions/tree/master/2664-maximize-greatness-of-an-array) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/btirth/interview_questions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/btirth/interview_questions/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## Backtracking
