@@ -29,6 +29,7 @@
 | [0134-gas-station](https://github.com/btirth/interview_questions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/btirth/interview_questions/tree/master/0135-candy) |
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/btirth/interview_questions/tree/master/0152-maximum-product-subarray) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/btirth/interview_questions/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/btirth/interview_questions/tree/master/0215-kth-largest-element-in-an-array) |
@@ -649,6 +650,7 @@
 | [0097-interleaving-string](https://github.com/btirth/interview_questions/tree/master/0097-interleaving-string) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/btirth/interview_questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/btirth/interview_questions/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/btirth/interview_questions/tree/master/0198-house-robber) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0300-longest-increasing-subsequence](https://github.com/btirth/interview_questions/tree/master/0300-longest-increasing-subsequence) |
