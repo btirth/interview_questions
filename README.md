@@ -20,6 +20,7 @@
 | [0055-jump-game](https://github.com/btirth/interview_questions/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/btirth/interview_questions/tree/master/0057-insert-interval) |
 | [0066-plus-one](https://github.com/btirth/interview_questions/tree/master/0066-plus-one) |
+| [0068-text-justification](https://github.com/btirth/interview_questions/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/btirth/interview_questions/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/btirth/interview_questions/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/btirth/interview_questions/tree/master/0075-sort-colors) |
@@ -228,6 +229,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/btirth/interview_questions/tree/master/0068-text-justification) |
 | [0906-walking-robot-simulation](https://github.com/btirth/interview_questions/tree/master/0906-walking-robot-simulation) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/btirth/interview_questions/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/btirth/interview_questions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -297,6 +299,7 @@
 | [0013-roman-to-integer](https://github.com/btirth/interview_questions/tree/master/0013-roman-to-integer) |
 | [0022-generate-parentheses](https://github.com/btirth/interview_questions/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/btirth/interview_questions/tree/master/0049-group-anagrams) |
+| [0068-text-justification](https://github.com/btirth/interview_questions/tree/master/0068-text-justification) |
 | [0072-edit-distance](https://github.com/btirth/interview_questions/tree/master/0072-edit-distance) |
 | [0097-interleaving-string](https://github.com/btirth/interview_questions/tree/master/0097-interleaving-string) |
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
