@@ -1,54 +1,79 @@
 class Solution {
+    List<String> ans = new ArrayList<>();
     public List<String> fullJustify(String[] words, int maxWidth) {
-        List<String> ans = new ArrayList<>();
-        int i = 0;
-        
-        while (i < words.length) {
-            List<String> currentLine = getWords(i, words, maxWidth);
-            i += currentLine.size();
-            ans.add(createLine(currentLine, i, words, maxWidth));
+        int left = 0;
+        int right = 0;
+        int width = 0;
+        int n = words.length;
+        for(; right < n; right++) {
+            int currLen = words[right].length();
+
+            if(width + currLen > maxWidth) {
+                process(words, left, right -1, maxWidth, width-1);
+                left = right;
+                width = 0;
+            }
+
+            width += (currLen + 1);
         }
-        
+
+        lastLineProcess(words, left, right - 1, maxWidth);
         return ans;
     }
-    
-    private List<String> getWords(int i, String[] words, int maxWidth) {
-        List<String> currentLine = new ArrayList<>();
-        int currLength = 0;
 
-        while (i < words.length && currLength + words[i].length() <= maxWidth) {
-            currentLine.add(words[i]);
-            currLength += words[i].length() + 1;
-            i++;
+    void process(String[] words, int left, int right, int maxWidth, int width) {
+        int remainingWidth = maxWidth - width;
+        int wordsCount = right - left;
+        int evenSpaces = 0;
+        int extraSpaces = remainingWidth;
+        if(wordsCount > 0) {
+            evenSpaces = remainingWidth/wordsCount;
+            extraSpaces = remainingWidth%wordsCount;
+        }
+    
+        StringBuilder sb = new StringBuilder("");
+        for(int i=left; i<=right; i++) {
+            sb.append(words[i]);
+
+            if(i == right) {
+                continue;
+            }
+
+            sb.append(" ");
+            for(int j=0; j<evenSpaces; j++) {
+                sb.append(" ");
+            }
+
+            if(extraSpaces > 0) {
+                sb.append(" ");
+                extraSpaces--;
+            }
         }
 
-        return currentLine;
+        while(extraSpaces > 0) {
+            sb.append(" ");
+            extraSpaces--;
+        }
+
+        ans.add(sb.toString());
     }
-    
-    private String createLine(List<String> line, int i, String[] words, int maxWidth) {
-        int baseLength = -1;
-        for (String word: line) {
-            baseLength += word.length() + 1;
+
+    void lastLineProcess(String[] words, int left, int right, int maxW) {
+        StringBuilder sb = new StringBuilder("");
+        for(int i=left; i<=right; i++) {
+            sb.append(words[i]);
+
+            if(i == right) {
+                continue;
+            }
+
+            sb.append(" ");
         }
 
-        int extraSpaces = maxWidth - baseLength;
-
-        if (line.size() == 1 || i == words.length) {
-            return String.join(" ", line) + " ".repeat(extraSpaces);
+        while(sb.length() < maxW) {
+            sb.append(" ");
         }
 
-        int wordCount = line.size() - 1;
-        int spacesPerWord = extraSpaces / wordCount;
-        int needsExtraSpace = extraSpaces % wordCount;
-
-        for (int j = 0; j < needsExtraSpace; j++) {
-            line.set(j, line.get(j) + " ");
-        }
-
-        for (int j = 0; j < wordCount; j++) {
-            line.set(j, line.get(j) + " ".repeat(spacesPerWord));
-        }
-
-        return String.join(" ",  line);
+        ans.add(sb.toString());
     }
 }
