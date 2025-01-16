@@ -24,21 +24,18 @@ class Solution {
         if(node == null) {
             return null;
         }
-        Node root;
-        if(!map.containsKey(node.val)) {
-            Node newNode = new Node(node.val);
-            map.put(node.val, newNode);
-        } else {
+
+        if(map.containsKey(node.val)) {
             return map.get(node.val);
         }
 
-        root = map.get(node.val);
-        List<Node> neighbors = new ArrayList<>();
+        Node root = new Node(node.val);
+        map.put(node.val, root);
+
         for(Node nei: node.neighbors) {
-            neighbors.add(cloneGraph(nei));
+            root.neighbors.add(cloneGraph(nei));
         }
 
-        root.neighbors = neighbors;
         return root;
     }
 }
