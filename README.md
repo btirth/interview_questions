@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/btirth/interview_questions/tree/master/0015-3sum) |
+| [0033-search-in-rotated-sorted-array](https://github.com/btirth/interview_questions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/btirth/interview_questions/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/btirth/interview_questions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/btirth/interview_questions/tree/master/0040-combination-sum-ii) |
@@ -248,6 +249,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/btirth/interview_questions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/btirth/interview_questions/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/btirth/interview_questions/tree/master/0300-longest-increasing-subsequence) |
