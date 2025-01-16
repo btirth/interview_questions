@@ -9,43 +9,54 @@
  * }
  */
 class Solution {
+    /**
+    temp.next = 1 // prev
+    head = 2
+
+    reversed = reverse(temp.next); // 2
+    temp.next = reversed
+    temp = prev
+
+    temp.next = head.next;
+    head = head.next;
+    
+    
+     */
     public ListNode reverseKGroup(ListNode head, int k) {
-        ListNode curr = head;
-        ListNode temp = new ListNode();
-        ListNode newHead = temp;
-        int count = 0;
-        while(head != null) {
+        ListNode tempHead = new ListNode();
+        ListNode temp = tempHead;
+        tempHead.next = head;
+
+        int count = 1;
+        while(head != null && head.next != null) {
+            head = head.next;
             count++;
+
             if(count == k) {
-                ListNode tempHead = head.next;
+                ListNode tempPrev = temp.next;
+            
+                ListNode nextHead = head.next;
                 head.next = null;
-                ListNode reversedList = reverse(curr);
-                newHead.next = reversedList;
-                while(newHead.next != null) {
-                    newHead = newHead.next;
-                }
-                head = tempHead;
-                curr = head;
-                count = 0;
-            } else {
-                head = head.next;
+                ListNode reversed = reverse(temp.next);
+                temp.next = reversed;
+                temp = tempPrev;
+                temp.next = nextHead;
+                head = nextHead;
+                count = 1;
             }
         }
 
-        newHead.next = curr;
-        return temp.next;
+        return tempHead.next;
     }
 
-    ListNode reverse(ListNode head) {
-        ListNode reversedList = null;
-
-        while(head != null) {
-            ListNode temp = head.next;
-            head.next = reversedList;
-            reversedList = head;
-            head = temp;
+    ListNode reverse(ListNode node) {
+        ListNode prev = null;
+        while(node != null) {
+            ListNode temp = node.next;
+            node.next = prev;
+            prev = node;
+            node = temp;
         }
-
-        return reversedList;
+        return prev;
     }
 }
