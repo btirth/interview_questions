@@ -99,6 +99,7 @@
 | [1940-maximum-xor-for-each-query](https://github.com/btirth/interview_questions/tree/master/1940-maximum-xor-for-each-query) |
 | [1972-rotating-the-box](https://github.com/btirth/interview_questions/tree/master/1972-rotating-the-box) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/btirth/interview_questions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2026-merge-triplets-to-form-target-triplet](https://github.com/btirth/interview_questions/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/btirth/interview_questions/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2089-maximum-matrix-sum](https://github.com/btirth/interview_questions/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/btirth/interview_questions/tree/master/2132-convert-1d-array-into-2d-array) |
@@ -635,6 +636,7 @@
 | [1762-furthest-building-you-can-reach](https://github.com/btirth/interview_questions/tree/master/1762-furthest-building-you-can-reach) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/btirth/interview_questions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1917-maximum-average-pass-ratio](https://github.com/btirth/interview_questions/tree/master/1917-maximum-average-pass-ratio) |
+| [2026-merge-triplets-to-form-target-triplet](https://github.com/btirth/interview_questions/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2089-maximum-matrix-sum](https://github.com/btirth/interview_questions/tree/master/2089-maximum-matrix-sum) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/btirth/interview_questions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/btirth/interview_questions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
