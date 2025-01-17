@@ -45,13 +45,6 @@ class MedianFinder {
                 minHeap.add(num);
             }
            
-        } else if(maxHeap.size() < minHeap.size()) {
-            if(num > minHeap.peek()) {
-                maxHeap.add(minHeap.poll());
-                minHeap.add(num);
-            } else {
-                maxHeap.add(num);
-            }
         } else {
             if(num >= maxHeap.peek()) {
                 minHeap.add(num);
