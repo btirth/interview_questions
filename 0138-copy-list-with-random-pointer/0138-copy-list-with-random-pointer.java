@@ -15,43 +15,33 @@ class Node {
 
 class Solution {
     public Node copyRandomList(Node head) {
-        Node copyHead = head;
-        Node nextNode = head;
-        // Step 1: create copy nodes
-        while(copyHead != null) {
-            nextNode = copyHead.next;
-            copyHead.next = new Node(copyHead.val);
-            copyHead.next.next = nextNode;
-            copyHead = nextNode;
+        Node tempHead = head;
+
+        while(head != null) {
+            Node next = new Node(head.val);
+            next.next = head.next;
+            head.next = next;
+            head = head.next.next;
         }
-        
-        // Step 2: point the random pointer
-        copyHead = head;
-        nextNode = head;
-        while(copyHead != null && copyHead.next != null) {
-            if(copyHead.random != null) {
-                copyHead.next.random = copyHead.random.next;    
-            }
-            
-            copyHead = copyHead.next.next;
+
+        head = tempHead;
+        while(head != null) {   
+            if(head.random != null)
+                head.next.random = head.random.next;
+            head = head.next.next;
         }
-        
-        // Step 3: remove copy nodes
-        copyHead = head;
-        nextNode = head;
-        Node newHead = new Node(0);
-        Node newCopyHead = newHead;
-        
-        while(copyHead != null) {
-            nextNode = copyHead.next.next;
-            newCopyHead.next = copyHead.next;
-            newCopyHead = newCopyHead.next;
-            
-            copyHead.next = nextNode;
-            copyHead = nextNode;
+
+        Node ans = new Node(0);
+        Node holdAns = ans;
+        head = tempHead;
+
+        while(head != null) {
+            ans.next = head.next;
+            ans = ans.next;
+            head.next = head.next.next;
+            head = head.next;
         }
-        
-        
-        return newHead.next;
+
+        return holdAns.next;
     }
 }
