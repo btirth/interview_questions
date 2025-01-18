@@ -383,6 +383,7 @@
 | [0127-word-ladder](https://github.com/btirth/interview_questions/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/btirth/interview_questions/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/btirth/interview_questions/tree/master/0133-clone-graph) |
+| [0138-copy-list-with-random-pointer](https://github.com/btirth/interview_questions/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/btirth/interview_questions/tree/master/0146-lru-cache) |
 | [0424-longest-repeating-character-replacement](https://github.com/btirth/interview_questions/tree/master/0424-longest-repeating-character-replacement) |
@@ -452,6 +453,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/btirth/interview_questions/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/btirth/interview_questions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0138-copy-list-with-random-pointer](https://github.com/btirth/interview_questions/tree/master/0138-copy-list-with-random-pointer) |
 | [0143-reorder-list](https://github.com/btirth/interview_questions/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/btirth/interview_questions/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
