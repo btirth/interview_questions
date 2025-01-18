@@ -80,6 +80,7 @@
 | [1468-check-if-n-and-its-double-exist](https://github.com/btirth/interview_questions/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1477-product-of-the-last-k-numbers](https://github.com/btirth/interview_questions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/btirth/interview_questions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/btirth/interview_questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/btirth/interview_questions/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1524-string-matching-in-an-array](https://github.com/btirth/interview_questions/tree/master/1524-string-matching-in-an-array) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/btirth/interview_questions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -167,6 +168,7 @@
 | [0801-is-graph-bipartite](https://github.com/btirth/interview_questions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/btirth/interview_questions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/btirth/interview_questions/tree/master/1325-path-with-maximum-probability) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/btirth/interview_questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1706-min-cost-to-connect-all-points](https://github.com/btirth/interview_questions/tree/master/1706-min-cost-to-connect-all-points) |
 | [2201-valid-arrangement-of-pairs](https://github.com/btirth/interview_questions/tree/master/2201-valid-arrangement-of-pairs) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/btirth/interview_questions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -192,6 +194,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/btirth/interview_questions/tree/master/1014-k-closest-points-to-origin) |
 | [1325-path-with-maximum-probability](https://github.com/btirth/interview_questions/tree/master/1325-path-with-maximum-probability) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/btirth/interview_questions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/btirth/interview_questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1762-furthest-building-you-can-reach](https://github.com/btirth/interview_questions/tree/master/1762-furthest-building-you-can-reach) |
 | [1917-maximum-average-pass-ratio](https://github.com/btirth/interview_questions/tree/master/1917-maximum-average-pass-ratio) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/btirth/interview_questions/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
@@ -211,6 +214,7 @@
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/btirth/interview_questions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/btirth/interview_questions/tree/master/1325-path-with-maximum-probability) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/btirth/interview_questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/btirth/interview_questions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/btirth/interview_questions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Matrix
@@ -225,6 +229,7 @@
 | [0794-swim-in-rising-water](https://github.com/btirth/interview_questions/tree/master/0794-swim-in-rising-water) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/btirth/interview_questions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/btirth/interview_questions/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/btirth/interview_questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1972-rotating-the-box](https://github.com/btirth/interview_questions/tree/master/1972-rotating-the-box) |
 | [2089-maximum-matrix-sum](https://github.com/btirth/interview_questions/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/btirth/interview_questions/tree/master/2132-convert-1d-array-into-2d-array) |
@@ -524,6 +529,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/btirth/interview_questions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0833-bus-routes](https://github.com/btirth/interview_questions/tree/master/0833-bus-routes) |
 | [1484-linked-list-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1484-linked-list-in-binary-tree) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/btirth/interview_questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/btirth/interview_questions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/btirth/interview_questions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/btirth/interview_questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
