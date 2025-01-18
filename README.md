@@ -157,6 +157,7 @@
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/btirth/interview_questions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/btirth/interview_questions/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/btirth/interview_questions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3659-count-paths-with-the-given-xor-value](https://github.com/btirth/interview_questions/tree/master/3659-count-paths-with-the-given-xor-value) |
 | [3699-count-special-subsequences](https://github.com/btirth/interview_questions/tree/master/3699-count-special-subsequences) |
 ## Graph
 |  |
@@ -237,6 +238,7 @@
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/btirth/interview_questions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/btirth/interview_questions/tree/master/2411-spiral-matrix-iv) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/btirth/interview_questions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+| [3659-count-paths-with-the-given-xor-value](https://github.com/btirth/interview_questions/tree/master/3659-count-paths-with-the-given-xor-value) |
 ## Simulation
 |  |
 | ------- |
@@ -589,6 +591,7 @@
 | [3291-find-if-array-can-be-sorted](https://github.com/btirth/interview_questions/tree/master/3291-find-if-array-can-be-sorted) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/btirth/interview_questions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3394-minimum-array-end](https://github.com/btirth/interview_questions/tree/master/3394-minimum-array-end) |
+| [3659-count-paths-with-the-given-xor-value](https://github.com/btirth/interview_questions/tree/master/3659-count-paths-with-the-given-xor-value) |
 ## Counting
 |  |
 | ------- |
@@ -725,6 +728,7 @@
 | [2562-count-ways-to-build-good-strings](https://github.com/btirth/interview_questions/tree/master/2562-count-ways-to-build-good-strings) |
 | [2586-longest-square-streak-in-an-array](https://github.com/btirth/interview_questions/tree/master/2586-longest-square-streak-in-an-array) |
 | [2755-extra-characters-in-a-string](https://github.com/btirth/interview_questions/tree/master/2755-extra-characters-in-a-string) |
+| [3659-count-paths-with-the-given-xor-value](https://github.com/btirth/interview_questions/tree/master/3659-count-paths-with-the-given-xor-value) |
 ## Recursion
 |  |
 | ------- |
