@@ -1,4 +1,36 @@
 class LRUCache {
+
+    /**
+    1,1 [1]
+    2,2 [1,2]
+    
+    1 [2,1]
+
+    3,3 [1,3]
+
+
+    1 head = null, tail = null then head = node, tail = head;
+    2 & head 1 -> 
+    1 - 2 - 3
+    take 2 -> 
+                if node.prev != null
+                    node.prev.next = node.next;
+                else head = node.next;    
+                if node.next != null
+                    node.next.prev = node.prev;
+                else tail = node.prev;    
+                
+                node.prev = null;
+                node.next = null;
+                
+
+    tail at 3 -> now we want to add 2 -> tail.next = node; tail = tail.next; [now tail = 2]   
+
+
+    TC -> O(1), O(1)
+    SC -> O(capacity)         
+     */
+    
     class Node {
         int key;
         int val;
@@ -11,14 +43,13 @@ class LRUCache {
         }
     }
 
-    int capacity;
-    HashMap<Integer, Node> map;
     Node head;
     Node tail;
-
+    int capacity;
+    HashMap<Integer, Node> map; 
     public LRUCache(int capacity) {
-        this.capacity = capacity;  
-        map = new HashMap<>();  
+        map = new HashMap<>();
+        this.capacity = capacity;
     }
     
     public int get(int key) {
@@ -26,8 +57,7 @@ class LRUCache {
             return -1;
         }
 
-        Node node = map.get(key);
-        remove(key);
+        Node node = remove(key);
         add(key, node.val);
         return node.val;
     }
@@ -44,38 +74,39 @@ class LRUCache {
         add(key, value);
     }
 
-    void remove(int key) {
-        Node node = map.get(key);
-
-        if(node.prev == null) {
-            head = node.next;
-        } else {
-            node.prev.next = node.next;
-        }
-
-        if(node.next == null) {
-            tail = node.prev;
-        } else {
-            node.next.prev = node.prev;
-        }
-
-        capacity++;
-        map.remove(key);
-    }
-
-    void add(int key, int value) {
-        Node node = new Node(key, value);
-        if(tail == null) {
+    void add(int key, int val) {
+        Node node = new Node(key, val);
+        if(head == null) {
             head = node;
-            tail = head;
-        } else {
+            tail = node;
+        }else {
             tail.next = node;
             node.prev = tail;
             tail = tail.next;
         }
-
-        capacity--;
+        
         map.put(key, node);
+        capacity--;
+    }
+
+    Node remove(int key) {
+        Node node = map.remove(key);
+        capacity++;
+        if(node.prev != null) {
+            node.prev.next = node.next;
+        } else {
+            head = node.next;
+        }
+
+        if(node.next != null) {
+            node.next.prev = node.prev;
+        } else {
+            tail = node.prev;
+        }
+
+        node.next = null;
+        node.prev = null;
+        return node;
     }
 }
 
