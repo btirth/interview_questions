@@ -187,6 +187,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/btirth/interview_questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/btirth/interview_questions/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/btirth/interview_questions/tree/master/0295-find-median-from-data-stream) |
+| [0355-design-twitter](https://github.com/btirth/interview_questions/tree/master/0355-design-twitter) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/btirth/interview_questions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/btirth/interview_questions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0658-find-k-closest-elements](https://github.com/btirth/interview_questions/tree/master/0658-find-k-closest-elements) |
@@ -392,6 +393,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/btirth/interview_questions/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/btirth/interview_questions/tree/master/0146-lru-cache) |
+| [0355-design-twitter](https://github.com/btirth/interview_questions/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/btirth/interview_questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/btirth/interview_questions/tree/master/0567-permutation-in-string) |
@@ -462,6 +464,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/btirth/interview_questions/tree/master/0138-copy-list-with-random-pointer) |
 | [0143-reorder-list](https://github.com/btirth/interview_questions/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/btirth/interview_questions/tree/master/0146-lru-cache) |
+| [0355-design-twitter](https://github.com/btirth/interview_questions/tree/master/0355-design-twitter) |
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/btirth/interview_questions/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/btirth/interview_questions/tree/master/0859-design-circular-deque) |
@@ -814,6 +817,7 @@
 | [0155-min-stack](https://github.com/btirth/interview_questions/tree/master/0155-min-stack) |
 | [0295-find-median-from-data-stream](https://github.com/btirth/interview_questions/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/btirth/interview_questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0355-design-twitter](https://github.com/btirth/interview_questions/tree/master/0355-design-twitter) |
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/btirth/interview_questions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/btirth/interview_questions/tree/master/0731-my-calendar-ii) |
