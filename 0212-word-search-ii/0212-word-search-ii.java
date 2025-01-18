@@ -1,26 +1,37 @@
 class Solution {
     class Trie {
-        Trie[] ch = new Trie[26];
-        String word = null;
+        Trie[] child;
+        List<String> words;
+
+        Trie() {
+            child = new Trie[26];
+            words = new ArrayList<>();
+        }
     }
 
-    Trie getPrefixTrie(String[] words) {
-        Trie node = new Trie();
+    List<String> ans = new ArrayList<>();
+    boolean[][] visited;
+    int m;
+    int n;
+    public List<String> findWords(char[][] board, String[] words) {
+        Trie trie = new Trie();
         for(String word: words) {
-            addWord(node, word);
+            addWord(word, trie);
         }
 
-        return node;
-    }
+        m = board.length;
+        n = board[0].length;
+        visited = new boolean[m][n];
 
-    void addWord(Trie node, String word) {
-        for(int i=0; i<word.length(); i++) {
-            if(node.ch[word.charAt(i)-'a'] == null)
-                node.ch[word.charAt(i)-'a'] = new Trie();
-            node = node.ch[word.charAt(i)-'a'];
+        for(int i=0; i<m; i++) {
+            for(int j=0; j<n; j++) {
+                if(trie.child[board[i][j] - 'a'] != null) {
+                    dfs(board, i, j, trie.child[board[i][j] - 'a']);
+                }
+            }
         }
 
-        node.word = word;
+        return ans;
     }
 
     int[][] directions = {
@@ -30,39 +41,31 @@ class Solution {
         {0,-1}
     };
 
-    void helper(char[][] board, int i, int j, Trie node, boolean[][] visited) {
+    void dfs(char[][] board, int i, int j, Trie trie) {
+        ans.addAll(trie.words);
+        trie.words = new ArrayList<>();
         visited[i][j] = true;
-        if(node.word != null) {
-            ans.add(node.word);
-            node.word = null;
-        }
-        
         for(int[] dir: directions) {
-            int x = i + dir[0];
-            int y = j + dir[1];
+            int x = dir[0] + i;
+            int y = dir[1] + j;
 
-            if(x>=0 && y>=0 && x<board.length && y<board[0].length && !visited[x][y] && node.ch[board[x][y]-'a'] != null) {
-                helper(board, x, y, node.ch[board[x][y]-'a'], visited);
-            } 
+            if(x>=0 && y>=0 && x<m && y<n && !visited[x][y] && trie.child[board[x][y] - 'a'] != null) {
+                dfs(board, x, y, trie.child[board[x][y] - 'a']);
+            }
         }
-
         visited[i][j] = false;
     }
 
-    List<String> ans = new ArrayList<>();
-    public List<String> findWords(char[][] board, String[] words) {
-        Trie node = getPrefixTrie(words);
-        int m = board.length;
-        int n = board[0].length;
-
-        for(int i=0; i<m; i++) {
-            for(int j=0; j<n; j++) {
-                if(node.ch[board[i][j]-'a'] != null) {
-                    helper(board, i, j, node.ch[board[i][j]-'a'], new boolean[m][n]);
-                }
+    void addWord(String word, Trie trie) {
+        Trie curr = trie;
+        for(char ch: word.toCharArray()) {
+            if(curr.child[ch - 'a'] == null) {
+                curr.child[ch - 'a'] = new Trie();
             }
-        }
 
-        return ans;
+            curr = curr.child[ch - 'a'];
+        }   
+
+        curr.words.add(word);
     }
 }
