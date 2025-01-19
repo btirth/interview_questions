@@ -1,26 +1,43 @@
 class Solution {
     public String removeDuplicateLetters(String s) {
+        /**
+        bcabc
+
+        Stack [b, c, remove c, a]
+        
+        
+         */
         int[] lastIndex = new int[26];
-        for (int i = 0; i < s.length(); i++){
-            lastIndex[s.charAt(i) - 'a'] = i; // track the lastIndex of character presence
-        }
-        
-        boolean[] seen = new boolean[26]; // keep track seen
-        Stack<Integer> st = new Stack();
-        
-        for (int i = 0; i < s.length(); i++) {
-            int curr = s.charAt(i) - 'a';
-            if (seen[curr]) continue; // if seen continue as we need to pick one char only
-            while (!st.isEmpty() && st.peek() > curr && i < lastIndex[st.peek()]){
-                seen[st.pop()] = false; // pop out and mark unseen
-            }
-            st.push(curr); // add into stack
-            seen[curr] = true; // mark seen
+        int n = s.length();
+
+        for(int i=0; i<n; i++) {
+            lastIndex[s.charAt(i) - 'a'] = i;
         }
 
-        StringBuilder sb = new StringBuilder();
-        while (!st.isEmpty())
-            sb.append((char) (st.pop() + 'a'));
+        Stack<Character> st = new Stack<>();
+        int idx = 0;
+        boolean[] taken = new boolean[26];
+        while(idx < n) {
+            if(taken[s.charAt(idx) - 'a']) {
+                idx++;
+                continue;
+            }
+            
+            while(!st.isEmpty() && st.peek() > s.charAt(idx) && lastIndex[st.peek() - 'a'] > idx) {
+                taken[st.pop() - 'a'] = false;
+            }
+
+            st.push(s.charAt(idx));
+            taken[s.charAt(idx) - 'a'] = true;
+            idx++;
+        } 
+
+        
+        StringBuilder sb = new StringBuilder("");
+        while(!st.isEmpty()) {
+            sb.append(st.pop());
+        }
+
         return sb.reverse().toString();
     }
 }
