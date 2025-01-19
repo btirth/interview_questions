@@ -15,6 +15,7 @@
 | [0045-jump-game-ii](https://github.com/btirth/interview_questions/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/btirth/interview_questions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/btirth/interview_questions/tree/master/0047-permutations-ii) |
+| [0048-rotate-image](https://github.com/btirth/interview_questions/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/btirth/interview_questions/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/btirth/interview_questions/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/btirth/interview_questions/tree/master/0053-maximum-subarray) |
@@ -225,6 +226,7 @@
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/btirth/interview_questions/tree/master/0036-valid-sudoku) |
+| [0048-rotate-image](https://github.com/btirth/interview_questions/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/btirth/interview_questions/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/btirth/interview_questions/tree/master/0074-search-a-2d-matrix) |
 | [0212-word-search-ii](https://github.com/btirth/interview_questions/tree/master/0212-word-search-ii) |
@@ -442,6 +444,7 @@
 | ------- |
 | [0007-reverse-integer](https://github.com/btirth/interview_questions/tree/master/0007-reverse-integer) |
 | [0013-roman-to-integer](https://github.com/btirth/interview_questions/tree/master/0013-roman-to-integer) |
+| [0048-rotate-image](https://github.com/btirth/interview_questions/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/btirth/interview_questions/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/btirth/interview_questions/tree/master/0066-plus-one) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
