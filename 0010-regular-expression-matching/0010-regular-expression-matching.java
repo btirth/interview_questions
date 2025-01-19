@@ -1,5 +1,7 @@
 class Solution {
+    HashMap<Pair<Integer, Integer>, Boolean> dp;
     public boolean isMatch(String s, String p) {
+        dp = new HashMap<>();
         return helper(s, p, 0, 0);
     }
 
@@ -7,6 +9,12 @@ class Solution {
         if(idx2 == p.length()) {
             return idx1 == s.length();
         }
+
+        if(dp.containsKey(new Pair(idx1, idx2))) {
+            return dp.get(new Pair(idx1, idx2));
+        }
+
+        dp.put(new Pair(idx1, idx2), true);
 
         boolean match = idx1 < s.length() && s.charAt(idx1) == p.charAt(idx2);
         if(idx1 < s.length() && p.charAt(idx2) == '.') {
@@ -33,6 +41,7 @@ class Solution {
             }
         }
 
+        dp.put(new Pair(idx1, idx2), false);
         return false;
     }
 }
