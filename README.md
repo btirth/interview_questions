@@ -319,6 +319,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/btirth/interview_questions/tree/master/0005-longest-palindromic-substring) |
+| [0010-regular-expression-matching](https://github.com/btirth/interview_questions/tree/master/0010-regular-expression-matching) |
 | [0013-roman-to-integer](https://github.com/btirth/interview_questions/tree/master/0013-roman-to-integer) |
 | [0022-generate-parentheses](https://github.com/btirth/interview_questions/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/btirth/interview_questions/tree/master/0049-group-anagrams) |
@@ -705,6 +706,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/btirth/interview_questions/tree/master/0005-longest-palindromic-substring) |
+| [0010-regular-expression-matching](https://github.com/btirth/interview_questions/tree/master/0010-regular-expression-matching) |
 | [0022-generate-parentheses](https://github.com/btirth/interview_questions/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/btirth/interview_questions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/btirth/interview_questions/tree/master/0045-jump-game-ii) |
@@ -748,6 +750,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/btirth/interview_questions/tree/master/0010-regular-expression-matching) |
 | [0025-reverse-nodes-in-k-group](https://github.com/btirth/interview_questions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/btirth/interview_questions/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/btirth/interview_questions/tree/master/0143-reorder-list) |
