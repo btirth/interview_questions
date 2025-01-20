@@ -8,23 +8,19 @@ class Solution {
         HashMap<Integer, int[]> map = new HashMap<>();
         for(int i=0; i<m; i++) {
             for(int j=0; j<n; j++) {
-                int color = mat[i][j];
-               
-
-                map.put(color, new int[]{i,j});
+                map.put(mat[i][j], new int[]{i,j});
             }
         }
 
         for(int i=0; i<arr.length; i++) {
             int color = arr[i];
             int[] cell = map.get(color);
-                rowPainted[cell[0]]++; // 2 1
-                colPainted[cell[1]]++; // 1 2
+            rowPainted[cell[0]]++;
+            colPainted[cell[1]]++; 
 
-                if(colPainted[cell[1]] == m || rowPainted[cell[0]] == n) {
-                    return i;
-                }
-            
+            if(colPainted[cell[1]] == m || rowPainted[cell[0]] == n) {
+                return i;
+            }
         }
 
         return -1;
