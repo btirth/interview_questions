@@ -38,6 +38,7 @@
 | [0198-house-robber](https://github.com/btirth/interview_questions/tree/master/0198-house-robber) |
 | [0212-word-search-ii](https://github.com/btirth/interview_questions/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/btirth/interview_questions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0221-maximal-square](https://github.com/btirth/interview_questions/tree/master/0221-maximal-square) |
 | [0239-sliding-window-maximum](https://github.com/btirth/interview_questions/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/btirth/interview_questions/tree/master/0300-longest-increasing-subsequence) |
@@ -236,6 +237,7 @@
 | [0073-set-matrix-zeroes](https://github.com/btirth/interview_questions/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/btirth/interview_questions/tree/master/0074-search-a-2d-matrix) |
 | [0212-word-search-ii](https://github.com/btirth/interview_questions/tree/master/0212-word-search-ii) |
+| [0221-maximal-square](https://github.com/btirth/interview_questions/tree/master/0221-maximal-square) |
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/btirth/interview_questions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/btirth/interview_questions/tree/master/0407-trapping-rain-water-ii) |
@@ -732,6 +734,7 @@
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/btirth/interview_questions/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/btirth/interview_questions/tree/master/0198-house-robber) |
+| [0221-maximal-square](https://github.com/btirth/interview_questions/tree/master/0221-maximal-square) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0300-longest-increasing-subsequence](https://github.com/btirth/interview_questions/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/btirth/interview_questions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
