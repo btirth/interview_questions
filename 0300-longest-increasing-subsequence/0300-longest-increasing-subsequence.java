@@ -13,14 +13,13 @@ class Solution {
 
                 if(idx < 0) {
                     idx = -idx-1;
+                    list.set(idx, num);
                 }
 
-                list.set(idx, num);
+                
             }
         }
 
-
         return lis;
-        
     }
 }
