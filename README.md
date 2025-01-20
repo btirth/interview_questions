@@ -165,6 +165,7 @@
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/btirth/interview_questions/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/btirth/interview_questions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3659-count-paths-with-the-given-xor-value](https://github.com/btirth/interview_questions/tree/master/3659-count-paths-with-the-given-xor-value) |
+| [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/btirth/interview_questions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 | [3699-count-special-subsequences](https://github.com/btirth/interview_questions/tree/master/3699-count-special-subsequences) |
 ## Graph
 |  |
@@ -472,6 +473,7 @@
 | [2716-prime-subtraction-operation](https://github.com/btirth/interview_questions/tree/master/2716-prime-subtraction-operation) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/btirth/interview_questions/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/btirth/interview_questions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/btirth/interview_questions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 | [3699-count-special-subsequences](https://github.com/btirth/interview_questions/tree/master/3699-count-special-subsequences) |
 ## Linked List
 |  |
@@ -675,6 +677,7 @@
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/btirth/interview_questions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3291-find-if-array-can-be-sorted](https://github.com/btirth/interview_questions/tree/master/3291-find-if-array-can-be-sorted) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/btirth/interview_questions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/btirth/interview_questions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Greedy
 |  |
 | ------- |
@@ -858,6 +861,7 @@
 | [0729-my-calendar-i](https://github.com/btirth/interview_questions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/btirth/interview_questions/tree/master/0731-my-calendar-ii) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/btirth/interview_questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/btirth/interview_questions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Ordered Set
 |  |
 | ------- |
@@ -944,6 +948,7 @@
 | ------- |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/btirth/interview_questions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/btirth/interview_questions/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/btirth/interview_questions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 | [3699-count-special-subsequences](https://github.com/btirth/interview_questions/tree/master/3699-count-special-subsequences) |
 ## Divide and Conquer
 |  |
@@ -958,6 +963,7 @@
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/btirth/interview_questions/tree/master/1014-k-closest-points-to-origin) |
+| [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/btirth/interview_questions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Quickselect
 |  |
 | ------- |
@@ -1007,6 +1013,7 @@
 |  |
 | ------- |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/btirth/interview_questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/btirth/interview_questions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Binary Search Tree
 |  |
 | ------- |
