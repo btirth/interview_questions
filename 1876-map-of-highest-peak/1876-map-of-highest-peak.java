@@ -7,9 +7,6 @@ class Solution {
 
         for(int i=0; i<m; i++) {
             Arrays.fill(ans[i], -1);
-        }
-
-        for(int i=0; i<m; i++) {
             for(int j=0; j<n; j++) {
                 if(isWater[i][j] == 1) {
                     q.add(new int[]{i,j});
@@ -30,6 +27,7 @@ class Solution {
             int size = q.size();
             while(size-- > 0) {
                 int[] pt = q.poll();
+                
                 if(ans[pt[0]][pt[1]] != -1) {
                     continue;
                 }
