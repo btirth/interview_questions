@@ -1,73 +1,93 @@
 class Solution {
     List<String> ans = new ArrayList<>();
+
     public List<String> fullJustify(String[] words, int maxWidth) {
+        /**
+        
+        
+        handleLine
+        - words, currW, maxW
+        currW - length of words + 1;
+        extraSpace = maxW - currW
+        extraSpacePerWord = extraSpace % (words.len - 1)
+
+        add extraSpacePerWord after each word if the word is not the lasst word
+
+
+
+        handleLastLine
+        - words [words for last line]
+        lastLine = words[0]
+
+        for word in words:
+            lastLine += " " + word;
+
+        while(lastLine.size < maxW) {
+            lastLine += " ";
+        }    
+
+        ans.add(lastLine)    
+         */
+
+        int n = words.length;
         int left = 0;
         int right = 0;
-        int width = 0;
-        int n = words.length;
-        for(; right < n; right++) {
-            int currLen = words[right].length();
+        int currW = 0;
 
-            if(width + currLen > maxWidth) {
-                process(words, left, right -1, maxWidth, width-1);
-                left = right;
-                width = 0;
+        while(right < n) {
+            while(right < n && currW + words[right].length() <= maxWidth) {
+                currW += words[right].length() + 1;
+                right++;
             }
+    
+            if(right == n) {
+                addLastLine(words, left, maxWidth);
+            } else {
+                addLine(words, left, right-1, maxWidth, currW - 1);
+                left = right;
+                currW = 0;
+            }
+            
+        } 
 
-            width += (currLen + 1);
-        }
-
-        lastLineProcess(words, left, right - 1, maxWidth);
         return ans;
     }
 
-    void process(String[] words, int left, int right, int maxWidth, int width) {
-        int remainingWidth = maxWidth - width;
-        int wordsCount = right - left;
-        int evenSpaces = 0;
-        int extraSpaces = remainingWidth;
-        if(wordsCount > 0) {
-            evenSpaces = remainingWidth/wordsCount;
-            extraSpaces = remainingWidth%wordsCount;
+    void addLine(String[] words, int left, int right, int maxW, int currW) {
+        int extraSpace = maxW - currW;
+        int equalExtraSpacePerWord = extraSpace;
+        int extraSpaceForLeftWords = 0;
+
+        if(right > left) {
+            equalExtraSpacePerWord = extraSpace / (right - left);
+            extraSpaceForLeftWords = extraSpace - (equalExtraSpacePerWord * (right - left));
         }
-    
+        
+        
         StringBuilder sb = new StringBuilder("");
-        for(int i=left; i<=right; i++) {
-            sb.append(words[i]);
+        int idx = left;
+        while(idx <= right) {
 
-            if(i == right) {
-                continue;
-            }
+            sb.append(words[idx]);
 
-            sb.append(" ");
-            for(int j=0; j<evenSpaces; j++) {
+            if(idx != right) {
                 sb.append(" ");
+                int extraSpaceForCurrWord = equalExtraSpacePerWord;
+
+                while(extraSpaceForCurrWord > 0) {
+                    sb.append(" ");
+                    extraSpaceForCurrWord--;
+                }
+
+
+                if(extraSpaceForLeftWords > 0) {
+                    sb.append(" ");
+                    extraSpaceForLeftWords--;
+                }
             }
 
-            if(extraSpaces > 0) {
-                sb.append(" ");
-                extraSpaces--;
-            }
-        }
-
-        while(extraSpaces > 0) {
-            sb.append(" ");
-            extraSpaces--;
-        }
-
-        ans.add(sb.toString());
-    }
-
-    void lastLineProcess(String[] words, int left, int right, int maxW) {
-        StringBuilder sb = new StringBuilder("");
-        for(int i=left; i<=right; i++) {
-            sb.append(words[i]);
-
-            if(i == right) {
-                continue;
-            }
-
-            sb.append(" ");
+            
+            idx++;
         }
 
         while(sb.length() < maxW) {
@@ -75,5 +95,24 @@ class Solution {
         }
 
         ans.add(sb.toString());
+        
     }
+
+    void addLastLine(String[] word, int left, int maxW) {
+        StringBuilder sb = new StringBuilder("");
+
+        for(int idx = left; idx < word.length; idx++) {
+            sb.append(word[idx]);
+
+            if(idx != word.length - 1) {
+                sb.append(" ");
+            }
+        }
+
+        while(sb.length() < maxW) {
+            sb.append(" ");
+        }
+
+        ans.add(sb.toString());
+     }
 }
