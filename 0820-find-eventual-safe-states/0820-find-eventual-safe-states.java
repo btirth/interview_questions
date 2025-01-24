@@ -1,38 +1,51 @@
 class Solution {
-    int[] visited;
     public List<Integer> eventualSafeNodes(int[][] graph) {
-        List<Integer> ans = new ArrayList<>();
         int n = graph.length;
-        visited = new int[n];
-        
-        for(int i=0; i<n; i++) {
-            if(visited[i] == 0) {
-                dfs(graph, i);
-            }
-        }
+        List<Integer>[] adj = new ArrayList[n];
+        boolean[] visited  = new boolean[n];
+        int[] indegree = new int[n];
 
         for(int i=0; i<n; i++) {
-            if(visited[i] == 2) {
-                ans.add(i);
+            adj[i] = new ArrayList<>();
+        }
+
+        for(int i=0; i<n; i++) {
+            for(int next: graph[i]) {
+                adj[next].add(i);
+            }
+
+            indegree[i] = graph[i].length;
+        }
+
+        Queue<Integer> q = new LinkedList<>();
+        for(int i=0; i<n; i++) {
+            if(indegree[i] == 0) {
+                q.add(i);
             }
         }
 
-        return ans;
-    }
+        while(!q.isEmpty()) {
+            Integer node = q.poll();
+            if(visited[node]) {
+                continue;
+            }
 
-    boolean dfs(int[][] graph, int idx) {
-        if(visited[idx] != 0) {
-            return visited[idx] == 2;
-        }
+            visited[node] = true;
+            for(int prev: adj[node]) {
+                indegree[prev]--;
 
-        visited[idx] = 1;
-        for(int nxt: graph[idx]) {
-            if(!dfs(graph, nxt)) {
-                return false;
+                if(indegree[prev] == 0) {
+                    q.add(prev);
+                }
             }
         }
 
-        visited[idx] = 2;
-        return true;
+        List<Integer> safeNodes = new ArrayList<>();
+        for(int i=0; i<n; i++) {
+            if(indegree[i] == 0)
+                safeNodes.add(i);
+        }
+
+        return safeNodes;
     }
 }
