@@ -1,33 +1,59 @@
-public class Solution {
+class Solution {
+    public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
+        Set<Integer>[] pre = new HashSet[numCourses];
+        List<Integer>[] post = new ArrayList[numCourses];
 
-    public List<Boolean> checkIfPrerequisite(
-        int numCourses,
-        int[][] prerequisites,
-        int[][] queries
-    ) {
-        boolean[][] isPrerequisite = new boolean[numCourses][numCourses];
-
-        for (int[] edge : prerequisites) {
-            isPrerequisite[edge[0]][edge[1]] = true;
+        int[] inorder = new int[numCourses];
+        boolean[] visited = new boolean[numCourses];
+        for(int i=0; i<numCourses; i++) {
+            pre[i] = new HashSet<>();
+            post[i] = new ArrayList<>();
         }
 
-        for (int intermediate = 0; intermediate < numCourses; intermediate++) {
-            for (int src = 0; src < numCourses; src++) {
-                for (int target = 0; target < numCourses; target++) {
-                    // If there is a path i -> intermediate and intermediate -> j, then i -> j exists as well.
-                    isPrerequisite[src][target] =
-                        isPrerequisite[src][target] ||
-                        (isPrerequisite[src][intermediate] &&
-                            isPrerequisite[intermediate][target]);
-                }
+        for(int[] p: prerequisites) {
+            inorder[p[1]]++;
+            pre[p[1]].add(p[0]);
+            post[p[0]].add(p[1]);
+        }
+
+        Queue<Integer> q = new LinkedList<>();
+        for(int i=0; i<numCourses; i++) {
+            if(inorder[i] == 0) {
+                q.add(i);
             }
         }
 
-        List<Boolean> answer = new ArrayList<>();
-        for (int[] query : queries) {
-            answer.add(isPrerequisite[query[0]][query[1]]);
+        while(!q.isEmpty()) {
+            int node = q.poll();
+            Set<Integer> prereq = new HashSet<>();
+
+            for(int p: pre[node]) {
+                prereq.add(p);
+                prereq.addAll(pre[p]);
+            }
+
+            for(int p: post[node]) {
+                inorder[p]--;
+
+                if(inorder[p] == 0) {
+                    q.add(p);
+                }
+            }
+
+            pre[node] = prereq;
         }
 
-        return answer;
+
+        List<Boolean> ans = new ArrayList<>();
+        for(int[] query: queries) {
+            if(pre[query[1]].contains(query[0])) {
+                ans.add(true);
+            } else {
+                ans.add(false);
+            }
+        }
+
+
+        return ans;
     }
 }
