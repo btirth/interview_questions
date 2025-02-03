@@ -7,22 +7,18 @@ class Solution {
         for(int i=1; i<n; i++) {
             if(nums[i] > nums[i-1]) {
                 lenInc++;
-                ans = Math.max(ans, lenDes);
                 lenDes = 1;
             } else if(nums[i] < nums[i-1])  {
                 lenDes++;
-                ans = Math.max(ans, lenInc);
                 lenInc = 1;
             } else {
-                ans = Math.max(ans, lenDes);
                 lenDes = 1;
-                ans = Math.max(ans, lenInc);
                 lenInc = 1;
             }
-        }
 
-        ans = Math.max(ans, lenInc);
-        ans = Math.max(ans, lenDes);
+            ans = Math.max(ans, lenDes);
+            ans = Math.max(ans, lenInc);
+        }
 
         return ans;
     }
