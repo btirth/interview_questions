@@ -361,6 +361,7 @@
 | [0115-distinct-subsequences](https://github.com/btirth/interview_questions/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/btirth/interview_questions/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
+| [0151-reverse-words-in-a-string](https://github.com/btirth/interview_questions/tree/master/0151-reverse-words-in-a-string) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0212-word-search-ii](https://github.com/btirth/interview_questions/tree/master/0212-word-search-ii) |
 | [0214-shortest-palindrome](https://github.com/btirth/interview_questions/tree/master/0214-shortest-palindrome) |
@@ -967,6 +968,7 @@
 | [0042-trapping-rain-water](https://github.com/btirth/interview_questions/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/btirth/interview_questions/tree/master/0075-sort-colors) |
 | [0143-reorder-list](https://github.com/btirth/interview_questions/tree/master/0143-reorder-list) |
+| [0151-reverse-words-in-a-string](https://github.com/btirth/interview_questions/tree/master/0151-reverse-words-in-a-string) |
 | [0295-find-median-from-data-stream](https://github.com/btirth/interview_questions/tree/master/0295-find-median-from-data-stream) |
 | [0567-permutation-in-string](https://github.com/btirth/interview_questions/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/btirth/interview_questions/tree/master/0658-find-k-closest-elements) |
