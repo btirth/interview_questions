@@ -1,42 +1,33 @@
 class Solution {
-    Boolean[][][] dp;
+    Boolean[][] dp;
     public boolean checkValidString(String s) {
         int n = s.length();
-        dp = new Boolean[n][n][n];
-        return helper(s, 0, 0, 0);
+        dp = new Boolean[n][n];
+        
+        return helper(s, 0, 0);
     }
 
-    boolean helper(String s, int open, int close, int idx) {
-        if(idx == s.length()) {
-            return open == close;
-        }
-
-        if(open < close) {
+    boolean helper(String s, int idx, int open) {
+        if(open < 0) {
             return false;
         }
 
-        if(dp[idx][open][close] != null) {
-            return dp[idx][open][close];
+        if(idx == s.length()) {
+            return open == 0;
+        }
+
+        if(dp[idx][open] != null) {
+            return dp[idx][open];
         }
 
         if(s.charAt(idx) == '(') {
-            if(helper(s, open + 1, close, idx+1)) {
-                return dp[idx][open][close] = true;
-            }
-
-            return false;
+            return dp[idx][open] = helper(s, idx+1, open+1);
         } else if(s.charAt(idx) == ')') {
-            if(helper(s, open, close + 1, idx+1)) {
-                return dp[idx][open][close] = true;
-            }
+            return dp[idx][open] = helper(s, idx+1, open-1);
         } else {
-            if(helper(s, open + 1, close, idx+1) ||
-            helper(s, open, close + 1, idx+1) ||
-            helper(s, open, close, idx+1)) {
-                return dp[idx][open][close] = true;
-            }
+            return dp[idx][open] = helper(s, idx+1, open) || 
+                helper(s, idx+1, open + 1) || 
+                helper(s, idx+1, open - 1);
         }
-
-        return dp[idx][open][close] = false;
     }
 }
