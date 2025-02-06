@@ -25,9 +25,9 @@ class Solution {
             int val = entry.getValue();
             int totalPair = (val * (val - 1))/2;
 
-            ans += (totalPair * 8);
+            ans += totalPair;
         }
 
-        return ans;
+        return ans * 8;
     }
 }
