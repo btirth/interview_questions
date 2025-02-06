@@ -1,87 +1,73 @@
 class Solution {
-    List<Integer>[] adjR = new ArrayList[10001];
-    List<Integer>[] adjC = new ArrayList[10001];
-    boolean[] visitedR = new boolean[10001];
-    boolean[] visitedC = new boolean[10001];
-
+    int[] parent = new int[20002];
+    int[] rank = new int[20002];
     public int removeStones(int[][] stones) {
         /**
-        [[0,0],[0,1],[1,0],[1,2],[2,1],[2,2]]
-        
-        
-        So we will use Union-Find algorithm
-        ans = stones - no. of components (ex. parent[i] == i)
-        
-        Graph question:
-        [0,0] -> [0,1]
-          |
-        [1,0]  
+        We need to find no. of components
+        ans = n - no. of components
 
-        So we need mapping 
-        for stone in stones:
-            if !visitedC[stone[1]] && !visitedR[stone[0]]:
-                count++
-                dfs(i, j)
+        To find no. of components we can use Union Find or DFS
+        Union Find is better because of path compression algo
 
-        dfs(int r, int c) {
-
-            if(!visitedR[r]) {
-                // call dfs on all points on row R
-                for(int pt: adjR[r]) {
-                    dfs(r, pt);
-                }
-            }
-
-            if(!visitedC[c]) {
-                // call dfs on all points on column C
-                for(int pt: adjC[c]) {
-                    dfs(pt, c);
-                }
-            }
-        }        
+        Now, how we will combine row, col 
+        until now we have used Union Find with edge
+        Can I say that row - col as edge
+        [1...10000][10001...20000]
+        So first 10^4 is row and next 10^4 is column
+        for stone in stones
+            if stone[0], stone[1] not already connected 
+                components++
+                connect()
          */
 
-        for(int i=0; i<10001; i++) {
-            adjR[i] = new ArrayList<>();
-            adjC[i] = new ArrayList<>();
+        for(int[] stone: stones) {
+            int x = stone[0];
+            int y = stone[1] + 10001;
+
+            parent[x] = x;
+            rank[x] = 2;
+            parent[y] = x;
+            rank[y] = 1;
         }
 
+        Set<Integer> set = new HashSet<>();
+
+        int components = 0;
         for(int[] stone: stones) {
-            int r = stone[0];
-            int c = stone[1];
+            int x = stone[0];
+            int y = stone[1] + 10001;
+            set.add(x);
+            set.add(y);
+            int pareX = getParent(x);
+            int pareY = getParent(y);
 
-            adjR[r].add(c);
-            adjC[c].add(r);
-        }
+            if(pareX == pareY) {
+                continue;
+            }
 
-        int stonesToKeep = 0;
-        for(int[] stone: stones) {
-            int r = stone[0];
-            int c = stone[1];
-
-            if(!visitedR[r] && !visitedC[c]) {
-                stonesToKeep++;
-                dfs(r, c);
+            if(rank[pareX] >= rank[pareY]) {
+                rank[pareX] += rank[pareY];
+                parent[pareY] = pareX;
+            } else {
+                rank[pareY] += rank[pareX];
+                parent[pareX] = pareY;
             }
         }
 
-        return stones.length - stonesToKeep;
+        for(int node: set) {
+            if(getParent(node) == node) {
+                components++;
+            }
+        }   
+
+        return stones.length - components;
     }
 
-    void dfs(int r, int c) {
-    
-        if(!visitedR[r]) {
-            visitedR[r] = true;
-            for(int next: adjR[r]) {
-                dfs(r, next);
-            }
+    int getParent(int idx) {
+        if(parent[idx] == idx) {
+            return idx;
         }
 
-        if(!visitedC[c]) {
-            visitedC[c] = true;
-            for(int next: adjC[c]) {
-                dfs(next, c);
-            }
-        }
+        return parent[idx] = getParent(parent[idx]);
     }
 }
