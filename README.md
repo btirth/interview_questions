@@ -30,6 +30,7 @@
 | [0084-largest-rectangle-in-histogram](https://github.com/btirth/interview_questions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/btirth/interview_questions/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/btirth/interview_questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0120-triangle](https://github.com/btirth/interview_questions/tree/master/0120-triangle) |
 | [0128-longest-consecutive-sequence](https://github.com/btirth/interview_questions/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/btirth/interview_questions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/btirth/interview_questions/tree/master/0135-candy) |
@@ -796,6 +797,7 @@
 | [0091-decode-ways](https://github.com/btirth/interview_questions/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/btirth/interview_questions/tree/master/0097-interleaving-string) |
 | [0115-distinct-subsequences](https://github.com/btirth/interview_questions/tree/master/0115-distinct-subsequences) |
+| [0120-triangle](https://github.com/btirth/interview_questions/tree/master/0120-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/btirth/interview_questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/btirth/interview_questions/tree/master/0152-maximum-product-subarray) |
