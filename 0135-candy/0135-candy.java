@@ -26,32 +26,28 @@ class Solution {
 
 
         int n = ratings.length;
-        int[][] children = new int[n][2];
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b) -> Integer.compare(a[0], b[0]));
+        for(int i=0; i<n; i++) {
+            pq.add(new int[]{ratings[i], i});
+        }
+
+
         int[] candies = new int[n];
+        while(!pq.isEmpty()) {
+            int[] pt = pq.poll();
+            int idx = pt[1];
+            int val = 0;
+            if(idx > 0 && ratings[idx] > ratings[idx-1]) {
+                val = Math.max(val, candies[idx-1]);
+            }
 
-        for(int i=0; i<n; i++) {
-            children[i][0] = ratings[i];
-            children[i][1] = i;
+            if(idx < n-1 && ratings[idx] > ratings[idx+1]) {
+                val = Math.max(val, candies[idx+1]);
+            }
+
+            candies[idx] = val + 1;
         }
 
-        Arrays.sort(children, (a,b) -> Integer.compare(a[0], b[0]));
-        
-        for(int i=0; i<n; i++) {
-            int rating = children[i][0];
-            int idx = children[i][1];
-
-            if(candies[idx] == 0) {
-                candies[idx] = 1;
-            }
-
-            if(idx > 0 && ratings[idx-1] > ratings[idx]) {
-                candies[idx-1] = Math.max(candies[idx-1], 1 + candies[idx]);
-            }
-
-            if(idx < n-1 && ratings[idx+1] > ratings[idx]) {
-                candies[idx+1] = Math.max(candies[idx+1], 1 + candies[idx]);
-            }
-        }
 
         int totalCandies = 0;
         for(int candy: candies) {
