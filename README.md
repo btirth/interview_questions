@@ -70,6 +70,7 @@
 | [0859-design-circular-deque](https://github.com/btirth/interview_questions/tree/master/0859-design-circular-deque) |
 | [0876-hand-of-straights](https://github.com/btirth/interview_questions/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/btirth/interview_questions/tree/master/0883-car-fleet) |
+| [0890-lemonade-change](https://github.com/btirth/interview_questions/tree/master/0890-lemonade-change) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/btirth/interview_questions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/btirth/interview_questions/tree/master/0902-minimum-number-of-refueling-stops) |
 | [0906-walking-robot-simulation](https://github.com/btirth/interview_questions/tree/master/0906-walking-robot-simulation) |
@@ -761,6 +762,7 @@
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/btirth/interview_questions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0780-max-chunks-to-make-sorted](https://github.com/btirth/interview_questions/tree/master/0780-max-chunks-to-make-sorted) |
 | [0876-hand-of-straights](https://github.com/btirth/interview_questions/tree/master/0876-hand-of-straights) |
+| [0890-lemonade-change](https://github.com/btirth/interview_questions/tree/master/0890-lemonade-change) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/btirth/interview_questions/tree/master/0902-minimum-number-of-refueling-stops) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/btirth/interview_questions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/btirth/interview_questions/tree/master/1049-minimum-domino-rotations-for-equal-row) |
