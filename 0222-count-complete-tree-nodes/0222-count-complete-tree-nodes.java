@@ -15,48 +15,34 @@
  */
 class Solution {
     public int countNodes(TreeNode root) {
-        /**
-        Can we use property of Complete tree?
-
-        If we know number of levels except last
-        num. of nodes = for l in levels-1 : [ans += 2 ^ (l)]
-
-        If I can get last node in last level
-        ans += 2 ^ lastLevel - ()
-        
-         */
-
         if(root == null) {
             return 0;
-        } 
-        
-        helper(root, 1);
-        return (int)(Math.pow(2, levels - 1)) - 1 + leafNodes;
+        }
+        int left = findLeftHeight(root.left);
+        int right = findRightHeight(root.right);
+        int levels = left + 1;
+
+        if(left == right) {
+            // for complete levels, no. of nodes = (2^levels - 1)
+            return (1 << levels) - 1;
+        }
+
+        return 1 + countNodes(root.left) + countNodes(root.right);
     }
 
-    int levels = 0;
-    int leafNodes = 0;
-
-    void helper(TreeNode root, int level) {
+    int findLeftHeight(TreeNode root) {
         if(root == null) {
-            return;
+            return 0;
         }
 
-        if(level > levels) {
-            leafNodes = 0;
-            levels = level;
+        return 1 + findLeftHeight(root.left);
+    }
+
+    int findRightHeight(TreeNode root) {
+        if(root == null) {
+            return 0;
         }
 
-        if(level == levels) {
-            leafNodes++;
-        }
-
-        if(root.left != null) {
-            helper(root.left, level + 1);
-        }
-
-        if(root.right != null) {
-            helper(root.right, level + 1);
-        }
+        return 1 + findRightHeight(root.right);
     }
 }
