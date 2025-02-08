@@ -241,6 +241,7 @@
 | [2164-two-best-non-overlapping-events](https://github.com/btirth/interview_questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2300-construct-string-with-repeat-limit](https://github.com/btirth/interview_questions/tree/master/2300-construct-string-with-repeat-limit) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/btirth/interview_questions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2434-design-a-number-container-system](https://github.com/btirth/interview_questions/tree/master/2434-design-a-number-container-system) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/btirth/interview_questions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/btirth/interview_questions/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/btirth/interview_questions/tree/master/2692-take-gifts-from-the-richest-pile) |
@@ -490,6 +491,7 @@
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/btirth/interview_questions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2300-construct-string-with-repeat-limit](https://github.com/btirth/interview_questions/tree/master/2300-construct-string-with-repeat-limit) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/btirth/interview_questions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [2434-design-a-number-container-system](https://github.com/btirth/interview_questions/tree/master/2434-design-a-number-container-system) |
 | [2487-optimal-partition-of-string](https://github.com/btirth/interview_questions/tree/master/2487-optimal-partition-of-string) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/btirth/interview_questions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/btirth/interview_questions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -943,6 +945,7 @@
 | [1477-product-of-the-last-k-numbers](https://github.com/btirth/interview_questions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/btirth/interview_questions/tree/master/1497-design-a-stack-with-increment-operation) |
 | [2139-detect-squares](https://github.com/btirth/interview_questions/tree/master/2139-detect-squares) |
+| [2434-design-a-number-container-system](https://github.com/btirth/interview_questions/tree/master/2434-design-a-number-container-system) |
 ## Segment Tree
 |  |
 | ------- |
@@ -955,6 +958,7 @@
 | ------- |
 | [0729-my-calendar-i](https://github.com/btirth/interview_questions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/btirth/interview_questions/tree/master/0731-my-calendar-ii) |
+| [2434-design-a-number-container-system](https://github.com/btirth/interview_questions/tree/master/2434-design-a-number-container-system) |
 | [2868-continuous-subarrays](https://github.com/btirth/interview_questions/tree/master/2868-continuous-subarrays) |
 ## Queue
 |  |
