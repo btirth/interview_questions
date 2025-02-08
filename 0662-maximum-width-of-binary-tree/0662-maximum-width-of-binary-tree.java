@@ -15,19 +15,19 @@
  */
 class Solution {
     public int widthOfBinaryTree(TreeNode root) {
-        Queue<Pair<TreeNode, Long>> q = new LinkedList<>();
-        q.add(new Pair(root, (long)1));
+        Queue<Pair<TreeNode, Integer>> q = new LinkedList<>();
+        q.add(new Pair(root, 1));
         int ans = 1;
 
         while(!q.isEmpty()) {
             int size = q.size();
-            long left = Long.MAX_VALUE;
-            long right = 0;
+            int left = 0;
+            int right = 0;
 
             for(int i=0; i<size; i++) {
-                Pair<TreeNode, Long> p = q.poll();
+                Pair<TreeNode, Integer> p = q.poll();
                 TreeNode node = p.getKey();
-                long val = p.getValue();
+                int val = p.getValue();
 
                 if(i == 0)
                     left = val;
@@ -44,7 +44,7 @@ class Solution {
                 }
             }
 
-            ans = Math.max(ans, (int)(right - left + 1));
+            ans = Math.max(ans, (right - left + 1));
         }
 
         return ans;
