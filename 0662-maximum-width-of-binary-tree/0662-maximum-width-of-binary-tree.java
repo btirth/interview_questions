@@ -36,11 +36,11 @@ class Solution {
                     right = val;
 
                 if(node.left != null) {
-                    q.add(new Pair(node.left, (2 * val) + 1));
+                    q.add(new Pair(node.left, (2 * val)));
                 }
 
                 if(node.right != null) {
-                    q.add(new Pair(node.right, (2 * val) + 2));
+                    q.add(new Pair(node.right, (2 * val) + 1));
                 }
             }
 
