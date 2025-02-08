@@ -15,27 +15,32 @@
  */
 class Solution {
     public void flatten(TreeNode root) {
-        prev = new TreeNode();
-        if(root == null) {
-            return;
-        }
-        flattenTree(root);
+        /**
+        Root -> Left -> Right
+
+        
+        
+         */
+
+        helper(root);
     }
 
-    TreeNode prev;
-    void flattenTree(TreeNode tree) {
-        if(tree == null) {
-            return;
+    TreeNode helper(TreeNode root) {
+        if(root == null) {
+            return null;
         }
 
-        TreeNode left = tree.left;
-        TreeNode right = tree.right;
-        tree.left = null;
-        tree.right = null;
-        prev.right = tree;
-        prev = prev.right;
-       
-        flattenTree(left);
-        flattenTree(right);
+        TreeNode left = helper(root.left);
+        TreeNode right = helper(root.right);
+
+        root.left = null;
+        root.right = left;
+        TreeNode curr = root;
+        while(curr.right != null) {
+            curr = curr.right;
+        }
+        curr.right = right;
+
+        return root;
     }
 }
