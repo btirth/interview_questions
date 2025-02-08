@@ -6,16 +6,10 @@ class NumberContainers {
     }
     
     public void change(int index, int number) {
-        if(indexValMap.containsKey(index)) {
-            int prevNum = indexValMap.get(index);
-            PriorityQueue<Integer> set = indexMap.get(prevNum);
-            indexMap.put(prevNum, set);
-        }
-
         indexValMap.put(index, number);
-        PriorityQueue<Integer> set = indexMap.getOrDefault(number, new PriorityQueue<>());
-        set.add(index);
-        indexMap.put(number, set);
+        PriorityQueue<Integer> pq = indexMap.getOrDefault(number, new PriorityQueue<>());
+        pq.add(index);
+        indexMap.put(number, pq);
     }
     
     public int find(int number) {
