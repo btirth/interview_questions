@@ -17,30 +17,32 @@ class Solution {
     public void flatten(TreeNode root) {
         /**
         Root -> Left -> Right
-
-        
-        
          */
 
         helper(root);
     }
 
-    TreeNode helper(TreeNode root) {
+    TreeNode[] helper(TreeNode root) {
         if(root == null) {
-            return null;
+            return new TreeNode[2];
         }
 
-        TreeNode left = helper(root.left);
-        TreeNode right = helper(root.right);
+        TreeNode[] left = helper(root.left);
+        TreeNode[] right = helper(root.right);
+        TreeNode last = root;
 
         root.left = null;
-        root.right = left;
-        TreeNode curr = root;
-        while(curr.right != null) {
-            curr = curr.right;
+        if(left[0] != null) {
+            last.right = left[0];
+            last = left[1];
         }
-        curr.right = right;
 
-        return root;
+        if(right[0] != null) {
+            last.right = right[0];
+            last = right[1];
+        }
+            
+
+        return new TreeNode[]{root, last};
     }
 }
