@@ -7,88 +7,69 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-
-/**
-[5,4,7,3,null,2,null,-1,null,9]
-
-
-start = 0;
-end = 9;
-
-root = num[start];
-
-left = start + 1
-end = 
-
-
-1 -> 1, 2
-2 -> 3, 4, 5, 6
-
-
-
- */
 public class Codec {
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
-        String serialized = "";
+        if(root == null) {
+            return "";
+        }
 
         Queue<TreeNode> q = new LinkedList<>();
+        StringBuilder res = new StringBuilder("");
+        res.append(root.val+",");
         q.add(root);
-
         while(!q.isEmpty()) {
             TreeNode node = q.poll();
-            if(node == null) {
-                serialized = serialized + ",null";
-            } else {
-                if(serialized.equals("")) {
-                    serialized = ""+node.val;
-                } else {
-                    serialized = serialized + "," + node.val;
-                }
-                
+
+            if(node.left != null) {
+                res.append(node.left.val+",");
                 q.add(node.left);
+            } else {
+                res.append("#,");
+            }
+
+            if(node.right != null) {
+                res.append(node.right.val+",");
                 q.add(node.right);
+            } else {
+                res.append("#,");
             }
         }
 
-        System.out.println(serialized);
-        return "[" + serialized + "]";
+        return res.toString();
     }
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        String mainData = data.substring(1, data.length() - 1);
-        String[] values = mainData.split(",");
-
-        if(values.length == 0 || values[0].equals("")) {
+        if(data.isEmpty()) {
             return null;
         }
 
-        int rootVal = Integer.valueOf(values[0]);
-        TreeNode root = new TreeNode(rootVal);
+        String[] nodes = data.split(",");
+
+        TreeNode root = new TreeNode(Integer.valueOf(nodes[0]));
         TreeNode temp = root;
         int idx = 1;
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
 
-        while(!q.isEmpty() && idx < values.length) {
-            int size = q.size();
-            while(size-- > 0) {
-                TreeNode node = q.poll();
-                if(!values[idx].equals("null")) {
-                    TreeNode left = new TreeNode(Integer.valueOf(values[idx]));
-                    node.left = left;
-                    q.add(left);
-                }
-                idx++;
-                if(!values[idx].equals("null")) {
-                    TreeNode right = new TreeNode(Integer.valueOf(values[idx]));
-                    node.right = right;
-                    q.add(right);
-                }
-                idx++;
+        while(idx < nodes.length) {
+            TreeNode curr = q.poll();
+
+            if(!nodes[idx].equals("#")) {
+                curr.left = new TreeNode(Integer.valueOf(nodes[idx]));
+                q.add(curr.left);
+                
             }
+            idx++;
+            
+            if(!nodes[idx].equals("#")) {
+                curr.right = new TreeNode(Integer.valueOf(nodes[idx]));
+                q.add(curr.right);
+                
+            }
+            idx++;
         }
 
         return temp;
