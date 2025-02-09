@@ -8,41 +8,58 @@
  * }
  */
 class Solution {
+    List<Integer> ans = new ArrayList<>();
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
-        List<TreeNode> path = new ArrayList<>();
-        List<Integer> ans = new ArrayList<>();
-        rootToNodePath( root, target, path);
-        for(int i = 0; i < path.size(); i++)
-        {
-            kLevelDown( ans, k-i, path.get(i), (i==0)? null : path.get(i-1));
-        }
+        helper(target, k);
+        findNode(root, target, k);
         return ans;
     }
-    boolean rootToNodePath(TreeNode node,TreeNode target, List<TreeNode> path)
-    {
-        if( node == null) return false;
-        if( node == target){
-            path.add(target);
-            return true;
+
+    int findNode(TreeNode root, TreeNode target, int k) {
+        if(root == null) {
+            return -1;
         }
 
-        if( rootToNodePath( node.left, target, path) || rootToNodePath(node.right, target, path))
-        {
-            path.add( node);
-            return true;
+        if(root.val == target.val) {
+            return 1;
         }
-        return false;
+
+        int left = findNode(root.left, target, k);
+        if(left != -1) {
+            if(k == left) {
+                ans.add(root.val);
+                return -1;
+            }
+
+            helper(root.right, k - left - 1);
+            return left + 1;
+        }
+
+        int right = findNode(root.right, target, k);
+        if(right != -1) {
+            if(k == right) {
+                ans.add(root.val);
+                return -1;
+            }
+
+            helper(root.left, k - right - 1);
+            return right + 1;
+        }
+
+        return -1;
     }
-    void kLevelDown( List<Integer> ans , int dist, TreeNode node, TreeNode blocker)
-    {
-        if( node == blocker || node == null ) return ;
 
-        if( dist == 0){
-            ans.add( node.val);
-            return ;
+    void helper(TreeNode root, int k) {
+        if(root == null) {
+            return;
         }
 
-        kLevelDown(ans, dist-1, node.left, blocker);
-        kLevelDown(ans, dist-1, node.right, blocker);
+        if(k == 0) {
+            ans.add(root.val);
+            return;
+        }
+
+        helper(root.left, k-1);
+        helper(root.right, k-1);
     }
 }
