@@ -22,8 +22,8 @@ class Solution {
         if(is > ie || ps > pe) {
             return null;
         }
-        
-        if(is == ie || ps == pe) {
+
+        if(is == ie) {
             return new TreeNode(io[is]);
         }
 
