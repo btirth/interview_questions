@@ -25,9 +25,13 @@ class Solution {
         }
 
         int[] left = helper(root.left);
+        if(left[1] == 1) {
+            return new int[]{0,1}; 
+        } 
+
         int[] right = helper(root.right);
 
-        if(left[1] == 1 || right[1] == 1 || Math.abs(left[0] - right[0]) > 1) {
+        if(right[1] == 1 || Math.abs(left[0] - right[0]) > 1) {
             return new int[]{0,1};
         }
 
