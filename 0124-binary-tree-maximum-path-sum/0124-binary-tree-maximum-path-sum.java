@@ -14,8 +14,9 @@
  * }
  */
 class Solution {
-    int ans = Integer.MIN_VALUE;
+    int ans;
     public int maxPathSum(TreeNode root) {
+        ans = root.val;
         helper(root);
         return ans;
     }
@@ -28,9 +29,9 @@ class Solution {
         int left = helper(root.left);
         int right = helper(root.right);
 
-        int maxSub = Math.max(left, right);
-        ans = Math.max(ans, Math.max(maxSub + root.val, left + right + root.val));
-        ans = Math.max(ans, root.val);
-        return Math.max(root.val, maxSub + root.val);
+        ans = Math.max(Math.max(ans, root.val), root.val + Math.max(left, right));
+        ans = Math.max(ans, root.val + left + right);
+
+        return Math.max(root.val, root.val + Math.max(left, right));
     }
 }
