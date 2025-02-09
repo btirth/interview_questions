@@ -15,29 +15,22 @@
  */
 class Solution {
     public void flatten(TreeNode root) {
-        if(root == null) {
-            return;
-        }
+        TreeNode curr = root;
 
-        Stack<TreeNode> st = new Stack<>();
-        st.push(root);
-
-        TreeNode curr = null;
-        while(!st.isEmpty()) {
-            curr = st.pop();
-
-            if(curr.right != null) {
-                st.push(curr.right);
-            }
-
+        while(curr != null) {
             if(curr.left != null) {
-                st.push(curr.left);
+                TreeNode prev = curr.left;
+
+                while(prev.right != null) {
+                    prev = prev.right;
+                }
+
+                prev.right = curr.right;
+                curr.right = curr.left;
+                curr.left = null;
             }
 
-            curr.left = null;
-            if(!st.isEmpty()) {  
-                curr.right = st.peek();
-            }
+            curr = curr.right;
         }
     }
 }
