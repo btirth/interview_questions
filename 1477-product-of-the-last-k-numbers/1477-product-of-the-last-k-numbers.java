@@ -1,37 +1,40 @@
 class ProductOfNumbers {
-    int[] prefixProduct;
-    int lastZeroIdx;
-    int idx;
+
+    int[] products;
+
+    int idx = -1;
+    int lastZero = -1;
 
     public ProductOfNumbers() {
-        prefixProduct = new int[40002];
-        lastZeroIdx = -1;
-        idx = 0;
+        products = new int[40001];
+        Arrays.fill(products, 1);
     }
     
     public void add(int num) {
+        idx++;
+
         if(num == 0) {
-            lastZeroIdx = idx;
-        }
-        if(idx == 0 || prefixProduct[idx-1] == 0) {
-            prefixProduct[idx] = num;
-        } else {
-            prefixProduct[idx] = prefixProduct[idx-1]*num;
+            lastZero = idx;
+            return;
         }
 
-        idx++;
+        if(idx == 0) {
+            products[idx] = num;
+        } else {
+            products[idx] = (products[idx - 1] == 0 ? 1 : products[idx - 1]) * num;
+        }
     }
     
     public int getProduct(int k) {
-        if(lastZeroIdx != -1 && idx - lastZeroIdx <= k) {
+        if(idx - k < lastZero) {
             return 0;
         }
 
-        if(idx == k || prefixProduct[idx-k-1] == 0) {
-            return prefixProduct[idx-1];
+        if(k > idx) {
+            return products[idx];
         }
 
-        return prefixProduct[idx-1] / prefixProduct[idx-k-1];
+        return products[idx] / products[idx - k];
     }
 }
 
