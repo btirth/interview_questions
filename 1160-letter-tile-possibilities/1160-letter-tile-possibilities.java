@@ -19,27 +19,27 @@ class Solution {
 
 
          */ 
-        HashMap<Character, Integer> freq = new HashMap<>();
+        int[] freq = new int[26];
         for(char ch: tiles.toCharArray()) {
-            freq.put(ch, freq.getOrDefault(ch, 0) + 1);
+            freq[ch - 'A']++;
         } 
 
-        helper(freq);
-        return count; 
+        return helper(freq);
     }
 
-    int count = 0;
-    void helper(HashMap<Character, Integer> freq) {
-        
+    
+    int helper(int[] freq) {
+        int count = 0;
 
-        for(Map.Entry<Character, Integer> entry: freq.entrySet()) {
-            int originalValue = entry.getValue();
-            if(entry.getValue() > 0) {
+        for(int i=0; i<26; i++) {
+            if(freq[i] > 0) {
                 count++;
-                freq.put(entry.getKey(), originalValue - 1);
-                helper(freq);
-                freq.put(entry.getKey(), originalValue);
+                freq[i]--;
+                count += helper(freq);
+                freq[i]++;
             }
         }
+
+        return count;
     }
 }
