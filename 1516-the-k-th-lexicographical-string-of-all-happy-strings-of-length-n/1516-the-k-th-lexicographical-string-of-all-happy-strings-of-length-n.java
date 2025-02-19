@@ -1,55 +1,50 @@
 class Solution {
+    int k;
+    int[] ans;
+    public String getHappyString(int n, int k) {
+        ans = new int[n];
+        this.k = k;
+        helper(n, new int[n], 0);
 
-    private void generateHappyStrings(
-        int n,
-        int k,
-        StringBuilder currentString,
-        int[] indexInSortedList,
-        String[] result
-    ) {
-        // If the current string has reached the desired length
-        if (currentString.length() == n) {
-            indexInSortedList[0]++; // Increment the count of generated strings
+        char[] ch = new char[n];
+        for(int i=0; i<n; i++) {
+            if(ans[i] == 1) {
+                ch[i] = 'a';
+            } else if(ans[i] == 2) {
+                ch[i] = 'b';
+            } else if(ans[i] == 3) {
+                ch[i] = 'c';
+            }
+        }
 
-            // If this is the k-th string, store it in the result
-            if (indexInSortedList[0] == k) result[0] = currentString.toString();
+        if(this.k > 0) {
+            return "";
+        }
+
+        return new String(ch);
+    }
+
+    void helper(int n, int[] arr, int idx) {
+        if(idx == n) {
+            k--;
+
+            if(k == 0) {
+                ans = Arrays.copyOf(arr, arr.length);
+            }
+
             return;
         }
 
-        // Try adding each character ('a', 'b', 'c') to the current string
-        for (char currentChar = 'a'; currentChar <= 'c'; currentChar++) {
-            // Skip if the current character is the same as the last one
-            if (
-                currentString.length() > 0 &&
-                currentString.charAt(currentString.length() - 1) == currentChar
-            ) continue;
-
-            currentString.append(currentChar);
-
-            // Recursively generate the next character
-            generateHappyStrings(
-                n,
-                k,
-                currentString,
-                indexInSortedList,
-                result
-            );
-
-            // If the result is found, stop further processing
-            if (result[0] != null) return;
-
-            // Backtrack by removing the last character
-            currentString.deleteCharAt(currentString.length() - 1);
+        if(k <= 0) {
+            return;
         }
-    }
 
-    public String getHappyString(int n, int k) {
-        StringBuilder currentString = new StringBuilder();
-        String[] result = new String[1];
-        int[] indexInSortedList = new int[1];
-
-        // Generate happy strings and track the k-th string
-        generateHappyStrings(n, k, currentString, indexInSortedList, result);
-        return result[0] == null ? "" : result[0];
+        for(int i=1; i<=3; i++) {
+            if(idx == 0 || arr[idx-1] != i) {
+                arr[idx] = i;
+                helper(n, arr, idx + 1);
+                arr[idx] = 0;
+            }
+        }
     }
 }
