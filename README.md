@@ -545,6 +545,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/btirth/interview_questions/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/btirth/interview_questions/tree/master/0007-reverse-integer) |
 | [0013-roman-to-integer](https://github.com/btirth/interview_questions/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/btirth/interview_questions/tree/master/0048-rotate-image) |
@@ -568,6 +569,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/btirth/interview_questions/tree/master/0002-add-two-numbers) |
 | [0023-merge-k-sorted-lists](https://github.com/btirth/interview_questions/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/btirth/interview_questions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
@@ -923,6 +925,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/btirth/interview_questions/tree/master/0002-add-two-numbers) |
 | [0010-regular-expression-matching](https://github.com/btirth/interview_questions/tree/master/0010-regular-expression-matching) |
 | [0025-reverse-nodes-in-k-group](https://github.com/btirth/interview_questions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/btirth/interview_questions/tree/master/0050-powx-n) |
