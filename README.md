@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/btirth/interview_questions/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/btirth/interview_questions/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/btirth/interview_questions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/btirth/interview_questions/tree/master/0036-valid-sudoku) |
@@ -469,6 +470,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/btirth/interview_questions/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/btirth/interview_questions/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/btirth/interview_questions/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/btirth/interview_questions/tree/master/0041-first-missing-positive) |
