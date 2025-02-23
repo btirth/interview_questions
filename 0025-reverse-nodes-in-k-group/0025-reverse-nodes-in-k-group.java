@@ -9,54 +9,79 @@
  * }
  */
 class Solution {
-    /**
-    temp.next = 1 // prev
-    head = 2
-
-    reversed = reverse(temp.next); // 2
-    temp.next = reversed
-    temp = prev
-
-    temp.next = head.next;
-    head = head.next;
-    
-    
-     */
     public ListNode reverseKGroup(ListNode head, int k) {
-        ListNode tempHead = new ListNode();
-        ListNode temp = tempHead;
-        tempHead.next = head;
+        /**
+        [1,2,3,4,5]
+        res = 0
+        tempHead = head = 1 -> len = 0
+        head = 2 -> len = 1
 
-        int count = 1;
-        while(head != null && head.next != null) {
+        if(len % (k-1) == 0) {
+            next = head.next = 3
+            reversed = reverse([1,2]) = [2,1]
+            res.next = reversed = [0,2,1]
+            res = tempHead = 1
+            len = 0
+            head = next
+            tempHead = next
+        }
+        
+        tempHead = head = 3 -> len = 0
+        head = 4 -> len = 1
+
+        head = 5
+        tempHead = 5
+
+
+        at the end 
+        if(tempHead != null) 
+            res.next = tempHead
+
+        return tempRes.next    
+         */
+
+        if(k == 1 || head == null) {
+            return head;
+        }
+
+        ListNode tempHead = head;
+        ListNode res = new ListNode(0);
+        ListNode tempRes = res;
+        int len = 0;
+
+        while(head != null) {
+            len++;
             head = head.next;
-            count++;
 
-            if(count == k) {
-                ListNode tempPrev = temp.next;
-            
-                ListNode nextHead = head.next;
+            if(head != null && len == (k-1)) {
+                ListNode next = head.next;
                 head.next = null;
-                ListNode reversed = reverse(temp.next);
-                temp.next = reversed;
-                temp = tempPrev;
-                temp.next = nextHead;
-                head = nextHead;
-                count = 1;
+                ListNode reversed = reverse(tempHead);
+                res.next = reversed;
+                res = tempHead;
+                len = 0;
+                head = next;
+                tempHead = next;
             }
         }
 
-        return tempHead.next;
+        if(tempHead != null) {
+            res.next = tempHead;
+        }
+        
+        return tempRes.next;
     }
 
-    ListNode reverse(ListNode node) {
+    ListNode reverse(ListNode head) {
         ListNode prev = null;
-        while(node != null) {
-            ListNode temp = node.next;
-            node.next = prev;
-            prev = node;
-            node = temp;
+
+        while(head != null) {
+            ListNode temp = head.next;
+            head.next = prev;
+            prev = head;
+            head = temp;
         }
+
         return prev;
     }
 }
