@@ -1,46 +1,54 @@
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        int length = 1;
+        Set<String> visited = new HashSet<>();
         Queue<String> q = new LinkedList<>();
-        Set<String> processed = new HashSet<>();
-
+        int len = 0;
+        visited.add(beginWord);
         q.add(beginWord);
-        processed.add(beginWord);
 
         while(!q.isEmpty()) {
             int size = q.size();
+
             while(size-- > 0) {
-                String str = q.poll();
-                for(String word: wordList) {
-                    if(!processed.contains(word) && isValid(str, word)) {
-                        processed.add(word);
-                        q.add(word);
-                        if(word.equals(endWord)) {
-                            return length + 1;
-                        }
+                String word = q.poll();
+
+                if(word.equals(endWord)) {
+                    return len + 1;
+                }
+
+                for(String next: wordList) {
+                    if(visited.contains(next)) {
+                        continue;
+                    }
+
+                    if(isPossible(word, next)) {
+                        q.add(next);
+                        visited.add(next);
                     }
                 }
             }
-            
-            length++;
+
+            len++;
         }
 
         return 0;
     }
 
-    boolean isValid(String s, String t) {
-        boolean foundMismatch = false;
+    boolean isPossible(String s1, String s2) {
+        boolean foundFirstDiffer = false;
 
-        for(int i = 0; i<s.length(); i++) {
-            if(s.charAt(i) != t.charAt(i)) {
-                if(foundMismatch) {
-                    return false;
-                }
-
-                foundMismatch = true;
+        for(int i=0; i<s1.length(); i++) {
+            if(s1.charAt(i) == s2.charAt(i)) {
+                continue;
             }
+
+            if(foundFirstDiffer) {
+                return false;
+            }
+
+            foundFirstDiffer = true;
         }
 
-        return foundMismatch;
+        return foundFirstDiffer;
     }
 }
