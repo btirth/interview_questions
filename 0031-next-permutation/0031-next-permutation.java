@@ -16,27 +16,25 @@ class Solution {
         }
 
         // Find smalles number on right of breakPoint but greater than nums[breakPoint]
-
-        int smallesNumberIdx = breakPoint+1;
-        for(int i=breakPoint + 1; i<n; i++) {
-            if(nums[i] > nums[breakPoint] && nums[i] < nums[smallesNumberIdx]) {
-                smallesNumberIdx = i;
+        for(int i=n-1; i>breakPoint; i--) {
+            if(nums[i]>nums[breakPoint]) {
+                int temp = nums[breakPoint];
+                nums[breakPoint] = nums[i];
+                nums[i] = temp;
+                break;       
             }
         }
 
-        // Swap
-        int temp = nums[breakPoint];
-        nums[breakPoint] = nums[smallesNumberIdx];
-        nums[smallesNumberIdx] = temp;
-
         // Sort on Right
-        List<Integer> sorted = new ArrayList<>();
-        for(int i=breakPoint + 1; i<n; i++) {
-            sorted.add(nums[i]);
-        }
-        Collections.sort(sorted);
-        for(int i=breakPoint + 1; i<n; i++) {
-            nums[i] = sorted.get(i - breakPoint -1);
+        int left = breakPoint+1;
+        int right = n-1;
+
+        while(left < right) {
+            int temp = nums[left];
+            nums[left] = nums[right];
+            nums[right] = temp;
+            left++;
+            right--;
         }
     }
 }
