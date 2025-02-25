@@ -6,13 +6,14 @@ class Solution {
         }
 
         int lcs = 0;
-        for(int num: nums) {
-            if(set.contains(num + 1)) {
+        int n = nums.length;
+        for(int i=0; i<n; i++) {
+            if(set.contains(nums[i] + 1)) {
                 continue;
-            }
+            }   
 
-            int count = 0;
-            while(set.contains(num - count)) {
+            int count = 1;
+            while(set.contains(nums[i] - count)) {
                 count++;
             }
 
