@@ -59,6 +59,7 @@
 | [0410-split-array-largest-sum](https://github.com/btirth/interview_questions/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/btirth/interview_questions/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/btirth/interview_questions/tree/master/0455-assign-cookies) |
+| [0493-reverse-pairs](https://github.com/btirth/interview_questions/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/btirth/interview_questions/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/btirth/interview_questions/tree/master/0518-coin-change-ii) |
 | [0539-minimum-time-difference](https://github.com/btirth/interview_questions/tree/master/0539-minimum-time-difference) |
@@ -341,6 +342,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/btirth/interview_questions/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/btirth/interview_questions/tree/master/0410-split-array-largest-sum) |
+| [0493-reverse-pairs](https://github.com/btirth/interview_questions/tree/master/0493-reverse-pairs) |
 | [0658-find-k-closest-elements](https://github.com/btirth/interview_questions/tree/master/0658-find-k-closest-elements) |
 | [0729-my-calendar-i](https://github.com/btirth/interview_questions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/btirth/interview_questions/tree/master/0731-my-calendar-ii) |
@@ -1060,6 +1062,7 @@
 ## Segment Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/btirth/interview_questions/tree/master/0493-reverse-pairs) |
 | [0729-my-calendar-i](https://github.com/btirth/interview_questions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/btirth/interview_questions/tree/master/0731-my-calendar-ii) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/btirth/interview_questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
@@ -1067,6 +1070,7 @@
 ## Ordered Set
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/btirth/interview_questions/tree/master/0493-reverse-pairs) |
 | [0729-my-calendar-i](https://github.com/btirth/interview_questions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/btirth/interview_questions/tree/master/0731-my-calendar-ii) |
 | [2434-design-a-number-container-system](https://github.com/btirth/interview_questions/tree/master/2434-design-a-number-container-system) |
@@ -1180,6 +1184,7 @@
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/btirth/interview_questions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/btirth/interview_questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0493-reverse-pairs](https://github.com/btirth/interview_questions/tree/master/0493-reverse-pairs) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/btirth/interview_questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1014-k-closest-points-to-origin](https://github.com/btirth/interview_questions/tree/master/1014-k-closest-points-to-origin) |
 ## Geometry
@@ -1242,6 +1247,7 @@
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/btirth/interview_questions/tree/master/0493-reverse-pairs) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/btirth/interview_questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/btirth/interview_questions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Binary Search Tree
@@ -1257,6 +1263,7 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/btirth/interview_questions/tree/master/0023-merge-k-sorted-lists) |
+| [0493-reverse-pairs](https://github.com/btirth/interview_questions/tree/master/0493-reverse-pairs) |
 ## Line Sweep
 |  |
 | ------- |
