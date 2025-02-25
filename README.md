@@ -46,6 +46,7 @@
 | [0212-word-search-ii](https://github.com/btirth/interview_questions/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/btirth/interview_questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0221-maximal-square](https://github.com/btirth/interview_questions/tree/master/0221-maximal-square) |
+| [0229-majority-element-ii](https://github.com/btirth/interview_questions/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/btirth/interview_questions/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/btirth/interview_questions/tree/master/0300-longest-increasing-subsequence) |
@@ -497,6 +498,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/btirth/interview_questions/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/btirth/interview_questions/tree/master/0146-lru-cache) |
+| [0229-majority-element-ii](https://github.com/btirth/interview_questions/tree/master/0229-majority-element-ii) |
 | [0355-design-twitter](https://github.com/btirth/interview_questions/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/btirth/interview_questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
@@ -789,6 +791,7 @@
 ## Counting
 |  |
 | ------- |
+| [0229-majority-element-ii](https://github.com/btirth/interview_questions/tree/master/0229-majority-element-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/btirth/interview_questions/tree/master/0451-sort-characters-by-frequency) |
 | [0778-reorganize-string](https://github.com/btirth/interview_questions/tree/master/0778-reorganize-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/btirth/interview_questions/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -822,6 +825,7 @@
 | [0075-sort-colors](https://github.com/btirth/interview_questions/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/btirth/interview_questions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0229-majority-element-ii](https://github.com/btirth/interview_questions/tree/master/0229-majority-element-ii) |
 | [0295-find-median-from-data-stream](https://github.com/btirth/interview_questions/tree/master/0295-find-median-from-data-stream) |
 | [0451-sort-characters-by-frequency](https://github.com/btirth/interview_questions/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/btirth/interview_questions/tree/master/0455-assign-cookies) |
