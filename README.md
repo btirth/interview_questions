@@ -10,6 +10,7 @@
 | [0018-4sum](https://github.com/btirth/interview_questions/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/btirth/interview_questions/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/btirth/interview_questions/tree/master/0033-search-in-rotated-sorted-array) |
+| [0035-search-insert-position](https://github.com/btirth/interview_questions/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/btirth/interview_questions/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/btirth/interview_questions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/btirth/interview_questions/tree/master/0040-combination-sum-ii) |
@@ -338,6 +339,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/btirth/interview_questions/tree/master/0033-search-in-rotated-sorted-array) |
+| [0035-search-insert-position](https://github.com/btirth/interview_questions/tree/master/0035-search-insert-position) |
 | [0074-search-a-2d-matrix](https://github.com/btirth/interview_questions/tree/master/0074-search-a-2d-matrix) |
 | [0222-count-complete-tree-nodes](https://github.com/btirth/interview_questions/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
