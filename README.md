@@ -497,6 +497,7 @@
 | [3451-string-compression-iii](https://github.com/btirth/interview_questions/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/btirth/interview_questions/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/btirth/interview_questions/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/btirth/interview_questions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -577,6 +578,7 @@
 | [3455-minimum-length-of-string-after-operations](https://github.com/btirth/interview_questions/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/btirth/interview_questions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/btirth/interview_questions/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/btirth/interview_questions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/btirth/interview_questions/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3699-count-special-subsequences](https://github.com/btirth/interview_questions/tree/master/3699-count-special-subsequences) |
 ## Math
@@ -1068,6 +1070,7 @@
 | [3483-alternating-groups-ii](https://github.com/btirth/interview_questions/tree/master/3483-alternating-groups-ii) |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/btirth/interview_questions/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/btirth/interview_questions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/btirth/interview_questions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Design
 |  |
 | ------- |
