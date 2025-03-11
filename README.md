@@ -450,6 +450,7 @@
 | [1252-break-a-palindrome](https://github.com/btirth/interview_questions/tree/master/1252-break-a-palindrome) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/btirth/interview_questions/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/btirth/interview_questions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/btirth/interview_questions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/btirth/interview_questions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1502-construct-k-palindrome-strings](https://github.com/btirth/interview_questions/tree/master/1502-construct-k-palindrome-strings) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/btirth/interview_questions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
@@ -538,6 +539,7 @@
 | [1256-rank-transform-of-an-array](https://github.com/btirth/interview_questions/tree/master/1256-rank-transform-of-an-array) |
 | [1364-tuple-with-same-product](https://github.com/btirth/interview_questions/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/btirth/interview_questions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/btirth/interview_questions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/btirth/interview_questions/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/btirth/interview_questions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1502-construct-k-palindrome-strings](https://github.com/btirth/interview_questions/tree/master/1502-construct-k-palindrome-strings) |
@@ -1059,6 +1061,7 @@
 | [0658-find-k-closest-elements](https://github.com/btirth/interview_questions/tree/master/0658-find-k-closest-elements) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/btirth/interview_questions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/btirth/interview_questions/tree/master/1046-max-consecutive-ones-iii) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/btirth/interview_questions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1755-defuse-the-bomb](https://github.com/btirth/interview_questions/tree/master/1755-defuse-the-bomb) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/btirth/interview_questions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/btirth/interview_questions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
