@@ -96,6 +96,7 @@
 | [1256-rank-transform-of-an-array](https://github.com/btirth/interview_questions/tree/master/1256-rank-transform-of-an-array) |
 | [1288-maximum-subarray-sum-with-one-deletion](https://github.com/btirth/interview_questions/tree/master/1288-maximum-subarray-sum-with-one-deletion) |
 | [1325-path-with-maximum-probability](https://github.com/btirth/interview_questions/tree/master/1325-path-with-maximum-probability) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/btirth/interview_questions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/btirth/interview_questions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1364-tuple-with-same-product](https://github.com/btirth/interview_questions/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/btirth/interview_questions/tree/master/1396-count-servers-that-communicate) |
@@ -365,6 +366,7 @@
 | [0907-koko-eating-bananas](https://github.com/btirth/interview_questions/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/btirth/interview_questions/tree/master/1023-time-based-key-value-store) |
 | [1046-max-consecutive-ones-iii](https://github.com/btirth/interview_questions/tree/master/1046-max-consecutive-ones-iii) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/btirth/interview_questions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/btirth/interview_questions/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/btirth/interview_questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/btirth/interview_questions/tree/master/1646-kth-missing-positive-number) |
