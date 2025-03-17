@@ -1,21 +1,19 @@
 class Solution {
     public boolean divideArray(int[] nums) {
-        Arrays.sort(nums);
+        int[] freq = new int[501];
         int count = 1;
         int n = nums.length;
 
-        for(int i=1; i<n; i++) {
-            if(nums[i] != nums[i-1]) {
-                if(count % 2 != 0) {
-                    return false;
-                }
+        for(int num: nums) {
+            freq[num]++;
+        }
 
-                count = 1;
-            } else {
-                count++;
+        for(int i=1; i<=500; i++) {
+            if(freq[i] % 2 != 0) {
+                return false;
             }
         }
 
-        return (count % 2) == 0;
+        return true;
     }
 }
