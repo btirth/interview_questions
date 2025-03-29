@@ -197,6 +197,7 @@
 | [2792-neighboring-bitwise-xor](https://github.com/btirth/interview_questions/tree/master/2792-neighboring-bitwise-xor) |
 | [2868-continuous-subarrays](https://github.com/btirth/interview_questions/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/btirth/interview_questions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [3001-apply-operations-to-maximize-score](https://github.com/btirth/interview_questions/tree/master/3001-apply-operations-to-maximize-score) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/btirth/interview_questions/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/btirth/interview_questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/btirth/interview_questions/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -631,6 +632,7 @@
 | [2716-prime-subtraction-operation](https://github.com/btirth/interview_questions/tree/master/2716-prime-subtraction-operation) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/btirth/interview_questions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/btirth/interview_questions/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3001-apply-operations-to-maximize-score](https://github.com/btirth/interview_questions/tree/master/3001-apply-operations-to-maximize-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/btirth/interview_questions/tree/master/3227-find-missing-and-repeated-values) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/btirth/interview_questions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/btirth/interview_questions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
@@ -818,6 +820,7 @@
 | [2610-closest-prime-numbers-in-range](https://github.com/btirth/interview_questions/tree/master/2610-closest-prime-numbers-in-range) |
 | [2716-prime-subtraction-operation](https://github.com/btirth/interview_questions/tree/master/2716-prime-subtraction-operation) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/btirth/interview_questions/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3001-apply-operations-to-maximize-score](https://github.com/btirth/interview_questions/tree/master/3001-apply-operations-to-maximize-score) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -917,6 +920,7 @@
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/btirth/interview_questions/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/btirth/interview_questions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/btirth/interview_questions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [3001-apply-operations-to-maximize-score](https://github.com/btirth/interview_questions/tree/master/3001-apply-operations-to-maximize-score) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/btirth/interview_questions/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3291-find-if-array-can-be-sorted](https://github.com/btirth/interview_questions/tree/master/3291-find-if-array-can-be-sorted) |
 | [3430-count-days-without-meetings](https://github.com/btirth/interview_questions/tree/master/3430-count-days-without-meetings) |
@@ -970,6 +974,7 @@
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/btirth/interview_questions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2664-maximize-greatness-of-an-array](https://github.com/btirth/interview_questions/tree/master/2664-maximize-greatness-of-an-array) |
 | [2716-prime-subtraction-operation](https://github.com/btirth/interview_questions/tree/master/2716-prime-subtraction-operation) |
+| [3001-apply-operations-to-maximize-score](https://github.com/btirth/interview_questions/tree/master/3001-apply-operations-to-maximize-score) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/btirth/interview_questions/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/btirth/interview_questions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 ## Dynamic Programming
@@ -1182,6 +1187,7 @@
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/btirth/interview_questions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/btirth/interview_questions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/btirth/interview_questions/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3001-apply-operations-to-maximize-score](https://github.com/btirth/interview_questions/tree/master/3001-apply-operations-to-maximize-score) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/btirth/interview_questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3447-clear-digits](https://github.com/btirth/interview_questions/tree/master/3447-clear-digits) |
 ## Two Pointers
@@ -1286,6 +1292,7 @@
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/btirth/interview_questions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/btirth/interview_questions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1918-maximum-score-of-a-good-subarray](https://github.com/btirth/interview_questions/tree/master/1918-maximum-score-of-a-good-subarray) |
+| [3001-apply-operations-to-maximize-score](https://github.com/btirth/interview_questions/tree/master/3001-apply-operations-to-maximize-score) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/btirth/interview_questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Monotonic Queue
 |  |
