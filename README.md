@@ -220,6 +220,7 @@
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/btirth/interview_questions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/btirth/interview_questions/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/btirth/interview_questions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/btirth/interview_questions/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3643-zero-array-transformation-ii](https://github.com/btirth/interview_questions/tree/master/3643-zero-array-transformation-ii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/btirth/interview_questions/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3659-count-paths-with-the-given-xor-value](https://github.com/btirth/interview_questions/tree/master/3659-count-paths-with-the-given-xor-value) |
@@ -609,6 +610,7 @@
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/btirth/interview_questions/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/btirth/interview_questions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/btirth/interview_questions/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/btirth/interview_questions/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3699-count-special-subsequences](https://github.com/btirth/interview_questions/tree/master/3699-count-special-subsequences) |
 ## Math
 |  |
