@@ -638,6 +638,7 @@
 | [2716-prime-subtraction-operation](https://github.com/btirth/interview_questions/tree/master/2716-prime-subtraction-operation) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/btirth/interview_questions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/btirth/interview_questions/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [2998-count-symmetric-integers](https://github.com/btirth/interview_questions/tree/master/2998-count-symmetric-integers) |
 | [3001-apply-operations-to-maximize-score](https://github.com/btirth/interview_questions/tree/master/3001-apply-operations-to-maximize-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/btirth/interview_questions/tree/master/3227-find-missing-and-repeated-values) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/btirth/interview_questions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -1263,6 +1264,7 @@
 |  |
 | ------- |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/btirth/interview_questions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2998-count-symmetric-integers](https://github.com/btirth/interview_questions/tree/master/2998-count-symmetric-integers) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/btirth/interview_questions/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/btirth/interview_questions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 | [3699-count-special-subsequences](https://github.com/btirth/interview_questions/tree/master/3699-count-special-subsequences) |
