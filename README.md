@@ -441,6 +441,7 @@
 | [0010-regular-expression-matching](https://github.com/btirth/interview_questions/tree/master/0010-regular-expression-matching) |
 | [0013-roman-to-integer](https://github.com/btirth/interview_questions/tree/master/0013-roman-to-integer) |
 | [0022-generate-parentheses](https://github.com/btirth/interview_questions/tree/master/0022-generate-parentheses) |
+| [0038-count-and-say](https://github.com/btirth/interview_questions/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/btirth/interview_questions/tree/master/0049-group-anagrams) |
 | [0068-text-justification](https://github.com/btirth/interview_questions/tree/master/0068-text-justification) |
 | [0072-edit-distance](https://github.com/btirth/interview_questions/tree/master/0072-edit-distance) |
