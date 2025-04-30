@@ -101,6 +101,7 @@
 | [1364-tuple-with-same-product](https://github.com/btirth/interview_questions/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/btirth/interview_questions/tree/master/1396-count-servers-that-communicate) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/btirth/interview_questions/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/btirth/interview_questions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1435-xor-queries-of-a-subarray](https://github.com/btirth/interview_questions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/btirth/interview_questions/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1477-product-of-the-last-k-numbers](https://github.com/btirth/interview_questions/tree/master/1477-product-of-the-last-k-numbers) |
@@ -643,6 +644,7 @@
 | [0670-maximum-swap](https://github.com/btirth/interview_questions/tree/master/0670-maximum-swap) |
 | [1014-k-closest-points-to-origin](https://github.com/btirth/interview_questions/tree/master/1014-k-closest-points-to-origin) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/btirth/interview_questions/tree/master/1146-greatest-common-divisor-of-strings) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/btirth/interview_questions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1477-product-of-the-last-k-numbers](https://github.com/btirth/interview_questions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1585-the-kth-factor-of-n](https://github.com/btirth/interview_questions/tree/master/1585-the-kth-factor-of-n) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/btirth/interview_questions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
