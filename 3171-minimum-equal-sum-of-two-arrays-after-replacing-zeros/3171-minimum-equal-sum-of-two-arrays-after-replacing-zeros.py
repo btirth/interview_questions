@@ -1,0 +1,30 @@
+class Solution:
+    def minSum(self, nums1: List[int], nums2: List[int]) -> int:
+        sum1 = 0
+        sum2 = 0
+        zero1 = 0
+        zero2 = 0
+
+        for num in nums1:
+            sum1 += num
+
+            if num == 0:
+                zero1 += 1
+
+        for num in nums2:
+            sum2 += num
+
+            if num == 0:
+                zero2 += 1
+
+
+        if zero1 == 0:
+            if sum1 < sum2 + zero2:
+                return -1
+
+        if zero2 == 0:
+            if sum2 < sum1 + zero1:
+                return -1        
+
+        return max(sum2 + zero2, sum1 + zero1)
+
