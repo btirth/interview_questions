@@ -17,14 +17,8 @@ class Solution:
             if num == 0:
                 zero2 += 1
 
-
-        if zero1 == 0:
-            if sum1 < sum2 + zero2:
-                return -1
-
-        if zero2 == 0:
-            if sum2 < sum1 + zero1:
-                return -1        
+        if (zero1 == 0 and sum1 < sum2 + zero2) or (zero2 == 0 and sum2 < sum1 + zero1):
+            return -1     
 
         return max(sum2 + zero2, sum1 + zero1)
 
