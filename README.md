@@ -96,6 +96,7 @@
 | [1227-number-of-equivalent-domino-pairs](https://github.com/btirth/interview_questions/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/btirth/interview_questions/tree/master/1256-rank-transform-of-an-array) |
 | [1288-maximum-subarray-sum-with-one-deletion](https://github.com/btirth/interview_questions/tree/master/1288-maximum-subarray-sum-with-one-deletion) |
+| [1293-three-consecutive-odds](https://github.com/btirth/interview_questions/tree/master/1293-three-consecutive-odds) |
 | [1325-path-with-maximum-probability](https://github.com/btirth/interview_questions/tree/master/1325-path-with-maximum-probability) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/btirth/interview_questions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/btirth/interview_questions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
