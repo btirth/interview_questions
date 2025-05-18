@@ -468,6 +468,7 @@
 | [0008-string-to-integer-atoi](https://github.com/btirth/interview_questions/tree/master/0008-string-to-integer-atoi) |
 | [0010-regular-expression-matching](https://github.com/btirth/interview_questions/tree/master/0010-regular-expression-matching) |
 | [0013-roman-to-integer](https://github.com/btirth/interview_questions/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/btirth/interview_questions/tree/master/0014-longest-common-prefix) |
 | [0022-generate-parentheses](https://github.com/btirth/interview_questions/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/btirth/interview_questions/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/btirth/interview_questions/tree/master/0049-group-anagrams) |
@@ -1148,6 +1149,7 @@
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/btirth/interview_questions/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
 | [0212-word-search-ii](https://github.com/btirth/interview_questions/tree/master/0212-word-search-ii) |
 | [0386-lexicographical-numbers](https://github.com/btirth/interview_questions/tree/master/0386-lexicographical-numbers) |
