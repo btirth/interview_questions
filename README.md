@@ -145,6 +145,7 @@
 | [1977-minimum-interval-to-include-each-query](https://github.com/btirth/interview_questions/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/btirth/interview_questions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/btirth/interview_questions/tree/master/2026-merge-triplets-to-form-target-triplet) |
+| [2040-minimum-cost-to-reach-destination-in-time](https://github.com/btirth/interview_questions/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
 | [2048-build-array-from-permutation](https://github.com/btirth/interview_questions/tree/master/2048-build-array-from-permutation) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/btirth/interview_questions/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2089-maximum-matrix-sum](https://github.com/btirth/interview_questions/tree/master/2089-maximum-matrix-sum) |
@@ -268,6 +269,7 @@
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/btirth/interview_questions/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1706-min-cost-to-connect-all-points](https://github.com/btirth/interview_questions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/btirth/interview_questions/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2040-minimum-cost-to-reach-destination-in-time](https://github.com/btirth/interview_questions/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
 | [2201-valid-arrangement-of-pairs](https://github.com/btirth/interview_questions/tree/master/2201-valid-arrangement-of-pairs) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/btirth/interview_questions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/btirth/interview_questions/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
@@ -1134,6 +1136,7 @@
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/btirth/interview_questions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/btirth/interview_questions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/btirth/interview_questions/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2040-minimum-cost-to-reach-destination-in-time](https://github.com/btirth/interview_questions/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/btirth/interview_questions/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2164-two-best-non-overlapping-events](https://github.com/btirth/interview_questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2262-solving-questions-with-brainpower](https://github.com/btirth/interview_questions/tree/master/2262-solving-questions-with-brainpower) |
