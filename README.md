@@ -70,6 +70,7 @@
 | [0646-maximum-length-of-pair-chain](https://github.com/btirth/interview_questions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0658-find-k-closest-elements](https://github.com/btirth/interview_questions/tree/master/0658-find-k-closest-elements) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/btirth/interview_questions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/btirth/interview_questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/btirth/interview_questions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0729-my-calendar-i](https://github.com/btirth/interview_questions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/btirth/interview_questions/tree/master/0731-my-calendar-ii) |
@@ -925,6 +926,7 @@
 | [0090-subsets-ii](https://github.com/btirth/interview_questions/tree/master/0090-subsets-ii) |
 | [0137-single-number-ii](https://github.com/btirth/interview_questions/tree/master/0137-single-number-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/btirth/interview_questions/tree/master/0222-count-complete-tree-nodes) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/btirth/interview_questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1435-xor-queries-of-a-subarray](https://github.com/btirth/interview_questions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/btirth/interview_questions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/btirth/interview_questions/tree/master/1632-number-of-good-ways-to-split-a-string) |
@@ -1126,6 +1128,7 @@
 | [0646-maximum-length-of-pair-chain](https://github.com/btirth/interview_questions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0678-valid-parenthesis-string](https://github.com/btirth/interview_questions/tree/master/0678-valid-parenthesis-string) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/btirth/interview_questions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/btirth/interview_questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/btirth/interview_questions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/btirth/interview_questions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/btirth/interview_questions/tree/master/0902-minimum-number-of-refueling-stops) |
@@ -1172,6 +1175,7 @@
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/btirth/interview_questions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/btirth/interview_questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/btirth/interview_questions/tree/master/1986-largest-color-value-in-a-directed-graph) |
 ## Rolling Hash
 |  |
@@ -1375,6 +1379,7 @@
 | [0090-subsets-ii](https://github.com/btirth/interview_questions/tree/master/0090-subsets-ii) |
 | [0212-word-search-ii](https://github.com/btirth/interview_questions/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/btirth/interview_questions/tree/master/0494-target-sum) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/btirth/interview_questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1160-letter-tile-possibilities](https://github.com/btirth/interview_questions/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/btirth/interview_questions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/btirth/interview_questions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -1508,4 +1513,8 @@
 | ------- |
 | [3548-find-the-count-of-good-integers](https://github.com/btirth/interview_questions/tree/master/3548-find-the-count-of-good-integers) |
 | [3637-count-number-of-balanced-permutations](https://github.com/btirth/interview_questions/tree/master/3637-count-number-of-balanced-permutations) |
+## Bitmask
+|  |
+| ------- |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/btirth/interview_questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 <!---LeetCode Topics End-->
