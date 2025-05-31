@@ -2,9 +2,7 @@ class Solution {
     HashMap<Pair<Integer, Integer>, Integer> dp = new HashMap<>();
     public boolean canPartitionKSubsets(int[] nums, int k) {
         /**
-        I can do backtracking or binary search
-
-
+        I can do backtracking 
         
          */
         int n = nums.length;
@@ -21,7 +19,6 @@ class Solution {
         
 
         int res = helper(nums, k, 0, 0, target);
-        System.out.println(res);
         return res == k;
     }
 
