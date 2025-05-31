@@ -5,7 +5,6 @@ class Solution {
         I can do backtracking 
         
          */
-        int n = nums.length;
         int sum = 0;
         for(int num: nums) {
             sum += num;
@@ -16,10 +15,7 @@ class Solution {
         }
 
         int target = sum / k;
-        
-
-        int res = helper(nums, k, 0, 0, target);
-        return res == k;
+        return helper(nums, k, 0, 0, target) == k;
     }
 
     int helper(int[] nums, int k, int mask, int sum, int target) {
