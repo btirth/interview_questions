@@ -1,31 +1,24 @@
 class Solution {
-    List<Integer> order = new ArrayList<>();
+    List<Integer> res = new ArrayList<>();
     public List<Integer> lexicalOrder(int n) {
         for(int i=1; i<10; i++) {
-            if(i<=n) {
-                order.add(i);
-            }
-            
-            if(i*10 <= n) {
-                addNumbers(n, i*10);
-            } 
+            helper(n, i);
         }
-        
-        return order;
+        return res;
     }
 
-    void addNumbers(int n, int pre) {
-        
-        for(int i=0; i<10; i++) {
-            int num = pre + i;
-            if(num > n) {
-                return;
-            }
-            
-            order.add(num);
-            if(num*10 <= n) {
-                addNumbers(n, num*10);
-            } 
+    boolean helper(int n, int curr) {
+        if(curr > n) {
+            return false;
         }
+
+        res.add(curr);
+        for(int i=0; i<10; i++) {
+            if(!helper(n, (curr*10) + i)) {
+                break;
+            }
+        }
+
+        return true;
     }
 }
