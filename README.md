@@ -592,6 +592,7 @@
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/btirth/interview_questions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/btirth/interview_questions/tree/master/3637-count-number-of-balanced-permutations) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/btirth/interview_questions/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/btirth/interview_questions/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -693,6 +694,7 @@
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/btirth/interview_questions/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/btirth/interview_questions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3699-count-special-subsequences](https://github.com/btirth/interview_questions/tree/master/3699-count-special-subsequences) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/btirth/interview_questions/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Math
 |  |
 | ------- |
@@ -988,6 +990,7 @@
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/btirth/interview_questions/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/btirth/interview_questions/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/btirth/interview_questions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/btirth/interview_questions/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Brainteaser
 |  |
 | ------- |
