@@ -254,6 +254,7 @@
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/btirth/interview_questions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/btirth/interview_questions/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3699-count-special-subsequences](https://github.com/btirth/interview_questions/tree/master/3699-count-special-subsequences) |
+| [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/btirth/interview_questions/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 ## Graph
 |  |
 | ------- |
