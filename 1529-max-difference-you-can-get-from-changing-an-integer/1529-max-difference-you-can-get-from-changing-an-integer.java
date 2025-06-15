@@ -19,15 +19,12 @@ class Solution {
         }
 
         int max = replace(num, firstNon9Digit, 9);
-        if(secondNon0Digit == -1) {
-            secondNon0Digit = firstNon0Digit;
-        }
-        int min1 = replace(num, secondNon0Digit, 0);
-        min1 = min1 == 0 ? Integer.MAX_VALUE : min1;
+        int min = replace(num, secondNon0Digit, 0);
+        min = min == 0 ? Integer.MAX_VALUE : min;
         
-        int min2 = replace(num, firstNon0Digit, 1);
+        min = Math.min(min, replace(num, firstNon0Digit, 1));
         
-        return max - Math.min(min1, min2);
+        return max - min;
     }
 
     int replace(int num, int oldDigit, int newDigit) {
