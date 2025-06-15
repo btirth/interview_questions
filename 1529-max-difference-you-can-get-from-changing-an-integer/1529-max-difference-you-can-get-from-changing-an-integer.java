@@ -22,11 +22,12 @@ class Solution {
         if(secondNon0Digit == -1) {
             secondNon0Digit = firstNon0Digit;
         }
-        int min = replace(num, secondNon0Digit, 0);
-        if(min == 0) {
-            min = replace(num, secondNon0Digit, 1);
-        }
-        return Math.max(max - min, max - replace(num, firstNon0Digit, 1));
+        int min1 = replace(num, secondNon0Digit, 0);
+        min1 = min1 == 0 ? Integer.MAX_VALUE : min1;
+        
+        int min2 = replace(num, firstNon0Digit, 1);
+        
+        return max - Math.min(min1, min2);
     }
 
     int replace(int num, int oldDigit, int newDigit) {
