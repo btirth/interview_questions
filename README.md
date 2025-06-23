@@ -732,6 +732,7 @@
 | [2050-count-good-numbers](https://github.com/btirth/interview_questions/tree/master/2050-count-good-numbers) |
 | [2155-find-missing-observations](https://github.com/btirth/interview_questions/tree/master/2155-find-missing-observations) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/btirth/interview_questions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2202-sum-of-k-mirror-numbers](https://github.com/btirth/interview_questions/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2448-count-number-of-bad-pairs](https://github.com/btirth/interview_questions/tree/master/2448-count-number-of-bad-pairs) |
 | [2610-closest-prime-numbers-in-range](https://github.com/btirth/interview_questions/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/btirth/interview_questions/tree/master/2649-count-total-number-of-colored-cells) |
@@ -1442,6 +1443,7 @@
 | ------- |
 | [1656-count-good-triplets](https://github.com/btirth/interview_questions/tree/master/1656-count-good-triplets) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/btirth/interview_questions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2202-sum-of-k-mirror-numbers](https://github.com/btirth/interview_questions/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2215-finding-3-digit-even-numbers](https://github.com/btirth/interview_questions/tree/master/2215-finding-3-digit-even-numbers) |
 | [2998-count-symmetric-integers](https://github.com/btirth/interview_questions/tree/master/2998-count-symmetric-integers) |
 | [3201-distribute-candies-among-children-ii](https://github.com/btirth/interview_questions/tree/master/3201-distribute-candies-among-children-ii) |
