@@ -574,6 +574,7 @@
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/btirth/interview_questions/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/btirth/interview_questions/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2300-construct-string-with-repeat-limit](https://github.com/btirth/interview_questions/tree/master/2300-construct-string-with-repeat-limit) |
+| [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/btirth/interview_questions/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/btirth/interview_questions/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/btirth/interview_questions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/btirth/interview_questions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -1122,6 +1123,7 @@
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/btirth/interview_questions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2300-construct-string-with-repeat-limit](https://github.com/btirth/interview_questions/tree/master/2300-construct-string-with-repeat-limit) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/btirth/interview_questions/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
+| [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/btirth/interview_questions/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/btirth/interview_questions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2487-optimal-partition-of-string](https://github.com/btirth/interview_questions/tree/master/2487-optimal-partition-of-string) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/btirth/interview_questions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -1197,6 +1199,7 @@
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/btirth/interview_questions/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2164-two-best-non-overlapping-events](https://github.com/btirth/interview_questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2262-solving-questions-with-brainpower](https://github.com/btirth/interview_questions/tree/master/2262-solving-questions-with-brainpower) |
+| [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/btirth/interview_questions/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2554-minimum-total-distance-traveled](https://github.com/btirth/interview_questions/tree/master/2554-minimum-total-distance-traveled) |
 | [2562-count-ways-to-build-good-strings](https://github.com/btirth/interview_questions/tree/master/2562-count-ways-to-build-good-strings) |
 | [2586-longest-square-streak-in-an-array](https://github.com/btirth/interview_questions/tree/master/2586-longest-square-streak-in-an-array) |
@@ -1226,6 +1229,7 @@
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/btirth/interview_questions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/btirth/interview_questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/btirth/interview_questions/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/btirth/interview_questions/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 ## Rolling Hash
 |  |
 | ------- |
