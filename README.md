@@ -148,6 +148,7 @@
 | [1961-maximum-ice-cream-bars](https://github.com/btirth/interview_questions/tree/master/1961-maximum-ice-cream-bars) |
 | [1972-rotating-the-box](https://github.com/btirth/interview_questions/tree/master/1972-rotating-the-box) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/btirth/interview_questions/tree/master/1977-minimum-interval-to-include-each-query) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/btirth/interview_questions/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/btirth/interview_questions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/btirth/interview_questions/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/btirth/interview_questions/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
@@ -678,6 +679,7 @@
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/btirth/interview_questions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/btirth/interview_questions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/btirth/interview_questions/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/btirth/interview_questions/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/btirth/interview_questions/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/btirth/interview_questions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2107-find-unique-binary-string](https://github.com/btirth/interview_questions/tree/master/2107-find-unique-binary-string) |
@@ -1345,6 +1347,7 @@
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/btirth/interview_questions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/btirth/interview_questions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/btirth/interview_questions/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/btirth/interview_questions/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2139-detect-squares](https://github.com/btirth/interview_questions/tree/master/2139-detect-squares) |
 | [2434-design-a-number-container-system](https://github.com/btirth/interview_questions/tree/master/2434-design-a-number-container-system) |
 ## Segment Tree
