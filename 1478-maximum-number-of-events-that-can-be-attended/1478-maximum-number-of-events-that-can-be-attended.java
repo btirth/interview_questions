@@ -1,18 +1,28 @@
 class Solution {
     public int maxEvents(int[][] events) {
-        Arrays.sort(events, (a,b) -> Integer.compare(a[1], b[1]));
-
-        TreeSet<Integer> days = new TreeSet<>();
-        for(int i=1; i<=100001; i++) {
-            days.add(i);
-        } 
-
         int count = 0;
-        for(int[] event:events) {
-            int day = days.ceiling(event[0]);
-            if(day <= event[1]) {
+        int time = 0;
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b) -> Integer.compare(a[1], b[1]));
+        Arrays.sort(events, (a,b) -> Integer.compare(a[0], b[0]));
+        int idx = 0;
+        int len = events.length;
+
+        while(idx < len || !pq.isEmpty()) {
+            while(pq.isEmpty() || (idx<len && events[idx][0] <= time)) {
+                pq.add(events[idx]);
+                time = Math.max(time, events[idx][0]);
+                idx++;
+            }
+
+            while(!pq.isEmpty()) {
+                int[] event = pq.poll();
+                if(event[1] < time) {
+                    continue;
+                }
+
+                time = Math.max(time + 1, event[0] + 1);
                 count++;
-                days.remove(day);
+                break;
             }
         }
 
