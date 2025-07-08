@@ -136,6 +136,7 @@
 | [1786-count-the-number-of-consistent-strings](https://github.com/btirth/interview_questions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/btirth/interview_questions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/btirth/interview_questions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/btirth/interview_questions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1876-map-of-highest-peak](https://github.com/btirth/interview_questions/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/btirth/interview_questions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/btirth/interview_questions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -449,6 +450,7 @@
 | [1646-kth-missing-positive-number](https://github.com/btirth/interview_questions/tree/master/1646-kth-missing-positive-number) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/btirth/interview_questions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/btirth/interview_questions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/btirth/interview_questions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/btirth/interview_questions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1918-maximum-score-of-a-good-subarray](https://github.com/btirth/interview_questions/tree/master/1918-maximum-score-of-a-good-subarray) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/btirth/interview_questions/tree/master/1977-minimum-interval-to-include-each-query) |
@@ -1070,6 +1072,7 @@
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/btirth/interview_questions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/btirth/interview_questions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/btirth/interview_questions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/btirth/interview_questions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1961-maximum-ice-cream-bars](https://github.com/btirth/interview_questions/tree/master/1961-maximum-ice-cream-bars) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/btirth/interview_questions/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/btirth/interview_questions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -1218,6 +1221,7 @@
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/btirth/interview_questions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/btirth/interview_questions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/btirth/interview_questions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/btirth/interview_questions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/btirth/interview_questions/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/btirth/interview_questions/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/btirth/interview_questions/tree/master/2061-painting-a-grid-with-three-different-colors) |
