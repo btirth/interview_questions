@@ -265,6 +265,7 @@
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/btirth/interview_questions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/btirth/interview_questions/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3699-count-special-subsequences](https://github.com/btirth/interview_questions/tree/master/3699-count-special-subsequences) |
+| [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/btirth/interview_questions/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/btirth/interview_questions/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 ## Graph
 |  |
@@ -1171,6 +1172,7 @@
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/btirth/interview_questions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/btirth/interview_questions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3647-zero-array-transformation-iii](https://github.com/btirth/interview_questions/tree/master/3647-zero-array-transformation-iii) |
+| [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/btirth/interview_questions/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -1496,6 +1498,7 @@
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/btirth/interview_questions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/btirth/interview_questions/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3699-count-special-subsequences](https://github.com/btirth/interview_questions/tree/master/3699-count-special-subsequences) |
+| [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/btirth/interview_questions/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/btirth/interview_questions/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Divide and Conquer
 |  |
