@@ -612,6 +612,7 @@
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/btirth/interview_questions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/btirth/interview_questions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/btirth/interview_questions/tree/master/3360-minimum-deletions-to-make-string-k-special) |
+| [3396-valid-word](https://github.com/btirth/interview_questions/tree/master/3396-valid-word) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/btirth/interview_questions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3447-clear-digits](https://github.com/btirth/interview_questions/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/btirth/interview_questions/tree/master/3451-string-compression-iii) |
