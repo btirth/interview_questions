@@ -42,6 +42,7 @@
 | [0135-candy](https://github.com/btirth/interview_questions/tree/master/0135-candy) |
 | [0137-single-number-ii](https://github.com/btirth/interview_questions/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/btirth/interview_questions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/btirth/interview_questions/tree/master/0152-maximum-product-subarray) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/btirth/interview_questions/tree/master/0198-house-robber) |
@@ -749,6 +750,7 @@
 | [0048-rotate-image](https://github.com/btirth/interview_questions/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/btirth/interview_questions/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/btirth/interview_questions/tree/master/0066-plus-one) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/btirth/interview_questions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0539-minimum-time-difference](https://github.com/btirth/interview_questions/tree/master/0539-minimum-time-difference) |
 | [0670-maximum-swap](https://github.com/btirth/interview_questions/tree/master/0670-maximum-swap) |
@@ -1415,6 +1417,7 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/btirth/interview_questions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/btirth/interview_questions/tree/master/0143-reorder-list) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/btirth/interview_questions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/btirth/interview_questions/tree/master/0155-min-stack) |
 | [0316-remove-duplicate-letters](https://github.com/btirth/interview_questions/tree/master/0316-remove-duplicate-letters) |
 | [0402-remove-k-digits](https://github.com/btirth/interview_questions/tree/master/0402-remove-k-digits) |
