@@ -1,30 +1,31 @@
 class Solution {
     public int jump(int[] nums) {
-        int count = 0;
-        int currIdx = 0;
+        /**
+        At standing at idx we can check what's min value b/w idx+1 and idx+nums[idx]
+        
+        
+         */
+
         int n = nums.length;
+        int[] dp = new int[n];
+        Arrays.fill(dp, Integer.MAX_VALUE);
 
-        if(n == 1) {
-            return 0;
-        }
-
-        while(currIdx < n) {
-            int nextJump = -1;
-            if(currIdx + nums[currIdx] >= n-1) {
-                count++;
-                break;
+        dp[n-1] = 0;
+        
+        for(int i=n-2; i>=0; i--) {
+            if(nums[i] == 0) {
+                continue;
             }
-
-            for(int i=currIdx + 1; i<n && i<=currIdx + nums[currIdx]; i++) {
-                if(nextJump == -1 || i+nums[i] >= nextJump + nums[nextJump]) {
-                    nextJump = i;
+            
+            for(int j=1; j <= nums[i]; j++) {
+                if(i + j >= n || dp[i + j] == Integer.MAX_VALUE) {
+                    continue;
                 }
+                
+                dp[i] = Math.min(dp[i], 1 + dp[i + j]);
             }
+        } 
 
-            currIdx = nextJump;
-            count++;
-        }
-
-        return count;
+        return dp[0];
     }
 }
