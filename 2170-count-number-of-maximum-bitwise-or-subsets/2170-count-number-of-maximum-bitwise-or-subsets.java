@@ -4,7 +4,7 @@ class Solution {
         int maxOr = 0;
         int freq = 0;
 
-        for(int i=0; i<(1 << len); i++) {
+        for(int i=0; i<Math.pow(2, len); i++) {
             int currOr = calculateOr(nums, i);
             if(currOr == maxOr) {
                 freq++;
