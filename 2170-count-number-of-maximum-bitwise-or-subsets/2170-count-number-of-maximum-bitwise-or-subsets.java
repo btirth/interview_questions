@@ -1,22 +1,31 @@
 class Solution {
-
     public int countMaxOrSubsets(int[] nums) {
-        int max = 0;
-        int[] dp = new int[1 << 17];
+        int len = nums.length;
+        int maxOr = 0;
+        int freq = 0;
 
-        // Initialize the empty subset
-        dp[0] = 1;
-
-        // Iterate through each number in the input array
-        for (int num : nums) {
-            for (int i = max; i >= 0; i--) {
-                // For each existing subset, create a new subset by including the current number
-                dp[i | num] += dp[i];
+        for(int i=0; i<(1 << len); i++) {
+            int currOr = calculateOr(nums, i);
+            if(currOr == maxOr) {
+                freq++;
+            } else if(currOr > maxOr) {
+                maxOr = currOr;
+                freq = 1;
             }
-            // Update the maximum OR value
-            max |= num;
         }
 
-        return dp[max];
+        return freq;
+    }
+
+    int calculateOr(int[] nums, int j) {
+        int currOr = 0;
+
+        for(int i=0; i<nums.length; i++) {
+            if((j & (1 << i)) > 0) {
+                currOr |= nums[i];
+            }
+        }
+
+        return currOr;
     }
 }
