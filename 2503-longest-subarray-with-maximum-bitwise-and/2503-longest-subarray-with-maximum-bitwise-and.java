@@ -1,33 +1,24 @@
 class Solution {
     public int longestSubarray(int[] nums) {
-        int maxAnd = 0;
-        int left = 0;
-        int right = 0;
-        int currAnd = 0;
-        int longestSubArrayLength = 0;
-        int n = nums.length;
-
-        while(right < n) {  
-            int newAnd = nums[right] & currAnd;
-            if(newAnd < nums[right]) {
-                currAnd = nums[right];
-                left = right;
+        int maxBitwiseAnd = 0;
+        int count = 0;
+        int ans = 0;
+        int len = nums.length;
+        
+        for(int i=0; i<len; i++) {
+            if(nums[i] > maxBitwiseAnd) {
+                maxBitwiseAnd = nums[i];
+                count = 1;
+                ans = 1;
+            } else if(nums[i] == maxBitwiseAnd) {
+                count++;
             } else {
-                currAnd = newAnd;
-            }
-            
-            if(currAnd > maxAnd) {
-                maxAnd = currAnd;
-                longestSubArrayLength = right - left + 1;
+                count = 0;
             }
 
-            if(currAnd == maxAnd) {
-                longestSubArrayLength = Math.max(longestSubArrayLength, right - left + 1);
-            }
-
-            right++;
+            ans = Math.max(ans, count);
         }
 
-        return longestSubArrayLength;
+        return ans;
     }
 }
