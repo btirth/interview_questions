@@ -1,38 +1,51 @@
 class Solution {
     public int maximizeGreatness(int[] nums) {
         /**
-        [1,3,5,2,1,3,1]
+        greatness = the number of idx for which perm[i] > nums[i]
+        can I say create another sorted array
 
-        for i in idx:
-            find immediate bigger element
-            reduce its freq
-            count++
+        for each ele in nums 
+            get the bigger ele than it from sorted array
+        and put remaining values anywhere in the index
+        
+        We don't need perm, we only care about the count
 
-        TreeSet -> ceil -> TC O(log n) for in/out
+        [1,1,1,2,3,3,5]
+        currCount = 0
+        greaterCount = 0
 
-        We can also use PriorityQueue with Array sort -> yeah that's better approach but how would you handle index? TreeSet is go for or TreeMap best
+        for i in (len-1, 0):
+            if nums[i] == nums[i+1]:
+                currCount++
+            else:
+                greaterCount += currCount
+                currCount = 1
+
+            if greaterCount > 0:
+                count++
+                greaterCount--    
+
          */
 
-        TreeMap<Integer, Integer> freq = new TreeMap<>();
-        for(int num: nums) {
-            freq.put(num, freq.getOrDefault(num, 0) + 1);
-        }
-
-        int n = nums.length;
-        int count = 0;
-        for(int i=0; i<n; i++) {
-            Map.Entry<Integer, Integer> num = freq.higherEntry(nums[i]);
-            if(num != null) {
-                if(num.getValue() == 1) {
-                    freq.remove(num.getKey());
-                } else {
-                    freq.put(num.getKey(), num.getValue() - 1);
-                }
-                
-                count++;
+        Arrays.sort(nums);
+        int res = 0;
+        int curr = 1;
+        int greater = 0;
+        int len = nums.length;
+        for(int i=len-2; i>=0; i--) {
+            if(nums[i] == nums[i + 1]) {
+                curr++;
+            } else {
+                greater += curr;
+                curr = 1;
             }
-        }
-        
-        return count;
+
+            if(greater > 0) {
+                res++;
+                greater--;
+            }
+        } 
+
+        return res;
     }
 }
