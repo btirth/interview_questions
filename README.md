@@ -58,6 +58,7 @@
 | [0312-burst-balloons](https://github.com/btirth/interview_questions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/btirth/interview_questions/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/btirth/interview_questions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0347-top-k-frequent-elements](https://github.com/btirth/interview_questions/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/btirth/interview_questions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0407-trapping-rain-water-ii](https://github.com/btirth/interview_questions/tree/master/0407-trapping-rain-water-ii) |
 | [0410-split-array-largest-sum](https://github.com/btirth/interview_questions/tree/master/0410-split-array-largest-sum) |
@@ -326,6 +327,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/btirth/interview_questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/btirth/interview_questions/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/btirth/interview_questions/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/btirth/interview_questions/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/btirth/interview_questions/tree/master/0355-design-twitter) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/btirth/interview_questions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0407-trapping-rain-water-ii](https://github.com/btirth/interview_questions/tree/master/0407-trapping-rain-water-ii) |
@@ -667,6 +669,7 @@
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/btirth/interview_questions/tree/master/0146-lru-cache) |
 | [0229-majority-element-ii](https://github.com/btirth/interview_questions/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/btirth/interview_questions/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/btirth/interview_questions/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/btirth/interview_questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0432-all-oone-data-structure](https://github.com/btirth/interview_questions/tree/master/0432-all-oone-data-structure) |
@@ -1042,6 +1045,7 @@
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/btirth/interview_questions/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/btirth/interview_questions/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/btirth/interview_questions/tree/master/0451-sort-characters-by-frequency) |
 | [0594-longest-harmonious-subsequence](https://github.com/btirth/interview_questions/tree/master/0594-longest-harmonious-subsequence) |
 | [0778-reorganize-string](https://github.com/btirth/interview_questions/tree/master/0778-reorganize-string) |
@@ -1089,6 +1093,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/btirth/interview_questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/btirth/interview_questions/tree/master/0229-majority-element-ii) |
 | [0295-find-median-from-data-stream](https://github.com/btirth/interview_questions/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/btirth/interview_questions/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/btirth/interview_questions/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/btirth/interview_questions/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/btirth/interview_questions/tree/master/0455-assign-cookies) |
@@ -1565,6 +1570,7 @@
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/btirth/interview_questions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/btirth/interview_questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/btirth/interview_questions/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/btirth/interview_questions/tree/master/0493-reverse-pairs) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/btirth/interview_questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1014-k-closest-points-to-origin](https://github.com/btirth/interview_questions/tree/master/1014-k-closest-points-to-origin) |
@@ -1578,6 +1584,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/btirth/interview_questions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/btirth/interview_questions/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/btirth/interview_questions/tree/master/1014-k-closest-points-to-origin) |
 ## Data Stream
 |  |
@@ -1661,6 +1668,7 @@
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/btirth/interview_questions/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/btirth/interview_questions/tree/master/0451-sort-characters-by-frequency) |
 ## Counting Sort
 |  |
