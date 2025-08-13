@@ -1,27 +1,33 @@
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        /**
-        sort each string and hashmap
-        character freq array for each string
-        
-        
-         */
         HashMap<String, List<String>> map = new HashMap<>();
-        List<List<String>> ans = new ArrayList<>();
+        List<List<String>> res = new ArrayList<>();
 
         for(String str: strs) {
-            char[] ch = str.toCharArray();
-            Arrays.sort(ch);
-            String resultStr = new String(ch);
-            List<String> list = map.getOrDefault(resultStr, new ArrayList<>());
-            list.add(str);
-            map.put(resultStr, list);
+            int[] freq = new int[26];
+            for(char ch: str.toCharArray()) {
+                freq[ch - 'a']++;
+            }
+
+            StringBuilder encodedString = new StringBuilder("");
+            for(int f: freq) {
+                encodedString.append(f + "-");
+            }   
+
+            String encoded = encodedString.toString();
+            List<String> group = new ArrayList<>();
+            if(map.containsKey(encoded)) {
+                group = map.get(encoded);
+            }
+
+            group.add(str);
+            map.put(encoded, group);
         }
 
         for(Map.Entry<String, List<String>> entry: map.entrySet()) {
-            ans.add(entry.getValue());
+            res.add(entry.getValue());
         }
 
-        return ans;
+        return res;
     }
 }
