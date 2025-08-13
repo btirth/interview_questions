@@ -4,17 +4,10 @@ class Solution {
         List<List<String>> res = new ArrayList<>();
 
         for(String str: strs) {
-            int[] freq = new int[26];
-            for(char ch: str.toCharArray()) {
-                freq[ch - 'a']++;
-            }
-
-            StringBuilder encodedString = new StringBuilder("");
-            for(int f: freq) {
-                encodedString.append(f + "-");
-            }   
-
-            String encoded = encodedString.toString();
+            char[] ch = str.toCharArray();
+            Arrays.sort(ch);
+            String encoded = new String(ch);
+            
             List<String> group = new ArrayList<>();
             if(map.containsKey(encoded)) {
                 group = map.get(encoded);
