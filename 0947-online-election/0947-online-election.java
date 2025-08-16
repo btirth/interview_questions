@@ -25,10 +25,14 @@ class TopVotedCandidate {
         winner = new int[length];
 
         for(int i=0; i<length; i++) {
-            score.put(persons[i], score.getOrDefault(persons[i], 0) + 1);
-            if(score.get(persons[i]) >= score.get(currWinner)) {
-                currWinner = persons[i];
+            int person = persons[i];
+
+            score.put(person, score.getOrDefault(person, 0) + 1);
+            
+            if(score.get(person) >= score.get(currWinner)) {
+                currWinner = person;
             }
+
             winner[i] = currWinner;
         }
     }
