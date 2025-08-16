@@ -99,6 +99,7 @@
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/btirth/interview_questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/btirth/interview_questions/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0945-snakes-and-ladders](https://github.com/btirth/interview_questions/tree/master/0945-snakes-and-ladders) |
+| [0947-online-election](https://github.com/btirth/interview_questions/tree/master/0947-online-election) |
 | [0952-word-subsets](https://github.com/btirth/interview_questions/tree/master/0952-word-subsets) |
 | [1014-k-closest-points-to-origin](https://github.com/btirth/interview_questions/tree/master/1014-k-closest-points-to-origin) |
 | [1025-minimum-cost-for-tickets](https://github.com/btirth/interview_questions/tree/master/1025-minimum-cost-for-tickets) |
@@ -468,6 +469,7 @@
 | [0794-swim-in-rising-water](https://github.com/btirth/interview_questions/tree/master/0794-swim-in-rising-water) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/btirth/interview_questions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0907-koko-eating-bananas](https://github.com/btirth/interview_questions/tree/master/0907-koko-eating-bananas) |
+| [0947-online-election](https://github.com/btirth/interview_questions/tree/master/0947-online-election) |
 | [1023-time-based-key-value-store](https://github.com/btirth/interview_questions/tree/master/1023-time-based-key-value-store) |
 | [1046-max-consecutive-ones-iii](https://github.com/btirth/interview_questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/btirth/interview_questions/tree/master/1335-maximum-candies-allocated-to-k-children) |
@@ -689,6 +691,7 @@
 | [0906-walking-robot-simulation](https://github.com/btirth/interview_questions/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/btirth/interview_questions/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/btirth/interview_questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0947-online-election](https://github.com/btirth/interview_questions/tree/master/0947-online-election) |
 | [0952-word-subsets](https://github.com/btirth/interview_questions/tree/master/0952-word-subsets) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/btirth/interview_questions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1023-time-based-key-value-store](https://github.com/btirth/interview_questions/tree/master/1023-time-based-key-value-store) |
@@ -1412,6 +1415,7 @@
 | [0731-my-calendar-ii](https://github.com/btirth/interview_questions/tree/master/0731-my-calendar-ii) |
 | [0859-design-circular-deque](https://github.com/btirth/interview_questions/tree/master/0859-design-circular-deque) |
 | [0937-online-stock-span](https://github.com/btirth/interview_questions/tree/master/0937-online-stock-span) |
+| [0947-online-election](https://github.com/btirth/interview_questions/tree/master/0947-online-election) |
 | [1023-time-based-key-value-store](https://github.com/btirth/interview_questions/tree/master/1023-time-based-key-value-store) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/btirth/interview_questions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/btirth/interview_questions/tree/master/1477-product-of-the-last-k-numbers) |
