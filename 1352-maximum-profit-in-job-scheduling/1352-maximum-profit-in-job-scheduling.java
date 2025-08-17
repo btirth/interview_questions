@@ -1,26 +1,45 @@
 class Solution {
-    int n;
     int[] dp;
-    int[][] job;
-
+    int length;
+    int[][] jobs;
     public int jobScheduling(int[] startTime, int[] endTime, int[] profit) {
-        n = profit.length;
-        dp = new int[n];
-        job = new int[n][3];
+        /**
+        Goal: maximum profit
 
+        Constraints:
+        - no job overlap
+        
+        
+        0/1 Knapsack problem:
+        for every job there's 2 options: do the job or skip
+
+        2^n where n = no. of jobs
+
+        if we use DP (memoization):
+        -> If I process a job once, I dont have to do it again.
+
+        take 20, 20
+        at 3 -> select 100 -> total -> 120
+        skip 3 
+            select 4 -> total 20 + 70
+            at 6 select 6 -> 20 + 70 + 60
+         */
+        length = startTime.length;
+        jobs = new int[length][3];
+        dp = new int[length];
         Arrays.fill(dp, -1);
-        for(int i=0; i<n; i++) {
-            job[i][0] = startTime[i];
-            job[i][1] = endTime[i];
-            job[i][2] = profit[i];
-        }        
 
-        Arrays.sort(job, (a,b) -> Integer.compare(a[0], b[0]));
-        return dfs(0);
-    }   
+        for(int i=0; i<length; i++) {
+            jobs[i][0] = startTime[i];
+            jobs[i][1] = endTime[i];
+            jobs[i][2] = profit[i];
+        }
+        Arrays.sort(jobs, (a,b) -> Integer.compare(a[0], b[0]));
+        return helper(0);  
+    }
 
-    int dfs(int idx) {
-        if(idx >= n) {
+    int helper(int idx) {
+        if(idx >= length) {
             return 0;
         }
 
@@ -30,13 +49,13 @@ class Solution {
 
         int profit = 0;
         
-        for(int i=idx+1; i<n; i++) {
-            if(job[i][0] >= job[idx][1]) {
-                profit = dfs(i);
+        for(int i=idx + 1; i<jobs.length; i++) {
+            if(jobs[i][0] >= jobs[idx][1]) {
+                profit = Math.max(profit, helper(i));
                 break;
             }
         }
 
-        return dp[idx] = Math.max(profit + job[idx][2], dfs(idx+1));
-    }                 
+        return dp[idx] = Math.max(profit + jobs[idx][2], helper(idx + 1));
+    }
 }
