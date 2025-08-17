@@ -35,6 +35,8 @@ class Solution {
             jobs[i][2] = profit[i];
         }
         Arrays.sort(jobs, (a,b) -> Integer.compare(a[0], b[0]));
+
+        
         return helper(0);  
     }
 
@@ -48,14 +50,30 @@ class Solution {
         }
 
         int profit = 0;
-        
-        for(int i=idx + 1; i<jobs.length; i++) {
-            if(jobs[i][0] >= jobs[idx][1]) {
-                profit = Math.max(profit, helper(i));
-                break;
+        int next = binarySearch(idx + 1, jobs[idx][1]);
+        if(next != -1) {
+            profit = Math.max(profit, helper(next));
+        }
+       
+        return dp[idx] = Math.max(profit + jobs[idx][2], helper(idx + 1));
+    }
+
+    int binarySearch(int left, int end) {
+        int right = length - 1;
+        int next = -1;
+
+        while(left <= right) {
+            int mid = (right + left) / 2;
+
+            if(jobs[mid][0] >= end) {
+                next = mid;
+                right = mid - 1;
+            } else {
+                left = mid + 1;
             }
         }
 
-        return dp[idx] = Math.max(profit + jobs[idx][2], helper(idx + 1));
+        return next;
     }
+
 }
