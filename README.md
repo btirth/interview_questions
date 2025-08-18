@@ -81,6 +81,7 @@
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/btirth/interview_questions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0729-my-calendar-i](https://github.com/btirth/interview_questions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/btirth/interview_questions/tree/master/0731-my-calendar-ii) |
+| [0747-min-cost-climbing-stairs](https://github.com/btirth/interview_questions/tree/master/0747-min-cost-climbing-stairs) |
 | [0780-max-chunks-to-make-sorted](https://github.com/btirth/interview_questions/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/btirth/interview_questions/tree/master/0787-sliding-puzzle) |
 | [0794-swim-in-rising-water](https://github.com/btirth/interview_questions/tree/master/0794-swim-in-rising-water) |
@@ -1272,6 +1273,7 @@
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/btirth/interview_questions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/btirth/interview_questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/btirth/interview_questions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0747-min-cost-climbing-stairs](https://github.com/btirth/interview_questions/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/btirth/interview_questions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/btirth/interview_questions/tree/master/0902-minimum-number-of-refueling-stops) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/btirth/interview_questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
