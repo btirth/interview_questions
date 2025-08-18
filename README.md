@@ -778,6 +778,7 @@
 | [0048-rotate-image](https://github.com/btirth/interview_questions/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/btirth/interview_questions/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/btirth/interview_questions/tree/master/0066-plus-one) |
+| [0070-climbing-stairs](https://github.com/btirth/interview_questions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/btirth/interview_questions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0539-minimum-time-difference](https://github.com/btirth/interview_questions/tree/master/0539-minimum-time-difference) |
@@ -1243,6 +1244,7 @@
 | [0055-jump-game](https://github.com/btirth/interview_questions/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/btirth/interview_questions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/btirth/interview_questions/tree/master/0064-minimum-path-sum) |
+| [0070-climbing-stairs](https://github.com/btirth/interview_questions/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/btirth/interview_questions/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/btirth/interview_questions/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/btirth/interview_questions/tree/master/0097-interleaving-string) |
@@ -1323,6 +1325,7 @@
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/btirth/interview_questions/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/btirth/interview_questions/tree/master/0329-longest-increasing-path-in-a-matrix) |
