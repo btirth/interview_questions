@@ -31,7 +31,6 @@ class Solution {
         SC -> O(n^2)
          */
 
-        String res = "";
         int start = 0;
         int end = 0;
         int resLen = 1;
