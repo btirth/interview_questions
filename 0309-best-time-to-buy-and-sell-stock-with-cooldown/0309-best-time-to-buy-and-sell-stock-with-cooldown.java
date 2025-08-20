@@ -1,25 +1,41 @@
 class Solution {
-    
+    Integer[][] dp;
     public int maxProfit(int[] prices) {
-        int n = prices.length;
-        int[][] dp = new int[n + 2][2];
+        /**
+        prices[i] -> price of the given stock on the ith day.
+        as many transactions
+
+        after sell your stock, can't buy on next day.
         
-        for(int idx=n-1; idx>=0; idx--) {
-            dp[idx][1] = Math.max(dp[idx + 1][1], dp[idx + 1][0] - prices[idx]);
-            dp[idx][0] = Math.max(dp[idx + 1][0], prices[idx] + dp[idx + 2][1]);
-        }
-        return dp[0][1];
+        every day I've 3 options:
+        -> do nothing
+        -> buy -> next call for sell, day + 1
+        -> sell -> next call to buy, day + 2
+
+         */
+
+        int days = prices.length;
+        dp = new Integer[days][2]; 
+        return trade(prices, 1, 0); 
     }
 
-    // int helper(int[] prices, int idx, int buy) {
-      
+    int trade(int[] prices, int canBuy, int day) {
+        if(day >= prices.length) {
+            return 0;
+        }
 
-    //     int cooldown = helper(prices, idx + 1, buy);
+        if(dp[day][canBuy] != null) {
+            return dp[day][canBuy];
+        }
+        
+        int profit = trade(prices, canBuy, day + 1);
+        
+        if(canBuy == 1) {
+            profit = Math.max(profit, trade(prices, 0, day + 1) - prices[day]);
+        } else {
+            profit = Math.max(profit, trade(prices, 1, day + 2) + prices[day]);
+        }
 
-    //     if(buy == 1) {
-    //         return dp[idx][buy] = Math.max(cooldown, helper(prices, idx + 1, 0) - prices[idx]);
-    //     } else {
-    //         return dp[idx][buy] = Math.max(cooldown, prices[idx] + helper(prices, idx + 2, 1));
-    //     }
-    // }
+        return dp[day][canBuy] = profit;
+    }
 }
