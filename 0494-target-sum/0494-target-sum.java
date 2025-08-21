@@ -1,35 +1,48 @@
 class Solution {
-    int[][] dp;
-    int sum;
+    Integer[][] dp;
     public int findTargetSumWays(int[] nums, int target) {
-        int n = nums.length;
-        sum = 0;
-        for(int num: nums) {
-            sum += num;
-        }
+        /**
+        for every num I've 2 options:
+        + or -
 
-        dp = new int[n][2*sum + 1];
-
-        for(int i=0; i<n; i++) {
-            Arrays.fill(dp[i], -1);
-        }
+        fun(nums, target):
+            return func(nums, target - num) + func(nums, target + num)
         
-        return helper(nums, target, 0, 0);
+
+         */
+
+        int totalNumbers = nums.length;
+        int totalSum = 0;
+
+        for(int num: nums) {
+            totalSum += num;
+        }
+
+        if(target > totalSum || target < (-1*totalSum)) {
+            return 0;
+        }
+
+        dp = new Integer[totalNumbers][totalSum + totalSum + 4];
+        return findTargetSumWays(nums, target, 0, totalSum);
     }
 
-    int helper(int[] nums, int target, int idx, int currSum) {
-        if(idx == nums.length) {
-            if(currSum == target) {
+    int findTargetSumWays(int[] nums, int target, int idx, int totalSum) {
+        if(idx == nums.length || target > totalSum || target < (-1*totalSum)) {
+            if(target == 0) {
                 return 1;
             }
 
             return 0;
         }
 
-        if(dp[idx][currSum + sum] != -1) {
-            return dp[idx][currSum + sum];
+        if(dp[idx][target + totalSum] != null) {
+            return dp[idx][target + totalSum];
         }
 
-        return dp[idx][currSum + sum] = helper(nums, target, idx + 1, currSum - nums[idx]) + helper(nums, target, idx + 1, currSum + nums[idx]);
+        int ways = 0;
+        ways += findTargetSumWays(nums, target + nums[idx], idx + 1, totalSum);
+        ways += findTargetSumWays(nums, target - nums[idx], idx + 1, totalSum);
+
+        return dp[idx][target + totalSum] = ways;
     }
 }
