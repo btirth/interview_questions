@@ -1,5 +1,4 @@
 class Solution {
-    Integer[][] dp;
     public int findTargetSumWays(int[] nums, int target) {
         /**
         for every num I've 2 options:
@@ -11,38 +10,45 @@ class Solution {
 
          */
 
-        int totalNumbers = nums.length;
-        int totalSum = 0;
+        int n = nums.length;
+        HashMap<Integer, Integer>[] dp = new HashMap[n + 1];
 
-        for(int num: nums) {
-            totalSum += num;
+        for(int i=0; i<=n; i++) {
+            dp[i] = new HashMap<>();
         }
 
-        if(target > totalSum || target < (-1*totalSum)) {
-            return 0;
-        }
+        dp[0].put(0,1);
 
-        dp = new Integer[totalNumbers][totalSum + totalSum + 4];
-        return findTargetSumWays(nums, target, 0, totalSum);
-    }
+        for(int i=0; i<n; i++) {
+            for(Map.Entry<Integer, Integer> entry: dp[i].entrySet()) {
+                int trgt = entry.getKey();
+                int freq = entry.getValue();
 
-    int findTargetSumWays(int[] nums, int target, int idx, int totalSum) {
-        if(idx == nums.length || target > totalSum || target < (-1*totalSum)) {
-            if(target == 0) {
-                return 1;
+                dp[i + 1].put(trgt - nums[i], dp[i+1].getOrDefault(trgt - nums[i], 0) + freq);
+                dp[i + 1].put(trgt + nums[i], dp[i+1].getOrDefault(trgt + nums[i], 0) + freq);
             }
-
-            return 0;
         }
 
-        if(dp[idx][target + totalSum] != null) {
-            return dp[idx][target + totalSum];
-        }
-
-        int ways = 0;
-        ways += findTargetSumWays(nums, target + nums[idx], idx + 1, totalSum);
-        ways += findTargetSumWays(nums, target - nums[idx], idx + 1, totalSum);
-
-        return dp[idx][target + totalSum] = ways;
+        return dp[n].getOrDefault(target, 0);
     }
+
+    // int findTargetSumWays(int[] nums, int target, int idx, int totalSum) {
+    //     if(idx == nums.length || target > totalSum || target < (-1*totalSum)) {
+    //         if(target == 0) {
+    //             return 1;
+    //         }
+
+    //         return 0;
+    //     }
+
+    //     if(dp[idx][target + totalSum] != null) {
+    //         return dp[idx][target + totalSum];
+    //     }
+
+    //     int ways = 0;
+    //     ways += findTargetSumWays(nums, target + nums[idx], idx + 1, totalSum);
+    //     ways += findTargetSumWays(nums, target - nums[idx], idx + 1, totalSum);
+
+    //     return dp[idx][target + totalSum] = ways;
+    // }
 }
