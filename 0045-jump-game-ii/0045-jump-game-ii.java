@@ -1,31 +1,34 @@
 class Solution {
+    int[] dp;
+
     public int jump(int[] nums) {
-        /**
-        At standing at idx we can check what's min value b/w idx+1 and idx+nums[idx]
-        
-        
-         */
+        int len = nums.length;
+        dp = new int[len];
 
-        int n = nums.length;
-        int[] dp = new int[n];
-        Arrays.fill(dp, Integer.MAX_VALUE);
+        Arrays.fill(dp, -1);
 
-        dp[n-1] = 0;
+        return jump(nums, 0);
+    }
+
+    int jump(int[] nums, int idx) {
+        if (idx >= nums.length - 1) {
+            return 0;
+        }
+
+        if (dp[idx] != -1) {
+            return dp[idx];
+        }
         
-        for(int i=n-2; i>=0; i--) {
-            if(nums[i] == 0) {
-                continue;
-            }
-            
-            for(int j=1; j <= nums[i]; j++) {
-                if(i + j >= n || dp[i + j] == Integer.MAX_VALUE) {
-                    continue;
-                }
-                
-                dp[i] = Math.min(dp[i], 1 + dp[i + j]);
-            }
-        } 
+        int min = Integer.MAX_VALUE;
 
-        return dp[0];
+        for (int i = 1; i <= nums[idx]; i++) {
+            min = Math.min(min, jump(nums, idx + i));
+        }
+        
+        if(min == Integer.MAX_VALUE) {
+            return dp[idx] = min;
+        }
+
+        return dp[idx] = min + 1;
     }
 }
