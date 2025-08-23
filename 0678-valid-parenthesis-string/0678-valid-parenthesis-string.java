@@ -1,33 +1,70 @@
 class Solution {
-    Boolean[][] dp;
     public boolean checkValidString(String s) {
-        int n = s.length();
-        dp = new Boolean[n][n];
+        /**
+        same no. of ( and )
+        diff of ( - ) <= no. of *
+
+
         
-        return helper(s, 0, 0);
-    }
+        
+         */
 
-    boolean helper(String s, int idx, int open) {
-        if(open < 0) {
-            return false;
+        int openCloseCount = 0;
+        int anyCount = 0;
+
+        for(char ch: s.toCharArray()) {
+            if(ch == '*') {
+                anyCount++;
+            } else if(ch == '(') {
+                openCloseCount++;
+            } else {
+                openCloseCount--;
+
+                if(openCloseCount < 0) {
+                    if(anyCount > 0) {
+                        openCloseCount++;
+                        anyCount--;
+                    } else {
+                        return false;
+                    }
+                }
+            }
+        } 
+
+        /**
+        We checked for any extra close we have * or not before that. 
+        But what about extra open??
+        We'll have to check if for extra open there's extra * after that or not.
+         */
+
+        if(openCloseCount == 0) {
+            return true;
         }
 
-        if(idx == s.length()) {
-            return open == 0;
-        }
+        openCloseCount = 0;
+        anyCount = 0;
 
-        if(dp[idx][open] != null) {
-            return dp[idx][open];
-        }
+        for(int i=s.length() - 1; i>=0; i--) {
+            char ch = s.charAt(i);
+            if(ch == '*') {
+                anyCount++;
+            } else if(ch == '(') {
+                openCloseCount--;
 
-        if(s.charAt(idx) == '(') {
-            return dp[idx][open] = helper(s, idx+1, open+1);
-        } else if(s.charAt(idx) == ')') {
-            return dp[idx][open] = helper(s, idx+1, open-1);
-        } else {
-            return dp[idx][open] = helper(s, idx+1, open) || 
-                helper(s, idx+1, open + 1) || 
-                helper(s, idx+1, open - 1);
-        }
+                if(openCloseCount < 0) {
+                    if(anyCount > 0) {
+                        openCloseCount++;
+                        anyCount--;
+                    } else {
+                        return false;
+                    }
+                }
+            } else {
+                openCloseCount++;
+            }
+        } 
+
+
+        return Math.abs(openCloseCount) <= anyCount;
     }
 }
