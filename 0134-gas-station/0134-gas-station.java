@@ -1,32 +1,39 @@
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
-        if(!isPossible(gas, cost)) {
-            return -1;
+        /**
+        Goal is to find the starting gas station such that I can travel around the circuit
+
+        I can only start at gas station i if from that point I can travel around the circuit.
+        So that means the point where I don't have enough gas to move to the next points, all the points before that points aren't the ans. So I'll again try from the next point. 
+        
+         */
+
+        int totalStations = gas.length;
+        int currStation = 0;
+        int startPoint = 0;
+        int remainingGas = 0;
+
+        while(currStation < totalStations) {
+            remainingGas += gas[currStation];
+            remainingGas -= cost[currStation];
+
+            if(remainingGas < 0) {
+                startPoint = currStation + 1;
+                remainingGas = 0;
+            } 
+
+            currStation++;
         }
 
-        int sum = 0;
-        int firstAddIdx = 0;
+        for(int i=0; i<startPoint; i++) {
+            remainingGas += gas[i];
+            remainingGas -= cost[i];
 
-        for(int i=0; i<gas.length; i++) {
-            if(gas[i]-cost[i] >= 0 && sum == 0) {
-                firstAddIdx = i;
+            if(remainingGas < 0) {
+                return -1;
             }
-            sum += (gas[i]-cost[i]);
-            sum = Math.max(sum, 0);
         }
 
-        return firstAddIdx;
-    }
-
-    boolean isPossible(int[] gas, int[] cost) {
-        int totalGas = 0;
-        int totalCost = 0;
-
-        for(int i=0; i<gas.length; i++) {
-            totalGas += gas[i];
-            totalCost += cost[i];
-        }
-
-        return totalGas >= totalCost;
+        return startPoint;
     }
 }
