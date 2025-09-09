@@ -449,6 +449,7 @@
 | [2265-partition-array-according-to-given-pivot](https://github.com/btirth/interview_questions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/btirth/interview_questions/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/btirth/interview_questions/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2408-number-of-people-aware-of-a-secret](https://github.com/btirth/interview_questions/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2411-spiral-matrix-iv](https://github.com/btirth/interview_questions/tree/master/2411-spiral-matrix-iv) |
 | [2479-meeting-rooms-iii](https://github.com/btirth/interview_questions/tree/master/2479-meeting-rooms-iii) |
 | [2551-apply-operations-to-an-array](https://github.com/btirth/interview_questions/tree/master/2551-apply-operations-to-an-array) |
@@ -1319,6 +1320,7 @@
 | [2262-solving-questions-with-brainpower](https://github.com/btirth/interview_questions/tree/master/2262-solving-questions-with-brainpower) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/btirth/interview_questions/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/btirth/interview_questions/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
+| [2408-number-of-people-aware-of-a-secret](https://github.com/btirth/interview_questions/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2554-minimum-total-distance-traveled](https://github.com/btirth/interview_questions/tree/master/2554-minimum-total-distance-traveled) |
 | [2562-count-ways-to-build-good-strings](https://github.com/btirth/interview_questions/tree/master/2562-count-ways-to-build-good-strings) |
 | [2586-longest-square-streak-in-an-array](https://github.com/btirth/interview_questions/tree/master/2586-longest-square-streak-in-an-array) |
@@ -1480,6 +1482,7 @@
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/btirth/interview_questions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1477-product-of-the-last-k-numbers](https://github.com/btirth/interview_questions/tree/master/1477-product-of-the-last-k-numbers) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/btirth/interview_questions/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [2408-number-of-people-aware-of-a-secret](https://github.com/btirth/interview_questions/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/btirth/interview_questions/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2868-continuous-subarrays](https://github.com/btirth/interview_questions/tree/master/2868-continuous-subarrays) |
 ## Doubly-Linked List
