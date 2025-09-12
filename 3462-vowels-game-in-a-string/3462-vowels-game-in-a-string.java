@@ -4,10 +4,10 @@ class Solution {
 
         for(char ch: s.toCharArray()) {
             if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-                cnt++;
+                return true;
             }
         }
 
-        return cnt != 0;
+        return false;
     }
 }
