@@ -297,6 +297,7 @@
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/btirth/interview_questions/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/btirth/interview_questions/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/btirth/interview_questions/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3797-design-spreadsheet](https://github.com/btirth/interview_questions/tree/master/3797-design-spreadsheet) |
 ## Graph
 |  |
 | ------- |
@@ -434,6 +435,7 @@
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/btirth/interview_questions/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/btirth/interview_questions/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3659-count-paths-with-the-given-xor-value](https://github.com/btirth/interview_questions/tree/master/3659-count-paths-with-the-given-xor-value) |
+| [3797-design-spreadsheet](https://github.com/btirth/interview_questions/tree/master/3797-design-spreadsheet) |
 ## Simulation
 |  |
 | ------- |
@@ -671,6 +673,7 @@
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/btirth/interview_questions/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/btirth/interview_questions/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/btirth/interview_questions/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
+| [3797-design-spreadsheet](https://github.com/btirth/interview_questions/tree/master/3797-design-spreadsheet) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/btirth/interview_questions/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Hash Table
 |  |
@@ -787,6 +790,7 @@
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/btirth/interview_questions/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/btirth/interview_questions/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/btirth/interview_questions/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3797-design-spreadsheet](https://github.com/btirth/interview_questions/tree/master/3797-design-spreadsheet) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/btirth/interview_questions/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Math
 |  |
@@ -1472,6 +1476,7 @@
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/btirth/interview_questions/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2139-detect-squares](https://github.com/btirth/interview_questions/tree/master/2139-detect-squares) |
 | [2434-design-a-number-container-system](https://github.com/btirth/interview_questions/tree/master/2434-design-a-number-container-system) |
+| [3797-design-spreadsheet](https://github.com/btirth/interview_questions/tree/master/3797-design-spreadsheet) |
 ## Segment Tree
 |  |
 | ------- |
