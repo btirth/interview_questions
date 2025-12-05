@@ -272,6 +272,7 @@
 | [3427-special-array-ii](https://github.com/btirth/interview_questions/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/btirth/interview_questions/tree/master/3429-special-array-i) |
 | [3430-count-days-without-meetings](https://github.com/btirth/interview_questions/tree/master/3430-count-days-without-meetings) |
+| [3432-count-partitions-with-even-sum-difference](https://github.com/btirth/interview_questions/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/btirth/interview_questions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3483-alternating-groups-ii](https://github.com/btirth/interview_questions/tree/master/3483-alternating-groups-ii) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/btirth/interview_questions/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
@@ -550,6 +551,7 @@
 | [2691-count-vowel-strings-in-ranges](https://github.com/btirth/interview_questions/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2915-count-of-interesting-subarrays](https://github.com/btirth/interview_questions/tree/master/2915-count-of-interesting-subarrays) |
 | [3427-special-array-ii](https://github.com/btirth/interview_questions/tree/master/3427-special-array-ii) |
+| [3432-count-partitions-with-even-sum-difference](https://github.com/btirth/interview_questions/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3618-find-the-original-typed-string-ii](https://github.com/btirth/interview_questions/tree/master/3618-find-the-original-typed-string-ii) |
 | [3639-zero-array-transformation-i](https://github.com/btirth/interview_questions/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/btirth/interview_questions/tree/master/3643-zero-array-transformation-ii) |
@@ -841,6 +843,7 @@
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/btirth/interview_questions/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/btirth/interview_questions/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3321-type-of-triangle](https://github.com/btirth/interview_questions/tree/master/3321-type-of-triangle) |
+| [3432-count-partitions-with-even-sum-difference](https://github.com/btirth/interview_questions/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3462-vowels-game-in-a-string](https://github.com/btirth/interview_questions/tree/master/3462-vowels-game-in-a-string) |
 | [3548-find-the-count-of-good-integers](https://github.com/btirth/interview_questions/tree/master/3548-find-the-count-of-good-integers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/btirth/interview_questions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
