@@ -284,6 +284,7 @@
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/btirth/interview_questions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/btirth/interview_questions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/btirth/interview_questions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/btirth/interview_questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/btirth/interview_questions/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/btirth/interview_questions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/btirth/interview_questions/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -556,6 +557,7 @@
 | [2915-count-of-interesting-subarrays](https://github.com/btirth/interview_questions/tree/master/2915-count-of-interesting-subarrays) |
 | [3427-special-array-ii](https://github.com/btirth/interview_questions/tree/master/3427-special-array-ii) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/btirth/interview_questions/tree/master/3432-count-partitions-with-even-sum-difference) |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/btirth/interview_questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3618-find-the-original-typed-string-ii](https://github.com/btirth/interview_questions/tree/master/3618-find-the-original-typed-string-ii) |
 | [3639-zero-array-transformation-i](https://github.com/btirth/interview_questions/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/btirth/interview_questions/tree/master/3643-zero-array-transformation-ii) |
@@ -1362,6 +1364,7 @@
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/btirth/interview_questions/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/btirth/interview_questions/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/btirth/interview_questions/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/btirth/interview_questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3618-find-the-original-typed-string-ii](https://github.com/btirth/interview_questions/tree/master/3618-find-the-original-typed-string-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/btirth/interview_questions/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/btirth/interview_questions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
@@ -1468,6 +1471,7 @@
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/btirth/interview_questions/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/btirth/interview_questions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/btirth/interview_questions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/btirth/interview_questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/btirth/interview_questions/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Design
 |  |
@@ -1520,6 +1524,7 @@
 | [2408-number-of-people-aware-of-a-secret](https://github.com/btirth/interview_questions/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/btirth/interview_questions/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2868-continuous-subarrays](https://github.com/btirth/interview_questions/tree/master/2868-continuous-subarrays) |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/btirth/interview_questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -1702,6 +1707,7 @@
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/btirth/interview_questions/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/btirth/interview_questions/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2868-continuous-subarrays](https://github.com/btirth/interview_questions/tree/master/2868-continuous-subarrays) |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/btirth/interview_questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Eulerian Circuit
 |  |
 | ------- |
