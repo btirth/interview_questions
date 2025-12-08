@@ -830,6 +830,7 @@
 | [1585-the-kth-factor-of-n](https://github.com/btirth/interview_questions/tree/master/1585-the-kth-factor-of-n) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/btirth/interview_questions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/btirth/interview_questions/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [1925-count-square-sum-triples](https://github.com/btirth/interview_questions/tree/master/1925-count-square-sum-triples) |
 | [2050-count-good-numbers](https://github.com/btirth/interview_questions/tree/master/2050-count-good-numbers) |
 | [2155-find-missing-observations](https://github.com/btirth/interview_questions/tree/master/2155-find-missing-observations) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/btirth/interview_questions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -1635,6 +1636,7 @@
 |  |
 | ------- |
 | [1656-count-good-triplets](https://github.com/btirth/interview_questions/tree/master/1656-count-good-triplets) |
+| [1925-count-square-sum-triples](https://github.com/btirth/interview_questions/tree/master/1925-count-square-sum-triples) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/btirth/interview_questions/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/btirth/interview_questions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/btirth/interview_questions/tree/master/2202-sum-of-k-mirror-numbers) |
