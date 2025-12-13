@@ -289,6 +289,7 @@
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/btirth/interview_questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3583-count-special-triplets](https://github.com/btirth/interview_questions/tree/master/3583-count-special-triplets) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/btirth/interview_questions/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3606-coupon-code-validator](https://github.com/btirth/interview_questions/tree/master/3606-coupon-code-validator) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/btirth/interview_questions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/btirth/interview_questions/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3623-count-number-of-trapezoids-i](https://github.com/btirth/interview_questions/tree/master/3623-count-number-of-trapezoids-i) |
@@ -678,6 +679,7 @@
 | [3462-vowels-game-in-a-string](https://github.com/btirth/interview_questions/tree/master/3462-vowels-game-in-a-string) |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/btirth/interview_questions/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/btirth/interview_questions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3606-coupon-code-validator](https://github.com/btirth/interview_questions/tree/master/3606-coupon-code-validator) |
 | [3617-find-the-original-typed-string-i](https://github.com/btirth/interview_questions/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/btirth/interview_questions/tree/master/3618-find-the-original-typed-string-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/btirth/interview_questions/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -799,6 +801,7 @@
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/btirth/interview_questions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3583-count-special-triplets](https://github.com/btirth/interview_questions/tree/master/3583-count-special-triplets) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/btirth/interview_questions/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3606-coupon-code-validator](https://github.com/btirth/interview_questions/tree/master/3606-coupon-code-validator) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/btirth/interview_questions/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3623-count-number-of-trapezoids-i](https://github.com/btirth/interview_questions/tree/master/3623-count-number-of-trapezoids-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/btirth/interview_questions/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -1224,6 +1227,7 @@
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/btirth/interview_questions/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3430-count-days-without-meetings](https://github.com/btirth/interview_questions/tree/master/3430-count-days-without-meetings) |
 | [3531-count-covered-buildings](https://github.com/btirth/interview_questions/tree/master/3531-count-covered-buildings) |
+| [3606-coupon-code-validator](https://github.com/btirth/interview_questions/tree/master/3606-coupon-code-validator) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/btirth/interview_questions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3647-zero-array-transformation-iii](https://github.com/btirth/interview_questions/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/btirth/interview_questions/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
