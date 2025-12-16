@@ -286,6 +286,7 @@
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/btirth/interview_questions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3531-count-covered-buildings](https://github.com/btirth/interview_questions/tree/master/3531-count-covered-buildings) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/btirth/interview_questions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/btirth/interview_questions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/btirth/interview_questions/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/btirth/interview_questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3583-count-special-triplets](https://github.com/btirth/interview_questions/tree/master/3583-count-special-triplets) |
@@ -933,6 +934,7 @@
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/btirth/interview_questions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/btirth/interview_questions/tree/master/2677-cousins-in-binary-tree-ii) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/btirth/interview_questions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/btirth/interview_questions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/btirth/interview_questions/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/btirth/interview_questions/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 ## Depth-First Search
@@ -987,6 +989,7 @@
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/btirth/interview_questions/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/btirth/interview_questions/tree/master/2793-count-the-number-of-complete-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/btirth/interview_questions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/btirth/interview_questions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/btirth/interview_questions/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/btirth/interview_questions/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 ## Breadth-First Search
@@ -1385,6 +1388,7 @@
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/btirth/interview_questions/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/btirth/interview_questions/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/btirth/interview_questions/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/btirth/interview_questions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/btirth/interview_questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3618-find-the-original-typed-string-ii](https://github.com/btirth/interview_questions/tree/master/3618-find-the-original-typed-string-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/btirth/interview_questions/tree/master/3629-total-characters-in-string-after-transformations-i) |
