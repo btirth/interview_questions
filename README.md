@@ -302,6 +302,7 @@
 | [3643-zero-array-transformation-ii](https://github.com/btirth/interview_questions/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/btirth/interview_questions/tree/master/3647-zero-array-transformation-iii) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/btirth/interview_questions/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
+| [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/btirth/interview_questions/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/btirth/interview_questions/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3659-count-paths-with-the-given-xor-value](https://github.com/btirth/interview_questions/tree/master/3659-count-paths-with-the-given-xor-value) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/btirth/interview_questions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
@@ -569,6 +570,7 @@
 | [3639-zero-array-transformation-i](https://github.com/btirth/interview_questions/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/btirth/interview_questions/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/btirth/interview_questions/tree/master/3647-zero-array-transformation-iii) |
+| [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/btirth/interview_questions/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/btirth/interview_questions/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## String
 |  |
@@ -1499,6 +1501,7 @@
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/btirth/interview_questions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/btirth/interview_questions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/btirth/interview_questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
+| [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/btirth/interview_questions/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/btirth/interview_questions/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Design
 |  |
