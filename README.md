@@ -102,6 +102,7 @@
 | [0917-boats-to-save-people](https://github.com/btirth/interview_questions/tree/master/0917-boats-to-save-people) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/btirth/interview_questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/btirth/interview_questions/tree/master/0934-bitwise-ors-of-subarrays) |
+| [0944-delete-columns-to-make-sorted](https://github.com/btirth/interview_questions/tree/master/0944-delete-columns-to-make-sorted) |
 | [0945-snakes-and-ladders](https://github.com/btirth/interview_questions/tree/master/0945-snakes-and-ladders) |
 | [0947-online-election](https://github.com/btirth/interview_questions/tree/master/0947-online-election) |
 | [0952-word-subsets](https://github.com/btirth/interview_questions/tree/master/0952-word-subsets) |
@@ -610,6 +611,7 @@
 | [0778-reorganize-string](https://github.com/btirth/interview_questions/tree/master/0778-reorganize-string) |
 | [0812-rotate-string](https://github.com/btirth/interview_questions/tree/master/0812-rotate-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/btirth/interview_questions/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0944-delete-columns-to-make-sorted](https://github.com/btirth/interview_questions/tree/master/0944-delete-columns-to-make-sorted) |
 | [0952-word-subsets](https://github.com/btirth/interview_questions/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/btirth/interview_questions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1023-time-based-key-value-store](https://github.com/btirth/interview_questions/tree/master/1023-time-based-key-value-store) |
