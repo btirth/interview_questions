@@ -177,6 +177,7 @@
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/btirth/interview_questions/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
 | [2048-build-array-from-permutation](https://github.com/btirth/interview_questions/tree/master/2048-build-array-from-permutation) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/btirth/interview_questions/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2054-two-best-non-overlapping-events](https://github.com/btirth/interview_questions/tree/master/2054-two-best-non-overlapping-events) |
 | [2089-maximum-matrix-sum](https://github.com/btirth/interview_questions/tree/master/2089-maximum-matrix-sum) |
 | [2107-find-unique-binary-string](https://github.com/btirth/interview_questions/tree/master/2107-find-unique-binary-string) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/btirth/interview_questions/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
@@ -378,6 +379,7 @@
 | [1917-maximum-average-pass-ratio](https://github.com/btirth/interview_questions/tree/master/1917-maximum-average-pass-ratio) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/btirth/interview_questions/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/btirth/interview_questions/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2054-two-best-non-overlapping-events](https://github.com/btirth/interview_questions/tree/master/2054-two-best-non-overlapping-events) |
 | [2164-two-best-non-overlapping-events](https://github.com/btirth/interview_questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/btirth/interview_questions/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/btirth/interview_questions/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
@@ -518,6 +520,7 @@
 | [1918-maximum-score-of-a-good-subarray](https://github.com/btirth/interview_questions/tree/master/1918-maximum-score-of-a-good-subarray) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/btirth/interview_questions/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/btirth/interview_questions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2054-two-best-non-overlapping-events](https://github.com/btirth/interview_questions/tree/master/2054-two-best-non-overlapping-events) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/btirth/interview_questions/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/btirth/interview_questions/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2164-two-best-non-overlapping-events](https://github.com/btirth/interview_questions/tree/master/2164-two-best-non-overlapping-events) |
@@ -1209,6 +1212,7 @@
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/btirth/interview_questions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1961-maximum-ice-cream-bars](https://github.com/btirth/interview_questions/tree/master/1961-maximum-ice-cream-bars) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/btirth/interview_questions/tree/master/1977-minimum-interval-to-include-each-query) |
+| [2054-two-best-non-overlapping-events](https://github.com/btirth/interview_questions/tree/master/2054-two-best-non-overlapping-events) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/btirth/interview_questions/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/btirth/interview_questions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2164-two-best-non-overlapping-events](https://github.com/btirth/interview_questions/tree/master/2164-two-best-non-overlapping-events) |
@@ -1384,6 +1388,7 @@
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/btirth/interview_questions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/btirth/interview_questions/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/btirth/interview_questions/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
+| [2054-two-best-non-overlapping-events](https://github.com/btirth/interview_questions/tree/master/2054-two-best-non-overlapping-events) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/btirth/interview_questions/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/btirth/interview_questions/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/btirth/interview_questions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
