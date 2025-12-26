@@ -568,6 +568,7 @@
 | [2358-number-of-ways-to-split-array](https://github.com/btirth/interview_questions/tree/master/2358-number-of-ways-to-split-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/btirth/interview_questions/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2465-shifting-letters-ii](https://github.com/btirth/interview_questions/tree/master/2465-shifting-letters-ii) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/btirth/interview_questions/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/btirth/interview_questions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/btirth/interview_questions/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2915-count-of-interesting-subarrays](https://github.com/btirth/interview_questions/tree/master/2915-count-of-interesting-subarrays) |
@@ -670,6 +671,7 @@
 | [2456-construct-smallest-number-from-di-string](https://github.com/btirth/interview_questions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/btirth/interview_questions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2465-shifting-letters-ii](https://github.com/btirth/interview_questions/tree/master/2465-shifting-letters-ii) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/btirth/interview_questions/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2487-optimal-partition-of-string](https://github.com/btirth/interview_questions/tree/master/2487-optimal-partition-of-string) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/btirth/interview_questions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/btirth/interview_questions/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
