@@ -108,6 +108,7 @@
 | [0952-word-subsets](https://github.com/btirth/interview_questions/tree/master/0952-word-subsets) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/btirth/interview_questions/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/btirth/interview_questions/tree/master/0960-delete-columns-to-make-sorted-iii) |
+| [0961-n-repeated-element-in-size-2n-array](https://github.com/btirth/interview_questions/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1014-k-closest-points-to-origin](https://github.com/btirth/interview_questions/tree/master/1014-k-closest-points-to-origin) |
 | [1025-minimum-cost-for-tickets](https://github.com/btirth/interview_questions/tree/master/1025-minimum-cost-for-tickets) |
 | [1046-max-consecutive-ones-iii](https://github.com/btirth/interview_questions/tree/master/1046-max-consecutive-ones-iii) |
@@ -755,6 +756,7 @@
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/btirth/interview_questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0947-online-election](https://github.com/btirth/interview_questions/tree/master/0947-online-election) |
 | [0952-word-subsets](https://github.com/btirth/interview_questions/tree/master/0952-word-subsets) |
+| [0961-n-repeated-element-in-size-2n-array](https://github.com/btirth/interview_questions/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/btirth/interview_questions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1023-time-based-key-value-store](https://github.com/btirth/interview_questions/tree/master/1023-time-based-key-value-store) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/btirth/interview_questions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
