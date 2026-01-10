@@ -623,6 +623,7 @@
 | [0647-palindromic-substrings](https://github.com/btirth/interview_questions/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/btirth/interview_questions/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/btirth/interview_questions/tree/master/0680-valid-palindrome-ii) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/btirth/interview_questions/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0768-partition-labels](https://github.com/btirth/interview_questions/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/btirth/interview_questions/tree/master/0778-reorganize-string) |
 | [0812-rotate-string](https://github.com/btirth/interview_questions/tree/master/0812-rotate-string) |
@@ -1393,6 +1394,7 @@
 | [0678-valid-parenthesis-string](https://github.com/btirth/interview_questions/tree/master/0678-valid-parenthesis-string) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/btirth/interview_questions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/btirth/interview_questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/btirth/interview_questions/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/btirth/interview_questions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/btirth/interview_questions/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/btirth/interview_questions/tree/master/0803-cheapest-flights-within-k-stops) |
