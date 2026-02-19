@@ -625,6 +625,7 @@
 | [0647-palindromic-substrings](https://github.com/btirth/interview_questions/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/btirth/interview_questions/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/btirth/interview_questions/tree/master/0680-valid-palindrome-ii) |
+| [0696-count-binary-substrings](https://github.com/btirth/interview_questions/tree/master/0696-count-binary-substrings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/btirth/interview_questions/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0768-partition-labels](https://github.com/btirth/interview_questions/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/btirth/interview_questions/tree/master/0778-reorganize-string) |
@@ -1657,6 +1658,7 @@
 | [0647-palindromic-substrings](https://github.com/btirth/interview_questions/tree/master/0647-palindromic-substrings) |
 | [0658-find-k-closest-elements](https://github.com/btirth/interview_questions/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/btirth/interview_questions/tree/master/0680-valid-palindrome-ii) |
+| [0696-count-binary-substrings](https://github.com/btirth/interview_questions/tree/master/0696-count-binary-substrings) |
 | [0768-partition-labels](https://github.com/btirth/interview_questions/tree/master/0768-partition-labels) |
 | [0917-boats-to-save-people](https://github.com/btirth/interview_questions/tree/master/0917-boats-to-save-people) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/btirth/interview_questions/tree/master/1468-check-if-n-and-its-double-exist) |
