@@ -617,6 +617,7 @@
 | [0212-word-search-ii](https://github.com/btirth/interview_questions/tree/master/0212-word-search-ii) |
 | [0214-shortest-palindrome](https://github.com/btirth/interview_questions/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/btirth/interview_questions/tree/master/0241-different-ways-to-add-parentheses) |
+| [0242-valid-anagram](https://github.com/btirth/interview_questions/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/btirth/interview_questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0316-remove-duplicate-letters](https://github.com/btirth/interview_questions/tree/master/0316-remove-duplicate-letters) |
 | [0402-remove-k-digits](https://github.com/btirth/interview_questions/tree/master/0402-remove-k-digits) |
@@ -746,6 +747,7 @@
 | [0146-lru-cache](https://github.com/btirth/interview_questions/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/btirth/interview_questions/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/btirth/interview_questions/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/btirth/interview_questions/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/btirth/interview_questions/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/btirth/interview_questions/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/btirth/interview_questions/tree/master/0424-longest-repeating-character-replacement) |
@@ -1220,6 +1222,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/btirth/interview_questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/btirth/interview_questions/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/btirth/interview_questions/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/btirth/interview_questions/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/btirth/interview_questions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/btirth/interview_questions/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/btirth/interview_questions/tree/master/0435-non-overlapping-intervals) |
