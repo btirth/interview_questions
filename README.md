@@ -50,6 +50,7 @@
 | [0212-word-search-ii](https://github.com/btirth/interview_questions/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/btirth/interview_questions/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/btirth/interview_questions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/btirth/interview_questions/tree/master/0217-contains-duplicate) |
 | [0221-maximal-square](https://github.com/btirth/interview_questions/tree/master/0221-maximal-square) |
 | [0229-majority-element-ii](https://github.com/btirth/interview_questions/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/btirth/interview_questions/tree/master/0239-sliding-window-maximum) |
@@ -743,6 +744,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/btirth/interview_questions/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/btirth/interview_questions/tree/master/0146-lru-cache) |
+| [0217-contains-duplicate](https://github.com/btirth/interview_questions/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/btirth/interview_questions/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/btirth/interview_questions/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/btirth/interview_questions/tree/master/0355-design-twitter) |
@@ -1216,6 +1218,7 @@
 | [0075-sort-colors](https://github.com/btirth/interview_questions/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/btirth/interview_questions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/btirth/interview_questions/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/btirth/interview_questions/tree/master/0229-majority-element-ii) |
 | [0295-find-median-from-data-stream](https://github.com/btirth/interview_questions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/btirth/interview_questions/tree/master/0347-top-k-frequent-elements) |
