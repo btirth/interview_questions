@@ -1881,4 +1881,8 @@
 |  |
 | ------- |
 | [3462-vowels-game-in-a-string](https://github.com/btirth/interview_questions/tree/master/3462-vowels-game-in-a-string) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/btirth/interview_questions/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
