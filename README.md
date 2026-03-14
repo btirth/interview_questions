@@ -53,6 +53,7 @@
 | [0217-contains-duplicate](https://github.com/btirth/interview_questions/tree/master/0217-contains-duplicate) |
 | [0221-maximal-square](https://github.com/btirth/interview_questions/tree/master/0221-maximal-square) |
 | [0229-majority-element-ii](https://github.com/btirth/interview_questions/tree/master/0229-majority-element-ii) |
+| [0238-product-of-array-except-self](https://github.com/btirth/interview_questions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/btirth/interview_questions/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/btirth/interview_questions/tree/master/0300-longest-increasing-subsequence) |
@@ -560,6 +561,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/btirth/interview_questions/tree/master/0238-product-of-array-except-self) |
 | [0410-split-array-largest-sum](https://github.com/btirth/interview_questions/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/btirth/interview_questions/tree/master/0560-subarray-sum-equals-k) |
 | [0731-my-calendar-ii](https://github.com/btirth/interview_questions/tree/master/0731-my-calendar-ii) |
