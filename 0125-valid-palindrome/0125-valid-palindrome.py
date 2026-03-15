@@ -8,10 +8,10 @@ class Solution:
         right = len(s) - 1
         s = s.lower()
         while left < right:
-            while left <= right and not valid_alphanum(s[left]):
+            while left <= right and not s[left].isalnum():
                 left += 1
             
-            while left <= right and not valid_alphanum(s[right]):
+            while left <= right and not s[right].isalnum():
                 right -= 1
             
             if left < right and s[left] != s[right]:
