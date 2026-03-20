@@ -1,33 +1,27 @@
 class Solution {
     public int evalRPN(String[] tokens) {
-        Stack<Integer> st = new Stack<>();
+        Stack<String> stack = new Stack<>();
+        Set<String> operators = Set.of("*", "/", "+", "-");
 
         for(String token: tokens) {
-            if(token.equals("+")) {
-                int num1 = st.pop();
-                int num2 = st.pop();
+            if(operators.contains(token)) {
+                int prev1 = Integer.valueOf(stack.pop());
+                int prev2 = Integer.valueOf(stack.pop());
 
-                st.push(num1 + num2);
-            } else if(token.equals("*")) {
-                int num1 = st.pop();
-                int num2 = st.pop();
-
-                st.push(num1 * num2);
-            } else if(token.equals("/")) {
-                int num1 = st.pop();
-                int num2 = st.pop();
-
-                st.push(num2 / num1);
-            } else if(token.equals("-")) {
-                int num1 = st.pop();
-                int num2 = st.pop();
-
-                st.push(num2 - num1);
+                if(token.equals("*")) {
+                    stack.push(String.valueOf(prev1 * prev2));
+                } else if(token.equals("+")) {
+                    stack.push(String.valueOf(prev1 + prev2));
+                } else if(token.equals("/")) {
+                    stack.push(String.valueOf(prev2 / prev1));
+                } else {
+                    stack.push(String.valueOf(prev2 - prev1));
+                }
             } else {
-                st.push(Integer.valueOf(token));
+                stack.push(token);
             }
         }
 
-        return st.peek();
+        return Integer.valueOf(stack.peek());
     }
 }
