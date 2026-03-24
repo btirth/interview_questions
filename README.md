@@ -96,6 +96,7 @@
 | [0833-bus-routes](https://github.com/btirth/interview_questions/tree/master/0833-bus-routes) |
 | [0854-making-a-large-island](https://github.com/btirth/interview_questions/tree/master/0854-making-a-large-island) |
 | [0859-design-circular-deque](https://github.com/btirth/interview_questions/tree/master/0859-design-circular-deque) |
+| [0875-koko-eating-bananas](https://github.com/btirth/interview_questions/tree/master/0875-koko-eating-bananas) |
 | [0876-hand-of-straights](https://github.com/btirth/interview_questions/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/btirth/interview_questions/tree/master/0883-car-fleet) |
 | [0890-lemonade-change](https://github.com/btirth/interview_questions/tree/master/0890-lemonade-change) |
@@ -518,6 +519,7 @@
 | [0729-my-calendar-i](https://github.com/btirth/interview_questions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/btirth/interview_questions/tree/master/0731-my-calendar-ii) |
 | [0794-swim-in-rising-water](https://github.com/btirth/interview_questions/tree/master/0794-swim-in-rising-water) |
+| [0875-koko-eating-bananas](https://github.com/btirth/interview_questions/tree/master/0875-koko-eating-bananas) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/btirth/interview_questions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0907-koko-eating-bananas](https://github.com/btirth/interview_questions/tree/master/0907-koko-eating-bananas) |
 | [0947-online-election](https://github.com/btirth/interview_questions/tree/master/0947-online-election) |
