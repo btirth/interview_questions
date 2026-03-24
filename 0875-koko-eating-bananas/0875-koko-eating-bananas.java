@@ -25,10 +25,7 @@ class Solution {
         int requiredHours = 0;
 
         for(int pile: piles) {
-            requiredHours += pile / k;
-            if((pile % k) != 0) {
-                requiredHours++;
-            }
+            requiredHours += (int)(Math.ceil((pile * 1.0) / k));
             if(requiredHours > h) {
                 return false;
             }
