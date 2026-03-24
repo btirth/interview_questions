@@ -7,7 +7,7 @@ class Solution {
             high = Math.max(high, pile);
         }
 
-        int res = Integer.MAX_VALUE;
+        int res = 0;
         while(low <= high) {
             int mid = (high + low) / 2;
             if(isPossible(piles, mid, h)) {
