@@ -15,7 +15,7 @@ class Solution {
         
          */
         while(i<=j) {
-            int mid = i + (j-i) / 2;
+            int mid = (j + i) / 2;
             int r = mid / n;
             int c = mid % n;
 
