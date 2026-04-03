@@ -15,20 +15,35 @@
  */
 class Solution {
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
-        String rootFlatten = "-" + flattenTree(root);
-        String subFlatten = "-" + flattenTree(subRoot);
+        Queue<TreeNode> q = new LinkedList<>();
 
-        return rootFlatten.indexOf(subFlatten) != -1;
-    }
+        q.add(root);
 
-    String flattenTree(TreeNode root) {
-        if(root == null) {
-            return "-";
+        while(!q.isEmpty()) {
+            TreeNode node = q.poll();
+            if(node.val == subRoot.val && isSameTree(node, subRoot)) {
+                return true;
+            }
+
+            if(node.left != null)
+                q.add(node.left);
+            
+            if(node.right != null)
+                q.add(node.right);
         }
 
-        String flattenValue = root.val + "-";
-        flattenValue += flattenTree(root.left) + "-";
-        flattenValue += flattenTree(root.right) + "-";
-        return flattenValue;
+        return false;
+    }
+
+    boolean isSameTree(TreeNode root1, TreeNode root2) {
+        if(root1 == null || root2 == null) {
+            return root1 == null && root2 == null;
+        }  
+
+        if(root1.val != root2.val) {
+            return false;
+        }
+
+        return isSameTree(root1.left, root2.left) && isSameTree(root1.right, root2.right);
     }
 }
