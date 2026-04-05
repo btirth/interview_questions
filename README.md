@@ -33,6 +33,7 @@
 | [0073-set-matrix-zeroes](https://github.com/btirth/interview_questions/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/btirth/interview_questions/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/btirth/interview_questions/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/btirth/interview_questions/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/btirth/interview_questions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/btirth/interview_questions/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/btirth/interview_questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -1160,6 +1161,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/btirth/interview_questions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/btirth/interview_questions/tree/master/0090-subsets-ii) |
 | [0137-single-number-ii](https://github.com/btirth/interview_questions/tree/master/0137-single-number-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/btirth/interview_questions/tree/master/0222-count-complete-tree-nodes) |
@@ -1743,6 +1745,7 @@
 | [0046-permutations](https://github.com/btirth/interview_questions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/btirth/interview_questions/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/btirth/interview_questions/tree/master/0051-n-queens) |
+| [0078-subsets](https://github.com/btirth/interview_questions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/btirth/interview_questions/tree/master/0090-subsets-ii) |
 | [0212-word-search-ii](https://github.com/btirth/interview_questions/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/btirth/interview_questions/tree/master/0494-target-sum) |
