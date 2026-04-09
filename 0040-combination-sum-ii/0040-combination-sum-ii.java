@@ -1,29 +1,35 @@
 class Solution {
-    List<List<Integer>> res = new ArrayList<>();
-    public List<List<Integer>> combinationSum2(int[] cand, int target) {
-        Arrays.sort(cand);
-        helper(cand, 0, target, new ArrayList<>());
+    List<List<Integer>> res;
+    public List<List<Integer>> combinationSum2(int[] nums, int target) {
+        res = new ArrayList<>();
+        int[] freq = new int[51];
+        for(int num: nums) {
+            freq[num]++;
+        }
+
+        backtrack(1, target, new ArrayList<>(), freq);
         return res;
     }
 
-    void helper(int[] cand, int idx, int target, List<Integer> curr) {
-        if(target == 0) {
-            res.add(new ArrayList<>(curr));
+    public void backtrack(int start, int target, List<Integer> comb, int[] freq) {
+        if(target <= 0) {
+            if(target == 0)
+                res.add(new ArrayList<>(comb));
             return;
         }
-
-        if(target < 0 || idx == cand.length) {
-            return;
-        }
-
-        for(int i=idx; i<cand.length; i++) {
-            if(i>idx && cand[i] == cand[i-1]) {
+        
+        for(int key=start; key <= 50; key++) {
+            int val = freq[key];
+            if(val <= 0) {
                 continue;
             }
-
-            curr.add(cand[i]);
-            helper(cand, i+1, target - cand[i], curr);
-            curr.remove(curr.size() - 1);
+            
+            comb.add(key);
+           
+            freq[key]--;            
+            backtrack(key, target - key, comb, freq);
+            comb.remove(comb.size() - 1);
+            freq[key]++;
         }
     }
 }
