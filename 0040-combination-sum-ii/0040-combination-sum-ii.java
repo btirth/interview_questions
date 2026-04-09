@@ -1,35 +1,27 @@
 class Solution {
     List<List<Integer>> res;
     public List<List<Integer>> combinationSum2(int[] nums, int target) {
+        Arrays.sort(nums);
         res = new ArrayList<>();
-        int[] freq = new int[51];
-        for(int num: nums) {
-            freq[num]++;
-        }
-
-        backtrack(1, target, new ArrayList<>(), freq);
+        backtrack(nums, 0, target, -1, new ArrayList<>());
         return res;
     }
 
-    public void backtrack(int start, int target, List<Integer> comb, int[] freq) {
-        if(target <= 0) {
-            if(target == 0)
-                res.add(new ArrayList<>(comb));
+    void backtrack(int[] nums, int idx, int target, int lastSkip, List<Integer> curr) {
+        if(target == 0) {
+            res.add(new ArrayList<>(curr));
             return;
         }
-        
-        for(int key=start; key <= 50; key++) {
-            int val = freq[key];
-            if(val <= 0) {
-                continue;
-            }
-            
-            comb.add(key);
-           
-            freq[key]--;            
-            backtrack(key, target - key, comb, freq);
-            comb.remove(comb.size() - 1);
-            freq[key]++;
+
+        if(target < 0 || idx == nums.length){ 
+            return;
+        }
+
+        backtrack(nums, idx + 1, target, nums[idx], curr);
+        if(nums[idx] != lastSkip) {
+            curr.add(nums[idx]);
+            backtrack(nums, idx + 1, target - nums[idx], -1, curr);
+            curr.remove(curr.size() - 1);
         }
     }
 }
