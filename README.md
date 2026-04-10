@@ -624,6 +624,7 @@
 | [0115-distinct-subsequences](https://github.com/btirth/interview_questions/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/btirth/interview_questions/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/btirth/interview_questions/tree/master/0127-word-ladder) |
+| [0131-palindrome-partitioning](https://github.com/btirth/interview_questions/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/btirth/interview_questions/tree/master/0151-reverse-words-in-a-string) |
 | [0179-largest-number](https://github.com/btirth/interview_questions/tree/master/0179-largest-number) |
@@ -1422,6 +1423,7 @@
 | [0120-triangle](https://github.com/btirth/interview_questions/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/btirth/interview_questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/btirth/interview_questions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0131-palindrome-partitioning](https://github.com/btirth/interview_questions/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/btirth/interview_questions/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/btirth/interview_questions/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/btirth/interview_questions/tree/master/0198-house-robber) |
@@ -1747,6 +1749,7 @@
 | [0051-n-queens](https://github.com/btirth/interview_questions/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/btirth/interview_questions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/btirth/interview_questions/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/btirth/interview_questions/tree/master/0131-palindrome-partitioning) |
 | [0212-word-search-ii](https://github.com/btirth/interview_questions/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/btirth/interview_questions/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/btirth/interview_questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
