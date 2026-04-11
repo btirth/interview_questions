@@ -34,6 +34,7 @@
 | [0074-search-a-2d-matrix](https://github.com/btirth/interview_questions/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/btirth/interview_questions/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/btirth/interview_questions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/btirth/interview_questions/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/btirth/interview_questions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/btirth/interview_questions/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/btirth/interview_questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -439,6 +440,7 @@
 | [0064-minimum-path-sum](https://github.com/btirth/interview_questions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/btirth/interview_questions/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/btirth/interview_questions/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/btirth/interview_questions/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/btirth/interview_questions/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/btirth/interview_questions/tree/master/0221-maximal-square) |
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
@@ -619,6 +621,7 @@
 | [0049-group-anagrams](https://github.com/btirth/interview_questions/tree/master/0049-group-anagrams) |
 | [0068-text-justification](https://github.com/btirth/interview_questions/tree/master/0068-text-justification) |
 | [0072-edit-distance](https://github.com/btirth/interview_questions/tree/master/0072-edit-distance) |
+| [0079-word-search](https://github.com/btirth/interview_questions/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/btirth/interview_questions/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/btirth/interview_questions/tree/master/0097-interleaving-string) |
 | [0115-distinct-subsequences](https://github.com/btirth/interview_questions/tree/master/0115-distinct-subsequences) |
@@ -1000,6 +1003,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/btirth/interview_questions/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/btirth/interview_questions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/btirth/interview_questions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/btirth/interview_questions/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -1748,6 +1752,7 @@
 | [0047-permutations-ii](https://github.com/btirth/interview_questions/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/btirth/interview_questions/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/btirth/interview_questions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/btirth/interview_questions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/btirth/interview_questions/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/btirth/interview_questions/tree/master/0131-palindrome-partitioning) |
 | [0212-word-search-ii](https://github.com/btirth/interview_questions/tree/master/0212-word-search-ii) |
