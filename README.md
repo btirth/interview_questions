@@ -988,6 +988,7 @@
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/btirth/interview_questions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/btirth/interview_questions/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/btirth/interview_questions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1484-linked-list-in-binary-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/btirth/interview_questions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/btirth/interview_questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -1043,6 +1044,7 @@
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/btirth/interview_questions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/btirth/interview_questions/tree/master/1396-count-servers-that-communicate) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/btirth/interview_questions/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1484-linked-list-in-binary-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/btirth/interview_questions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1558-course-schedule-iv](https://github.com/btirth/interview_questions/tree/master/1558-course-schedule-iv) |
@@ -1095,6 +1097,7 @@
 | [1396-count-servers-that-communicate](https://github.com/btirth/interview_questions/tree/master/1396-count-servers-that-communicate) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/btirth/interview_questions/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/btirth/interview_questions/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1484-linked-list-in-binary-tree) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/btirth/interview_questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/btirth/interview_questions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
@@ -1148,6 +1151,7 @@
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/btirth/interview_questions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/btirth/interview_questions/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/btirth/interview_questions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/btirth/interview_questions/tree/master/1484-linked-list-in-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/btirth/interview_questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/btirth/interview_questions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
