@@ -14,31 +14,33 @@
  * }
  */
 class Solution {
-    int k;
-    int ans = 0;
+    int val = -1;
     public int kthSmallest(TreeNode root, int k) {
-        this.k = k;
-        helper(root);
-        return ans;
+        helper(root, k);
+        return val;
     }
 
-    void helper(TreeNode root) {
+    int helper(TreeNode root, int k) {
         if(root == null) {
-            return;
+            return k;
         }
 
-        if(k < 0) {
-            return;
+        if(k > 0 && root.left != null) {
+            // Explore left tree
+            k = helper(root.left, k);
         }
 
-        helper(root.left);
-        k--;
-
+        // Root
+        k -= 1;
         if(k == 0) {
-            ans = root.val;
-            return;
+            val = root.val;
         }
 
-        helper(root.right);
+        if(k>0 && root.right != null) {
+            // Explore right tree
+            k = helper(root.right, k);
+        }
+
+        return k;
     }
 }
