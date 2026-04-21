@@ -13,18 +13,21 @@ class Solution {
         if(p.val > q.val) {
             return lowestCommonAncestor(root, q, p);
         }
+        TreeNode node = root;
 
-        while(root != null) {
-            if(root.val == p.val || root.val == q.val || (root.val > p.val && root.val < q.val)) {
-                // this is ans
-                return root;
-            } else if(root.val < p.val) {
-                root = root.right;
+        while(node != null) {
+
+            if(node.val >= p.val && node.val <= q.val) {
+                return node;
+            }
+
+            if(node.val >= p.val) {
+                node = node.left;
             } else {
-                root = root.left;
+                node = node.right;
             }
         }
 
-        return null;
+        return node;
     }
 }
