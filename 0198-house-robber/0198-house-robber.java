@@ -10,6 +10,6 @@ class Solution {
             prev2 = temp;
         }   
 
-        return Math.max(prev1, prev2);
+        return prev1;
     }
 }
