@@ -3,7 +3,6 @@ class Solution {
         long[] dp = new long[amount + 1];
         Arrays.fill(dp, Integer.MAX_VALUE);
         dp[0] = 0;
-        Arrays.sort(coins);
 
         for(int coin: coins) {
             for(int amt=coin; amt <= amount; amt++) {
