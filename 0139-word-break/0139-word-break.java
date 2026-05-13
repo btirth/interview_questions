@@ -1,31 +1,18 @@
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
-        /**
-        At each index i, we can check if
+        int n = s.length();
+        boolean[] dp = new boolean[n + 1];
 
-        
-        for i in range (0, len):
-            for j in range (i+1, len):
-                if dp[j] && wordDict.contains(s.substring(i, j))
-                    dp[i] = true
-                    found = true
-                    break
+        dp[n] = true;
 
-        
-         */
-
-        int len = s.length();
-        boolean[] dp = new boolean[len + 1];
-        dp[len] = true;
-
-        for(int i=len-1; i >= 0; i--) {
-            for(int j=i + 1; j<=len; j++) {
-                if(dp[j] && wordDict.contains(s.substring(i, j))) {
+        for(int i=n-1; i >= 0; i--) {
+            for(String word: wordDict) {
+                int end = i + word.length();
+                if(end <= n && dp[end] && s.substring(i, end).equals(word)) {
                     dp[i] = true;
-                    break;
                 }
             }
-        } 
+        }
 
         return dp[0];
     }
