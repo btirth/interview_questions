@@ -7,17 +7,9 @@ class Solution {
         for(int num: nums) {
             int tempMax = max;
             
-            max = Math.max(max * num, min * num);
-            max = Math.max(max, num);
-            min = Math.min(min * num, tempMax * num);
-            min = Math.min(min, num);
-
+            max = Math.max(num, Math.max(max * num, min * num));
+            min = Math.min(num, Math.min(min * num, tempMax * num));
             ans = Math.max(ans, Math.max(max, min));
-
-            if(num == 0) {
-                max = 1;
-                min = 1;
-            }
         }
 
         return ans;
