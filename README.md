@@ -323,6 +323,7 @@
 | [3623-count-number-of-trapezoids-i](https://github.com/btirth/interview_questions/tree/master/3623-count-number-of-trapezoids-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/btirth/interview_questions/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/btirth/interview_questions/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/btirth/interview_questions/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3639-zero-array-transformation-i](https://github.com/btirth/interview_questions/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/btirth/interview_questions/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/btirth/interview_questions/tree/master/3647-zero-array-transformation-iii) |
@@ -574,6 +575,7 @@
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/btirth/interview_questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/btirth/interview_questions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3427-special-array-ii](https://github.com/btirth/interview_questions/tree/master/3427-special-array-ii) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/btirth/interview_questions/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3643-zero-array-transformation-ii](https://github.com/btirth/interview_questions/tree/master/3643-zero-array-transformation-ii) |
 ## Prefix Sum
 |  |
@@ -1338,6 +1340,7 @@
 | [3531-count-covered-buildings](https://github.com/btirth/interview_questions/tree/master/3531-count-covered-buildings) |
 | [3606-coupon-code-validator](https://github.com/btirth/interview_questions/tree/master/3606-coupon-code-validator) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/btirth/interview_questions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/btirth/interview_questions/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3647-zero-array-transformation-iii](https://github.com/btirth/interview_questions/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/btirth/interview_questions/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/btirth/interview_questions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
@@ -1416,6 +1419,7 @@
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/btirth/interview_questions/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/btirth/interview_questions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/btirth/interview_questions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/btirth/interview_questions/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3647-zero-array-transformation-iii](https://github.com/btirth/interview_questions/tree/master/3647-zero-array-transformation-iii) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/btirth/interview_questions/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/btirth/interview_questions/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -1756,6 +1760,7 @@
 | [2699-count-the-number-of-fair-pairs](https://github.com/btirth/interview_questions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/btirth/interview_questions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/btirth/interview_questions/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/btirth/interview_questions/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/btirth/interview_questions/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Backtracking
 |  |
