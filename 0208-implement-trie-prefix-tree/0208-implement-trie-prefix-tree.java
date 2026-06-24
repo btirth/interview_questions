@@ -28,7 +28,7 @@ class Trie {
     }
     
     public boolean search(String word) {
-        Node temp = helper(word);
+        Node temp = check(word);
         if(temp == null) {
             return false;
         }
@@ -37,7 +37,7 @@ class Trie {
     }
     
     public boolean startsWith(String prefix) {
-        Node temp = helper(prefix);
+        Node temp = check(prefix);
         if(temp == null) {
             return false;
         }
@@ -45,7 +45,7 @@ class Trie {
         return true;
     }
 
-    public Node helper(String word) {        
+    public Node check(String word) {        
         Node temp = node;
 
         for(char ch: word.toCharArray()) {
