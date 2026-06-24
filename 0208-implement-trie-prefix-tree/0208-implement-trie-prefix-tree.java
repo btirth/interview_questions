@@ -28,31 +28,35 @@ class Trie {
     }
     
     public boolean search(String word) {
-        Node temp = node;
-
-        for(char ch: word.toCharArray()) {
-            if(temp.next[ch - 'a'] == null) {
-                return false;
-            }
-
-            temp = temp.next[ch - 'a'];
+        Node temp = helper(word);
+        if(temp == null) {
+            return false;
         }
 
         return temp.isEnd;
     }
     
     public boolean startsWith(String prefix) {
+        Node temp = helper(prefix);
+        if(temp == null) {
+            return false;
+        }
+
+        return true;
+    }
+
+    public Node helper(String word) {        
         Node temp = node;
 
-        for(char ch: prefix.toCharArray()) {
+        for(char ch: word.toCharArray()) {
             if(temp.next[ch - 'a'] == null) {
-                return false;
+                return null;
             }
 
             temp = temp.next[ch - 'a'];
         }
 
-        return true;
+        return temp;
     }
 }
 
