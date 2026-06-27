@@ -892,6 +892,7 @@
 | [0013-roman-to-integer](https://github.com/btirth/interview_questions/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/btirth/interview_questions/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/btirth/interview_questions/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/btirth/interview_questions/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/btirth/interview_questions/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/btirth/interview_questions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/btirth/interview_questions/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -1442,6 +1443,7 @@
 | [0045-jump-game-ii](https://github.com/btirth/interview_questions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/btirth/interview_questions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/btirth/interview_questions/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/btirth/interview_questions/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/btirth/interview_questions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/btirth/interview_questions/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/btirth/interview_questions/tree/master/0070-climbing-stairs) |
@@ -1951,6 +1953,7 @@
 ## Combinatorics
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/btirth/interview_questions/tree/master/0062-unique-paths) |
 | [3201-distribute-candies-among-children-ii](https://github.com/btirth/interview_questions/tree/master/3201-distribute-candies-among-children-ii) |
 | [3548-find-the-count-of-good-integers](https://github.com/btirth/interview_questions/tree/master/3548-find-the-count-of-good-integers) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/btirth/interview_questions/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
