@@ -43,6 +43,7 @@
 | [0120-triangle](https://github.com/btirth/interview_questions/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/btirth/interview_questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/btirth/interview_questions/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/btirth/interview_questions/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/btirth/interview_questions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/btirth/interview_questions/tree/master/0135-candy) |
 | [0137-single-number-ii](https://github.com/btirth/interview_questions/tree/master/0137-single-number-ii) |
@@ -448,6 +449,7 @@
 | [0073-set-matrix-zeroes](https://github.com/btirth/interview_questions/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/btirth/interview_questions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/btirth/interview_questions/tree/master/0079-word-search) |
+| [0130-surrounded-regions](https://github.com/btirth/interview_questions/tree/master/0130-surrounded-regions) |
 | [0212-word-search-ii](https://github.com/btirth/interview_questions/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/btirth/interview_questions/tree/master/0221-maximal-square) |
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
@@ -1028,6 +1030,7 @@
 | [0110-balanced-binary-tree](https://github.com/btirth/interview_questions/tree/master/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/btirth/interview_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/btirth/interview_questions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0130-surrounded-regions](https://github.com/btirth/interview_questions/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/btirth/interview_questions/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/btirth/interview_questions/tree/master/0199-binary-tree-right-side-view) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/btirth/interview_questions/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -1087,6 +1090,7 @@
 | [0100-same-tree](https://github.com/btirth/interview_questions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/btirth/interview_questions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0127-word-ladder](https://github.com/btirth/interview_questions/tree/master/0127-word-ladder) |
+| [0130-surrounded-regions](https://github.com/btirth/interview_questions/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/btirth/interview_questions/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/btirth/interview_questions/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/btirth/interview_questions/tree/master/0226-invert-binary-tree) |
@@ -1971,4 +1975,5 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/btirth/interview_questions/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/btirth/interview_questions/tree/master/0130-surrounded-regions) |
 <!---LeetCode Topics End-->
