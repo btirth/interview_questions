@@ -63,6 +63,7 @@
 | [0238-product-of-array-except-self](https://github.com/btirth/interview_questions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/btirth/interview_questions/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0287-find-the-duplicate-number](https://github.com/btirth/interview_questions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/btirth/interview_questions/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/btirth/interview_questions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/btirth/interview_questions/tree/master/0312-burst-balloons) |
@@ -528,6 +529,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/btirth/interview_questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0222-count-complete-tree-nodes](https://github.com/btirth/interview_questions/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/btirth/interview_questions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0287-find-the-duplicate-number](https://github.com/btirth/interview_questions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/btirth/interview_questions/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/btirth/interview_questions/tree/master/0410-split-array-largest-sum) |
 | [0475-heaters](https://github.com/btirth/interview_questions/tree/master/0475-heaters) |
@@ -1200,6 +1202,7 @@
 | [0090-subsets-ii](https://github.com/btirth/interview_questions/tree/master/0090-subsets-ii) |
 | [0137-single-number-ii](https://github.com/btirth/interview_questions/tree/master/0137-single-number-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/btirth/interview_questions/tree/master/0222-count-complete-tree-nodes) |
+| [0287-find-the-duplicate-number](https://github.com/btirth/interview_questions/tree/master/0287-find-the-duplicate-number) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/btirth/interview_questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/btirth/interview_questions/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/btirth/interview_questions/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
@@ -1750,6 +1753,7 @@
 | [0143-reorder-list](https://github.com/btirth/interview_questions/tree/master/0143-reorder-list) |
 | [0151-reverse-words-in-a-string](https://github.com/btirth/interview_questions/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/btirth/interview_questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0287-find-the-duplicate-number](https://github.com/btirth/interview_questions/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/btirth/interview_questions/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/btirth/interview_questions/tree/master/0455-assign-cookies) |
 | [0475-heaters](https://github.com/btirth/interview_questions/tree/master/0475-heaters) |
